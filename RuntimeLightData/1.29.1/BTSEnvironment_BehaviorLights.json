@@ -1,0 +1,1380 @@
+{
+  "formatVersion": 4,
+  "environmentName": "BTSEnvironment",
+  "gameVersion": "1.29.1_4575554838",
+  "lightManagerPath": "BTSEnvironment.[0]Environment.[29]LightWithIdManager",
+  "initialRegisteredLightCount": 1,
+  "totalRegisteredLightCount": 89,
+  "lightIdSlots": [
+    {
+      "beatSaberLightId": 1,
+      "commonGameObjectPath": "BTSEnvironment.[0]Environment",
+      "registeredLightCount": 5,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[8]MagicDoorSprite.[0]BloomL",
+          "gameObjectPath": "BTSEnvironment.[0]Environment.[8]MagicDoorSprite.[0]BloomL",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BTSEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[27]BTSEnvironmentCharacterSpawner.[2]CharacterWrapper.[1]ShardParticles",
+          "gameObjectPath": "BTSEnvironment.[0]Environment.[27]BTSEnvironmentCharacterSpawner.[2]CharacterWrapper.[1]ShardParticles",
+          "componentType": "ParticleSystemLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BTSEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 4,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[8]MagicDoorSprite.[1]BloomR",
+          "gameObjectPath": "BTSEnvironment.[0]Environment.[8]MagicDoorSprite.[1]BloomR",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BTSEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 5,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[8]MagicDoorSprite",
+          "gameObjectPath": "BTSEnvironment.[0]Environment.[8]MagicDoorSprite",
+          "componentType": "SpriteLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BTSEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 9,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[40]BottomGlow",
+          "gameObjectPath": "BTSEnvironment.[0]Environment.[40]BottomGlow",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BTSEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 2,
+      "commonGameObjectPath": "BTSEnvironment.[0]Environment",
+      "registeredLightCount": 20,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "[17]SmallPillarPair.[1]PillarR.[2]LaserR",
+          "gameObjectPath": "BTSEnvironment.[0]Environment.[17]SmallPillarPair.[1]PillarR.[2]LaserR",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BTSEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "[23]SmallPillarPair (3).[1]PillarR.[2]LaserR",
+          "gameObjectPath": "BTSEnvironment.[0]Environment.[23]SmallPillarPair (3).[1]PillarR.[2]LaserR",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BTSEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "[21]SmallPillarPair (2).[1]PillarR.[2]LaserR",
+          "gameObjectPath": "BTSEnvironment.[0]Environment.[21]SmallPillarPair (2).[1]PillarR.[2]LaserR",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BTSEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "[19]SmallPillarPair (1).[1]PillarR.[2]LaserR",
+          "gameObjectPath": "BTSEnvironment.[0]Environment.[19]SmallPillarPair (1).[1]PillarR.[2]LaserR",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BTSEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 4,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "[23]SmallPillarPair (3).[0]PillarL.[3]LaserLight0",
+          "gameObjectPath": "BTSEnvironment.[0]Environment.[23]SmallPillarPair (3).[0]PillarL.[3]LaserLight0",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BTSEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 5,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "[21]SmallPillarPair (2).[0]PillarL.[3]LaserLight0",
+          "gameObjectPath": "BTSEnvironment.[0]Environment.[21]SmallPillarPair (2).[0]PillarL.[3]LaserLight0",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BTSEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 6,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "[19]SmallPillarPair (1).[0]PillarL.[3]LaserLight0",
+          "gameObjectPath": "BTSEnvironment.[0]Environment.[19]SmallPillarPair (1).[0]PillarL.[3]LaserLight0",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BTSEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 8,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "[17]SmallPillarPair.[0]PillarL.[3]LaserLight0",
+          "gameObjectPath": "BTSEnvironment.[0]Environment.[17]SmallPillarPair.[0]PillarL.[3]LaserLight0",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BTSEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 9,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "[19]SmallPillarPair (1).[1]PillarR.[3]LaserLight0",
+          "gameObjectPath": "BTSEnvironment.[0]Environment.[19]SmallPillarPair (1).[1]PillarR.[3]LaserLight0",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BTSEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 10,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "[21]SmallPillarPair (2).[1]PillarR.[3]LaserLight0",
+          "gameObjectPath": "BTSEnvironment.[0]Environment.[21]SmallPillarPair (2).[1]PillarR.[3]LaserLight0",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BTSEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 11,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "[23]SmallPillarPair (3).[1]PillarR.[3]LaserLight0",
+          "gameObjectPath": "BTSEnvironment.[0]Environment.[23]SmallPillarPair (3).[1]PillarR.[3]LaserLight0",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BTSEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 13,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "[17]SmallPillarPair.[1]PillarR.[3]LaserLight0",
+          "gameObjectPath": "BTSEnvironment.[0]Environment.[17]SmallPillarPair.[1]PillarR.[3]LaserLight0",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BTSEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 15,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "[17]SmallPillarPair.[0]PillarL.[2]LaserL",
+          "gameObjectPath": "BTSEnvironment.[0]Environment.[17]SmallPillarPair.[0]PillarL.[2]LaserL",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BTSEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 16,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "[23]SmallPillarPair (3).[0]PillarL.[2]LaserL",
+          "gameObjectPath": "BTSEnvironment.[0]Environment.[23]SmallPillarPair (3).[0]PillarL.[2]LaserL",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BTSEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 17,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "[19]SmallPillarPair (1).[0]PillarL.[2]LaserL",
+          "gameObjectPath": "BTSEnvironment.[0]Environment.[19]SmallPillarPair (1).[0]PillarL.[2]LaserL",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BTSEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 18,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "[21]SmallPillarPair (2).[0]PillarL.[2]LaserL",
+          "gameObjectPath": "BTSEnvironment.[0]Environment.[21]SmallPillarPair (2).[0]PillarL.[2]LaserL",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BTSEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 22,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "[41]SideLaser",
+          "gameObjectPath": "BTSEnvironment.[0]Environment.[41]SideLaser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BTSEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 23,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "[43]SideLaser",
+          "gameObjectPath": "BTSEnvironment.[0]Environment.[43]SideLaser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BTSEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 24,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "[42]SideLaser",
+          "gameObjectPath": "BTSEnvironment.[0]Environment.[42]SideLaser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BTSEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 25,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "[44]SideLaser",
+          "gameObjectPath": "BTSEnvironment.[0]Environment.[44]SideLaser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BTSEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 3,
+      "commonGameObjectPath": "BTSEnvironment.[0]Environment",
+      "registeredLightCount": 28,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[24]PillarPair (4).[0]PillarL.[1]RotationBaseL.[1]LaserLight0",
+          "gameObjectPath": "BTSEnvironment.[0]Environment.[24]PillarPair (4).[0]PillarL.[1]RotationBaseL.[1]LaserLight0",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BTSEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[18]PillarPair (1).[0]PillarL.[1]RotationBaseL.[1]LaserLight0",
+          "gameObjectPath": "BTSEnvironment.[0]Environment.[18]PillarPair (1).[0]PillarL.[1]RotationBaseL.[1]LaserLight0",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BTSEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[22]PillarPair (3).[0]PillarL.[1]RotationBaseL.[1]LaserLight0",
+          "gameObjectPath": "BTSEnvironment.[0]Environment.[22]PillarPair (3).[0]PillarL.[1]RotationBaseL.[1]LaserLight0",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BTSEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[20]PillarPair (2).[0]PillarL.[1]RotationBaseL.[1]LaserLight0",
+          "gameObjectPath": "BTSEnvironment.[0]Environment.[20]PillarPair (2).[0]PillarL.[1]RotationBaseL.[1]LaserLight0",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BTSEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 4,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[17]SmallPillarPair.[0]PillarL.[1]RotationBaseL.[1]LaserLight0",
+          "gameObjectPath": "BTSEnvironment.[0]Environment.[17]SmallPillarPair.[0]PillarL.[1]RotationBaseL.[1]LaserLight0",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BTSEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 5,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[23]SmallPillarPair (3).[0]PillarL.[1]RotationBaseL.[1]LaserLight0",
+          "gameObjectPath": "BTSEnvironment.[0]Environment.[23]SmallPillarPair (3).[0]PillarL.[1]RotationBaseL.[1]LaserLight0",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BTSEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 6,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[19]SmallPillarPair (1).[0]PillarL.[1]RotationBaseL.[1]LaserLight0",
+          "gameObjectPath": "BTSEnvironment.[0]Environment.[19]SmallPillarPair (1).[0]PillarL.[1]RotationBaseL.[1]LaserLight0",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BTSEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 7,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[21]SmallPillarPair (2).[0]PillarL.[1]RotationBaseL.[1]LaserLight0",
+          "gameObjectPath": "BTSEnvironment.[0]Environment.[21]SmallPillarPair (2).[0]PillarL.[1]RotationBaseL.[1]LaserLight0",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BTSEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 8,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[16]PillarPair.[0]PillarL.[1]RotationBaseL.[0]LaserLH",
+          "gameObjectPath": "BTSEnvironment.[0]Environment.[16]PillarPair.[0]PillarL.[1]RotationBaseL.[0]LaserLH",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BTSEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 11,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[16]PillarPair.[0]PillarL.[1]RotationBaseL.[2]Reflector",
+          "gameObjectPath": "BTSEnvironment.[0]Environment.[16]PillarPair.[0]PillarL.[1]RotationBaseL.[2]Reflector",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 0.300000072,
+            "y": 0.3000001,
+            "z": 0.3000001
+          },
+          "sceneName": "BTSEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 13,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[16]PillarPair.[0]PillarL.[1]RotationBaseL.[1]LaserLight0",
+          "gameObjectPath": "BTSEnvironment.[0]Environment.[16]PillarPair.[0]PillarL.[1]RotationBaseL.[1]LaserLight0",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BTSEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 14,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[23]SmallPillarPair (3).[0]PillarL.[1]RotationBaseL.[0]LaserLH",
+          "gameObjectPath": "BTSEnvironment.[0]Environment.[23]SmallPillarPair (3).[0]PillarL.[1]RotationBaseL.[0]LaserLH",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BTSEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 15,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[19]SmallPillarPair (1).[0]PillarL.[1]RotationBaseL.[0]LaserLH",
+          "gameObjectPath": "BTSEnvironment.[0]Environment.[19]SmallPillarPair (1).[0]PillarL.[1]RotationBaseL.[0]LaserLH",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BTSEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 16,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[21]SmallPillarPair (2).[0]PillarL.[1]RotationBaseL.[0]LaserLH",
+          "gameObjectPath": "BTSEnvironment.[0]Environment.[21]SmallPillarPair (2).[0]PillarL.[1]RotationBaseL.[0]LaserLH",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BTSEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 17,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[20]PillarPair (2).[0]PillarL.[1]RotationBaseL.[0]LaserLH",
+          "gameObjectPath": "BTSEnvironment.[0]Environment.[20]PillarPair (2).[0]PillarL.[1]RotationBaseL.[0]LaserLH",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BTSEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 18,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[17]SmallPillarPair.[0]PillarL.[1]RotationBaseL.[0]LaserLH",
+          "gameObjectPath": "BTSEnvironment.[0]Environment.[17]SmallPillarPair.[0]PillarL.[1]RotationBaseL.[0]LaserLH",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BTSEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 19,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[18]PillarPair (1).[0]PillarL.[1]RotationBaseL.[0]LaserLH",
+          "gameObjectPath": "BTSEnvironment.[0]Environment.[18]PillarPair (1).[0]PillarL.[1]RotationBaseL.[0]LaserLH",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BTSEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 20,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[24]PillarPair (4).[0]PillarL.[1]RotationBaseL.[0]LaserLH",
+          "gameObjectPath": "BTSEnvironment.[0]Environment.[24]PillarPair (4).[0]PillarL.[1]RotationBaseL.[0]LaserLH",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BTSEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 21,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[22]PillarPair (3).[0]PillarL.[1]RotationBaseL.[0]LaserLH",
+          "gameObjectPath": "BTSEnvironment.[0]Environment.[22]PillarPair (3).[0]PillarL.[1]RotationBaseL.[0]LaserLH",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BTSEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 22,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[18]PillarPair (1).[0]PillarL.[1]RotationBaseL.[2]Reflector",
+          "gameObjectPath": "BTSEnvironment.[0]Environment.[18]PillarPair (1).[0]PillarL.[1]RotationBaseL.[2]Reflector",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 0.300000072,
+            "y": 0.3000001,
+            "z": 0.3000001
+          },
+          "sceneName": "BTSEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 23,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[24]PillarPair (4).[0]PillarL.[1]RotationBaseL.[2]Reflector",
+          "gameObjectPath": "BTSEnvironment.[0]Environment.[24]PillarPair (4).[0]PillarL.[1]RotationBaseL.[2]Reflector",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 0.300000072,
+            "y": 0.3000001,
+            "z": 0.3000001
+          },
+          "sceneName": "BTSEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 24,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[22]PillarPair (3).[0]PillarL.[1]RotationBaseL.[2]Reflector",
+          "gameObjectPath": "BTSEnvironment.[0]Environment.[22]PillarPair (3).[0]PillarL.[1]RotationBaseL.[2]Reflector",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 0.300000072,
+            "y": 0.3000001,
+            "z": 0.3000001
+          },
+          "sceneName": "BTSEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 25,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[20]PillarPair (2).[0]PillarL.[1]RotationBaseL.[2]Reflector",
+          "gameObjectPath": "BTSEnvironment.[0]Environment.[20]PillarPair (2).[0]PillarL.[1]RotationBaseL.[2]Reflector",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 0.300000072,
+            "y": 0.3000001,
+            "z": 0.3000001
+          },
+          "sceneName": "BTSEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 26,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[17]SmallPillarPair.[0]PillarL.[1]RotationBaseL.[2]Reflector",
+          "gameObjectPath": "BTSEnvironment.[0]Environment.[17]SmallPillarPair.[0]PillarL.[1]RotationBaseL.[2]Reflector",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 0.300000072,
+            "y": 0.3000001,
+            "z": 0.3000001
+          },
+          "sceneName": "BTSEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 27,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[23]SmallPillarPair (3).[0]PillarL.[1]RotationBaseL.[2]Reflector",
+          "gameObjectPath": "BTSEnvironment.[0]Environment.[23]SmallPillarPair (3).[0]PillarL.[1]RotationBaseL.[2]Reflector",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 0.300000072,
+            "y": 0.3000001,
+            "z": 0.3000001
+          },
+          "sceneName": "BTSEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 28,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[19]SmallPillarPair (1).[0]PillarL.[1]RotationBaseL.[2]Reflector",
+          "gameObjectPath": "BTSEnvironment.[0]Environment.[19]SmallPillarPair (1).[0]PillarL.[1]RotationBaseL.[2]Reflector",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 0.300000072,
+            "y": 0.3000001,
+            "z": 0.3000001
+          },
+          "sceneName": "BTSEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 29,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[21]SmallPillarPair (2).[0]PillarL.[1]RotationBaseL.[2]Reflector",
+          "gameObjectPath": "BTSEnvironment.[0]Environment.[21]SmallPillarPair (2).[0]PillarL.[1]RotationBaseL.[2]Reflector",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 0.300000072,
+            "y": 0.3000001,
+            "z": 0.3000001
+          },
+          "sceneName": "BTSEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 33,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[38]LaserL",
+          "gameObjectPath": "BTSEnvironment.[0]Environment.[38]LaserL",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BTSEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 4,
+      "commonGameObjectPath": "BTSEnvironment.[0]Environment",
+      "registeredLightCount": 28,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[16]PillarPair.[1]PillarR.[1]RotationBaseR.[0]LaserRH",
+          "gameObjectPath": "BTSEnvironment.[0]Environment.[16]PillarPair.[1]PillarR.[1]RotationBaseR.[0]LaserRH",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BTSEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[21]SmallPillarPair (2).[1]PillarR.[1]RotationBaseR.[1]LaserLight0",
+          "gameObjectPath": "BTSEnvironment.[0]Environment.[21]SmallPillarPair (2).[1]PillarR.[1]RotationBaseR.[1]LaserLight0",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BTSEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[19]SmallPillarPair (1).[1]PillarR.[1]RotationBaseR.[1]LaserLight0",
+          "gameObjectPath": "BTSEnvironment.[0]Environment.[19]SmallPillarPair (1).[1]PillarR.[1]RotationBaseR.[1]LaserLight0",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BTSEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[23]SmallPillarPair (3).[1]PillarR.[1]RotationBaseR.[1]LaserLight0",
+          "gameObjectPath": "BTSEnvironment.[0]Environment.[23]SmallPillarPair (3).[1]PillarR.[1]RotationBaseR.[1]LaserLight0",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BTSEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 5,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[17]SmallPillarPair.[1]PillarR.[1]RotationBaseR.[1]LaserLight0",
+          "gameObjectPath": "BTSEnvironment.[0]Environment.[17]SmallPillarPair.[1]PillarR.[1]RotationBaseR.[1]LaserLight0",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BTSEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 6,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[20]PillarPair (2).[1]PillarR.[1]RotationBaseR.[1]LaserLight0",
+          "gameObjectPath": "BTSEnvironment.[0]Environment.[20]PillarPair (2).[1]PillarR.[1]RotationBaseR.[1]LaserLight0",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BTSEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 7,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[22]PillarPair (3).[1]PillarR.[1]RotationBaseR.[1]LaserLight0",
+          "gameObjectPath": "BTSEnvironment.[0]Environment.[22]PillarPair (3).[1]PillarR.[1]RotationBaseR.[1]LaserLight0",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BTSEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 8,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[18]PillarPair (1).[1]PillarR.[1]RotationBaseR.[1]LaserLight0",
+          "gameObjectPath": "BTSEnvironment.[0]Environment.[18]PillarPair (1).[1]PillarR.[1]RotationBaseR.[1]LaserLight0",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BTSEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 9,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[24]PillarPair (4).[1]PillarR.[1]RotationBaseR.[1]LaserLight0",
+          "gameObjectPath": "BTSEnvironment.[0]Environment.[24]PillarPair (4).[1]PillarR.[1]RotationBaseR.[1]LaserLight0",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BTSEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 11,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[16]PillarPair.[1]PillarR.[1]RotationBaseR.[2]Reflector",
+          "gameObjectPath": "BTSEnvironment.[0]Environment.[16]PillarPair.[1]PillarR.[1]RotationBaseR.[2]Reflector",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 0.299999952,
+            "y": 0.299999952,
+            "z": 0.300000042
+          },
+          "sceneName": "BTSEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 12,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[23]SmallPillarPair (3).[1]PillarR.[1]RotationBaseR.[0]LaserRH",
+          "gameObjectPath": "BTSEnvironment.[0]Environment.[23]SmallPillarPair (3).[1]PillarR.[1]RotationBaseR.[0]LaserRH",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BTSEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 13,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[19]SmallPillarPair (1).[1]PillarR.[1]RotationBaseR.[0]LaserRH",
+          "gameObjectPath": "BTSEnvironment.[0]Environment.[19]SmallPillarPair (1).[1]PillarR.[1]RotationBaseR.[0]LaserRH",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BTSEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 14,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[21]SmallPillarPair (2).[1]PillarR.[1]RotationBaseR.[0]LaserRH",
+          "gameObjectPath": "BTSEnvironment.[0]Environment.[21]SmallPillarPair (2).[1]PillarR.[1]RotationBaseR.[0]LaserRH",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BTSEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 16,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[24]PillarPair (4).[1]PillarR.[1]RotationBaseR.[0]LaserRH",
+          "gameObjectPath": "BTSEnvironment.[0]Environment.[24]PillarPair (4).[1]PillarR.[1]RotationBaseR.[0]LaserRH",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BTSEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 17,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[18]PillarPair (1).[1]PillarR.[1]RotationBaseR.[0]LaserRH",
+          "gameObjectPath": "BTSEnvironment.[0]Environment.[18]PillarPair (1).[1]PillarR.[1]RotationBaseR.[0]LaserRH",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BTSEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 18,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[22]PillarPair (3).[1]PillarR.[1]RotationBaseR.[0]LaserRH",
+          "gameObjectPath": "BTSEnvironment.[0]Environment.[22]PillarPair (3).[1]PillarR.[1]RotationBaseR.[0]LaserRH",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BTSEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 19,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[20]PillarPair (2).[1]PillarR.[1]RotationBaseR.[0]LaserRH",
+          "gameObjectPath": "BTSEnvironment.[0]Environment.[20]PillarPair (2).[1]PillarR.[1]RotationBaseR.[0]LaserRH",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BTSEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 20,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[17]SmallPillarPair.[1]PillarR.[1]RotationBaseR.[0]LaserRH",
+          "gameObjectPath": "BTSEnvironment.[0]Environment.[17]SmallPillarPair.[1]PillarR.[1]RotationBaseR.[0]LaserRH",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BTSEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 21,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[16]PillarPair.[1]PillarR.[1]RotationBaseR.[1]LaserLight0",
+          "gameObjectPath": "BTSEnvironment.[0]Environment.[16]PillarPair.[1]PillarR.[1]RotationBaseR.[1]LaserLight0",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BTSEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 22,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[17]SmallPillarPair.[1]PillarR.[1]RotationBaseR.[2]Reflector",
+          "gameObjectPath": "BTSEnvironment.[0]Environment.[17]SmallPillarPair.[1]PillarR.[1]RotationBaseR.[2]Reflector",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 0.299999952,
+            "y": 0.299999952,
+            "z": 0.300000042
+          },
+          "sceneName": "BTSEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 23,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[20]PillarPair (2).[1]PillarR.[1]RotationBaseR.[2]Reflector",
+          "gameObjectPath": "BTSEnvironment.[0]Environment.[20]PillarPair (2).[1]PillarR.[1]RotationBaseR.[2]Reflector",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 0.299999952,
+            "y": 0.299999952,
+            "z": 0.300000042
+          },
+          "sceneName": "BTSEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 24,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[22]PillarPair (3).[1]PillarR.[1]RotationBaseR.[2]Reflector",
+          "gameObjectPath": "BTSEnvironment.[0]Environment.[22]PillarPair (3).[1]PillarR.[1]RotationBaseR.[2]Reflector",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 0.299999952,
+            "y": 0.299999952,
+            "z": 0.300000042
+          },
+          "sceneName": "BTSEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 25,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[18]PillarPair (1).[1]PillarR.[1]RotationBaseR.[2]Reflector",
+          "gameObjectPath": "BTSEnvironment.[0]Environment.[18]PillarPair (1).[1]PillarR.[1]RotationBaseR.[2]Reflector",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 0.299999952,
+            "y": 0.299999952,
+            "z": 0.300000042
+          },
+          "sceneName": "BTSEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 26,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[24]PillarPair (4).[1]PillarR.[1]RotationBaseR.[2]Reflector",
+          "gameObjectPath": "BTSEnvironment.[0]Environment.[24]PillarPair (4).[1]PillarR.[1]RotationBaseR.[2]Reflector",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 0.299999952,
+            "y": 0.299999952,
+            "z": 0.300000042
+          },
+          "sceneName": "BTSEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 27,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[21]SmallPillarPair (2).[1]PillarR.[1]RotationBaseR.[2]Reflector",
+          "gameObjectPath": "BTSEnvironment.[0]Environment.[21]SmallPillarPair (2).[1]PillarR.[1]RotationBaseR.[2]Reflector",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 0.299999952,
+            "y": 0.299999952,
+            "z": 0.300000042
+          },
+          "sceneName": "BTSEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 28,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[19]SmallPillarPair (1).[1]PillarR.[1]RotationBaseR.[2]Reflector",
+          "gameObjectPath": "BTSEnvironment.[0]Environment.[19]SmallPillarPair (1).[1]PillarR.[1]RotationBaseR.[2]Reflector",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 0.299999952,
+            "y": 0.299999952,
+            "z": 0.300000042
+          },
+          "sceneName": "BTSEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 29,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[23]SmallPillarPair (3).[1]PillarR.[1]RotationBaseR.[2]Reflector",
+          "gameObjectPath": "BTSEnvironment.[0]Environment.[23]SmallPillarPair (3).[1]PillarR.[1]RotationBaseR.[2]Reflector",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 0.299999952,
+            "y": 0.299999952,
+            "z": 0.300000042
+          },
+          "sceneName": "BTSEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 33,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[39]LaserR",
+          "gameObjectPath": "BTSEnvironment.[0]Environment.[39]LaserR",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BTSEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 5,
+      "commonGameObjectPath": "BTSEnvironment.[0]Environment",
+      "registeredLightCount": 8,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[6]PlayersPlace.[1]Feet",
+          "gameObjectPath": "BTSEnvironment.[0]Environment.[6]PlayersPlace.[1]Feet",
+          "componentType": "SpriteLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.00000048,
+            "z": 1.00000048
+          },
+          "sceneName": "BTSEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[6]PlayersPlace.[3]RectangleFakeGlow",
+          "gameObjectPath": "BTSEnvironment.[0]Environment.[6]PlayersPlace.[3]RectangleFakeGlow",
+          "componentType": "RectangleFakeGlowLightWithId",
+          "localScale": {
+            "x": 1.495,
+            "y": 0.995,
+            "z": 1.0
+          },
+          "sceneName": "BTSEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 8,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[33]GlowLineL",
+          "gameObjectPath": "BTSEnvironment.[0]Environment.[33]GlowLineL",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BTSEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 9,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[35]GlowLineC",
+          "gameObjectPath": "BTSEnvironment.[0]Environment.[35]GlowLineC",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BTSEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 10,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[37]GlowLineH (2)",
+          "gameObjectPath": "BTSEnvironment.[0]Environment.[37]GlowLineH (2)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BTSEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 11,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[34]GlowLineR",
+          "gameObjectPath": "BTSEnvironment.[0]Environment.[34]GlowLineR",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BTSEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 12,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[25]StarEmitterPS.[0]StarsPS",
+          "gameObjectPath": "BTSEnvironment.[0]Environment.[25]StarEmitterPS.[0]StarsPS",
+          "componentType": "ParticleSystemLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BTSEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 13,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[36]GlowLineH",
+          "gameObjectPath": "BTSEnvironment.[0]Environment.[36]GlowLineH",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BTSEnvironment"
+        }
+      ]
+    }
+  ]
+}

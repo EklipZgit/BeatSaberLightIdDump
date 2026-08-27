@@ -1,0 +1,445 @@
+{
+  "formatVersion": 4,
+  "environmentName": "GlassDesertEnvironment",
+  "gameVersion": "1.44.2_21558",
+  "lightManagerPath": "GlassDesertEnvironment.[0]Environment.[2]LightWithIdManager",
+  "initialRegisteredLightCount": 1,
+  "totalRegisteredLightCount": 20,
+  "lightIdSlots": [
+    {
+      "beatSaberLightId": 1,
+      "commonGameObjectPath": "GlassDesertEnvironment.[0]Environment",
+      "registeredLightCount": 4,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[38]CoreLighting.[1]LightWrapper2.[2]DirectionalLight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "GlassDesertEnvironment.[0]Environment.[38]CoreLighting.[1]LightWrapper2.[2]DirectionalLight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 0,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "GlassDesertEnvironment",
+          "intensity": 0.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[66]LightmapLightWithIds",
+          "componentType": "LightmapLightsWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "GlassDesertEnvironment.[0]Environment.[66]LightmapLightWithIds",
+          "ownerComponentType": "LightmapLightsWithIds",
+          "indexWithinOwner": 0,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "GlassDesertEnvironment",
+          "intensity": 1.0,
+          "bakeId": 1,
+          "weight": 0.0
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[38]CoreLighting.[1]LightWrapper2.[3]DirectionalLight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "GlassDesertEnvironment.[0]Environment.[38]CoreLighting.[1]LightWrapper2.[3]DirectionalLight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 0,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "GlassDesertEnvironment",
+          "intensity": 1.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[38]CoreLighting.[1]LightWrapper2.[4]DirectionalLight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "GlassDesertEnvironment.[0]Environment.[38]CoreLighting.[1]LightWrapper2.[4]DirectionalLight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 0,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "GlassDesertEnvironment",
+          "intensity": 0.0,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 2,
+      "commonGameObjectPath": "GlassDesertEnvironment.[0]Environment",
+      "registeredLightCount": 4,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "[38]CoreLighting.[1]LightWrapper2.[2]DirectionalLight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "GlassDesertEnvironment.[0]Environment.[38]CoreLighting.[1]LightWrapper2.[2]DirectionalLight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 1,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "GlassDesertEnvironment",
+          "intensity": 0.5,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "[66]LightmapLightWithIds",
+          "componentType": "LightmapLightsWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "GlassDesertEnvironment.[0]Environment.[66]LightmapLightWithIds",
+          "ownerComponentType": "LightmapLightsWithIds",
+          "indexWithinOwner": 1,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "GlassDesertEnvironment",
+          "intensity": 1.0,
+          "bakeId": 2,
+          "weight": 0.0
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "[38]CoreLighting.[1]LightWrapper2.[3]DirectionalLight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "GlassDesertEnvironment.[0]Environment.[38]CoreLighting.[1]LightWrapper2.[3]DirectionalLight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 1,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "GlassDesertEnvironment",
+          "intensity": 1.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "[38]CoreLighting.[1]LightWrapper2.[4]DirectionalLight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "GlassDesertEnvironment.[0]Environment.[38]CoreLighting.[1]LightWrapper2.[4]DirectionalLight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 1,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "GlassDesertEnvironment",
+          "intensity": 1.0,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 3,
+      "commonGameObjectPath": "GlassDesertEnvironment.[0]Environment",
+      "registeredLightCount": 4,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[38]CoreLighting.[1]LightWrapper2.[2]DirectionalLight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "GlassDesertEnvironment.[0]Environment.[38]CoreLighting.[1]LightWrapper2.[2]DirectionalLight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 2,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "GlassDesertEnvironment",
+          "intensity": 0.5,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[66]LightmapLightWithIds",
+          "componentType": "LightmapLightsWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "GlassDesertEnvironment.[0]Environment.[66]LightmapLightWithIds",
+          "ownerComponentType": "LightmapLightsWithIds",
+          "indexWithinOwner": 2,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "GlassDesertEnvironment",
+          "intensity": 1.0,
+          "bakeId": 3,
+          "weight": 0.0
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[38]CoreLighting.[1]LightWrapper2.[3]DirectionalLight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "GlassDesertEnvironment.[0]Environment.[38]CoreLighting.[1]LightWrapper2.[3]DirectionalLight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 2,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "GlassDesertEnvironment",
+          "intensity": 0.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 13,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[38]CoreLighting.[1]LightWrapper2.[4]DirectionalLight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "GlassDesertEnvironment.[0]Environment.[38]CoreLighting.[1]LightWrapper2.[4]DirectionalLight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 2,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "GlassDesertEnvironment",
+          "intensity": 1.0,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 4,
+      "commonGameObjectPath": "GlassDesertEnvironment.[0]Environment",
+      "registeredLightCount": 4,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[38]CoreLighting.[1]LightWrapper2.[2]DirectionalLight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "GlassDesertEnvironment.[0]Environment.[38]CoreLighting.[1]LightWrapper2.[2]DirectionalLight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 3,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "GlassDesertEnvironment",
+          "intensity": 0.5,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[66]LightmapLightWithIds",
+          "componentType": "LightmapLightsWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "GlassDesertEnvironment.[0]Environment.[66]LightmapLightWithIds",
+          "ownerComponentType": "LightmapLightsWithIds",
+          "indexWithinOwner": 3,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "GlassDesertEnvironment",
+          "intensity": 1.0,
+          "bakeId": 4,
+          "weight": 0.0
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[38]CoreLighting.[1]LightWrapper2.[3]DirectionalLight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "GlassDesertEnvironment.[0]Environment.[38]CoreLighting.[1]LightWrapper2.[3]DirectionalLight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 3,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "GlassDesertEnvironment",
+          "intensity": 0.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 13,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[38]CoreLighting.[1]LightWrapper2.[4]DirectionalLight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "GlassDesertEnvironment.[0]Environment.[38]CoreLighting.[1]LightWrapper2.[4]DirectionalLight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 3,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "GlassDesertEnvironment",
+          "intensity": 1.0,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 5,
+      "commonGameObjectPath": "GlassDesertEnvironment.[0]Environment",
+      "registeredLightCount": 4,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[38]CoreLighting.[1]LightWrapper2.[2]DirectionalLight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "GlassDesertEnvironment.[0]Environment.[38]CoreLighting.[1]LightWrapper2.[2]DirectionalLight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 4,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "GlassDesertEnvironment",
+          "intensity": 0.7,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[66]LightmapLightWithIds",
+          "componentType": "LightmapLightsWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "GlassDesertEnvironment.[0]Environment.[66]LightmapLightWithIds",
+          "ownerComponentType": "LightmapLightsWithIds",
+          "indexWithinOwner": 4,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "GlassDesertEnvironment",
+          "intensity": 1.0,
+          "bakeId": 5,
+          "weight": 0.0
+        },
+        {
+          "indexWithinLightIdList": 4,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[38]CoreLighting.[1]LightWrapper2.[3]DirectionalLight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "GlassDesertEnvironment.[0]Environment.[38]CoreLighting.[1]LightWrapper2.[3]DirectionalLight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 4,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "GlassDesertEnvironment",
+          "intensity": 0.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 5,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[38]CoreLighting.[1]LightWrapper2.[4]DirectionalLight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "GlassDesertEnvironment.[0]Environment.[38]CoreLighting.[1]LightWrapper2.[4]DirectionalLight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 4,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "GlassDesertEnvironment",
+          "intensity": 0.0,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    }
+  ]
+}

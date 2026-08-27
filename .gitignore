@@ -1,0 +1,11 @@
+# Build products are reproducible per game version and must not be committed.
+bin/
+obj/
+dist/
+.vs/
+.idea/
+*.user
+*.suo
+*.pdb
+*.nupkg
+*.sln.iml

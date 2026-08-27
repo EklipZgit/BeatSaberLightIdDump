@@ -1,0 +1,870 @@
+{
+  "formatVersion": 4,
+  "environmentName": "LinkinParkEnvironment",
+  "gameVersion": "1.29.1_4575554838",
+  "lightManagerPath": "LinkinParkEnvironment.[0]Environment.[5]LightWithIdManager",
+  "initialRegisteredLightCount": 1,
+  "totalRegisteredLightCount": 55,
+  "lightIdSlots": [
+    {
+      "beatSaberLightId": 1,
+      "commonGameObjectPath": "LinkinParkEnvironment.[0]Environment",
+      "registeredLightCount": 3,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[42]LaserFloor (3)",
+          "gameObjectPath": "LinkinParkEnvironment.[0]Environment.[42]LaserFloor (3)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinParkEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[43]LaserFloor (4)",
+          "gameObjectPath": "LinkinParkEnvironment.[0]Environment.[43]LaserFloor (4)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinParkEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[41]LaserFloor (2)",
+          "gameObjectPath": "LinkinParkEnvironment.[0]Environment.[41]LaserFloor (2)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinParkEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 2,
+      "commonGameObjectPath": "LinkinParkEnvironment.[0]Environment",
+      "registeredLightCount": 8,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "[64]LaserTop (2)",
+          "gameObjectPath": "LinkinParkEnvironment.[0]Environment.[64]LaserTop (2)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinParkEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "[63]LaserTop (1)",
+          "gameObjectPath": "LinkinParkEnvironment.[0]Environment.[63]LaserTop (1)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinParkEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "[66]LaserTop (4)",
+          "gameObjectPath": "LinkinParkEnvironment.[0]Environment.[66]LaserTop (4)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinParkEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 4,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "[69]LaserTop (7)",
+          "gameObjectPath": "LinkinParkEnvironment.[0]Environment.[69]LaserTop (7)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinParkEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 5,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "[68]LaserTop (6)",
+          "gameObjectPath": "LinkinParkEnvironment.[0]Environment.[68]LaserTop (6)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinParkEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 6,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "[65]LaserTop (3)",
+          "gameObjectPath": "LinkinParkEnvironment.[0]Environment.[65]LaserTop (3)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinParkEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 7,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "[67]LaserTop (5)",
+          "gameObjectPath": "LinkinParkEnvironment.[0]Environment.[67]LaserTop (5)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinParkEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 8,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "[62]LaserTop",
+          "gameObjectPath": "LinkinParkEnvironment.[0]Environment.[62]LaserTop",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinParkEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 3,
+      "commonGameObjectPath": "LinkinParkEnvironment.[0]Environment",
+      "registeredLightCount": 20,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[44]TunnelRotatingLasersPair.[0]BaseL.[0]Laser",
+          "gameObjectPath": "LinkinParkEnvironment.[0]Environment.[44]TunnelRotatingLasersPair.[0]BaseL.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinParkEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[53]TunnelRotatingLasersPair (9).[0]BaseL.[0]Laser",
+          "gameObjectPath": "LinkinParkEnvironment.[0]Environment.[53]TunnelRotatingLasersPair (9).[0]BaseL.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinParkEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[55]TunnelRotatingLasersPair (11).[0]BaseL.[0]Laser",
+          "gameObjectPath": "LinkinParkEnvironment.[0]Environment.[55]TunnelRotatingLasersPair (11).[0]BaseL.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinParkEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 4,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[60]TunnelRotatingLasersPair (16).[0]BaseL.[0]Laser",
+          "gameObjectPath": "LinkinParkEnvironment.[0]Environment.[60]TunnelRotatingLasersPair (16).[0]BaseL.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinParkEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 5,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[46]TunnelRotatingLasersPair (2).[0]BaseL.[0]Laser",
+          "gameObjectPath": "LinkinParkEnvironment.[0]Environment.[46]TunnelRotatingLasersPair (2).[0]BaseL.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinParkEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 6,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[61]TunnelRotatingLasersPair (17).[0]BaseL.[0]Laser",
+          "gameObjectPath": "LinkinParkEnvironment.[0]Environment.[61]TunnelRotatingLasersPair (17).[0]BaseL.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinParkEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 7,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[45]TunnelRotatingLasersPair (1).[0]BaseL.[0]Laser",
+          "gameObjectPath": "LinkinParkEnvironment.[0]Environment.[45]TunnelRotatingLasersPair (1).[0]BaseL.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinParkEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 8,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[51]TunnelRotatingLasersPair (7).[0]BaseL.[0]Laser",
+          "gameObjectPath": "LinkinParkEnvironment.[0]Environment.[51]TunnelRotatingLasersPair (7).[0]BaseL.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinParkEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 9,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[49]TunnelRotatingLasersPair (5).[0]BaseL.[0]Laser",
+          "gameObjectPath": "LinkinParkEnvironment.[0]Environment.[49]TunnelRotatingLasersPair (5).[0]BaseL.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinParkEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 10,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[54]TunnelRotatingLasersPair (10).[0]BaseL.[0]Laser",
+          "gameObjectPath": "LinkinParkEnvironment.[0]Environment.[54]TunnelRotatingLasersPair (10).[0]BaseL.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinParkEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 11,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[47]TunnelRotatingLasersPair (3).[0]BaseL.[0]Laser",
+          "gameObjectPath": "LinkinParkEnvironment.[0]Environment.[47]TunnelRotatingLasersPair (3).[0]BaseL.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinParkEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 12,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[50]TunnelRotatingLasersPair (6).[0]BaseL.[0]Laser",
+          "gameObjectPath": "LinkinParkEnvironment.[0]Environment.[50]TunnelRotatingLasersPair (6).[0]BaseL.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinParkEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 13,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[48]TunnelRotatingLasersPair (4).[0]BaseL.[0]Laser",
+          "gameObjectPath": "LinkinParkEnvironment.[0]Environment.[48]TunnelRotatingLasersPair (4).[0]BaseL.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinParkEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 14,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[59]TunnelRotatingLasersPair (15).[0]BaseL.[0]Laser",
+          "gameObjectPath": "LinkinParkEnvironment.[0]Environment.[59]TunnelRotatingLasersPair (15).[0]BaseL.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinParkEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 15,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[57]TunnelRotatingLasersPair (13).[0]BaseL.[0]Laser",
+          "gameObjectPath": "LinkinParkEnvironment.[0]Environment.[57]TunnelRotatingLasersPair (13).[0]BaseL.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinParkEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 16,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[58]TunnelRotatingLasersPair (14).[0]BaseL.[0]Laser",
+          "gameObjectPath": "LinkinParkEnvironment.[0]Environment.[58]TunnelRotatingLasersPair (14).[0]BaseL.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinParkEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 17,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[52]TunnelRotatingLasersPair (8).[0]BaseL.[0]Laser",
+          "gameObjectPath": "LinkinParkEnvironment.[0]Environment.[52]TunnelRotatingLasersPair (8).[0]BaseL.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinParkEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 18,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[56]TunnelRotatingLasersPair (12).[0]BaseL.[0]Laser",
+          "gameObjectPath": "LinkinParkEnvironment.[0]Environment.[56]TunnelRotatingLasersPair (12).[0]BaseL.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinParkEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 19,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[37]LaserL",
+          "gameObjectPath": "LinkinParkEnvironment.[0]Environment.[37]LaserL",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinParkEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 20,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[38]LaserL (2)",
+          "gameObjectPath": "LinkinParkEnvironment.[0]Environment.[38]LaserL (2)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinParkEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 4,
+      "commonGameObjectPath": "LinkinParkEnvironment.[0]Environment",
+      "registeredLightCount": 20,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[45]TunnelRotatingLasersPair (1).[1]BaseR.[0]Laser",
+          "gameObjectPath": "LinkinParkEnvironment.[0]Environment.[45]TunnelRotatingLasersPair (1).[1]BaseR.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinParkEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[51]TunnelRotatingLasersPair (7).[1]BaseR.[0]Laser",
+          "gameObjectPath": "LinkinParkEnvironment.[0]Environment.[51]TunnelRotatingLasersPair (7).[1]BaseR.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinParkEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[61]TunnelRotatingLasersPair (17).[1]BaseR.[0]Laser",
+          "gameObjectPath": "LinkinParkEnvironment.[0]Environment.[61]TunnelRotatingLasersPair (17).[1]BaseR.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinParkEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 4,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[49]TunnelRotatingLasersPair (5).[1]BaseR.[0]Laser",
+          "gameObjectPath": "LinkinParkEnvironment.[0]Environment.[49]TunnelRotatingLasersPair (5).[1]BaseR.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinParkEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 5,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[46]TunnelRotatingLasersPair (2).[1]BaseR.[0]Laser",
+          "gameObjectPath": "LinkinParkEnvironment.[0]Environment.[46]TunnelRotatingLasersPair (2).[1]BaseR.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinParkEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 6,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[55]TunnelRotatingLasersPair (11).[1]BaseR.[0]Laser",
+          "gameObjectPath": "LinkinParkEnvironment.[0]Environment.[55]TunnelRotatingLasersPair (11).[1]BaseR.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinParkEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 7,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[60]TunnelRotatingLasersPair (16).[1]BaseR.[0]Laser",
+          "gameObjectPath": "LinkinParkEnvironment.[0]Environment.[60]TunnelRotatingLasersPair (16).[1]BaseR.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinParkEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 8,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[53]TunnelRotatingLasersPair (9).[1]BaseR.[0]Laser",
+          "gameObjectPath": "LinkinParkEnvironment.[0]Environment.[53]TunnelRotatingLasersPair (9).[1]BaseR.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinParkEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 9,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[56]TunnelRotatingLasersPair (12).[1]BaseR.[0]Laser",
+          "gameObjectPath": "LinkinParkEnvironment.[0]Environment.[56]TunnelRotatingLasersPair (12).[1]BaseR.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinParkEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 10,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[52]TunnelRotatingLasersPair (8).[1]BaseR.[0]Laser",
+          "gameObjectPath": "LinkinParkEnvironment.[0]Environment.[52]TunnelRotatingLasersPair (8).[1]BaseR.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinParkEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 11,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[59]TunnelRotatingLasersPair (15).[1]BaseR.[0]Laser",
+          "gameObjectPath": "LinkinParkEnvironment.[0]Environment.[59]TunnelRotatingLasersPair (15).[1]BaseR.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinParkEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 12,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[48]TunnelRotatingLasersPair (4).[1]BaseR.[0]Laser",
+          "gameObjectPath": "LinkinParkEnvironment.[0]Environment.[48]TunnelRotatingLasersPair (4).[1]BaseR.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinParkEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 13,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[50]TunnelRotatingLasersPair (6).[1]BaseR.[0]Laser",
+          "gameObjectPath": "LinkinParkEnvironment.[0]Environment.[50]TunnelRotatingLasersPair (6).[1]BaseR.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinParkEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 14,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[58]TunnelRotatingLasersPair (14).[1]BaseR.[0]Laser",
+          "gameObjectPath": "LinkinParkEnvironment.[0]Environment.[58]TunnelRotatingLasersPair (14).[1]BaseR.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinParkEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 15,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[57]TunnelRotatingLasersPair (13).[1]BaseR.[0]Laser",
+          "gameObjectPath": "LinkinParkEnvironment.[0]Environment.[57]TunnelRotatingLasersPair (13).[1]BaseR.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinParkEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 16,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[47]TunnelRotatingLasersPair (3).[1]BaseR.[0]Laser",
+          "gameObjectPath": "LinkinParkEnvironment.[0]Environment.[47]TunnelRotatingLasersPair (3).[1]BaseR.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinParkEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 17,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[54]TunnelRotatingLasersPair (10).[1]BaseR.[0]Laser",
+          "gameObjectPath": "LinkinParkEnvironment.[0]Environment.[54]TunnelRotatingLasersPair (10).[1]BaseR.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinParkEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 18,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[44]TunnelRotatingLasersPair.[1]BaseR.[0]Laser",
+          "gameObjectPath": "LinkinParkEnvironment.[0]Environment.[44]TunnelRotatingLasersPair.[1]BaseR.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinParkEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 19,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[39]LarerR",
+          "gameObjectPath": "LinkinParkEnvironment.[0]Environment.[39]LarerR",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinParkEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 20,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[40]LarerR (2)",
+          "gameObjectPath": "LinkinParkEnvironment.[0]Environment.[40]LarerR (2)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinParkEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 5,
+      "commonGameObjectPath": "LinkinParkEnvironment.[0]Environment",
+      "registeredLightCount": 4,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[11]PlayersPlace.[1]Feet",
+          "gameObjectPath": "LinkinParkEnvironment.[0]Environment.[11]PlayersPlace.[1]Feet",
+          "componentType": "SpriteLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.00000048,
+            "z": 1.00000048
+          },
+          "sceneName": "LinkinParkEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[35]LogoLight",
+          "gameObjectPath": "LinkinParkEnvironment.[0]Environment.[35]LogoLight",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinParkEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[11]PlayersPlace.[3]RectangleFakeGlow",
+          "gameObjectPath": "LinkinParkEnvironment.[0]Environment.[11]PlayersPlace.[3]RectangleFakeGlow",
+          "componentType": "RectangleFakeGlowLightWithId",
+          "localScale": {
+            "x": 1.495,
+            "y": 0.995,
+            "z": 1.0
+          },
+          "sceneName": "LinkinParkEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 4,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[36]Logo",
+          "gameObjectPath": "LinkinParkEnvironment.[0]Environment.[36]Logo",
+          "componentType": "SpriteLightWithId",
+          "localScale": {
+            "x": 3.0,
+            "y": 3.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinParkEnvironment"
+        }
+      ]
+    }
+  ]
+}

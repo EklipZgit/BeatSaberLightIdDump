@@ -1,0 +1,539 @@
+{
+  "formatVersion": 4,
+  "environmentName": "InterscopeEnvironment",
+  "gameVersion": "1.29.1_4575554838",
+  "lightManagerPath": "InterscopeEnvironment.[0]Environment.[6]LightWithIdManager",
+  "initialRegisteredLightCount": 1,
+  "totalRegisteredLightCount": 32,
+  "lightIdSlots": [
+    {
+      "beatSaberLightId": 1,
+      "commonGameObjectPath": "InterscopeEnvironment.[0]Environment",
+      "registeredLightCount": 3,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[17]Pillar (3).[3]NeonLightR",
+          "gameObjectPath": "InterscopeEnvironment.[0]Environment.[17]Pillar (3).[3]NeonLightR",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "InterscopeEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[17]Pillar (3).[2]NeonLightL",
+          "gameObjectPath": "InterscopeEnvironment.[0]Environment.[17]Pillar (3).[2]NeonLightL",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "InterscopeEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 7,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[49]NeonTop (3)",
+          "gameObjectPath": "InterscopeEnvironment.[0]Environment.[49]NeonTop (3)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "InterscopeEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 2,
+      "commonGameObjectPath": "InterscopeEnvironment.[0]Environment",
+      "registeredLightCount": 3,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 5,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "[20]Pillar.[3]NeonLightR",
+          "gameObjectPath": "InterscopeEnvironment.[0]Environment.[20]Pillar.[3]NeonLightR",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "InterscopeEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 6,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "[46]NeonTop",
+          "gameObjectPath": "InterscopeEnvironment.[0]Environment.[46]NeonTop",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "InterscopeEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 7,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "[20]Pillar.[2]NeonLightL",
+          "gameObjectPath": "InterscopeEnvironment.[0]Environment.[20]Pillar.[2]NeonLightL",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "InterscopeEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 3,
+      "commonGameObjectPath": "InterscopeEnvironment.[0]Environment",
+      "registeredLightCount": 3,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[18]Pillar (2).[3]NeonLightR",
+          "gameObjectPath": "InterscopeEnvironment.[0]Environment.[18]Pillar (2).[3]NeonLightR",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "InterscopeEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[18]Pillar (2).[2]NeonLightL",
+          "gameObjectPath": "InterscopeEnvironment.[0]Environment.[18]Pillar (2).[2]NeonLightL",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "InterscopeEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 7,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[48]NeonTop (2)",
+          "gameObjectPath": "InterscopeEnvironment.[0]Environment.[48]NeonTop (2)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "InterscopeEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 4,
+      "commonGameObjectPath": "InterscopeEnvironment.[0]Environment",
+      "registeredLightCount": 3,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[19]Pillar (1).[3]NeonLightR",
+          "gameObjectPath": "InterscopeEnvironment.[0]Environment.[19]Pillar (1).[3]NeonLightR",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "InterscopeEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[19]Pillar (1).[2]NeonLightL",
+          "gameObjectPath": "InterscopeEnvironment.[0]Environment.[19]Pillar (1).[2]NeonLightL",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "InterscopeEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 7,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[47]NeonTop (1)",
+          "gameObjectPath": "InterscopeEnvironment.[0]Environment.[47]NeonTop (1)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "InterscopeEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 5,
+      "commonGameObjectPath": "InterscopeEnvironment.[0]Environment",
+      "registeredLightCount": 6,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[12]PlayersPlace.[1]Feet",
+          "gameObjectPath": "InterscopeEnvironment.[0]Environment.[12]PlayersPlace.[1]Feet",
+          "componentType": "SpriteLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.00000048,
+            "z": 1.00000048
+          },
+          "sceneName": "InterscopeEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[36]FrontLight",
+          "gameObjectPath": "InterscopeEnvironment.[0]Environment.[36]FrontLight",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "InterscopeEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[12]PlayersPlace.[3]RectangleFakeGlow",
+          "gameObjectPath": "InterscopeEnvironment.[0]Environment.[12]PlayersPlace.[3]RectangleFakeGlow",
+          "componentType": "RectangleFakeGlowLightWithId",
+          "localScale": {
+            "x": 1.495,
+            "y": 0.995,
+            "z": 1.0
+          },
+          "sceneName": "InterscopeEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[16]Pillar (4).[3]NeonLightR",
+          "gameObjectPath": "InterscopeEnvironment.[0]Environment.[16]Pillar (4).[3]NeonLightR",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "InterscopeEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 4,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[16]Pillar (4).[2]NeonLightL",
+          "gameObjectPath": "InterscopeEnvironment.[0]Environment.[16]Pillar (4).[2]NeonLightL",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "InterscopeEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 10,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[50]NeonTop (4)",
+          "gameObjectPath": "InterscopeEnvironment.[0]Environment.[50]NeonTop (4)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "InterscopeEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 6,
+      "commonGameObjectPath": "InterscopeEnvironment.[0]Environment",
+      "registeredLightCount": 7,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 6,
+          "type": 6,
+          "typeName": "Event6",
+          "relativeGameObjectPath": "[52]SinMoveLasersPair (1).[0]LaserL",
+          "gameObjectPath": "InterscopeEnvironment.[0]Environment.[52]SinMoveLasersPair (1).[0]LaserL",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "InterscopeEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 6,
+          "type": 6,
+          "typeName": "Event6",
+          "relativeGameObjectPath": "[54]SinMoveLasersPair (3).[0]LaserL",
+          "gameObjectPath": "InterscopeEnvironment.[0]Environment.[54]SinMoveLasersPair (3).[0]LaserL",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "InterscopeEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 6,
+          "type": 6,
+          "typeName": "Event6",
+          "relativeGameObjectPath": "[55]SinMoveLasersPair (4).[0]LaserL",
+          "gameObjectPath": "InterscopeEnvironment.[0]Environment.[55]SinMoveLasersPair (4).[0]LaserL",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "InterscopeEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 6,
+          "type": 6,
+          "typeName": "Event6",
+          "relativeGameObjectPath": "[56]SinMoveLasersPair (5).[0]LaserL",
+          "gameObjectPath": "InterscopeEnvironment.[0]Environment.[56]SinMoveLasersPair (5).[0]LaserL",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "InterscopeEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 4,
+          "componentLightId": 6,
+          "type": 6,
+          "typeName": "Event6",
+          "relativeGameObjectPath": "[57]SinMoveLasersPair (6).[0]LaserL",
+          "gameObjectPath": "InterscopeEnvironment.[0]Environment.[57]SinMoveLasersPair (6).[0]LaserL",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "InterscopeEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 5,
+          "componentLightId": 6,
+          "type": 6,
+          "typeName": "Event6",
+          "relativeGameObjectPath": "[53]SinMoveLasersPair (2).[0]LaserL",
+          "gameObjectPath": "InterscopeEnvironment.[0]Environment.[53]SinMoveLasersPair (2).[0]LaserL",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "InterscopeEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 6,
+          "componentLightId": 6,
+          "type": 6,
+          "typeName": "Event6",
+          "relativeGameObjectPath": "[51]SinMoveLasersPair.[0]LaserL",
+          "gameObjectPath": "InterscopeEnvironment.[0]Environment.[51]SinMoveLasersPair.[0]LaserL",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "InterscopeEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 7,
+      "commonGameObjectPath": "InterscopeEnvironment.[0]Environment",
+      "registeredLightCount": 7,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 7,
+          "type": 7,
+          "typeName": "Event7",
+          "relativeGameObjectPath": "[55]SinMoveLasersPair (4).[1]LaserR",
+          "gameObjectPath": "InterscopeEnvironment.[0]Environment.[55]SinMoveLasersPair (4).[1]LaserR",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "InterscopeEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 7,
+          "type": 7,
+          "typeName": "Event7",
+          "relativeGameObjectPath": "[56]SinMoveLasersPair (5).[1]LaserR",
+          "gameObjectPath": "InterscopeEnvironment.[0]Environment.[56]SinMoveLasersPair (5).[1]LaserR",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "InterscopeEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 7,
+          "type": 7,
+          "typeName": "Event7",
+          "relativeGameObjectPath": "[54]SinMoveLasersPair (3).[1]LaserR",
+          "gameObjectPath": "InterscopeEnvironment.[0]Environment.[54]SinMoveLasersPair (3).[1]LaserR",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "InterscopeEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 7,
+          "type": 7,
+          "typeName": "Event7",
+          "relativeGameObjectPath": "[52]SinMoveLasersPair (1).[1]LaserR",
+          "gameObjectPath": "InterscopeEnvironment.[0]Environment.[52]SinMoveLasersPair (1).[1]LaserR",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "InterscopeEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 4,
+          "componentLightId": 7,
+          "type": 7,
+          "typeName": "Event7",
+          "relativeGameObjectPath": "[53]SinMoveLasersPair (2).[1]LaserR",
+          "gameObjectPath": "InterscopeEnvironment.[0]Environment.[53]SinMoveLasersPair (2).[1]LaserR",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "InterscopeEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 5,
+          "componentLightId": 7,
+          "type": 7,
+          "typeName": "Event7",
+          "relativeGameObjectPath": "[57]SinMoveLasersPair (6).[1]LaserR",
+          "gameObjectPath": "InterscopeEnvironment.[0]Environment.[57]SinMoveLasersPair (6).[1]LaserR",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "InterscopeEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 6,
+          "componentLightId": 7,
+          "type": 7,
+          "typeName": "Event7",
+          "relativeGameObjectPath": "[51]SinMoveLasersPair.[1]LaserR",
+          "gameObjectPath": "InterscopeEnvironment.[0]Environment.[51]SinMoveLasersPair.[1]LaserR",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "InterscopeEnvironment"
+        }
+      ]
+    }
+  ]
+}

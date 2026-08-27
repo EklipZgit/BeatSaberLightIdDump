@@ -1,0 +1,585 @@
+{
+  "formatVersion": 4,
+  "environmentName": "GlassDesertEnvironment",
+  "gameVersion": "1.37.1_9767668645",
+  "lightManagerPath": "GlassDesertEnvironment.[0]Environment.[2]LightWithIdManager",
+  "initialRegisteredLightCount": 1,
+  "totalRegisteredLightCount": 36,
+  "lightIdSlots": [
+    {
+      "beatSaberLightId": 1,
+      "commonGameObjectPath": "GlassDesertEnvironment.[0]Environment",
+      "registeredLightCount": 6,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 4,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[51]TopLaser (3)",
+          "gameObjectPath": "GlassDesertEnvironment.[0]Environment.[51]TopLaser (3)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GlassDesertEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 5,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[49]TopLaser (1)",
+          "gameObjectPath": "GlassDesertEnvironment.[0]Environment.[49]TopLaser (1)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GlassDesertEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 6,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[52]TopLaser (4)",
+          "gameObjectPath": "GlassDesertEnvironment.[0]Environment.[52]TopLaser (4)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GlassDesertEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 7,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[48]TopLaser",
+          "gameObjectPath": "GlassDesertEnvironment.[0]Environment.[48]TopLaser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GlassDesertEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 8,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[50]TopLaser (2)",
+          "gameObjectPath": "GlassDesertEnvironment.[0]Environment.[50]TopLaser (2)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GlassDesertEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 9,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[53]TopLaser (5)",
+          "gameObjectPath": "GlassDesertEnvironment.[0]Environment.[53]TopLaser (5)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GlassDesertEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 2,
+      "commonGameObjectPath": "GlassDesertEnvironment.[0]Environment",
+      "registeredLightCount": 8,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 4,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "[41]DownLaser (12)",
+          "gameObjectPath": "GlassDesertEnvironment.[0]Environment.[41]DownLaser (12)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GlassDesertEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 5,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "[43]DownLaser (11)",
+          "gameObjectPath": "GlassDesertEnvironment.[0]Environment.[43]DownLaser (11)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GlassDesertEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 6,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "[44]DownLaser (4)",
+          "gameObjectPath": "GlassDesertEnvironment.[0]Environment.[44]DownLaser (4)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GlassDesertEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 7,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "[42]DownLaser (10)",
+          "gameObjectPath": "GlassDesertEnvironment.[0]Environment.[42]DownLaser (10)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GlassDesertEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 8,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "[46]DownLaser (6)",
+          "gameObjectPath": "GlassDesertEnvironment.[0]Environment.[46]DownLaser (6)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GlassDesertEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 9,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "[40]DownLaser (9)",
+          "gameObjectPath": "GlassDesertEnvironment.[0]Environment.[40]DownLaser (9)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GlassDesertEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 10,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "[47]DownLaser (7)",
+          "gameObjectPath": "GlassDesertEnvironment.[0]Environment.[47]DownLaser (7)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GlassDesertEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 11,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "[45]DownLaser (5)",
+          "gameObjectPath": "GlassDesertEnvironment.[0]Environment.[45]DownLaser (5)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GlassDesertEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 3,
+      "commonGameObjectPath": "GlassDesertEnvironment.[0]Environment",
+      "registeredLightCount": 10,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[54]LightPillar (9).[2]RotatingLasersPair.[0]BaseL.[0]Laser",
+          "gameObjectPath": "GlassDesertEnvironment.[0]Environment.[54]LightPillar (9).[2]RotatingLasersPair.[0]BaseL.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GlassDesertEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 4,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[55]LightPillar (19).[2]RotatingLasersPair.[0]BaseL.[0]Laser",
+          "gameObjectPath": "GlassDesertEnvironment.[0]Environment.[55]LightPillar (19).[2]RotatingLasersPair.[0]BaseL.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GlassDesertEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 5,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[60]LightPillar (11).[2]RotatingLasersPair.[0]BaseL.[0]Laser",
+          "gameObjectPath": "GlassDesertEnvironment.[0]Environment.[60]LightPillar (11).[2]RotatingLasersPair.[0]BaseL.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GlassDesertEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 6,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[61]LightPillar (24).[2]RotatingLasersPair.[0]BaseL.[0]Laser",
+          "gameObjectPath": "GlassDesertEnvironment.[0]Environment.[61]LightPillar (24).[2]RotatingLasersPair.[0]BaseL.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GlassDesertEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 7,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[62]LightPillar (12).[2]RotatingLasersPair.[0]BaseL.[0]Laser",
+          "gameObjectPath": "GlassDesertEnvironment.[0]Environment.[62]LightPillar (12).[2]RotatingLasersPair.[0]BaseL.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GlassDesertEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 8,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[58]LightPillar (10).[2]RotatingLasersPair.[0]BaseL.[0]Laser",
+          "gameObjectPath": "GlassDesertEnvironment.[0]Environment.[58]LightPillar (10).[2]RotatingLasersPair.[0]BaseL.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GlassDesertEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 9,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[59]LightPillar (23).[2]RotatingLasersPair.[0]BaseL.[0]Laser",
+          "gameObjectPath": "GlassDesertEnvironment.[0]Environment.[59]LightPillar (23).[2]RotatingLasersPair.[0]BaseL.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GlassDesertEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 10,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[56]LightPillar (20).[2]RotatingLasersPair.[0]BaseL.[0]Laser",
+          "gameObjectPath": "GlassDesertEnvironment.[0]Environment.[56]LightPillar (20).[2]RotatingLasersPair.[0]BaseL.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GlassDesertEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 11,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[63]LightPillar (25).[2]RotatingLasersPair.[0]BaseL.[0]Laser",
+          "gameObjectPath": "GlassDesertEnvironment.[0]Environment.[63]LightPillar (25).[2]RotatingLasersPair.[0]BaseL.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GlassDesertEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 12,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[57]LightPillar (21).[2]RotatingLasersPair.[0]BaseL.[0]Laser",
+          "gameObjectPath": "GlassDesertEnvironment.[0]Environment.[57]LightPillar (21).[2]RotatingLasersPair.[0]BaseL.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GlassDesertEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 4,
+      "commonGameObjectPath": "GlassDesertEnvironment.[0]Environment",
+      "registeredLightCount": 10,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[54]LightPillar (9).[2]RotatingLasersPair.[1]BaseR.[0]Laser",
+          "gameObjectPath": "GlassDesertEnvironment.[0]Environment.[54]LightPillar (9).[2]RotatingLasersPair.[1]BaseR.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GlassDesertEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 4,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[60]LightPillar (11).[2]RotatingLasersPair.[1]BaseR.[0]Laser",
+          "gameObjectPath": "GlassDesertEnvironment.[0]Environment.[60]LightPillar (11).[2]RotatingLasersPair.[1]BaseR.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GlassDesertEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 5,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[61]LightPillar (24).[2]RotatingLasersPair.[1]BaseR.[0]Laser",
+          "gameObjectPath": "GlassDesertEnvironment.[0]Environment.[61]LightPillar (24).[2]RotatingLasersPair.[1]BaseR.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GlassDesertEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 6,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[55]LightPillar (19).[2]RotatingLasersPair.[1]BaseR.[0]Laser",
+          "gameObjectPath": "GlassDesertEnvironment.[0]Environment.[55]LightPillar (19).[2]RotatingLasersPair.[1]BaseR.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GlassDesertEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 7,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[62]LightPillar (12).[2]RotatingLasersPair.[1]BaseR.[0]Laser",
+          "gameObjectPath": "GlassDesertEnvironment.[0]Environment.[62]LightPillar (12).[2]RotatingLasersPair.[1]BaseR.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GlassDesertEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 8,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[58]LightPillar (10).[2]RotatingLasersPair.[1]BaseR.[0]Laser",
+          "gameObjectPath": "GlassDesertEnvironment.[0]Environment.[58]LightPillar (10).[2]RotatingLasersPair.[1]BaseR.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GlassDesertEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 9,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[59]LightPillar (23).[2]RotatingLasersPair.[1]BaseR.[0]Laser",
+          "gameObjectPath": "GlassDesertEnvironment.[0]Environment.[59]LightPillar (23).[2]RotatingLasersPair.[1]BaseR.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GlassDesertEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 10,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[57]LightPillar (21).[2]RotatingLasersPair.[1]BaseR.[0]Laser",
+          "gameObjectPath": "GlassDesertEnvironment.[0]Environment.[57]LightPillar (21).[2]RotatingLasersPair.[1]BaseR.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GlassDesertEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 11,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[63]LightPillar (25).[2]RotatingLasersPair.[1]BaseR.[0]Laser",
+          "gameObjectPath": "GlassDesertEnvironment.[0]Environment.[63]LightPillar (25).[2]RotatingLasersPair.[1]BaseR.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GlassDesertEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 12,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[56]LightPillar (20).[2]RotatingLasersPair.[1]BaseR.[0]Laser",
+          "gameObjectPath": "GlassDesertEnvironment.[0]Environment.[56]LightPillar (20).[2]RotatingLasersPair.[1]BaseR.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GlassDesertEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 5,
+      "commonGameObjectPath": "GlassDesertEnvironment.[0]Environment.[8]PlayersPlace",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[1]Feet",
+          "gameObjectPath": "GlassDesertEnvironment.[0]Environment.[8]PlayersPlace.[1]Feet",
+          "componentType": "SpriteLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.00000048,
+            "z": 1.00000048
+          },
+          "sceneName": "GlassDesertEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[3]RectangleFakeGlow",
+          "gameObjectPath": "GlassDesertEnvironment.[0]Environment.[8]PlayersPlace.[3]RectangleFakeGlow",
+          "componentType": "RectangleFakeGlowLightWithId",
+          "localScale": {
+            "x": 1.495,
+            "y": 0.995,
+            "z": 1.0
+          },
+          "sceneName": "GlassDesertEnvironment"
+        }
+      ]
+    }
+  ]
+}

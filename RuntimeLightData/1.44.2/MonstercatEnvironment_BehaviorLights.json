@@ -1,0 +1,660 @@
+{
+  "formatVersion": 4,
+  "environmentName": "MonstercatEnvironment",
+  "gameVersion": "1.44.2_21558",
+  "lightManagerPath": "MonstercatEnvironment.[0]Environment.[21]LightWithIdManager",
+  "initialRegisteredLightCount": 1,
+  "totalRegisteredLightCount": 41,
+  "lightIdSlots": [
+    {
+      "beatSaberLightId": 1,
+      "commonGameObjectPath": "MonstercatEnvironment.[0]Environment",
+      "registeredLightCount": 8,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 5,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[41]Laser (11)",
+          "gameObjectPath": "MonstercatEnvironment.[0]Environment.[41]Laser (11)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "MonstercatEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 7,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[36]Laser (5)",
+          "gameObjectPath": "MonstercatEnvironment.[0]Environment.[36]Laser (5)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "MonstercatEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 8,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[38]Laser (8)",
+          "gameObjectPath": "MonstercatEnvironment.[0]Environment.[38]Laser (8)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "MonstercatEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 9,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[42]Laser (12)",
+          "gameObjectPath": "MonstercatEnvironment.[0]Environment.[42]Laser (12)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "MonstercatEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 10,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[37]Laser (7)",
+          "gameObjectPath": "MonstercatEnvironment.[0]Environment.[37]Laser (7)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "MonstercatEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 11,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[39]Laser (9)",
+          "gameObjectPath": "MonstercatEnvironment.[0]Environment.[39]Laser (9)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "MonstercatEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 12,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[35]Laser (4)",
+          "gameObjectPath": "MonstercatEnvironment.[0]Environment.[35]Laser (4)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "MonstercatEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 13,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[40]Laser (10)",
+          "gameObjectPath": "MonstercatEnvironment.[0]Environment.[40]Laser (10)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "MonstercatEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 2,
+      "commonGameObjectPath": "MonstercatEnvironment.[0]Environment",
+      "registeredLightCount": 7,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 4,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "[27]GlowTopLine (8)",
+          "gameObjectPath": "MonstercatEnvironment.[0]Environment.[27]GlowTopLine (8)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "MonstercatEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 5,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "[25]GlowTopLine (6)",
+          "gameObjectPath": "MonstercatEnvironment.[0]Environment.[25]GlowTopLine (6)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "MonstercatEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 8,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "[29]GlowTopLine (10)",
+          "gameObjectPath": "MonstercatEnvironment.[0]Environment.[29]GlowTopLine (10)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "MonstercatEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 9,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "[28]GlowTopLine (9)",
+          "gameObjectPath": "MonstercatEnvironment.[0]Environment.[28]GlowTopLine (9)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "MonstercatEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 10,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "[24]GlowTopLine (5)",
+          "gameObjectPath": "MonstercatEnvironment.[0]Environment.[24]GlowTopLine (5)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "MonstercatEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 11,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "[30]GlowTopLine (11)",
+          "gameObjectPath": "MonstercatEnvironment.[0]Environment.[30]GlowTopLine (11)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "MonstercatEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 12,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "[26]GlowTopLine (7)",
+          "gameObjectPath": "MonstercatEnvironment.[0]Environment.[26]GlowTopLine (7)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "MonstercatEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 3,
+      "commonGameObjectPath": "MonstercatEnvironment.[0]Environment",
+      "registeredLightCount": 5,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[47]RotatingLasersPair (4).[0]BaseL.[0]Laser",
+          "gameObjectPath": "MonstercatEnvironment.[0]Environment.[47]RotatingLasersPair (4).[0]BaseL.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "MonstercatEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[46]RotatingLasersPair.[0]BaseL.[0]Laser",
+          "gameObjectPath": "MonstercatEnvironment.[0]Environment.[46]RotatingLasersPair.[0]BaseL.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "MonstercatEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 4,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[45]RotatingLasersPair (3).[0]BaseL.[0]Laser",
+          "gameObjectPath": "MonstercatEnvironment.[0]Environment.[45]RotatingLasersPair (3).[0]BaseL.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "MonstercatEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 5,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[44]RotatingLasersPair (2).[0]BaseL.[0]Laser",
+          "gameObjectPath": "MonstercatEnvironment.[0]Environment.[44]RotatingLasersPair (2).[0]BaseL.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "MonstercatEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 6,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[43]RotatingLasersPair (1).[0]BaseL.[0]Laser",
+          "gameObjectPath": "MonstercatEnvironment.[0]Environment.[43]RotatingLasersPair (1).[0]BaseL.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "MonstercatEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 4,
+      "commonGameObjectPath": "MonstercatEnvironment.[0]Environment",
+      "registeredLightCount": 5,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[46]RotatingLasersPair.[1]BaseR.[0]Laser",
+          "gameObjectPath": "MonstercatEnvironment.[0]Environment.[46]RotatingLasersPair.[1]BaseR.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "MonstercatEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[47]RotatingLasersPair (4).[1]BaseR.[0]Laser",
+          "gameObjectPath": "MonstercatEnvironment.[0]Environment.[47]RotatingLasersPair (4).[1]BaseR.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "MonstercatEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 4,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[44]RotatingLasersPair (2).[1]BaseR.[0]Laser",
+          "gameObjectPath": "MonstercatEnvironment.[0]Environment.[44]RotatingLasersPair (2).[1]BaseR.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "MonstercatEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 5,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[45]RotatingLasersPair (3).[1]BaseR.[0]Laser",
+          "gameObjectPath": "MonstercatEnvironment.[0]Environment.[45]RotatingLasersPair (3).[1]BaseR.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "MonstercatEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 6,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[43]RotatingLasersPair (1).[1]BaseR.[0]Laser",
+          "gameObjectPath": "MonstercatEnvironment.[0]Environment.[43]RotatingLasersPair (1).[1]BaseR.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "MonstercatEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 5,
+      "commonGameObjectPath": "MonstercatEnvironment.[0]Environment",
+      "registeredLightCount": 16,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[3]NearBuildingRight.[3]Neon (2)",
+          "gameObjectPath": "MonstercatEnvironment.[0]Environment.[3]NearBuildingRight.[3]Neon (2)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "MonstercatEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[4]NearBuildingLeft.[1]Neon",
+          "gameObjectPath": "MonstercatEnvironment.[0]Environment.[4]NearBuildingLeft.[1]Neon",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "MonstercatEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[5]PlayersPlace.[1]Feet",
+          "gameObjectPath": "MonstercatEnvironment.[0]Environment.[5]PlayersPlace.[1]Feet",
+          "componentType": "SpriteLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.00000048,
+            "z": 1.00000048
+          },
+          "sceneName": "MonstercatEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[5]PlayersPlace.[3]RectangleFakeGlow",
+          "gameObjectPath": "MonstercatEnvironment.[0]Environment.[5]PlayersPlace.[3]RectangleFakeGlow",
+          "componentType": "RectangleFakeGlowLightWithId",
+          "localScale": {
+            "x": 1.495,
+            "y": 0.995,
+            "z": 1.0
+          },
+          "sceneName": "MonstercatEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 4,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[23]FrontLights.[1]NeonTube (1)",
+          "gameObjectPath": "MonstercatEnvironment.[0]Environment.[23]FrontLights.[1]NeonTube (1)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.00000024,
+            "y": 1.00000024,
+            "z": 1.0
+          },
+          "sceneName": "MonstercatEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 6,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[23]FrontLights.[0]NeonTube",
+          "gameObjectPath": "MonstercatEnvironment.[0]Environment.[23]FrontLights.[0]NeonTube",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.00000024,
+            "y": 1.00000024,
+            "z": 1.0
+          },
+          "sceneName": "MonstercatEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 8,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[4]NearBuildingLeft.[3]Neon (2)",
+          "gameObjectPath": "MonstercatEnvironment.[0]Environment.[4]NearBuildingLeft.[3]Neon (2)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "MonstercatEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 10,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[3]NearBuildingRight.[2]Neon (1)",
+          "gameObjectPath": "MonstercatEnvironment.[0]Environment.[3]NearBuildingRight.[2]Neon (1)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "MonstercatEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 11,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[4]NearBuildingLeft.[2]Neon (1)",
+          "gameObjectPath": "MonstercatEnvironment.[0]Environment.[4]NearBuildingLeft.[2]Neon (1)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "MonstercatEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 12,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[3]NearBuildingRight.[1]Neon",
+          "gameObjectPath": "MonstercatEnvironment.[0]Environment.[3]NearBuildingRight.[1]Neon",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "MonstercatEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 14,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[14]MonstercatLogoR",
+          "gameObjectPath": "MonstercatEnvironment.[0]Environment.[14]MonstercatLogoR",
+          "componentType": "SpriteLightWithId",
+          "localScale": {
+            "x": 4.0,
+            "y": 4.0,
+            "z": 1.0
+          },
+          "sceneName": "MonstercatEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 17,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[13]MonstercatLogoL",
+          "gameObjectPath": "MonstercatEnvironment.[0]Environment.[13]MonstercatLogoL",
+          "componentType": "SpriteLightWithId",
+          "localScale": {
+            "x": 4.0,
+            "y": 4.0,
+            "z": 1.0
+          },
+          "sceneName": "MonstercatEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 18,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[31]GlowLineL",
+          "gameObjectPath": "MonstercatEnvironment.[0]Environment.[31]GlowLineL",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "MonstercatEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 19,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[32]GlowLineR",
+          "gameObjectPath": "MonstercatEnvironment.[0]Environment.[32]GlowLineR",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "MonstercatEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 20,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[33]GlowLineL (1)",
+          "gameObjectPath": "MonstercatEnvironment.[0]Environment.[33]GlowLineL (1)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "MonstercatEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 21,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[34]GlowLineR (1)",
+          "gameObjectPath": "MonstercatEnvironment.[0]Environment.[34]GlowLineR (1)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "MonstercatEnvironment"
+        }
+      ]
+    }
+  ]
+}

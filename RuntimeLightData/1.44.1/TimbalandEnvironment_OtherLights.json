@@ -1,0 +1,645 @@
+{
+  "formatVersion": 4,
+  "environmentName": "TimbalandEnvironment",
+  "gameVersion": "1.44.1_20239",
+  "lightManagerPath": "TimbalandEnvironment.[0]Environment.[19]LightWithIdManager",
+  "initialRegisteredLightCount": 1,
+  "totalRegisteredLightCount": 30,
+  "lightIdSlots": [
+    {
+      "beatSaberLightId": 1,
+      "commonGameObjectPath": "TimbalandEnvironment.[0]Environment",
+      "registeredLightCount": 6,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 20,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[16]CoreLighting.[3]DirectionalLight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "TimbalandEnvironment.[0]Environment.[16]CoreLighting.[3]DirectionalLight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 0,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "TimbalandEnvironment",
+          "intensity": 0.5,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 21,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[32]BSBakedLightingLightWithIds",
+          "componentType": "LightmapLightsWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "TimbalandEnvironment.[0]Environment.[32]BSBakedLightingLightWithIds",
+          "ownerComponentType": "LightmapLightsWithIds",
+          "indexWithinOwner": 0,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "TimbalandEnvironment",
+          "intensity": 1.0,
+          "bakeId": 1,
+          "weight": 0.1
+        },
+        {
+          "indexWithinLightIdList": 22,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[16]CoreLighting.[4]DirectionalLight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "TimbalandEnvironment.[0]Environment.[16]CoreLighting.[4]DirectionalLight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 0,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "TimbalandEnvironment",
+          "intensity": 0.5,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 23,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[16]CoreLighting.[5]DirectionalLight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "TimbalandEnvironment.[0]Environment.[16]CoreLighting.[5]DirectionalLight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 0,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "TimbalandEnvironment",
+          "intensity": 0.8,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 24,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[16]CoreLighting.[2]DirectionalLight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "TimbalandEnvironment.[0]Environment.[16]CoreLighting.[2]DirectionalLight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 0,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "TimbalandEnvironment",
+          "intensity": 0.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 25,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[16]CoreLighting.[1]DirectionalLight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "TimbalandEnvironment.[0]Environment.[16]CoreLighting.[1]DirectionalLight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 0,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "TimbalandEnvironment",
+          "intensity": 0.0,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 2,
+      "commonGameObjectPath": "TimbalandEnvironment.[0]Environment",
+      "registeredLightCount": 6,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 20,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "[16]CoreLighting.[3]DirectionalLight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "TimbalandEnvironment.[0]Environment.[16]CoreLighting.[3]DirectionalLight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 1,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "TimbalandEnvironment",
+          "intensity": 0.5,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 21,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "[32]BSBakedLightingLightWithIds",
+          "componentType": "LightmapLightsWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "TimbalandEnvironment.[0]Environment.[32]BSBakedLightingLightWithIds",
+          "ownerComponentType": "LightmapLightsWithIds",
+          "indexWithinOwner": 1,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "TimbalandEnvironment",
+          "intensity": 1.0,
+          "bakeId": 2,
+          "weight": 0.1
+        },
+        {
+          "indexWithinLightIdList": 22,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "[16]CoreLighting.[4]DirectionalLight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "TimbalandEnvironment.[0]Environment.[16]CoreLighting.[4]DirectionalLight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 1,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "TimbalandEnvironment",
+          "intensity": 0.5,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 23,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "[16]CoreLighting.[5]DirectionalLight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "TimbalandEnvironment.[0]Environment.[16]CoreLighting.[5]DirectionalLight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 1,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "TimbalandEnvironment",
+          "intensity": 0.8,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 24,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "[16]CoreLighting.[2]DirectionalLight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "TimbalandEnvironment.[0]Environment.[16]CoreLighting.[2]DirectionalLight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 1,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "TimbalandEnvironment",
+          "intensity": 0.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 25,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "[16]CoreLighting.[1]DirectionalLight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "TimbalandEnvironment.[0]Environment.[16]CoreLighting.[1]DirectionalLight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 1,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "TimbalandEnvironment",
+          "intensity": 0.0,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 3,
+      "commonGameObjectPath": "TimbalandEnvironment.[0]Environment",
+      "registeredLightCount": 6,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 10,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[16]CoreLighting.[3]DirectionalLight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "TimbalandEnvironment.[0]Environment.[16]CoreLighting.[3]DirectionalLight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 2,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "TimbalandEnvironment",
+          "intensity": 0.5,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 11,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[32]BSBakedLightingLightWithIds",
+          "componentType": "LightmapLightsWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "TimbalandEnvironment.[0]Environment.[32]BSBakedLightingLightWithIds",
+          "ownerComponentType": "LightmapLightsWithIds",
+          "indexWithinOwner": 2,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "TimbalandEnvironment",
+          "intensity": 1.0,
+          "bakeId": 3,
+          "weight": 0.1
+        },
+        {
+          "indexWithinLightIdList": 12,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[16]CoreLighting.[4]DirectionalLight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "TimbalandEnvironment.[0]Environment.[16]CoreLighting.[4]DirectionalLight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 2,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "TimbalandEnvironment",
+          "intensity": 0.5,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 13,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[16]CoreLighting.[5]DirectionalLight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "TimbalandEnvironment.[0]Environment.[16]CoreLighting.[5]DirectionalLight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 2,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "TimbalandEnvironment",
+          "intensity": 0.8,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 14,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[16]CoreLighting.[2]DirectionalLight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "TimbalandEnvironment.[0]Environment.[16]CoreLighting.[2]DirectionalLight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 2,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "TimbalandEnvironment",
+          "intensity": 0.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 15,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[16]CoreLighting.[1]DirectionalLight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "TimbalandEnvironment.[0]Environment.[16]CoreLighting.[1]DirectionalLight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 2,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "TimbalandEnvironment",
+          "intensity": 1.0,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 4,
+      "commonGameObjectPath": "TimbalandEnvironment.[0]Environment",
+      "registeredLightCount": 6,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 10,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[16]CoreLighting.[3]DirectionalLight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "TimbalandEnvironment.[0]Environment.[16]CoreLighting.[3]DirectionalLight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 3,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "TimbalandEnvironment",
+          "intensity": 0.5,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 11,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[32]BSBakedLightingLightWithIds",
+          "componentType": "LightmapLightsWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "TimbalandEnvironment.[0]Environment.[32]BSBakedLightingLightWithIds",
+          "ownerComponentType": "LightmapLightsWithIds",
+          "indexWithinOwner": 3,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "TimbalandEnvironment",
+          "intensity": 1.0,
+          "bakeId": 4,
+          "weight": 0.1
+        },
+        {
+          "indexWithinLightIdList": 12,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[16]CoreLighting.[4]DirectionalLight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "TimbalandEnvironment.[0]Environment.[16]CoreLighting.[4]DirectionalLight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 3,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "TimbalandEnvironment",
+          "intensity": 0.5,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 13,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[16]CoreLighting.[5]DirectionalLight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "TimbalandEnvironment.[0]Environment.[16]CoreLighting.[5]DirectionalLight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 3,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "TimbalandEnvironment",
+          "intensity": 0.8,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 16,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[16]CoreLighting.[2]DirectionalLight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "TimbalandEnvironment.[0]Environment.[16]CoreLighting.[2]DirectionalLight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 3,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "TimbalandEnvironment",
+          "intensity": 1.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 17,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[16]CoreLighting.[1]DirectionalLight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "TimbalandEnvironment.[0]Environment.[16]CoreLighting.[1]DirectionalLight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 3,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "TimbalandEnvironment",
+          "intensity": 0.0,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 5,
+      "commonGameObjectPath": "TimbalandEnvironment.[0]Environment",
+      "registeredLightCount": 6,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[16]CoreLighting.[3]DirectionalLight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "TimbalandEnvironment.[0]Environment.[16]CoreLighting.[3]DirectionalLight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 4,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "TimbalandEnvironment",
+          "intensity": 1.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[32]BSBakedLightingLightWithIds",
+          "componentType": "LightmapLightsWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "TimbalandEnvironment.[0]Environment.[32]BSBakedLightingLightWithIds",
+          "ownerComponentType": "LightmapLightsWithIds",
+          "indexWithinOwner": 4,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "TimbalandEnvironment",
+          "intensity": 1.0,
+          "bakeId": 5,
+          "weight": 0.1
+        },
+        {
+          "indexWithinLightIdList": 5,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[16]CoreLighting.[4]DirectionalLight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "TimbalandEnvironment.[0]Environment.[16]CoreLighting.[4]DirectionalLight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 4,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "TimbalandEnvironment",
+          "intensity": 0.5,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 7,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[16]CoreLighting.[5]DirectionalLight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "TimbalandEnvironment.[0]Environment.[16]CoreLighting.[5]DirectionalLight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 4,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "TimbalandEnvironment",
+          "intensity": 0.8,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 12,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[16]CoreLighting.[2]DirectionalLight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "TimbalandEnvironment.[0]Environment.[16]CoreLighting.[2]DirectionalLight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 4,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "TimbalandEnvironment",
+          "intensity": 0.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 13,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[16]CoreLighting.[1]DirectionalLight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "TimbalandEnvironment.[0]Environment.[16]CoreLighting.[1]DirectionalLight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 4,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "TimbalandEnvironment",
+          "intensity": 0.0,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    }
+  ]
+}

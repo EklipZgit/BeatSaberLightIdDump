@@ -1,0 +1,145 @@
+{
+  "formatVersion": 4,
+  "environmentName": "LinkinParkEnvironment",
+  "gameVersion": "1.44.1_20239",
+  "lightManagerPath": "LinkinParkEnvironment.[0]Environment.[5]LightWithIdManager",
+  "initialRegisteredLightCount": 1,
+  "totalRegisteredLightCount": 5,
+  "lightIdSlots": [
+    {
+      "beatSaberLightId": 1,
+      "commonGameObjectPath": "LinkinParkEnvironment.[0]Environment.[7]BSBakedLightingLightWithIds",
+      "registeredLightCount": 1,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "",
+          "componentType": "LightmapLightsWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "LinkinParkEnvironment.[0]Environment.[7]BSBakedLightingLightWithIds",
+          "ownerComponentType": "LightmapLightsWithIds",
+          "indexWithinOwner": 0,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "LinkinParkEnvironment",
+          "intensity": 1.0,
+          "bakeId": 1,
+          "weight": 0.224854216
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 2,
+      "commonGameObjectPath": "LinkinParkEnvironment.[0]Environment.[7]BSBakedLightingLightWithIds",
+      "registeredLightCount": 1,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "",
+          "componentType": "LightmapLightsWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "LinkinParkEnvironment.[0]Environment.[7]BSBakedLightingLightWithIds",
+          "ownerComponentType": "LightmapLightsWithIds",
+          "indexWithinOwner": 1,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "LinkinParkEnvironment",
+          "intensity": 2.5,
+          "bakeId": 2,
+          "weight": 0.1424753
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 3,
+      "commonGameObjectPath": "LinkinParkEnvironment.[0]Environment.[7]BSBakedLightingLightWithIds",
+      "registeredLightCount": 1,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "",
+          "componentType": "LightmapLightsWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "LinkinParkEnvironment.[0]Environment.[7]BSBakedLightingLightWithIds",
+          "ownerComponentType": "LightmapLightsWithIds",
+          "indexWithinOwner": 2,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "LinkinParkEnvironment",
+          "intensity": 0.6,
+          "bakeId": 3,
+          "weight": 0.241840392
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 4,
+      "commonGameObjectPath": "LinkinParkEnvironment.[0]Environment.[7]BSBakedLightingLightWithIds",
+      "registeredLightCount": 1,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "",
+          "componentType": "LightmapLightsWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "LinkinParkEnvironment.[0]Environment.[7]BSBakedLightingLightWithIds",
+          "ownerComponentType": "LightmapLightsWithIds",
+          "indexWithinOwner": 3,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "LinkinParkEnvironment",
+          "intensity": 0.6,
+          "bakeId": 4,
+          "weight": 0.2416732
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 5,
+      "commonGameObjectPath": "LinkinParkEnvironment.[0]Environment.[7]BSBakedLightingLightWithIds",
+      "registeredLightCount": 1,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "",
+          "componentType": "LightmapLightsWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "LinkinParkEnvironment.[0]Environment.[7]BSBakedLightingLightWithIds",
+          "ownerComponentType": "LightmapLightsWithIds",
+          "indexWithinOwner": 4,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "LinkinParkEnvironment",
+          "intensity": 1.2,
+          "bakeId": 5,
+          "weight": 0.149156854
+        }
+      ]
+    }
+  ]
+}

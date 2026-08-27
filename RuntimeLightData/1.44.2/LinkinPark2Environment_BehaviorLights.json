@@ -1,0 +1,4727 @@
+{
+  "formatVersion": 4,
+  "environmentName": "LinkinPark2Environment",
+  "gameVersion": "1.44.2_21558",
+  "lightManagerPath": "LinkinPark2Environment.[0]Environment.[6]LightWithIdManager",
+  "initialRegisteredLightCount": 1,
+  "totalRegisteredLightCount": 251,
+  "lightIdSlots": [
+    {
+      "beatSaberLightId": 5,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[18]PlayersPlace",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[1]Feet",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[18]PlayersPlace.[1]Feet",
+          "componentType": "SpriteLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.00000048,
+            "z": 1.00000048
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[3]RectangleFakeGlow",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[18]PlayersPlace.[3]RectangleFakeGlow",
+          "componentType": "RectangleFakeGlowLightWithId",
+          "localScale": {
+            "x": 1.495,
+            "y": 0.995,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 26,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[0]DistantCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[0]LaserWrapper_Z_01.[0]Laser.[0]ExpandCenterZ.[0]LightSource",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 26,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]Laser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[0]DistantCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[0]LaserWrapper_Z_01.[0]Laser.[0]ExpandCenterZ.[0]LightSource.[1]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 26,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]LightGlow",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[0]DistantCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[0]LaserWrapper_Z_01.[0]Laser.[0]ExpandCenterZ.[0]LightSource.[0]LightGlow",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 27,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[0]DistantCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[1]LaserWrapper_Z_02.[0]Laser.[0]ExpandCenterZ.[0]LightSource",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 27,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]LightGlow",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[0]DistantCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[1]LaserWrapper_Z_02.[0]Laser.[0]ExpandCenterZ.[0]LightSource.[0]LightGlow",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 27,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]Laser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[0]DistantCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[1]LaserWrapper_Z_02.[0]Laser.[0]ExpandCenterZ.[0]LightSource.[1]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 28,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[0]DistantCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[2]LaserWrapper_Z_03.[0]Laser.[0]ExpandCenterZ.[0]LightSource",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 28,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]Laser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[0]DistantCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[2]LaserWrapper_Z_03.[0]Laser.[0]ExpandCenterZ.[0]LightSource.[1]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 28,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]LightGlow",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[0]DistantCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[2]LaserWrapper_Z_03.[0]Laser.[0]ExpandCenterZ.[0]LightSource.[0]LightGlow",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 29,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[0]DistantCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[3]LaserWrapper_Z_04.[0]Laser.[0]ExpandCenterZ.[0]LightSource",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 29,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]Laser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[0]DistantCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[3]LaserWrapper_Z_04.[0]Laser.[0]ExpandCenterZ.[0]LightSource.[1]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 29,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]LightGlow",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[0]DistantCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[3]LaserWrapper_Z_04.[0]Laser.[0]ExpandCenterZ.[0]LightSource.[0]LightGlow",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 30,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[0]DistantCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[4]LaserWrapper_Z_05.[0]Laser.[0]ExpandCenterZ.[0]LightSource",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 30,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]Laser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[0]DistantCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[4]LaserWrapper_Z_05.[0]Laser.[0]ExpandCenterZ.[0]LightSource.[1]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 30,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]LightGlow",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[0]DistantCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[4]LaserWrapper_Z_05.[0]Laser.[0]ExpandCenterZ.[0]LightSource.[0]LightGlow",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 31,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[0]DistantCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[5]LaserWrapper_Z_06.[0]Laser.[0]ExpandCenterZ.[0]LightSource",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 31,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]Laser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[0]DistantCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[5]LaserWrapper_Z_06.[0]Laser.[0]ExpandCenterZ.[0]LightSource.[1]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 31,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]LightGlow",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[0]DistantCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[5]LaserWrapper_Z_06.[0]Laser.[0]ExpandCenterZ.[0]LightSource.[0]LightGlow",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 32,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[0]DistantCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[6]LaserWrapper_Z_07.[0]Laser.[0]ExpandCenterZ.[0]LightSource",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 32,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]Laser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[0]DistantCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[6]LaserWrapper_Z_07.[0]Laser.[0]ExpandCenterZ.[0]LightSource.[1]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 32,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]LightGlow",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[0]DistantCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[6]LaserWrapper_Z_07.[0]Laser.[0]ExpandCenterZ.[0]LightSource.[0]LightGlow",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 33,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[0]DistantCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[7]LaserWrapper_Z_08.[0]Laser.[0]ExpandCenterZ.[0]LightSource",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 33,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]LightGlow",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[0]DistantCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[7]LaserWrapper_Z_08.[0]Laser.[0]ExpandCenterZ.[0]LightSource.[0]LightGlow",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 33,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]Laser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[0]DistantCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[7]LaserWrapper_Z_08.[0]Laser.[0]ExpandCenterZ.[0]LightSource.[1]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 34,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[0]DistantCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[8]LaserWrapper_Z_09.[0]Laser.[0]ExpandCenterZ.[0]LightSource",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 34,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]Laser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[0]DistantCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[8]LaserWrapper_Z_09.[0]Laser.[0]ExpandCenterZ.[0]LightSource.[1]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 34,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]LightGlow",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[0]DistantCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[8]LaserWrapper_Z_09.[0]Laser.[0]ExpandCenterZ.[0]LightSource.[0]LightGlow",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 35,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[0]DistantCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[9]LaserWrapper_Z_10.[0]Laser.[0]ExpandCenterZ.[0]LightSource",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 35,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]Laser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[0]DistantCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[9]LaserWrapper_Z_10.[0]Laser.[0]ExpandCenterZ.[0]LightSource.[1]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 35,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]LightGlow",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[0]DistantCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[9]LaserWrapper_Z_10.[0]Laser.[0]ExpandCenterZ.[0]LightSource.[0]LightGlow",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 36,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[0]DistantCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[10]LaserWrapper_Z_11.[0]Laser.[0]ExpandCenterZ.[0]LightSource",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 36,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]Laser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[0]DistantCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[10]LaserWrapper_Z_11.[0]Laser.[0]ExpandCenterZ.[0]LightSource.[1]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 36,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]LightGlow",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[0]DistantCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[10]LaserWrapper_Z_11.[0]Laser.[0]ExpandCenterZ.[0]LightSource.[0]LightGlow",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 37,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[0]DistantCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[11]LaserWrapper_Z_12.[0]Laser.[0]ExpandCenterZ.[0]LightSource",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 37,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]LightGlow",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[0]DistantCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[11]LaserWrapper_Z_12.[0]Laser.[0]ExpandCenterZ.[0]LightSource.[0]LightGlow",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 37,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]Laser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[0]DistantCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[11]LaserWrapper_Z_12.[0]Laser.[0]ExpandCenterZ.[0]LightSource.[1]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 38,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[0]DistantCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[12]LaserWrapper_Z_13.[0]Laser.[0]ExpandCenterZ.[0]LightSource",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 38,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]LightGlow",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[0]DistantCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[12]LaserWrapper_Z_13.[0]Laser.[0]ExpandCenterZ.[0]LightSource.[0]LightGlow",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 38,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]Laser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[0]DistantCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[12]LaserWrapper_Z_13.[0]Laser.[0]ExpandCenterZ.[0]LightSource.[1]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 39,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[0]DistantCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[13]LaserWrapper_Z_14.[0]Laser.[0]ExpandCenterZ.[0]LightSource",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 39,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]LightGlow",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[0]DistantCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[13]LaserWrapper_Z_14.[0]Laser.[0]ExpandCenterZ.[0]LightSource.[0]LightGlow",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 39,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]Laser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[0]DistantCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[13]LaserWrapper_Z_14.[0]Laser.[0]ExpandCenterZ.[0]LightSource.[1]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 40,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[0]DistantCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[14]LaserWrapper_Z_15.[0]Laser.[0]ExpandCenterZ.[0]LightSource",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 40,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]Laser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[0]DistantCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[14]LaserWrapper_Z_15.[0]Laser.[0]ExpandCenterZ.[0]LightSource.[1]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 40,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]LightGlow",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[0]DistantCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[14]LaserWrapper_Z_15.[0]Laser.[0]ExpandCenterZ.[0]LightSource.[0]LightGlow",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 41,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[0]DistantCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[15]LaserWrapper_Z_16.[0]Laser.[0]ExpandCenterZ.[0]LightSource",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 41,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]LightGlow",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[0]DistantCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[15]LaserWrapper_Z_16.[0]Laser.[0]ExpandCenterZ.[0]LightSource.[0]LightGlow",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 41,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]Laser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[0]DistantCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[15]LaserWrapper_Z_16.[0]Laser.[0]ExpandCenterZ.[0]LightSource.[1]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 42,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[0]DistantCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[16]LaserWrapper_Z_17.[0]Laser.[0]ExpandCenterZ.[0]LightSource",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 42,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]LightGlow",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[0]DistantCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[16]LaserWrapper_Z_17.[0]Laser.[0]ExpandCenterZ.[0]LightSource.[0]LightGlow",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 42,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]Laser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[0]DistantCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[16]LaserWrapper_Z_17.[0]Laser.[0]ExpandCenterZ.[0]LightSource.[1]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 43,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[0]DistantCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[17]LaserWrapper_Z_18.[0]Laser.[0]ExpandCenterZ.[0]LightSource",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 43,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]Laser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[0]DistantCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[17]LaserWrapper_Z_18.[0]Laser.[0]ExpandCenterZ.[0]LightSource.[1]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 43,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]LightGlow",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[0]DistantCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[17]LaserWrapper_Z_18.[0]Laser.[0]ExpandCenterZ.[0]LightSource.[0]LightGlow",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 44,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[0]DistantCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[18]LaserWrapper_Z_19.[0]Laser.[0]ExpandCenterZ.[0]LightSource",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 44,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]LightGlow",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[0]DistantCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[18]LaserWrapper_Z_19.[0]Laser.[0]ExpandCenterZ.[0]LightSource.[0]LightGlow",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 44,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]Laser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[0]DistantCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[18]LaserWrapper_Z_19.[0]Laser.[0]ExpandCenterZ.[0]LightSource.[1]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 45,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[0]DistantCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[19]LaserWrapper_Z_20.[0]Laser.[0]ExpandCenterZ.[0]LightSource",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 45,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]LightGlow",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[0]DistantCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[19]LaserWrapper_Z_20.[0]Laser.[0]ExpandCenterZ.[0]LightSource.[0]LightGlow",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 45,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]Laser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[0]DistantCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[19]LaserWrapper_Z_20.[0]Laser.[0]ExpandCenterZ.[0]LightSource.[1]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 47,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[1]CloseCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[0]LaserWrapper_Z_01.[0]Laser.[0]ExpandCenterZ.[0]LightSource",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 47,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]LightGlow",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[1]CloseCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[0]LaserWrapper_Z_01.[0]Laser.[0]ExpandCenterZ.[0]LightSource.[0]LightGlow",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 47,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]Laser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[1]CloseCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[0]LaserWrapper_Z_01.[0]Laser.[0]ExpandCenterZ.[0]LightSource.[1]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 48,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[1]CloseCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[1]LaserWrapper_Z_02.[0]Laser.[0]ExpandCenterZ.[0]LightSource",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 48,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]Laser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[1]CloseCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[1]LaserWrapper_Z_02.[0]Laser.[0]ExpandCenterZ.[0]LightSource.[1]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 48,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]LightGlow",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[1]CloseCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[1]LaserWrapper_Z_02.[0]Laser.[0]ExpandCenterZ.[0]LightSource.[0]LightGlow",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 49,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[1]CloseCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[2]LaserWrapper_Z_03.[0]Laser.[0]ExpandCenterZ.[0]LightSource",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 49,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]LightGlow",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[1]CloseCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[2]LaserWrapper_Z_03.[0]Laser.[0]ExpandCenterZ.[0]LightSource.[0]LightGlow",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 49,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]Laser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[1]CloseCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[2]LaserWrapper_Z_03.[0]Laser.[0]ExpandCenterZ.[0]LightSource.[1]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 50,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[1]CloseCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[3]LaserWrapper_Z_04.[0]Laser.[0]ExpandCenterZ.[0]LightSource",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 50,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]LightGlow",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[1]CloseCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[3]LaserWrapper_Z_04.[0]Laser.[0]ExpandCenterZ.[0]LightSource.[0]LightGlow",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 50,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]Laser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[1]CloseCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[3]LaserWrapper_Z_04.[0]Laser.[0]ExpandCenterZ.[0]LightSource.[1]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 51,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[1]CloseCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[4]LaserWrapper_Z_05.[0]Laser.[0]ExpandCenterZ.[0]LightSource",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 51,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]LightGlow",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[1]CloseCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[4]LaserWrapper_Z_05.[0]Laser.[0]ExpandCenterZ.[0]LightSource.[0]LightGlow",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 51,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]Laser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[1]CloseCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[4]LaserWrapper_Z_05.[0]Laser.[0]ExpandCenterZ.[0]LightSource.[1]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 52,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[1]CloseCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[5]LaserWrapper_Z_06.[0]Laser.[0]ExpandCenterZ.[0]LightSource",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 52,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]LightGlow",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[1]CloseCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[5]LaserWrapper_Z_06.[0]Laser.[0]ExpandCenterZ.[0]LightSource.[0]LightGlow",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 52,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]Laser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[1]CloseCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[5]LaserWrapper_Z_06.[0]Laser.[0]ExpandCenterZ.[0]LightSource.[1]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 53,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[1]CloseCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[6]LaserWrapper_Z_07.[0]Laser.[0]ExpandCenterZ.[0]LightSource",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 53,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]LightGlow",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[1]CloseCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[6]LaserWrapper_Z_07.[0]Laser.[0]ExpandCenterZ.[0]LightSource.[0]LightGlow",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 53,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]Laser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[1]CloseCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[6]LaserWrapper_Z_07.[0]Laser.[0]ExpandCenterZ.[0]LightSource.[1]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 54,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[1]CloseCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[7]LaserWrapper_Z_08.[0]Laser.[0]ExpandCenterZ.[0]LightSource",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 54,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]Laser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[1]CloseCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[7]LaserWrapper_Z_08.[0]Laser.[0]ExpandCenterZ.[0]LightSource.[1]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 54,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]LightGlow",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[1]CloseCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[7]LaserWrapper_Z_08.[0]Laser.[0]ExpandCenterZ.[0]LightSource.[0]LightGlow",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 55,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[1]CloseCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[8]LaserWrapper_Z_09.[0]Laser.[0]ExpandCenterZ.[0]LightSource",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 55,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]LightGlow",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[1]CloseCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[8]LaserWrapper_Z_09.[0]Laser.[0]ExpandCenterZ.[0]LightSource.[0]LightGlow",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 55,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]Laser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[1]CloseCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[8]LaserWrapper_Z_09.[0]Laser.[0]ExpandCenterZ.[0]LightSource.[1]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 56,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[1]CloseCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[9]LaserWrapper_Z_10.[0]Laser.[0]ExpandCenterZ.[0]LightSource",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 56,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]LightGlow",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[1]CloseCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[9]LaserWrapper_Z_10.[0]Laser.[0]ExpandCenterZ.[0]LightSource.[0]LightGlow",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 56,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]Laser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[1]CloseCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[9]LaserWrapper_Z_10.[0]Laser.[0]ExpandCenterZ.[0]LightSource.[1]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 57,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[1]CloseCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[10]LaserWrapper_Z_11.[0]Laser.[0]ExpandCenterZ.[0]LightSource",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 57,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]LightGlow",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[1]CloseCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[10]LaserWrapper_Z_11.[0]Laser.[0]ExpandCenterZ.[0]LightSource.[0]LightGlow",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 57,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]Laser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[1]CloseCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[10]LaserWrapper_Z_11.[0]Laser.[0]ExpandCenterZ.[0]LightSource.[1]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 58,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[1]CloseCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[11]LaserWrapper_Z_12.[0]Laser.[0]ExpandCenterZ.[0]LightSource",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 58,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]Laser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[1]CloseCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[11]LaserWrapper_Z_12.[0]Laser.[0]ExpandCenterZ.[0]LightSource.[1]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 58,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]LightGlow",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[1]CloseCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[11]LaserWrapper_Z_12.[0]Laser.[0]ExpandCenterZ.[0]LightSource.[0]LightGlow",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 59,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[1]CloseCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[12]LaserWrapper_Z_13.[0]Laser.[0]ExpandCenterZ.[0]LightSource",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 59,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]Laser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[1]CloseCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[12]LaserWrapper_Z_13.[0]Laser.[0]ExpandCenterZ.[0]LightSource.[1]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 59,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]LightGlow",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[1]CloseCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[12]LaserWrapper_Z_13.[0]Laser.[0]ExpandCenterZ.[0]LightSource.[0]LightGlow",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 60,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[1]CloseCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[13]LaserWrapper_Z_14.[0]Laser.[0]ExpandCenterZ.[0]LightSource",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 60,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]Laser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[1]CloseCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[13]LaserWrapper_Z_14.[0]Laser.[0]ExpandCenterZ.[0]LightSource.[1]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 60,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]LightGlow",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[1]CloseCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[13]LaserWrapper_Z_14.[0]Laser.[0]ExpandCenterZ.[0]LightSource.[0]LightGlow",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 61,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[1]CloseCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[14]LaserWrapper_Z_15.[0]Laser.[0]ExpandCenterZ.[0]LightSource",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 61,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]LightGlow",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[1]CloseCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[14]LaserWrapper_Z_15.[0]Laser.[0]ExpandCenterZ.[0]LightSource.[0]LightGlow",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 61,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]Laser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[1]CloseCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[14]LaserWrapper_Z_15.[0]Laser.[0]ExpandCenterZ.[0]LightSource.[1]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 62,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[1]CloseCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[15]LaserWrapper_Z_16.[0]Laser.[0]ExpandCenterZ.[0]LightSource",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 62,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]Laser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[1]CloseCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[15]LaserWrapper_Z_16.[0]Laser.[0]ExpandCenterZ.[0]LightSource.[1]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 62,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]LightGlow",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[1]CloseCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[15]LaserWrapper_Z_16.[0]Laser.[0]ExpandCenterZ.[0]LightSource.[0]LightGlow",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 63,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[1]CloseCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[16]LaserWrapper_Z_17.[0]Laser.[0]ExpandCenterZ.[0]LightSource",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 63,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]Laser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[1]CloseCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[16]LaserWrapper_Z_17.[0]Laser.[0]ExpandCenterZ.[0]LightSource.[1]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 63,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]LightGlow",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[1]CloseCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[16]LaserWrapper_Z_17.[0]Laser.[0]ExpandCenterZ.[0]LightSource.[0]LightGlow",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 64,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[1]CloseCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[17]LaserWrapper_Z_18.[0]Laser.[0]ExpandCenterZ.[0]LightSource",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 64,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]LightGlow",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[1]CloseCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[17]LaserWrapper_Z_18.[0]Laser.[0]ExpandCenterZ.[0]LightSource.[0]LightGlow",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 64,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]Laser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[1]CloseCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[17]LaserWrapper_Z_18.[0]Laser.[0]ExpandCenterZ.[0]LightSource.[1]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 65,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[1]CloseCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[18]LaserWrapper_Z_19.[0]Laser.[0]ExpandCenterZ.[0]LightSource",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 65,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]Laser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[1]CloseCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[18]LaserWrapper_Z_19.[0]Laser.[0]ExpandCenterZ.[0]LightSource.[1]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 65,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]LightGlow",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[1]CloseCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[18]LaserWrapper_Z_19.[0]Laser.[0]ExpandCenterZ.[0]LightSource.[0]LightGlow",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 66,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[1]CloseCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[19]LaserWrapper_Z_20.[0]Laser.[0]ExpandCenterZ.[0]LightSource",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 66,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]Laser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[1]CloseCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[19]LaserWrapper_Z_20.[0]Laser.[0]ExpandCenterZ.[0]LightSource.[1]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 66,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]LightGlow",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[1]CloseCircleLasers.[0]GlobalRotationTranslationZ.[0]DistantCircle.[19]LaserWrapper_Z_20.[0]Laser.[0]ExpandCenterZ.[0]LightSource.[0]LightGlow",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 67,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[26]CircularTunnel.[0]TunnelLightsWrapper.[0]SpectrogramLeft.[0]SpectrogramRight.[0]RingWrapper.[1]RingTransformXYZ.[0]RingRotationZ.[4]TunnelFrontEmissionWrapper.[0]TunnelRing",
+      "registeredLightCount": 1,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 67,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[26]CircularTunnel.[0]TunnelLightsWrapper.[0]SpectrogramLeft.[0]SpectrogramRight.[0]RingWrapper.[1]RingTransformXYZ.[0]RingRotationZ.[4]TunnelFrontEmissionWrapper.[0]TunnelRing",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 6.89999962,
+            "y": 6.89999962,
+            "z": 6.89999962
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 68,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[26]CircularTunnel.[0]TunnelLightsWrapper.[0]SpectrogramLeft.[0]SpectrogramRight.[1]RingWrapper02.[1]RingTransformXYZ.[0]RingRotationZ.[4]TunnelFrontEmissionWrapper.[0]TunnelRing",
+      "registeredLightCount": 1,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 68,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[26]CircularTunnel.[0]TunnelLightsWrapper.[0]SpectrogramLeft.[0]SpectrogramRight.[1]RingWrapper02.[1]RingTransformXYZ.[0]RingRotationZ.[4]TunnelFrontEmissionWrapper.[0]TunnelRing",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 6.89999962,
+            "y": 6.89999962,
+            "z": 6.89999962
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 69,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[26]CircularTunnel.[0]TunnelLightsWrapper.[0]SpectrogramLeft.[0]SpectrogramRight.[2]RingWrapper03.[1]RingTransformXYZ.[0]RingRotationZ.[4]TunnelFrontEmissionWrapper.[0]TunnelRing",
+      "registeredLightCount": 1,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 69,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[26]CircularTunnel.[0]TunnelLightsWrapper.[0]SpectrogramLeft.[0]SpectrogramRight.[2]RingWrapper03.[1]RingTransformXYZ.[0]RingRotationZ.[4]TunnelFrontEmissionWrapper.[0]TunnelRing",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 6.89999962,
+            "y": 6.89999962,
+            "z": 6.89999962
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 70,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[26]CircularTunnel.[0]TunnelLightsWrapper.[0]SpectrogramLeft.[0]SpectrogramRight.[3]RingWrapper04.[1]RingTransformXYZ.[0]RingRotationZ.[4]TunnelFrontEmissionWrapper.[0]TunnelRing",
+      "registeredLightCount": 1,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 70,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[26]CircularTunnel.[0]TunnelLightsWrapper.[0]SpectrogramLeft.[0]SpectrogramRight.[3]RingWrapper04.[1]RingTransformXYZ.[0]RingRotationZ.[4]TunnelFrontEmissionWrapper.[0]TunnelRing",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 6.89999962,
+            "y": 6.89999962,
+            "z": 6.89999962
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 71,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[29]BigArcsGlobal.[0]BigArcs.[0]BigArcsWrapper.[1]LocalTransform.[0]TransformZ.[0]RingTunnelArcWrapper",
+      "registeredLightCount": 1,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 71,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[29]BigArcsGlobal.[0]BigArcs.[0]BigArcsWrapper.[1]LocalTransform.[0]TransformZ.[0]RingTunnelArcWrapper",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 72,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[29]BigArcsGlobal.[0]BigArcs.[1]BigArcsWrapper.[1]LocalTransform.[0]TransformZ.[0]RingTunnelArcWrapper",
+      "registeredLightCount": 1,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 72,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[29]BigArcsGlobal.[0]BigArcs.[1]BigArcsWrapper.[1]LocalTransform.[0]TransformZ.[0]RingTunnelArcWrapper",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 73,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[29]BigArcsGlobal.[0]BigArcs.[2]BigArcsWrapper.[1]LocalTransform.[0]TransformZ.[0]RingTunnelArcWrapper",
+      "registeredLightCount": 1,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 73,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[29]BigArcsGlobal.[0]BigArcs.[2]BigArcsWrapper.[1]LocalTransform.[0]TransformZ.[0]RingTunnelArcWrapper",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 74,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[29]BigArcsGlobal.[0]BigArcs.[3]BigArcsWrapper.[1]LocalTransform.[0]TransformZ.[0]RingTunnelArcWrapper",
+      "registeredLightCount": 1,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 74,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[29]BigArcsGlobal.[0]BigArcs.[3]BigArcsWrapper.[1]LocalTransform.[0]TransformZ.[0]RingTunnelArcWrapper",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 75,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[2]LaserBeamsL.[0]LaserBeamsLocal.[0]GlobalRotationZ.[0]LaserWrapper.[0]RotationZ.[0]RotationX.[0]RotationY.[0]TransformXY.[0]TransformZ.[0]Laser",
+      "registeredLightCount": 1,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 75,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[2]LaserBeamsL.[0]LaserBeamsLocal.[0]GlobalRotationZ.[0]LaserWrapper.[0]RotationZ.[0]RotationX.[0]RotationY.[0]TransformXY.[0]TransformZ.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 76,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[2]LaserBeamsL.[0]LaserBeamsLocal.[1]GlobalRotationZ.[0]LaserWrapper.[0]RotationZ.[0]RotationX.[0]RotationY.[0]TransformXY.[0]TransformZ.[0]Laser",
+      "registeredLightCount": 1,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 76,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[2]LaserBeamsL.[0]LaserBeamsLocal.[1]GlobalRotationZ.[0]LaserWrapper.[0]RotationZ.[0]RotationX.[0]RotationY.[0]TransformXY.[0]TransformZ.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 77,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[3]LaserBeamsR.[0]LaserBeamsLocal.[0]GlobalRotationZ.[0]LaserWrapper.[0]RotationZ.[0]RotationX.[0]RotationY.[0]TransformXY.[0]TransformZ.[0]Laser",
+      "registeredLightCount": 1,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 77,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[3]LaserBeamsR.[0]LaserBeamsLocal.[0]GlobalRotationZ.[0]LaserWrapper.[0]RotationZ.[0]RotationX.[0]RotationY.[0]TransformXY.[0]TransformZ.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 78,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[3]LaserBeamsR.[0]LaserBeamsLocal.[1]GlobalRotationZ.[0]LaserWrapper.[0]RotationZ.[0]RotationX.[0]RotationY.[0]TransformXY.[0]TransformZ.[0]Laser",
+      "registeredLightCount": 1,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 78,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[3]LaserBeamsR.[0]LaserBeamsLocal.[1]GlobalRotationZ.[0]LaserWrapper.[0]RotationZ.[0]RotationX.[0]RotationY.[0]TransformXY.[0]TransformZ.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 79,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[4]LaserFloorL.[0]LaserFloorWrapper",
+      "registeredLightCount": 1,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 79,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[4]LaserFloorL.[0]LaserFloorWrapper",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 80,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[5]LaserFloorR.[0]LaserFloorWrapper",
+      "registeredLightCount": 1,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 80,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[27]Lasers.[5]LaserFloorR.[0]LaserFloorWrapper",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 81,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[26]CircularTunnel.[0]TunnelLightsWrapper.[0]SpectrogramLeft.[0]SpectrogramRight.[0]RingWrapper.[1]RingTransformXYZ.[0]RingRotationZ.[0]TunnelPieceWrapper01.[0]InnerEmission",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 81,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]TunnelTexEmissionWrapper.[0]TunnelRing",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[26]CircularTunnel.[0]TunnelLightsWrapper.[0]SpectrogramLeft.[0]SpectrogramRight.[0]RingWrapper.[1]RingTransformXYZ.[0]RingRotationZ.[0]TunnelPieceWrapper01.[0]InnerEmission.[0]TunnelTexEmissionWrapper.[0]TunnelRing",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 6.9,
+            "y": 6.9,
+            "z": 6.9
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 4,
+          "componentLightId": 81,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]TunnelLaser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[26]CircularTunnel.[0]TunnelLightsWrapper.[0]SpectrogramLeft.[0]SpectrogramRight.[0]RingWrapper.[1]RingTransformXYZ.[0]RingRotationZ.[0]TunnelPieceWrapper01.[0]InnerEmission.[1]TunnelLaser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 82,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[26]CircularTunnel.[0]TunnelLightsWrapper.[0]SpectrogramLeft.[0]SpectrogramRight.[0]RingWrapper.[1]RingTransformXYZ.[0]RingRotationZ.[1]TunnelPieceWrapper02.[0]InnerEmission",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 82,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]TunnelLaser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[26]CircularTunnel.[0]TunnelLightsWrapper.[0]SpectrogramLeft.[0]SpectrogramRight.[0]RingWrapper.[1]RingTransformXYZ.[0]RingRotationZ.[1]TunnelPieceWrapper02.[0]InnerEmission.[1]TunnelLaser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 82,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]TunnelTexEmissionWrapper.[0]TunnelRing",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[26]CircularTunnel.[0]TunnelLightsWrapper.[0]SpectrogramLeft.[0]SpectrogramRight.[0]RingWrapper.[1]RingTransformXYZ.[0]RingRotationZ.[1]TunnelPieceWrapper02.[0]InnerEmission.[0]TunnelTexEmissionWrapper.[0]TunnelRing",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 6.9,
+            "y": 6.9,
+            "z": 6.9
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 83,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[26]CircularTunnel.[0]TunnelLightsWrapper.[0]SpectrogramLeft.[0]SpectrogramRight.[0]RingWrapper.[1]RingTransformXYZ.[0]RingRotationZ.[2]TunnelPieceWrapper03.[0]InnerEmission",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 83,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]TunnelTexEmissionWrapper.[0]TunnelRing",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[26]CircularTunnel.[0]TunnelLightsWrapper.[0]SpectrogramLeft.[0]SpectrogramRight.[0]RingWrapper.[1]RingTransformXYZ.[0]RingRotationZ.[2]TunnelPieceWrapper03.[0]InnerEmission.[0]TunnelTexEmissionWrapper.[0]TunnelRing",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 6.9,
+            "y": 6.9,
+            "z": 6.9
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 83,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]TunnelLaser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[26]CircularTunnel.[0]TunnelLightsWrapper.[0]SpectrogramLeft.[0]SpectrogramRight.[0]RingWrapper.[1]RingTransformXYZ.[0]RingRotationZ.[2]TunnelPieceWrapper03.[0]InnerEmission.[1]TunnelLaser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 84,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[26]CircularTunnel.[0]TunnelLightsWrapper.[0]SpectrogramLeft.[0]SpectrogramRight.[0]RingWrapper.[1]RingTransformXYZ.[0]RingRotationZ.[3]TunnelPieceWrapper04.[0]InnerEmission",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 84,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]TunnelLaser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[26]CircularTunnel.[0]TunnelLightsWrapper.[0]SpectrogramLeft.[0]SpectrogramRight.[0]RingWrapper.[1]RingTransformXYZ.[0]RingRotationZ.[3]TunnelPieceWrapper04.[0]InnerEmission.[1]TunnelLaser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 4,
+          "componentLightId": 84,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]TunnelTexEmissionWrapper.[0]TunnelRing",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[26]CircularTunnel.[0]TunnelLightsWrapper.[0]SpectrogramLeft.[0]SpectrogramRight.[0]RingWrapper.[1]RingTransformXYZ.[0]RingRotationZ.[3]TunnelPieceWrapper04.[0]InnerEmission.[0]TunnelTexEmissionWrapper.[0]TunnelRing",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 6.9,
+            "y": 6.9,
+            "z": 6.9
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 85,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[26]CircularTunnel.[0]TunnelLightsWrapper.[0]SpectrogramLeft.[0]SpectrogramRight.[1]RingWrapper02.[1]RingTransformXYZ.[0]RingRotationZ.[0]TunnelPieceWrapper01.[0]InnerEmission",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 85,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]TunnelTexEmissionWrapper.[0]TunnelRing",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[26]CircularTunnel.[0]TunnelLightsWrapper.[0]SpectrogramLeft.[0]SpectrogramRight.[1]RingWrapper02.[1]RingTransformXYZ.[0]RingRotationZ.[0]TunnelPieceWrapper01.[0]InnerEmission.[0]TunnelTexEmissionWrapper.[0]TunnelRing",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 6.9,
+            "y": 6.9,
+            "z": 6.9
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 85,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]TunnelLaser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[26]CircularTunnel.[0]TunnelLightsWrapper.[0]SpectrogramLeft.[0]SpectrogramRight.[1]RingWrapper02.[1]RingTransformXYZ.[0]RingRotationZ.[0]TunnelPieceWrapper01.[0]InnerEmission.[1]TunnelLaser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 86,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[26]CircularTunnel.[0]TunnelLightsWrapper.[0]SpectrogramLeft.[0]SpectrogramRight.[1]RingWrapper02.[1]RingTransformXYZ.[0]RingRotationZ.[1]TunnelPieceWrapper02.[0]InnerEmission",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 86,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]TunnelLaser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[26]CircularTunnel.[0]TunnelLightsWrapper.[0]SpectrogramLeft.[0]SpectrogramRight.[1]RingWrapper02.[1]RingTransformXYZ.[0]RingRotationZ.[1]TunnelPieceWrapper02.[0]InnerEmission.[1]TunnelLaser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 86,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]TunnelTexEmissionWrapper.[0]TunnelRing",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[26]CircularTunnel.[0]TunnelLightsWrapper.[0]SpectrogramLeft.[0]SpectrogramRight.[1]RingWrapper02.[1]RingTransformXYZ.[0]RingRotationZ.[1]TunnelPieceWrapper02.[0]InnerEmission.[0]TunnelTexEmissionWrapper.[0]TunnelRing",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 6.9,
+            "y": 6.9,
+            "z": 6.9
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 87,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[26]CircularTunnel.[0]TunnelLightsWrapper.[0]SpectrogramLeft.[0]SpectrogramRight.[1]RingWrapper02.[1]RingTransformXYZ.[0]RingRotationZ.[2]TunnelPieceWrapper03.[0]InnerEmission",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 87,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]TunnelTexEmissionWrapper.[0]TunnelRing",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[26]CircularTunnel.[0]TunnelLightsWrapper.[0]SpectrogramLeft.[0]SpectrogramRight.[1]RingWrapper02.[1]RingTransformXYZ.[0]RingRotationZ.[2]TunnelPieceWrapper03.[0]InnerEmission.[0]TunnelTexEmissionWrapper.[0]TunnelRing",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 6.9,
+            "y": 6.9,
+            "z": 6.9
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 4,
+          "componentLightId": 87,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]TunnelLaser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[26]CircularTunnel.[0]TunnelLightsWrapper.[0]SpectrogramLeft.[0]SpectrogramRight.[1]RingWrapper02.[1]RingTransformXYZ.[0]RingRotationZ.[2]TunnelPieceWrapper03.[0]InnerEmission.[1]TunnelLaser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 88,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[26]CircularTunnel.[0]TunnelLightsWrapper.[0]SpectrogramLeft.[0]SpectrogramRight.[1]RingWrapper02.[1]RingTransformXYZ.[0]RingRotationZ.[3]TunnelPieceWrapper04.[0]InnerEmission",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 88,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]TunnelLaser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[26]CircularTunnel.[0]TunnelLightsWrapper.[0]SpectrogramLeft.[0]SpectrogramRight.[1]RingWrapper02.[1]RingTransformXYZ.[0]RingRotationZ.[3]TunnelPieceWrapper04.[0]InnerEmission.[1]TunnelLaser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 88,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]TunnelTexEmissionWrapper.[0]TunnelRing",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[26]CircularTunnel.[0]TunnelLightsWrapper.[0]SpectrogramLeft.[0]SpectrogramRight.[1]RingWrapper02.[1]RingTransformXYZ.[0]RingRotationZ.[3]TunnelPieceWrapper04.[0]InnerEmission.[0]TunnelTexEmissionWrapper.[0]TunnelRing",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 6.9,
+            "y": 6.9,
+            "z": 6.9
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 89,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[26]CircularTunnel.[0]TunnelLightsWrapper.[0]SpectrogramLeft.[0]SpectrogramRight.[2]RingWrapper03.[1]RingTransformXYZ.[0]RingRotationZ.[0]TunnelPieceWrapper01.[0]InnerEmission",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 89,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]TunnelTexEmissionWrapper.[0]TunnelRing",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[26]CircularTunnel.[0]TunnelLightsWrapper.[0]SpectrogramLeft.[0]SpectrogramRight.[2]RingWrapper03.[1]RingTransformXYZ.[0]RingRotationZ.[0]TunnelPieceWrapper01.[0]InnerEmission.[0]TunnelTexEmissionWrapper.[0]TunnelRing",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 6.9,
+            "y": 6.9,
+            "z": 6.9
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 4,
+          "componentLightId": 89,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]TunnelLaser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[26]CircularTunnel.[0]TunnelLightsWrapper.[0]SpectrogramLeft.[0]SpectrogramRight.[2]RingWrapper03.[1]RingTransformXYZ.[0]RingRotationZ.[0]TunnelPieceWrapper01.[0]InnerEmission.[1]TunnelLaser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 90,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[26]CircularTunnel.[0]TunnelLightsWrapper.[0]SpectrogramLeft.[0]SpectrogramRight.[2]RingWrapper03.[1]RingTransformXYZ.[0]RingRotationZ.[1]TunnelPieceWrapper02.[0]InnerEmission",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 90,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]TunnelLaser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[26]CircularTunnel.[0]TunnelLightsWrapper.[0]SpectrogramLeft.[0]SpectrogramRight.[2]RingWrapper03.[1]RingTransformXYZ.[0]RingRotationZ.[1]TunnelPieceWrapper02.[0]InnerEmission.[1]TunnelLaser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 90,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]TunnelTexEmissionWrapper.[0]TunnelRing",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[26]CircularTunnel.[0]TunnelLightsWrapper.[0]SpectrogramLeft.[0]SpectrogramRight.[2]RingWrapper03.[1]RingTransformXYZ.[0]RingRotationZ.[1]TunnelPieceWrapper02.[0]InnerEmission.[0]TunnelTexEmissionWrapper.[0]TunnelRing",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 6.9,
+            "y": 6.9,
+            "z": 6.9
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 91,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[26]CircularTunnel.[0]TunnelLightsWrapper.[0]SpectrogramLeft.[0]SpectrogramRight.[2]RingWrapper03.[1]RingTransformXYZ.[0]RingRotationZ.[2]TunnelPieceWrapper03.[0]InnerEmission",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 91,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]TunnelTexEmissionWrapper.[0]TunnelRing",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[26]CircularTunnel.[0]TunnelLightsWrapper.[0]SpectrogramLeft.[0]SpectrogramRight.[2]RingWrapper03.[1]RingTransformXYZ.[0]RingRotationZ.[2]TunnelPieceWrapper03.[0]InnerEmission.[0]TunnelTexEmissionWrapper.[0]TunnelRing",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 6.9,
+            "y": 6.9,
+            "z": 6.9
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 91,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]TunnelLaser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[26]CircularTunnel.[0]TunnelLightsWrapper.[0]SpectrogramLeft.[0]SpectrogramRight.[2]RingWrapper03.[1]RingTransformXYZ.[0]RingRotationZ.[2]TunnelPieceWrapper03.[0]InnerEmission.[1]TunnelLaser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 92,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[26]CircularTunnel.[0]TunnelLightsWrapper.[0]SpectrogramLeft.[0]SpectrogramRight.[2]RingWrapper03.[1]RingTransformXYZ.[0]RingRotationZ.[3]TunnelPieceWrapper04.[0]InnerEmission",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 92,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]TunnelLaser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[26]CircularTunnel.[0]TunnelLightsWrapper.[0]SpectrogramLeft.[0]SpectrogramRight.[2]RingWrapper03.[1]RingTransformXYZ.[0]RingRotationZ.[3]TunnelPieceWrapper04.[0]InnerEmission.[1]TunnelLaser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 4,
+          "componentLightId": 92,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]TunnelTexEmissionWrapper.[0]TunnelRing",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[26]CircularTunnel.[0]TunnelLightsWrapper.[0]SpectrogramLeft.[0]SpectrogramRight.[2]RingWrapper03.[1]RingTransformXYZ.[0]RingRotationZ.[3]TunnelPieceWrapper04.[0]InnerEmission.[0]TunnelTexEmissionWrapper.[0]TunnelRing",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 6.9,
+            "y": 6.9,
+            "z": 6.9
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 93,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[26]CircularTunnel.[0]TunnelLightsWrapper.[0]SpectrogramLeft.[0]SpectrogramRight.[3]RingWrapper04.[1]RingTransformXYZ.[0]RingRotationZ.[0]TunnelPieceWrapper01.[0]InnerEmission",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 93,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]TunnelTexEmissionWrapper.[0]TunnelRing",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[26]CircularTunnel.[0]TunnelLightsWrapper.[0]SpectrogramLeft.[0]SpectrogramRight.[3]RingWrapper04.[1]RingTransformXYZ.[0]RingRotationZ.[0]TunnelPieceWrapper01.[0]InnerEmission.[0]TunnelTexEmissionWrapper.[0]TunnelRing",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 6.9,
+            "y": 6.9,
+            "z": 6.9
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 93,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]TunnelLaser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[26]CircularTunnel.[0]TunnelLightsWrapper.[0]SpectrogramLeft.[0]SpectrogramRight.[3]RingWrapper04.[1]RingTransformXYZ.[0]RingRotationZ.[0]TunnelPieceWrapper01.[0]InnerEmission.[1]TunnelLaser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 94,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[26]CircularTunnel.[0]TunnelLightsWrapper.[0]SpectrogramLeft.[0]SpectrogramRight.[3]RingWrapper04.[1]RingTransformXYZ.[0]RingRotationZ.[1]TunnelPieceWrapper02.[0]InnerEmission",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 94,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]TunnelLaser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[26]CircularTunnel.[0]TunnelLightsWrapper.[0]SpectrogramLeft.[0]SpectrogramRight.[3]RingWrapper04.[1]RingTransformXYZ.[0]RingRotationZ.[1]TunnelPieceWrapper02.[0]InnerEmission.[1]TunnelLaser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 94,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]TunnelTexEmissionWrapper.[0]TunnelRing",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[26]CircularTunnel.[0]TunnelLightsWrapper.[0]SpectrogramLeft.[0]SpectrogramRight.[3]RingWrapper04.[1]RingTransformXYZ.[0]RingRotationZ.[1]TunnelPieceWrapper02.[0]InnerEmission.[0]TunnelTexEmissionWrapper.[0]TunnelRing",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 6.9,
+            "y": 6.9,
+            "z": 6.9
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 95,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[26]CircularTunnel.[0]TunnelLightsWrapper.[0]SpectrogramLeft.[0]SpectrogramRight.[3]RingWrapper04.[1]RingTransformXYZ.[0]RingRotationZ.[2]TunnelPieceWrapper03.[0]InnerEmission",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 95,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]TunnelTexEmissionWrapper.[0]TunnelRing",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[26]CircularTunnel.[0]TunnelLightsWrapper.[0]SpectrogramLeft.[0]SpectrogramRight.[3]RingWrapper04.[1]RingTransformXYZ.[0]RingRotationZ.[2]TunnelPieceWrapper03.[0]InnerEmission.[0]TunnelTexEmissionWrapper.[0]TunnelRing",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 6.9,
+            "y": 6.9,
+            "z": 6.9
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 4,
+          "componentLightId": 95,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]TunnelLaser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[26]CircularTunnel.[0]TunnelLightsWrapper.[0]SpectrogramLeft.[0]SpectrogramRight.[3]RingWrapper04.[1]RingTransformXYZ.[0]RingRotationZ.[2]TunnelPieceWrapper03.[0]InnerEmission.[1]TunnelLaser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 96,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[26]CircularTunnel.[0]TunnelLightsWrapper.[0]SpectrogramLeft.[0]SpectrogramRight.[3]RingWrapper04.[1]RingTransformXYZ.[0]RingRotationZ.[3]TunnelPieceWrapper04.[0]InnerEmission",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 96,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]TunnelLaser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[26]CircularTunnel.[0]TunnelLightsWrapper.[0]SpectrogramLeft.[0]SpectrogramRight.[3]RingWrapper04.[1]RingTransformXYZ.[0]RingRotationZ.[3]TunnelPieceWrapper04.[0]InnerEmission.[1]TunnelLaser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 96,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]TunnelTexEmissionWrapper.[0]TunnelRing",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[26]CircularTunnel.[0]TunnelLightsWrapper.[0]SpectrogramLeft.[0]SpectrogramRight.[3]RingWrapper04.[1]RingTransformXYZ.[0]RingRotationZ.[3]TunnelPieceWrapper04.[0]InnerEmission.[0]TunnelTexEmissionWrapper.[0]TunnelRing",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 6.9,
+            "y": 6.9,
+            "z": 6.9
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 97,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[25]Logo.[2]LogoWrapper03.[0]Logo03",
+      "registeredLightCount": 3,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 97,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[2]LogoLight2",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[25]Logo.[2]LogoWrapper03.[0]Logo03.[2]LogoLight2",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 97,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]Logo",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[25]Logo.[2]LogoWrapper03.[0]Logo03.[1]Logo",
+          "componentType": "SpriteLightWithId",
+          "localScale": {
+            "x": 0.9,
+            "y": 0.9,
+            "z": 0.9
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 97,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]LogoLight",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[25]Logo.[2]LogoWrapper03.[0]Logo03.[0]LogoLight",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 102,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[0]SpectogramTransformLeft.[0]SpectogramCube 1",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 102,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]Quad",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[0]SpectogramTransformLeft.[0]SpectogramCube 1.[0]Quad",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0.5
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 102,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]SpectogramInnerLaser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[0]SpectogramTransformLeft.[0]SpectogramCube 1.[1]SpectogramInnerLaser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 103,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[0]SpectogramTransformLeft.[1]SpectogramCube 1",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 103,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]SpectogramInnerLaser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[0]SpectogramTransformLeft.[1]SpectogramCube 1.[1]SpectogramInnerLaser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 103,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]Quad",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[0]SpectogramTransformLeft.[1]SpectogramCube 1.[0]Quad",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0.5
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 104,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[0]SpectogramTransformLeft.[2]SpectogramCube 1",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 104,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]Quad",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[0]SpectogramTransformLeft.[2]SpectogramCube 1.[0]Quad",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0.5
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 104,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]SpectogramInnerLaser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[0]SpectogramTransformLeft.[2]SpectogramCube 1.[1]SpectogramInnerLaser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 105,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[0]SpectogramTransformLeft.[3]SpectogramCube 1",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 105,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]SpectogramInnerLaser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[0]SpectogramTransformLeft.[3]SpectogramCube 1.[1]SpectogramInnerLaser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 105,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]Quad",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[0]SpectogramTransformLeft.[3]SpectogramCube 1.[0]Quad",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0.5
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 106,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[0]SpectogramTransformLeft.[4]SpectogramCube 1",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 106,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]SpectogramInnerLaser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[0]SpectogramTransformLeft.[4]SpectogramCube 1.[1]SpectogramInnerLaser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 106,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]Quad",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[0]SpectogramTransformLeft.[4]SpectogramCube 1.[0]Quad",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0.5
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 107,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[0]SpectogramTransformLeft.[5]SpectogramCube 1",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 107,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]Quad",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[0]SpectogramTransformLeft.[5]SpectogramCube 1.[0]Quad",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0.5
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 107,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]SpectogramInnerLaser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[0]SpectogramTransformLeft.[5]SpectogramCube 1.[1]SpectogramInnerLaser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 108,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[0]SpectogramTransformLeft.[6]SpectogramCube 1",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 108,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]SpectogramInnerLaser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[0]SpectogramTransformLeft.[6]SpectogramCube 1.[1]SpectogramInnerLaser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 108,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]Quad",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[0]SpectogramTransformLeft.[6]SpectogramCube 1.[0]Quad",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0.5
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 109,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[0]SpectogramTransformLeft.[7]SpectogramCube 1",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 109,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]SpectogramInnerLaser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[0]SpectogramTransformLeft.[7]SpectogramCube 1.[1]SpectogramInnerLaser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 109,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]Quad",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[0]SpectogramTransformLeft.[7]SpectogramCube 1.[0]Quad",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0.5
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 110,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[0]SpectogramTransformLeft.[8]SpectogramCube 1",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 110,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]Quad",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[0]SpectogramTransformLeft.[8]SpectogramCube 1.[0]Quad",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0.5
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 110,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]SpectogramInnerLaser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[0]SpectogramTransformLeft.[8]SpectogramCube 1.[1]SpectogramInnerLaser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 111,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[0]SpectogramTransformLeft.[9]SpectogramCube 1",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 111,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]SpectogramInnerLaser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[0]SpectogramTransformLeft.[9]SpectogramCube 1.[1]SpectogramInnerLaser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 111,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]Quad",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[0]SpectogramTransformLeft.[9]SpectogramCube 1.[0]Quad",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0.5
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 112,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[0]SpectogramTransformLeft.[10]SpectogramCube 1",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 112,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]SpectogramInnerLaser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[0]SpectogramTransformLeft.[10]SpectogramCube 1.[1]SpectogramInnerLaser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 112,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]Quad",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[0]SpectogramTransformLeft.[10]SpectogramCube 1.[0]Quad",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0.5
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 113,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[0]SpectogramTransformLeft.[11]SpectogramCube 1",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 113,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]Quad",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[0]SpectogramTransformLeft.[11]SpectogramCube 1.[0]Quad",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0.5
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 113,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]SpectogramInnerLaser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[0]SpectogramTransformLeft.[11]SpectogramCube 1.[1]SpectogramInnerLaser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 114,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[0]SpectogramTransformLeft.[12]SpectogramCube 1",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 114,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]SpectogramInnerLaser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[0]SpectogramTransformLeft.[12]SpectogramCube 1.[1]SpectogramInnerLaser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 114,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]Quad",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[0]SpectogramTransformLeft.[12]SpectogramCube 1.[0]Quad",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0.5
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 115,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[0]SpectogramTransformLeft.[13]SpectogramCube 1",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 115,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]SpectogramInnerLaser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[0]SpectogramTransformLeft.[13]SpectogramCube 1.[1]SpectogramInnerLaser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 115,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]Quad",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[0]SpectogramTransformLeft.[13]SpectogramCube 1.[0]Quad",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0.5
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 116,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[0]SpectogramTransformLeft.[14]SpectogramCube 1",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 116,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]Quad",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[0]SpectogramTransformLeft.[14]SpectogramCube 1.[0]Quad",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0.5
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 116,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]SpectogramInnerLaser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[0]SpectogramTransformLeft.[14]SpectogramCube 1.[1]SpectogramInnerLaser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 117,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[0]SpectogramTransformLeft.[15]SpectogramCube 1",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 117,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]Quad",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[0]SpectogramTransformLeft.[15]SpectogramCube 1.[0]Quad",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0.5
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 117,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]SpectogramInnerLaser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[0]SpectogramTransformLeft.[15]SpectogramCube 1.[1]SpectogramInnerLaser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 118,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[0]SpectogramTransformLeft.[16]SpectogramCube 1",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 118,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]Quad",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[0]SpectogramTransformLeft.[16]SpectogramCube 1.[0]Quad",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0.5
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 118,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]SpectogramInnerLaser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[0]SpectogramTransformLeft.[16]SpectogramCube 1.[1]SpectogramInnerLaser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 119,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[0]SpectogramTransformLeft.[17]SpectogramCube 1",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 119,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]SpectogramInnerLaser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[0]SpectogramTransformLeft.[17]SpectogramCube 1.[1]SpectogramInnerLaser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 119,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]Quad",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[0]SpectogramTransformLeft.[17]SpectogramCube 1.[0]Quad",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0.5
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 120,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[0]SpectogramTransformLeft.[18]SpectogramCube 1",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 120,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]SpectogramInnerLaser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[0]SpectogramTransformLeft.[18]SpectogramCube 1.[1]SpectogramInnerLaser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 120,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]Quad",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[0]SpectogramTransformLeft.[18]SpectogramCube 1.[0]Quad",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0.5
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 121,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[0]SpectogramTransformLeft.[19]SpectogramCube 1",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 121,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]SpectogramInnerLaser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[0]SpectogramTransformLeft.[19]SpectogramCube 1.[1]SpectogramInnerLaser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 121,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]Quad",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[0]SpectogramTransformLeft.[19]SpectogramCube 1.[0]Quad",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0.5
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 122,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[0]SpectogramTransformLeft.[20]SpectogramCube 1",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 122,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]SpectogramInnerLaser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[0]SpectogramTransformLeft.[20]SpectogramCube 1.[1]SpectogramInnerLaser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 122,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]Quad",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[0]SpectogramTransformLeft.[20]SpectogramCube 1.[0]Quad",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0.5
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 123,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[0]SpectogramTransformLeft.[21]SpectogramCube 1",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 123,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]Quad",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[0]SpectogramTransformLeft.[21]SpectogramCube 1.[0]Quad",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0.5
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 123,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]SpectogramInnerLaser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[0]SpectogramTransformLeft.[21]SpectogramCube 1.[1]SpectogramInnerLaser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 124,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[0]SpectogramTransformLeft.[22]SpectogramCube 1",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 124,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]Quad",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[0]SpectogramTransformLeft.[22]SpectogramCube 1.[0]Quad",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0.5
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 124,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]SpectogramInnerLaser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[0]SpectogramTransformLeft.[22]SpectogramCube 1.[1]SpectogramInnerLaser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 125,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[0]SpectogramTransformLeft.[23]SpectogramCube 1",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 125,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]SpectogramInnerLaser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[0]SpectogramTransformLeft.[23]SpectogramCube 1.[1]SpectogramInnerLaser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 125,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]Quad",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[0]SpectogramTransformLeft.[23]SpectogramCube 1.[0]Quad",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0.5
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 126,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[0]SpectogramTransformLeft.[24]SpectogramCube 1",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 126,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]SpectogramInnerLaser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[0]SpectogramTransformLeft.[24]SpectogramCube 1.[1]SpectogramInnerLaser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 126,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]Quad",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[0]SpectogramTransformLeft.[24]SpectogramCube 1.[0]Quad",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0.5
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 127,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[0]SpectogramTransformLeft.[25]SpectogramCube 1",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 127,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]SpectogramInnerLaser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[0]SpectogramTransformLeft.[25]SpectogramCube 1.[1]SpectogramInnerLaser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 127,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]Quad",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[0]SpectogramTransformLeft.[25]SpectogramCube 1.[0]Quad",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0.5
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 128,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[0]SpectogramTransformLeft.[26]SpectogramCube 1",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 128,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]SpectogramInnerLaser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[0]SpectogramTransformLeft.[26]SpectogramCube 1.[1]SpectogramInnerLaser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 128,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]Quad",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[0]SpectogramTransformLeft.[26]SpectogramCube 1.[0]Quad",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0.5
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 129,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[0]SpectogramTransformLeft.[27]SpectogramCube 1",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 129,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]SpectogramInnerLaser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[0]SpectogramTransformLeft.[27]SpectogramCube 1.[1]SpectogramInnerLaser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 129,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]Quad",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[0]SpectogramTransformLeft.[27]SpectogramCube 1.[0]Quad",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0.5
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 130,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[1]SpectogramTransformRight.[0]SpectogramCube 1",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 130,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]SpectogramInnerLaser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[1]SpectogramTransformRight.[0]SpectogramCube 1.[1]SpectogramInnerLaser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 130,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]Quad",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[1]SpectogramTransformRight.[0]SpectogramCube 1.[0]Quad",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0.5
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 131,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[1]SpectogramTransformRight.[1]SpectogramCube 1",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 131,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]Quad",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[1]SpectogramTransformRight.[1]SpectogramCube 1.[0]Quad",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0.5
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 131,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]SpectogramInnerLaser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[1]SpectogramTransformRight.[1]SpectogramCube 1.[1]SpectogramInnerLaser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 132,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[1]SpectogramTransformRight.[2]SpectogramCube 1",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 132,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]SpectogramInnerLaser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[1]SpectogramTransformRight.[2]SpectogramCube 1.[1]SpectogramInnerLaser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 132,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]Quad",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[1]SpectogramTransformRight.[2]SpectogramCube 1.[0]Quad",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0.5
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 133,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[1]SpectogramTransformRight.[3]SpectogramCube 1",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 133,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]Quad",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[1]SpectogramTransformRight.[3]SpectogramCube 1.[0]Quad",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0.5
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 133,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]SpectogramInnerLaser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[1]SpectogramTransformRight.[3]SpectogramCube 1.[1]SpectogramInnerLaser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 134,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[1]SpectogramTransformRight.[4]SpectogramCube 1",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 134,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]Quad",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[1]SpectogramTransformRight.[4]SpectogramCube 1.[0]Quad",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0.5
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 134,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]SpectogramInnerLaser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[1]SpectogramTransformRight.[4]SpectogramCube 1.[1]SpectogramInnerLaser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 135,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[1]SpectogramTransformRight.[5]SpectogramCube 1",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 135,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]SpectogramInnerLaser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[1]SpectogramTransformRight.[5]SpectogramCube 1.[1]SpectogramInnerLaser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 135,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]Quad",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[1]SpectogramTransformRight.[5]SpectogramCube 1.[0]Quad",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0.5
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 136,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[1]SpectogramTransformRight.[6]SpectogramCube 1",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 136,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]Quad",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[1]SpectogramTransformRight.[6]SpectogramCube 1.[0]Quad",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0.5
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 136,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]SpectogramInnerLaser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[1]SpectogramTransformRight.[6]SpectogramCube 1.[1]SpectogramInnerLaser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 137,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[1]SpectogramTransformRight.[7]SpectogramCube 1",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 137,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]Quad",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[1]SpectogramTransformRight.[7]SpectogramCube 1.[0]Quad",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0.5
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 137,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]SpectogramInnerLaser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[1]SpectogramTransformRight.[7]SpectogramCube 1.[1]SpectogramInnerLaser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 138,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[1]SpectogramTransformRight.[8]SpectogramCube 1",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 138,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]SpectogramInnerLaser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[1]SpectogramTransformRight.[8]SpectogramCube 1.[1]SpectogramInnerLaser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 138,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]Quad",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[1]SpectogramTransformRight.[8]SpectogramCube 1.[0]Quad",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0.5
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 139,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[1]SpectogramTransformRight.[9]SpectogramCube 1",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 139,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]Quad",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[1]SpectogramTransformRight.[9]SpectogramCube 1.[0]Quad",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0.5
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 139,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]SpectogramInnerLaser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[1]SpectogramTransformRight.[9]SpectogramCube 1.[1]SpectogramInnerLaser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 140,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[1]SpectogramTransformRight.[10]SpectogramCube 1",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 140,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]Quad",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[1]SpectogramTransformRight.[10]SpectogramCube 1.[0]Quad",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0.5
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 140,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]SpectogramInnerLaser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[1]SpectogramTransformRight.[10]SpectogramCube 1.[1]SpectogramInnerLaser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 141,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[1]SpectogramTransformRight.[11]SpectogramCube 1",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 141,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]SpectogramInnerLaser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[1]SpectogramTransformRight.[11]SpectogramCube 1.[1]SpectogramInnerLaser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 141,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]Quad",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[1]SpectogramTransformRight.[11]SpectogramCube 1.[0]Quad",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0.5
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 142,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[1]SpectogramTransformRight.[12]SpectogramCube 1",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 142,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]Quad",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[1]SpectogramTransformRight.[12]SpectogramCube 1.[0]Quad",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0.5
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 142,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]SpectogramInnerLaser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[1]SpectogramTransformRight.[12]SpectogramCube 1.[1]SpectogramInnerLaser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 143,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[1]SpectogramTransformRight.[13]SpectogramCube 1",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 143,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]Quad",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[1]SpectogramTransformRight.[13]SpectogramCube 1.[0]Quad",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0.5
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 143,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]SpectogramInnerLaser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[1]SpectogramTransformRight.[13]SpectogramCube 1.[1]SpectogramInnerLaser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 144,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[1]SpectogramTransformRight.[14]SpectogramCube 1",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 144,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]SpectogramInnerLaser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[1]SpectogramTransformRight.[14]SpectogramCube 1.[1]SpectogramInnerLaser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 144,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]Quad",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[1]SpectogramTransformRight.[14]SpectogramCube 1.[0]Quad",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0.5
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 145,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[1]SpectogramTransformRight.[15]SpectogramCube 1",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 145,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]SpectogramInnerLaser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[1]SpectogramTransformRight.[15]SpectogramCube 1.[1]SpectogramInnerLaser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 145,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]Quad",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[1]SpectogramTransformRight.[15]SpectogramCube 1.[0]Quad",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0.5
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 146,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[1]SpectogramTransformRight.[16]SpectogramCube 1",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 146,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]SpectogramInnerLaser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[1]SpectogramTransformRight.[16]SpectogramCube 1.[1]SpectogramInnerLaser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 146,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]Quad",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[1]SpectogramTransformRight.[16]SpectogramCube 1.[0]Quad",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0.5
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 147,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[1]SpectogramTransformRight.[17]SpectogramCube 1",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 147,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]Quad",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[1]SpectogramTransformRight.[17]SpectogramCube 1.[0]Quad",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0.5
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 147,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]SpectogramInnerLaser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[1]SpectogramTransformRight.[17]SpectogramCube 1.[1]SpectogramInnerLaser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 148,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[1]SpectogramTransformRight.[18]SpectogramCube 1",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 148,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]Quad",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[1]SpectogramTransformRight.[18]SpectogramCube 1.[0]Quad",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0.5
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 148,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]SpectogramInnerLaser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[1]SpectogramTransformRight.[18]SpectogramCube 1.[1]SpectogramInnerLaser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 149,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[1]SpectogramTransformRight.[19]SpectogramCube 1",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 149,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]Quad",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[1]SpectogramTransformRight.[19]SpectogramCube 1.[0]Quad",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0.5
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 149,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]SpectogramInnerLaser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[1]SpectogramTransformRight.[19]SpectogramCube 1.[1]SpectogramInnerLaser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 150,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[1]SpectogramTransformRight.[20]SpectogramCube 1",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 150,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]Quad",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[1]SpectogramTransformRight.[20]SpectogramCube 1.[0]Quad",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0.5
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 150,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]SpectogramInnerLaser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[1]SpectogramTransformRight.[20]SpectogramCube 1.[1]SpectogramInnerLaser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 151,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[1]SpectogramTransformRight.[21]SpectogramCube 1",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 151,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]SpectogramInnerLaser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[1]SpectogramTransformRight.[21]SpectogramCube 1.[1]SpectogramInnerLaser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 151,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]Quad",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[1]SpectogramTransformRight.[21]SpectogramCube 1.[0]Quad",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0.5
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 152,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[1]SpectogramTransformRight.[22]SpectogramCube 1",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 152,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]SpectogramInnerLaser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[1]SpectogramTransformRight.[22]SpectogramCube 1.[1]SpectogramInnerLaser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 152,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]Quad",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[1]SpectogramTransformRight.[22]SpectogramCube 1.[0]Quad",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0.5
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 153,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[1]SpectogramTransformRight.[23]SpectogramCube 1",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 153,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]Quad",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[1]SpectogramTransformRight.[23]SpectogramCube 1.[0]Quad",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0.5
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 153,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]SpectogramInnerLaser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[1]SpectogramTransformRight.[23]SpectogramCube 1.[1]SpectogramInnerLaser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 154,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[1]SpectogramTransformRight.[24]SpectogramCube 1",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 154,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]Quad",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[1]SpectogramTransformRight.[24]SpectogramCube 1.[0]Quad",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0.5
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 154,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]SpectogramInnerLaser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[1]SpectogramTransformRight.[24]SpectogramCube 1.[1]SpectogramInnerLaser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 155,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[1]SpectogramTransformRight.[25]SpectogramCube 1",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 155,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]Quad",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[1]SpectogramTransformRight.[25]SpectogramCube 1.[0]Quad",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0.5
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 155,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]SpectogramInnerLaser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[1]SpectogramTransformRight.[25]SpectogramCube 1.[1]SpectogramInnerLaser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 156,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[1]SpectogramTransformRight.[26]SpectogramCube 1",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 156,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]Quad",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[1]SpectogramTransformRight.[26]SpectogramCube 1.[0]Quad",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0.5
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 156,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]SpectogramInnerLaser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[1]SpectogramTransformRight.[26]SpectogramCube 1.[1]SpectogramInnerLaser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 157,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[1]SpectogramTransformRight.[27]SpectogramCube 1",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 157,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]Quad",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[1]SpectogramTransformRight.[27]SpectogramCube 1.[0]Quad",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 0.5,
+            "y": 0.5,
+            "z": 0.5
+          },
+          "sceneName": "LinkinPark2Environment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 157,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]SpectogramInnerLaser",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[24]Spectrograms.[1]SpectogramTransformRight.[27]SpectogramCube 1.[1]SpectogramInnerLaser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 158,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[26]CircularTunnel.[0]TunnelLightsWrapper.[0]SpectrogramLeft.[0]SpectrogramRight.[0]RingWrapper.[1]RingTransformXYZ.[1]TunnelSpectrogramLeft.[0]TunnelSideSpectrogramWrapper",
+      "registeredLightCount": 1,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 158,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[26]CircularTunnel.[0]TunnelLightsWrapper.[0]SpectrogramLeft.[0]SpectrogramRight.[0]RingWrapper.[1]RingTransformXYZ.[1]TunnelSpectrogramLeft.[0]TunnelSideSpectrogramWrapper",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 159,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[26]CircularTunnel.[0]TunnelLightsWrapper.[0]SpectrogramLeft.[0]SpectrogramRight.[1]RingWrapper02.[1]RingTransformXYZ.[1]TunnelSpectrogramLeft.[0]TunnelSideSpectrogramWrapper",
+      "registeredLightCount": 1,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 159,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[26]CircularTunnel.[0]TunnelLightsWrapper.[0]SpectrogramLeft.[0]SpectrogramRight.[1]RingWrapper02.[1]RingTransformXYZ.[1]TunnelSpectrogramLeft.[0]TunnelSideSpectrogramWrapper",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 160,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[26]CircularTunnel.[0]TunnelLightsWrapper.[0]SpectrogramLeft.[0]SpectrogramRight.[2]RingWrapper03.[1]RingTransformXYZ.[1]TunnelSpectrogramLeft.[0]TunnelSideSpectrogramWrapper",
+      "registeredLightCount": 1,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 160,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[26]CircularTunnel.[0]TunnelLightsWrapper.[0]SpectrogramLeft.[0]SpectrogramRight.[2]RingWrapper03.[1]RingTransformXYZ.[1]TunnelSpectrogramLeft.[0]TunnelSideSpectrogramWrapper",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 161,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[26]CircularTunnel.[0]TunnelLightsWrapper.[0]SpectrogramLeft.[0]SpectrogramRight.[3]RingWrapper04.[1]RingTransformXYZ.[1]TunnelSpectrogramLeft.[0]TunnelSideSpectrogramWrapper",
+      "registeredLightCount": 1,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 161,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[26]CircularTunnel.[0]TunnelLightsWrapper.[0]SpectrogramLeft.[0]SpectrogramRight.[3]RingWrapper04.[1]RingTransformXYZ.[1]TunnelSpectrogramLeft.[0]TunnelSideSpectrogramWrapper",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 162,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[26]CircularTunnel.[0]TunnelLightsWrapper.[0]SpectrogramLeft.[0]SpectrogramRight.[0]RingWrapper.[1]RingTransformXYZ.[2]TunnelSpectrogramRight.[0]TunnelSideSpectrogramWrapper",
+      "registeredLightCount": 1,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 162,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[26]CircularTunnel.[0]TunnelLightsWrapper.[0]SpectrogramLeft.[0]SpectrogramRight.[0]RingWrapper.[1]RingTransformXYZ.[2]TunnelSpectrogramRight.[0]TunnelSideSpectrogramWrapper",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 163,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[26]CircularTunnel.[0]TunnelLightsWrapper.[0]SpectrogramLeft.[0]SpectrogramRight.[1]RingWrapper02.[1]RingTransformXYZ.[2]TunnelSpectrogramRight.[0]TunnelSideSpectrogramWrapper",
+      "registeredLightCount": 1,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 163,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[26]CircularTunnel.[0]TunnelLightsWrapper.[0]SpectrogramLeft.[0]SpectrogramRight.[1]RingWrapper02.[1]RingTransformXYZ.[2]TunnelSpectrogramRight.[0]TunnelSideSpectrogramWrapper",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 164,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[26]CircularTunnel.[0]TunnelLightsWrapper.[0]SpectrogramLeft.[0]SpectrogramRight.[2]RingWrapper03.[1]RingTransformXYZ.[2]TunnelSpectrogramRight.[0]TunnelSideSpectrogramWrapper",
+      "registeredLightCount": 1,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 164,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[26]CircularTunnel.[0]TunnelLightsWrapper.[0]SpectrogramLeft.[0]SpectrogramRight.[2]RingWrapper03.[1]RingTransformXYZ.[2]TunnelSpectrogramRight.[0]TunnelSideSpectrogramWrapper",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 165,
+      "commonGameObjectPath": "LinkinPark2Environment.[0]Environment.[26]CircularTunnel.[0]TunnelLightsWrapper.[0]SpectrogramLeft.[0]SpectrogramRight.[3]RingWrapper04.[1]RingTransformXYZ.[2]TunnelSpectrogramRight.[0]TunnelSideSpectrogramWrapper",
+      "registeredLightCount": 1,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 165,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "LinkinPark2Environment.[0]Environment.[26]CircularTunnel.[0]TunnelLightsWrapper.[0]SpectrogramLeft.[0]SpectrogramRight.[3]RingWrapper04.[1]RingTransformXYZ.[2]TunnelSpectrogramRight.[0]TunnelSideSpectrogramWrapper",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "LinkinPark2Environment"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,652 @@
+{
+  "formatVersion": 4,
+  "environmentName": "BTSEnvironment",
+  "gameVersion": "1.44.1_20239",
+  "lightManagerPath": "BTSEnvironment.[0]Environment.[28]LightWithIdManager",
+  "initialRegisteredLightCount": 1,
+  "totalRegisteredLightCount": 30,
+  "lightIdSlots": [
+    {
+      "beatSaberLightId": 0,
+      "commonGameObjectPath": "BTSEnvironment.[0]Environment.[30]CoreLighting.[4]DirectionalLight",
+      "registeredLightCount": 1,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 0,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BTSEnvironment.[0]Environment.[30]CoreLighting.[4]DirectionalLight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 0,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BTSEnvironment",
+          "intensity": 1.0,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 1,
+      "commonGameObjectPath": "BTSEnvironment.[0]Environment",
+      "registeredLightCount": 5,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[30]CoreLighting.[3]DirectionalLight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BTSEnvironment.[0]Environment.[30]CoreLighting.[3]DirectionalLight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 0,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BTSEnvironment",
+          "intensity": 0.7,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[45]BSBakedLightingLightWithIds",
+          "componentType": "LightmapLightsWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BTSEnvironment.[0]Environment.[45]BSBakedLightingLightWithIds",
+          "ownerComponentType": "LightmapLightsWithIds",
+          "indexWithinOwner": 0,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BTSEnvironment",
+          "intensity": 1.0,
+          "bakeId": 1,
+          "weight": 0.1
+        },
+        {
+          "indexWithinLightIdList": 6,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[30]CoreLighting.[5]DirectionalLight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BTSEnvironment.[0]Environment.[30]CoreLighting.[5]DirectionalLight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 0,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BTSEnvironment",
+          "intensity": 0.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 7,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[30]CoreLighting.[2]LightWrapper1.[0]DirectionalLight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BTSEnvironment.[0]Environment.[30]CoreLighting.[2]LightWrapper1.[0]DirectionalLight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 0,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BTSEnvironment",
+          "intensity": 0.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 8,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[30]CoreLighting.[1]LightWrapper0.[0]DirectionalLight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BTSEnvironment.[0]Environment.[30]CoreLighting.[1]LightWrapper0.[0]DirectionalLight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 0,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BTSEnvironment",
+          "intensity": 0.0,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 2,
+      "commonGameObjectPath": "BTSEnvironment.[0]Environment",
+      "registeredLightCount": 6,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 7,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "[30]CoreLighting.[3]DirectionalLight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BTSEnvironment.[0]Environment.[30]CoreLighting.[3]DirectionalLight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 1,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BTSEnvironment",
+          "intensity": 0.5,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 12,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "[45]BSBakedLightingLightWithIds",
+          "componentType": "LightmapLightsWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BTSEnvironment.[0]Environment.[45]BSBakedLightingLightWithIds",
+          "ownerComponentType": "LightmapLightsWithIds",
+          "indexWithinOwner": 1,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BTSEnvironment",
+          "intensity": 1.0,
+          "bakeId": 2,
+          "weight": 0.1
+        },
+        {
+          "indexWithinLightIdList": 14,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "[30]CoreLighting.[4]DirectionalLight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BTSEnvironment.[0]Environment.[30]CoreLighting.[4]DirectionalLight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 1,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BTSEnvironment",
+          "intensity": 1.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 19,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "[30]CoreLighting.[5]DirectionalLight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BTSEnvironment.[0]Environment.[30]CoreLighting.[5]DirectionalLight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 1,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BTSEnvironment",
+          "intensity": 0.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 20,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "[30]CoreLighting.[2]LightWrapper1.[0]DirectionalLight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BTSEnvironment.[0]Environment.[30]CoreLighting.[2]LightWrapper1.[0]DirectionalLight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 1,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BTSEnvironment",
+          "intensity": 0.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 21,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "[30]CoreLighting.[1]LightWrapper0.[0]DirectionalLight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BTSEnvironment.[0]Environment.[30]CoreLighting.[1]LightWrapper0.[0]DirectionalLight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 1,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BTSEnvironment",
+          "intensity": 0.0,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 3,
+      "commonGameObjectPath": "BTSEnvironment.[0]Environment",
+      "registeredLightCount": 6,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 9,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[30]CoreLighting.[3]DirectionalLight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BTSEnvironment.[0]Environment.[30]CoreLighting.[3]DirectionalLight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 2,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BTSEnvironment",
+          "intensity": 0.5,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 10,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[45]BSBakedLightingLightWithIds",
+          "componentType": "LightmapLightsWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BTSEnvironment.[0]Environment.[45]BSBakedLightingLightWithIds",
+          "ownerComponentType": "LightmapLightsWithIds",
+          "indexWithinOwner": 2,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BTSEnvironment",
+          "intensity": 1.0,
+          "bakeId": 3,
+          "weight": 0.1
+        },
+        {
+          "indexWithinLightIdList": 12,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[30]CoreLighting.[4]DirectionalLight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BTSEnvironment.[0]Environment.[30]CoreLighting.[4]DirectionalLight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 2,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BTSEnvironment",
+          "intensity": 0.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 30,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[30]CoreLighting.[5]DirectionalLight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BTSEnvironment.[0]Environment.[30]CoreLighting.[5]DirectionalLight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 2,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BTSEnvironment",
+          "intensity": 0.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 31,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[30]CoreLighting.[2]LightWrapper1.[0]DirectionalLight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BTSEnvironment.[0]Environment.[30]CoreLighting.[2]LightWrapper1.[0]DirectionalLight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 2,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BTSEnvironment",
+          "intensity": 0.7,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 32,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[30]CoreLighting.[1]LightWrapper0.[0]DirectionalLight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BTSEnvironment.[0]Environment.[30]CoreLighting.[1]LightWrapper0.[0]DirectionalLight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 2,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BTSEnvironment",
+          "intensity": 1.0,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 4,
+      "commonGameObjectPath": "BTSEnvironment.[0]Environment",
+      "registeredLightCount": 6,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 4,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[30]CoreLighting.[3]DirectionalLight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BTSEnvironment.[0]Environment.[30]CoreLighting.[3]DirectionalLight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 3,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BTSEnvironment",
+          "intensity": 0.5,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 10,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[45]BSBakedLightingLightWithIds",
+          "componentType": "LightmapLightsWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BTSEnvironment.[0]Environment.[45]BSBakedLightingLightWithIds",
+          "ownerComponentType": "LightmapLightsWithIds",
+          "indexWithinOwner": 3,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BTSEnvironment",
+          "intensity": 1.0,
+          "bakeId": 4,
+          "weight": 0.1
+        },
+        {
+          "indexWithinLightIdList": 15,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[30]CoreLighting.[4]DirectionalLight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BTSEnvironment.[0]Environment.[30]CoreLighting.[4]DirectionalLight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 3,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BTSEnvironment",
+          "intensity": 0.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 30,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[30]CoreLighting.[5]DirectionalLight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BTSEnvironment.[0]Environment.[30]CoreLighting.[5]DirectionalLight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 3,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BTSEnvironment",
+          "intensity": 0.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 31,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[30]CoreLighting.[2]LightWrapper1.[0]DirectionalLight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BTSEnvironment.[0]Environment.[30]CoreLighting.[2]LightWrapper1.[0]DirectionalLight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 3,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BTSEnvironment",
+          "intensity": 1.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 32,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[30]CoreLighting.[1]LightWrapper0.[0]DirectionalLight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BTSEnvironment.[0]Environment.[30]CoreLighting.[1]LightWrapper0.[0]DirectionalLight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 3,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BTSEnvironment",
+          "intensity": 0.7,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 5,
+      "commonGameObjectPath": "BTSEnvironment.[0]Environment",
+      "registeredLightCount": 6,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[30]CoreLighting.[3]DirectionalLight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BTSEnvironment.[0]Environment.[30]CoreLighting.[3]DirectionalLight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 4,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BTSEnvironment",
+          "intensity": 0.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[45]BSBakedLightingLightWithIds",
+          "componentType": "LightmapLightsWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BTSEnvironment.[0]Environment.[45]BSBakedLightingLightWithIds",
+          "ownerComponentType": "LightmapLightsWithIds",
+          "indexWithinOwner": 4,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BTSEnvironment",
+          "intensity": 1.0,
+          "bakeId": 5,
+          "weight": 0.1
+        },
+        {
+          "indexWithinLightIdList": 4,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[30]CoreLighting.[4]DirectionalLight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BTSEnvironment.[0]Environment.[30]CoreLighting.[4]DirectionalLight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 4,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BTSEnvironment",
+          "intensity": 0.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 5,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[30]CoreLighting.[5]DirectionalLight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BTSEnvironment.[0]Environment.[30]CoreLighting.[5]DirectionalLight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 4,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BTSEnvironment",
+          "intensity": 1.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 6,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[30]CoreLighting.[2]LightWrapper1.[0]DirectionalLight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BTSEnvironment.[0]Environment.[30]CoreLighting.[2]LightWrapper1.[0]DirectionalLight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 4,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BTSEnvironment",
+          "intensity": 0.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 7,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[30]CoreLighting.[1]LightWrapper0.[0]DirectionalLight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BTSEnvironment.[0]Environment.[30]CoreLighting.[1]LightWrapper0.[0]DirectionalLight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 4,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BTSEnvironment",
+          "intensity": 0.0,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    }
+  ]
+}

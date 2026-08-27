@@ -1,0 +1,578 @@
+{
+  "formatVersion": 4,
+  "environmentName": "GreenDayGrenadeEnvironment",
+  "gameVersion": "1.40.8_7379",
+  "lightManagerPath": "GreenDayGrenadeEnvironment.[0]Environment.[14]LightWithIdManager",
+  "initialRegisteredLightCount": 1,
+  "totalRegisteredLightCount": 36,
+  "lightIdSlots": [
+    {
+      "beatSaberLightId": 1,
+      "commonGameObjectPath": "GreenDayGrenadeEnvironment.[0]Environment",
+      "registeredLightCount": 16,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 6,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[19]GlowLineL (2)",
+          "gameObjectPath": "GreenDayGrenadeEnvironment.[0]Environment.[19]GlowLineL (2)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GreenDayGrenadeEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 7,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[31]GlowLineL (21)",
+          "gameObjectPath": "GreenDayGrenadeEnvironment.[0]Environment.[31]GlowLineL (21)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GreenDayGrenadeEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 8,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[30]GlowLineL (20)",
+          "gameObjectPath": "GreenDayGrenadeEnvironment.[0]Environment.[30]GlowLineL (20)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GreenDayGrenadeEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 9,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[26]GlowLineL (16)",
+          "gameObjectPath": "GreenDayGrenadeEnvironment.[0]Environment.[26]GlowLineL (16)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GreenDayGrenadeEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 10,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[21]GlowLineL (13)",
+          "gameObjectPath": "GreenDayGrenadeEnvironment.[0]Environment.[21]GlowLineL (13)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GreenDayGrenadeEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 11,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[20]GlowLineL (4)",
+          "gameObjectPath": "GreenDayGrenadeEnvironment.[0]Environment.[20]GlowLineL (4)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GreenDayGrenadeEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 12,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[32]GlowLineL (22)",
+          "gameObjectPath": "GreenDayGrenadeEnvironment.[0]Environment.[32]GlowLineL (22)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GreenDayGrenadeEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 13,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[23]GlowLineL (7)",
+          "gameObjectPath": "GreenDayGrenadeEnvironment.[0]Environment.[23]GlowLineL (7)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GreenDayGrenadeEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 14,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[34]GlowLineL (24)",
+          "gameObjectPath": "GreenDayGrenadeEnvironment.[0]Environment.[34]GlowLineL (24)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GreenDayGrenadeEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 15,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[24]GlowLineL (8)",
+          "gameObjectPath": "GreenDayGrenadeEnvironment.[0]Environment.[24]GlowLineL (8)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GreenDayGrenadeEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 16,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[29]GlowLineL (19)",
+          "gameObjectPath": "GreenDayGrenadeEnvironment.[0]Environment.[29]GlowLineL (19)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GreenDayGrenadeEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 17,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[27]GlowLineL (17)",
+          "gameObjectPath": "GreenDayGrenadeEnvironment.[0]Environment.[27]GlowLineL (17)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GreenDayGrenadeEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 18,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[28]GlowLineL (18)",
+          "gameObjectPath": "GreenDayGrenadeEnvironment.[0]Environment.[28]GlowLineL (18)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GreenDayGrenadeEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 19,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[33]GlowLineL (23)",
+          "gameObjectPath": "GreenDayGrenadeEnvironment.[0]Environment.[33]GlowLineL (23)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GreenDayGrenadeEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 20,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[22]GlowLineL (14)",
+          "gameObjectPath": "GreenDayGrenadeEnvironment.[0]Environment.[22]GlowLineL (14)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GreenDayGrenadeEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 21,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[25]GlowLineL (15)",
+          "gameObjectPath": "GreenDayGrenadeEnvironment.[0]Environment.[25]GlowLineL (15)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GreenDayGrenadeEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 3,
+      "commonGameObjectPath": "GreenDayGrenadeEnvironment.[0]Environment",
+      "registeredLightCount": 6,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[36]RotatingLasersPair (1).[0]BaseL.[0]Laser",
+          "gameObjectPath": "GreenDayGrenadeEnvironment.[0]Environment.[36]RotatingLasersPair (1).[0]BaseL.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GreenDayGrenadeEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[39]RotatingLasersPair (4).[0]BaseL.[0]Laser",
+          "gameObjectPath": "GreenDayGrenadeEnvironment.[0]Environment.[39]RotatingLasersPair (4).[0]BaseL.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GreenDayGrenadeEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 4,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[38]RotatingLasersPair (3).[0]BaseL.[0]Laser",
+          "gameObjectPath": "GreenDayGrenadeEnvironment.[0]Environment.[38]RotatingLasersPair (3).[0]BaseL.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GreenDayGrenadeEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 5,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[40]RotatingLasersPair (5).[0]BaseL.[0]Laser",
+          "gameObjectPath": "GreenDayGrenadeEnvironment.[0]Environment.[40]RotatingLasersPair (5).[0]BaseL.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GreenDayGrenadeEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 6,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[35]RotatingLasersPair.[0]BaseL.[0]Laser",
+          "gameObjectPath": "GreenDayGrenadeEnvironment.[0]Environment.[35]RotatingLasersPair.[0]BaseL.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GreenDayGrenadeEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 7,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[37]RotatingLasersPair (2).[0]BaseL.[0]Laser",
+          "gameObjectPath": "GreenDayGrenadeEnvironment.[0]Environment.[37]RotatingLasersPair (2).[0]BaseL.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GreenDayGrenadeEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 4,
+      "commonGameObjectPath": "GreenDayGrenadeEnvironment.[0]Environment",
+      "registeredLightCount": 6,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[36]RotatingLasersPair (1).[1]BaseR.[0]Laser",
+          "gameObjectPath": "GreenDayGrenadeEnvironment.[0]Environment.[36]RotatingLasersPair (1).[1]BaseR.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GreenDayGrenadeEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[39]RotatingLasersPair (4).[1]BaseR.[0]Laser",
+          "gameObjectPath": "GreenDayGrenadeEnvironment.[0]Environment.[39]RotatingLasersPair (4).[1]BaseR.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GreenDayGrenadeEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 4,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[38]RotatingLasersPair (3).[1]BaseR.[0]Laser",
+          "gameObjectPath": "GreenDayGrenadeEnvironment.[0]Environment.[38]RotatingLasersPair (3).[1]BaseR.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GreenDayGrenadeEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 5,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[40]RotatingLasersPair (5).[1]BaseR.[0]Laser",
+          "gameObjectPath": "GreenDayGrenadeEnvironment.[0]Environment.[40]RotatingLasersPair (5).[1]BaseR.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GreenDayGrenadeEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 6,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[35]RotatingLasersPair.[1]BaseR.[0]Laser",
+          "gameObjectPath": "GreenDayGrenadeEnvironment.[0]Environment.[35]RotatingLasersPair.[1]BaseR.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GreenDayGrenadeEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 7,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[37]RotatingLasersPair (2).[1]BaseR.[0]Laser",
+          "gameObjectPath": "GreenDayGrenadeEnvironment.[0]Environment.[37]RotatingLasersPair (2).[1]BaseR.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GreenDayGrenadeEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 5,
+      "commonGameObjectPath": "GreenDayGrenadeEnvironment.[0]Environment",
+      "registeredLightCount": 8,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[3]PlayersPlace.[1]Feet",
+          "gameObjectPath": "GreenDayGrenadeEnvironment.[0]Environment.[3]PlayersPlace.[1]Feet",
+          "componentType": "SpriteLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.00000048,
+            "z": 1.00000048
+          },
+          "sceneName": "GreenDayGrenadeEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[3]PlayersPlace.[3]RectangleFakeGlow",
+          "gameObjectPath": "GreenDayGrenadeEnvironment.[0]Environment.[3]PlayersPlace.[3]RectangleFakeGlow",
+          "componentType": "RectangleFakeGlowLightWithId",
+          "localScale": {
+            "x": 1.495,
+            "y": 0.995,
+            "z": 1.0
+          },
+          "sceneName": "GreenDayGrenadeEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 4,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[16]FrontLight",
+          "gameObjectPath": "GreenDayGrenadeEnvironment.[0]Environment.[16]FrontLight",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GreenDayGrenadeEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 5,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[42]GreenDayCity.[2]ArmHeartLighting",
+          "gameObjectPath": "GreenDayGrenadeEnvironment.[0]Environment.[42]GreenDayCity.[2]ArmHeartLighting",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 0.005,
+            "y": 0.005,
+            "z": 0.005
+          },
+          "sceneName": "GreenDayGrenadeEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 6,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[8]Logo",
+          "gameObjectPath": "GreenDayGrenadeEnvironment.[0]Environment.[8]Logo",
+          "componentType": "SpriteLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GreenDayGrenadeEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 8,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[42]GreenDayCity.[1]ArmHeartBloodLighting",
+          "gameObjectPath": "GreenDayGrenadeEnvironment.[0]Environment.[42]GreenDayCity.[1]ArmHeartBloodLighting",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 0.005,
+            "y": 0.005,
+            "z": 0.005
+          },
+          "sceneName": "GreenDayGrenadeEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 12,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[18]GlowLineL",
+          "gameObjectPath": "GreenDayGrenadeEnvironment.[0]Environment.[18]GlowLineL",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GreenDayGrenadeEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 13,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[17]GlowLineR",
+          "gameObjectPath": "GreenDayGrenadeEnvironment.[0]Environment.[17]GlowLineR",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GreenDayGrenadeEnvironment"
+        }
+      ]
+    }
+  ]
+}

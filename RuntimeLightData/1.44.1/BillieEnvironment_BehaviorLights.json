@@ -1,0 +1,1018 @@
+{
+  "formatVersion": 4,
+  "environmentName": "BillieEnvironment",
+  "gameVersion": "1.44.1_20239",
+  "lightManagerPath": "BillieEnvironment.[0]Environment.[9]LightWithIdManager",
+  "initialRegisteredLightCount": 1,
+  "totalRegisteredLightCount": 63,
+  "lightIdSlots": [
+    {
+      "beatSaberLightId": 1,
+      "commonGameObjectPath": "BillieEnvironment.[0]Environment.[34]LightRailingSegment (3)",
+      "registeredLightCount": 4,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 5,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[2]NeonTubeDirectionalR",
+          "gameObjectPath": "BillieEnvironment.[0]Environment.[34]LightRailingSegment (3).[2]NeonTubeDirectionalR",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BillieEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 9,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[1]NeonTubeDirectionalL",
+          "gameObjectPath": "BillieEnvironment.[0]Environment.[34]LightRailingSegment (3).[1]NeonTubeDirectionalL",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BillieEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 10,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[3]NeonTubeDirectionalL (1)",
+          "gameObjectPath": "BillieEnvironment.[0]Environment.[34]LightRailingSegment (3).[3]NeonTubeDirectionalL (1)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BillieEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 16,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[4]NeonTubeDirectionalR (1)",
+          "gameObjectPath": "BillieEnvironment.[0]Environment.[34]LightRailingSegment (3).[4]NeonTubeDirectionalR (1)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BillieEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 2,
+      "commonGameObjectPath": "BillieEnvironment.[0]Environment.[31]LightRailingSegment",
+      "registeredLightCount": 4,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 5,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "[2]NeonTubeDirectionalR",
+          "gameObjectPath": "BillieEnvironment.[0]Environment.[31]LightRailingSegment.[2]NeonTubeDirectionalR",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BillieEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 9,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "[1]NeonTubeDirectionalL",
+          "gameObjectPath": "BillieEnvironment.[0]Environment.[31]LightRailingSegment.[1]NeonTubeDirectionalL",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BillieEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 10,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "[3]NeonTubeDirectionalL (1)",
+          "gameObjectPath": "BillieEnvironment.[0]Environment.[31]LightRailingSegment.[3]NeonTubeDirectionalL (1)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BillieEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 16,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "[4]NeonTubeDirectionalR (1)",
+          "gameObjectPath": "BillieEnvironment.[0]Environment.[31]LightRailingSegment.[4]NeonTubeDirectionalR (1)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BillieEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 3,
+      "commonGameObjectPath": "BillieEnvironment.[0]Environment.[32]LightRailingSegment (1)",
+      "registeredLightCount": 4,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 5,
+          "componentLightId": 3,
+          "type": 6,
+          "typeName": "Event6",
+          "relativeGameObjectPath": "[2]NeonTubeDirectionalR",
+          "gameObjectPath": "BillieEnvironment.[0]Environment.[32]LightRailingSegment (1).[2]NeonTubeDirectionalR",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BillieEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 9,
+          "componentLightId": 3,
+          "type": 6,
+          "typeName": "Event6",
+          "relativeGameObjectPath": "[1]NeonTubeDirectionalL",
+          "gameObjectPath": "BillieEnvironment.[0]Environment.[32]LightRailingSegment (1).[1]NeonTubeDirectionalL",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BillieEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 10,
+          "componentLightId": 3,
+          "type": 6,
+          "typeName": "Event6",
+          "relativeGameObjectPath": "[3]NeonTubeDirectionalL (1)",
+          "gameObjectPath": "BillieEnvironment.[0]Environment.[32]LightRailingSegment (1).[3]NeonTubeDirectionalL (1)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BillieEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 16,
+          "componentLightId": 3,
+          "type": 6,
+          "typeName": "Event6",
+          "relativeGameObjectPath": "[4]NeonTubeDirectionalR (1)",
+          "gameObjectPath": "BillieEnvironment.[0]Environment.[32]LightRailingSegment (1).[4]NeonTubeDirectionalR (1)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BillieEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 4,
+      "commonGameObjectPath": "BillieEnvironment.[0]Environment.[33]LightRailingSegment (2)",
+      "registeredLightCount": 4,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 5,
+          "componentLightId": 4,
+          "type": 7,
+          "typeName": "Event7",
+          "relativeGameObjectPath": "[2]NeonTubeDirectionalR",
+          "gameObjectPath": "BillieEnvironment.[0]Environment.[33]LightRailingSegment (2).[2]NeonTubeDirectionalR",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BillieEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 9,
+          "componentLightId": 4,
+          "type": 7,
+          "typeName": "Event7",
+          "relativeGameObjectPath": "[1]NeonTubeDirectionalL",
+          "gameObjectPath": "BillieEnvironment.[0]Environment.[33]LightRailingSegment (2).[1]NeonTubeDirectionalL",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BillieEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 10,
+          "componentLightId": 4,
+          "type": 7,
+          "typeName": "Event7",
+          "relativeGameObjectPath": "[3]NeonTubeDirectionalL (1)",
+          "gameObjectPath": "BillieEnvironment.[0]Environment.[33]LightRailingSegment (2).[3]NeonTubeDirectionalL (1)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BillieEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 16,
+          "componentLightId": 4,
+          "type": 7,
+          "typeName": "Event7",
+          "relativeGameObjectPath": "[4]NeonTubeDirectionalR (1)",
+          "gameObjectPath": "BillieEnvironment.[0]Environment.[33]LightRailingSegment (2).[4]NeonTubeDirectionalR (1)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BillieEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 5,
+      "commonGameObjectPath": "BillieEnvironment.[0]Environment",
+      "registeredLightCount": 7,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[13]PlayersPlace.[1]Feet",
+          "gameObjectPath": "BillieEnvironment.[0]Environment.[13]PlayersPlace.[1]Feet",
+          "componentType": "SpriteLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.00000048,
+            "z": 1.00000048
+          },
+          "sceneName": "BillieEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[13]PlayersPlace.[3]RectangleFakeGlow",
+          "gameObjectPath": "BillieEnvironment.[0]Environment.[13]PlayersPlace.[3]RectangleFakeGlow",
+          "componentType": "RectangleFakeGlowLightWithId",
+          "localScale": {
+            "x": 1.495,
+            "y": 0.995,
+            "z": 1.0
+          },
+          "sceneName": "BillieEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 4,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[27]DayAndNight.[0]Day.[0]Sun",
+          "gameObjectPath": "BillieEnvironment.[0]Environment.[27]DayAndNight.[0]Day.[0]Sun",
+          "componentType": "SpriteLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BillieEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 8,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[27]DayAndNight.[0]Day.[0]Sun.[1]NeonTube (2)",
+          "gameObjectPath": "BillieEnvironment.[0]Environment.[27]DayAndNight.[0]Day.[0]Sun.[1]NeonTube (2)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BillieEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 12,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[27]DayAndNight.[0]Day.[0]Sun.[0]NeonTube (3)",
+          "gameObjectPath": "BillieEnvironment.[0]Environment.[27]DayAndNight.[0]Day.[0]Sun.[0]NeonTube (3)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BillieEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 13,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[27]DayAndNight.[0]Day.[0]Sun.[3]NeonTube",
+          "gameObjectPath": "BillieEnvironment.[0]Environment.[27]DayAndNight.[0]Day.[0]Sun.[3]NeonTube",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BillieEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 19,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[27]DayAndNight.[0]Day.[0]Sun.[2]NeonTube (1)",
+          "gameObjectPath": "BillieEnvironment.[0]Environment.[27]DayAndNight.[0]Day.[0]Sun.[2]NeonTube (1)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BillieEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 6,
+      "commonGameObjectPath": "BillieEnvironment.[0]Environment",
+      "registeredLightCount": 11,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 6,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[45]TunnelRotatingLasersPair (14).[0]BaseL.[0]Laser",
+          "gameObjectPath": "BillieEnvironment.[0]Environment.[45]TunnelRotatingLasersPair (14).[0]BaseL.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BillieEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 6,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[35]TunnelRotatingLasersPair (4).[0]BaseL.[0]Laser",
+          "gameObjectPath": "BillieEnvironment.[0]Environment.[35]TunnelRotatingLasersPair (4).[0]BaseL.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BillieEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 6,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[41]TunnelRotatingLasersPair (10).[0]BaseL.[0]Laser",
+          "gameObjectPath": "BillieEnvironment.[0]Environment.[41]TunnelRotatingLasersPair (10).[0]BaseL.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BillieEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 4,
+          "componentLightId": 6,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[42]TunnelRotatingLasersPair (11).[0]BaseL.[0]Laser",
+          "gameObjectPath": "BillieEnvironment.[0]Environment.[42]TunnelRotatingLasersPair (11).[0]BaseL.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BillieEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 5,
+          "componentLightId": 6,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[39]TunnelRotatingLasersPair (8).[0]BaseL.[0]Laser",
+          "gameObjectPath": "BillieEnvironment.[0]Environment.[39]TunnelRotatingLasersPair (8).[0]BaseL.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BillieEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 6,
+          "componentLightId": 6,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[36]TunnelRotatingLasersPair (5).[0]BaseL.[0]Laser",
+          "gameObjectPath": "BillieEnvironment.[0]Environment.[36]TunnelRotatingLasersPair (5).[0]BaseL.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BillieEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 7,
+          "componentLightId": 6,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[40]TunnelRotatingLasersPair (9).[0]BaseL.[0]Laser",
+          "gameObjectPath": "BillieEnvironment.[0]Environment.[40]TunnelRotatingLasersPair (9).[0]BaseL.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BillieEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 8,
+          "componentLightId": 6,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[38]TunnelRotatingLasersPair (7).[0]BaseL.[0]Laser",
+          "gameObjectPath": "BillieEnvironment.[0]Environment.[38]TunnelRotatingLasersPair (7).[0]BaseL.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BillieEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 9,
+          "componentLightId": 6,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[43]TunnelRotatingLasersPair (12).[0]BaseL.[0]Laser",
+          "gameObjectPath": "BillieEnvironment.[0]Environment.[43]TunnelRotatingLasersPair (12).[0]BaseL.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BillieEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 10,
+          "componentLightId": 6,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[37]TunnelRotatingLasersPair (6).[0]BaseL.[0]Laser",
+          "gameObjectPath": "BillieEnvironment.[0]Environment.[37]TunnelRotatingLasersPair (6).[0]BaseL.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BillieEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 11,
+          "componentLightId": 6,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[44]TunnelRotatingLasersPair (13).[0]BaseL.[0]Laser",
+          "gameObjectPath": "BillieEnvironment.[0]Environment.[44]TunnelRotatingLasersPair (13).[0]BaseL.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BillieEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 7,
+      "commonGameObjectPath": "BillieEnvironment.[0]Environment",
+      "registeredLightCount": 11,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 7,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[42]TunnelRotatingLasersPair (11).[1]BaseR.[0]Laser",
+          "gameObjectPath": "BillieEnvironment.[0]Environment.[42]TunnelRotatingLasersPair (11).[1]BaseR.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BillieEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 7,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[35]TunnelRotatingLasersPair (4).[1]BaseR.[0]Laser",
+          "gameObjectPath": "BillieEnvironment.[0]Environment.[35]TunnelRotatingLasersPair (4).[1]BaseR.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BillieEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 7,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[41]TunnelRotatingLasersPair (10).[1]BaseR.[0]Laser",
+          "gameObjectPath": "BillieEnvironment.[0]Environment.[41]TunnelRotatingLasersPair (10).[1]BaseR.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BillieEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 7,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[45]TunnelRotatingLasersPair (14).[1]BaseR.[0]Laser",
+          "gameObjectPath": "BillieEnvironment.[0]Environment.[45]TunnelRotatingLasersPair (14).[1]BaseR.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BillieEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 4,
+          "componentLightId": 7,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[37]TunnelRotatingLasersPair (6).[1]BaseR.[0]Laser",
+          "gameObjectPath": "BillieEnvironment.[0]Environment.[37]TunnelRotatingLasersPair (6).[1]BaseR.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BillieEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 5,
+          "componentLightId": 7,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[44]TunnelRotatingLasersPair (13).[1]BaseR.[0]Laser",
+          "gameObjectPath": "BillieEnvironment.[0]Environment.[44]TunnelRotatingLasersPair (13).[1]BaseR.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BillieEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 6,
+          "componentLightId": 7,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[40]TunnelRotatingLasersPair (9).[1]BaseR.[0]Laser",
+          "gameObjectPath": "BillieEnvironment.[0]Environment.[40]TunnelRotatingLasersPair (9).[1]BaseR.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BillieEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 7,
+          "componentLightId": 7,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[38]TunnelRotatingLasersPair (7).[1]BaseR.[0]Laser",
+          "gameObjectPath": "BillieEnvironment.[0]Environment.[38]TunnelRotatingLasersPair (7).[1]BaseR.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BillieEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 8,
+          "componentLightId": 7,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[43]TunnelRotatingLasersPair (12).[1]BaseR.[0]Laser",
+          "gameObjectPath": "BillieEnvironment.[0]Environment.[43]TunnelRotatingLasersPair (12).[1]BaseR.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BillieEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 9,
+          "componentLightId": 7,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[36]TunnelRotatingLasersPair (5).[1]BaseR.[0]Laser",
+          "gameObjectPath": "BillieEnvironment.[0]Environment.[36]TunnelRotatingLasersPair (5).[1]BaseR.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BillieEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 10,
+          "componentLightId": 7,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[39]TunnelRotatingLasersPair (8).[1]BaseR.[0]Laser",
+          "gameObjectPath": "BillieEnvironment.[0]Environment.[39]TunnelRotatingLasersPair (8).[1]BaseR.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BillieEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 8,
+      "commonGameObjectPath": "BillieEnvironment.[0]Environment",
+      "registeredLightCount": 9,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 8,
+          "type": 10,
+          "typeName": "Event10",
+          "relativeGameObjectPath": "[46]BottomPairLasers.[0]PillarL.[0]RotationBaseL.[0]LaserLH",
+          "gameObjectPath": "BillieEnvironment.[0]Environment.[46]BottomPairLasers.[0]PillarL.[0]RotationBaseL.[0]LaserLH",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BillieEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 8,
+          "type": 10,
+          "typeName": "Event10",
+          "relativeGameObjectPath": "[49]BottomPairLasers (3).[0]PillarL.[0]RotationBaseL.[0]LaserLH",
+          "gameObjectPath": "BillieEnvironment.[0]Environment.[49]BottomPairLasers (3).[0]PillarL.[0]RotationBaseL.[0]LaserLH",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BillieEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 8,
+          "type": 10,
+          "typeName": "Event10",
+          "relativeGameObjectPath": "[50]BottomPairLasers (4).[0]PillarL.[0]RotationBaseL.[0]LaserLH",
+          "gameObjectPath": "BillieEnvironment.[0]Environment.[50]BottomPairLasers (4).[0]PillarL.[0]RotationBaseL.[0]LaserLH",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BillieEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 4,
+          "componentLightId": 8,
+          "type": 10,
+          "typeName": "Event10",
+          "relativeGameObjectPath": "[53]BottomPairLasers (7).[0]PillarL.[0]RotationBaseL.[0]LaserLH",
+          "gameObjectPath": "BillieEnvironment.[0]Environment.[53]BottomPairLasers (7).[0]PillarL.[0]RotationBaseL.[0]LaserLH",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BillieEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 5,
+          "componentLightId": 8,
+          "type": 10,
+          "typeName": "Event10",
+          "relativeGameObjectPath": "[48]BottomPairLasers (2).[0]PillarL.[0]RotationBaseL.[0]LaserLH",
+          "gameObjectPath": "BillieEnvironment.[0]Environment.[48]BottomPairLasers (2).[0]PillarL.[0]RotationBaseL.[0]LaserLH",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BillieEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 6,
+          "componentLightId": 8,
+          "type": 10,
+          "typeName": "Event10",
+          "relativeGameObjectPath": "[52]BottomPairLasers (6).[0]PillarL.[0]RotationBaseL.[0]LaserLH",
+          "gameObjectPath": "BillieEnvironment.[0]Environment.[52]BottomPairLasers (6).[0]PillarL.[0]RotationBaseL.[0]LaserLH",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BillieEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 7,
+          "componentLightId": 8,
+          "type": 10,
+          "typeName": "Event10",
+          "relativeGameObjectPath": "[54]BottomPairLasers (8).[0]PillarL.[0]RotationBaseL.[0]LaserLH",
+          "gameObjectPath": "BillieEnvironment.[0]Environment.[54]BottomPairLasers (8).[0]PillarL.[0]RotationBaseL.[0]LaserLH",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BillieEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 8,
+          "componentLightId": 8,
+          "type": 10,
+          "typeName": "Event10",
+          "relativeGameObjectPath": "[47]BottomPairLasers (1).[0]PillarL.[0]RotationBaseL.[0]LaserLH",
+          "gameObjectPath": "BillieEnvironment.[0]Environment.[47]BottomPairLasers (1).[0]PillarL.[0]RotationBaseL.[0]LaserLH",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BillieEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 9,
+          "componentLightId": 8,
+          "type": 10,
+          "typeName": "Event10",
+          "relativeGameObjectPath": "[51]BottomPairLasers (5).[0]PillarL.[0]RotationBaseL.[0]LaserLH",
+          "gameObjectPath": "BillieEnvironment.[0]Environment.[51]BottomPairLasers (5).[0]PillarL.[0]RotationBaseL.[0]LaserLH",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BillieEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 9,
+      "commonGameObjectPath": "BillieEnvironment.[0]Environment",
+      "registeredLightCount": 9,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 9,
+          "type": 11,
+          "typeName": "Event11",
+          "relativeGameObjectPath": "[52]BottomPairLasers (6).[1]PillarR.[0]RotationBaseR.[0]LaserRH",
+          "gameObjectPath": "BillieEnvironment.[0]Environment.[52]BottomPairLasers (6).[1]PillarR.[0]RotationBaseR.[0]LaserRH",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BillieEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 9,
+          "type": 11,
+          "typeName": "Event11",
+          "relativeGameObjectPath": "[54]BottomPairLasers (8).[1]PillarR.[0]RotationBaseR.[0]LaserRH",
+          "gameObjectPath": "BillieEnvironment.[0]Environment.[54]BottomPairLasers (8).[1]PillarR.[0]RotationBaseR.[0]LaserRH",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BillieEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 4,
+          "componentLightId": 9,
+          "type": 11,
+          "typeName": "Event11",
+          "relativeGameObjectPath": "[47]BottomPairLasers (1).[1]PillarR.[0]RotationBaseR.[0]LaserRH",
+          "gameObjectPath": "BillieEnvironment.[0]Environment.[47]BottomPairLasers (1).[1]PillarR.[0]RotationBaseR.[0]LaserRH",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BillieEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 5,
+          "componentLightId": 9,
+          "type": 11,
+          "typeName": "Event11",
+          "relativeGameObjectPath": "[51]BottomPairLasers (5).[1]PillarR.[0]RotationBaseR.[0]LaserRH",
+          "gameObjectPath": "BillieEnvironment.[0]Environment.[51]BottomPairLasers (5).[1]PillarR.[0]RotationBaseR.[0]LaserRH",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BillieEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 6,
+          "componentLightId": 9,
+          "type": 11,
+          "typeName": "Event11",
+          "relativeGameObjectPath": "[50]BottomPairLasers (4).[1]PillarR.[0]RotationBaseR.[0]LaserRH",
+          "gameObjectPath": "BillieEnvironment.[0]Environment.[50]BottomPairLasers (4).[1]PillarR.[0]RotationBaseR.[0]LaserRH",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BillieEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 7,
+          "componentLightId": 9,
+          "type": 11,
+          "typeName": "Event11",
+          "relativeGameObjectPath": "[49]BottomPairLasers (3).[1]PillarR.[0]RotationBaseR.[0]LaserRH",
+          "gameObjectPath": "BillieEnvironment.[0]Environment.[49]BottomPairLasers (3).[1]PillarR.[0]RotationBaseR.[0]LaserRH",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BillieEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 8,
+          "componentLightId": 9,
+          "type": 11,
+          "typeName": "Event11",
+          "relativeGameObjectPath": "[48]BottomPairLasers (2).[1]PillarR.[0]RotationBaseR.[0]LaserRH",
+          "gameObjectPath": "BillieEnvironment.[0]Environment.[48]BottomPairLasers (2).[1]PillarR.[0]RotationBaseR.[0]LaserRH",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BillieEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 9,
+          "componentLightId": 9,
+          "type": 11,
+          "typeName": "Event11",
+          "relativeGameObjectPath": "[53]BottomPairLasers (7).[1]PillarR.[0]RotationBaseR.[0]LaserRH",
+          "gameObjectPath": "BillieEnvironment.[0]Environment.[53]BottomPairLasers (7).[1]PillarR.[0]RotationBaseR.[0]LaserRH",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BillieEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 12,
+          "componentLightId": 9,
+          "type": 11,
+          "typeName": "Event11",
+          "relativeGameObjectPath": "[46]BottomPairLasers.[1]PillarR.[0]RotationBaseR.[0]LaserRH",
+          "gameObjectPath": "BillieEnvironment.[0]Environment.[46]BottomPairLasers.[1]PillarR.[0]RotationBaseR.[0]LaserRH",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "BillieEnvironment"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "formatVersion": 4,
+  "environmentName": "WeaveEnvironment",
+  "gameVersion": "1.34.2_7115288407",
+  "lightManagerPath": "WeaveEnvironment.[0]Environment.[13]LightWithIdManager",
+  "initialRegisteredLightCount": 1,
+  "totalRegisteredLightCount": 0,
+  "lightIdSlots": []
+}

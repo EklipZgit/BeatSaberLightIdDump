@@ -1,0 +1,750 @@
+{
+  "formatVersion": 4,
+  "environmentName": "HalloweenEnvironment",
+  "gameVersion": "1.44.2_21558",
+  "lightManagerPath": "HalloweenEnvironment.[0]Environment.[167]LightWithIdManager",
+  "initialRegisteredLightCount": 1,
+  "totalRegisteredLightCount": 47,
+  "lightIdSlots": [
+    {
+      "beatSaberLightId": 1,
+      "commonGameObjectPath": "HalloweenEnvironment.[0]Environment",
+      "registeredLightCount": 4,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[175]GlowLineL (8)",
+          "gameObjectPath": "HalloweenEnvironment.[0]Environment.[175]GlowLineL (8)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "HalloweenEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 6,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[173]GlowLineL (7)",
+          "gameObjectPath": "HalloweenEnvironment.[0]Environment.[173]GlowLineL (7)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "HalloweenEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 7,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[174]GlowLineL (6)",
+          "gameObjectPath": "HalloweenEnvironment.[0]Environment.[174]GlowLineL (6)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "HalloweenEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 8,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[176]GlowLineL (9)",
+          "gameObjectPath": "HalloweenEnvironment.[0]Environment.[176]GlowLineL (9)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "HalloweenEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 2,
+      "commonGameObjectPath": "HalloweenEnvironment.[0]Environment",
+      "registeredLightCount": 3,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 5,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "[172]Moon",
+          "gameObjectPath": "HalloweenEnvironment.[0]Environment.[172]Moon",
+          "componentType": "SpriteLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "HalloweenEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 6,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "[172]Moon.[0]NeonTube",
+          "gameObjectPath": "HalloweenEnvironment.[0]Environment.[172]Moon.[0]NeonTube",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "HalloweenEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 7,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "[177]NeonTubeC",
+          "gameObjectPath": "HalloweenEnvironment.[0]Environment.[177]NeonTubeC",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "HalloweenEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 3,
+      "commonGameObjectPath": "HalloweenEnvironment.[0]Environment",
+      "registeredLightCount": 18,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[165]NeonTubeL (1)",
+          "gameObjectPath": "HalloweenEnvironment.[0]Environment.[165]NeonTubeL (1)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "HalloweenEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[181]RotatingLasersPair (7).[0]BaseL.[0]Laser",
+          "gameObjectPath": "HalloweenEnvironment.[0]Environment.[181]RotatingLasersPair (7).[0]BaseL.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "HalloweenEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 4,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[184]RotatingLasersPair (10).[0]BaseL.[0]Laser",
+          "gameObjectPath": "HalloweenEnvironment.[0]Environment.[184]RotatingLasersPair (10).[0]BaseL.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "HalloweenEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 5,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[182]RotatingLasersPair (8).[0]BaseL.[0]Laser",
+          "gameObjectPath": "HalloweenEnvironment.[0]Environment.[182]RotatingLasersPair (8).[0]BaseL.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "HalloweenEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 6,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[185]RotatingLasersPair (11).[0]BaseL.[0]Laser",
+          "gameObjectPath": "HalloweenEnvironment.[0]Environment.[185]RotatingLasersPair (11).[0]BaseL.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "HalloweenEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 7,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[192]RotatingLasersPair (20).[0]BaseL.[0]Laser",
+          "gameObjectPath": "HalloweenEnvironment.[0]Environment.[192]RotatingLasersPair (20).[0]BaseL.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "HalloweenEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 8,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[193]RotatingLasersPair (21).[0]BaseL.[0]Laser",
+          "gameObjectPath": "HalloweenEnvironment.[0]Environment.[193]RotatingLasersPair (21).[0]BaseL.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "HalloweenEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 9,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[179]RotatingLasersPair (13).[0]BaseL.[0]Laser",
+          "gameObjectPath": "HalloweenEnvironment.[0]Environment.[179]RotatingLasersPair (13).[0]BaseL.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "HalloweenEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 10,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[194]RotatingLasersPair (22).[0]BaseL.[0]Laser",
+          "gameObjectPath": "HalloweenEnvironment.[0]Environment.[194]RotatingLasersPair (22).[0]BaseL.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "HalloweenEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 11,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[188]RotatingLasersPair (16).[0]BaseL.[0]Laser",
+          "gameObjectPath": "HalloweenEnvironment.[0]Environment.[188]RotatingLasersPair (16).[0]BaseL.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "HalloweenEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 12,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[180]RotatingLasersPair (12).[0]BaseL.[0]Laser",
+          "gameObjectPath": "HalloweenEnvironment.[0]Environment.[180]RotatingLasersPair (12).[0]BaseL.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "HalloweenEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 13,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[189]RotatingLasersPair (17).[0]BaseL.[0]Laser",
+          "gameObjectPath": "HalloweenEnvironment.[0]Environment.[189]RotatingLasersPair (17).[0]BaseL.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "HalloweenEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 14,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[183]RotatingLasersPair (9).[0]BaseL.[0]Laser",
+          "gameObjectPath": "HalloweenEnvironment.[0]Environment.[183]RotatingLasersPair (9).[0]BaseL.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "HalloweenEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 15,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[186]RotatingLasersPair (14).[0]BaseL.[0]Laser",
+          "gameObjectPath": "HalloweenEnvironment.[0]Environment.[186]RotatingLasersPair (14).[0]BaseL.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "HalloweenEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 16,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[191]RotatingLasersPair (19).[0]BaseL.[0]Laser",
+          "gameObjectPath": "HalloweenEnvironment.[0]Environment.[191]RotatingLasersPair (19).[0]BaseL.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "HalloweenEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 17,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[190]RotatingLasersPair (18).[0]BaseL.[0]Laser",
+          "gameObjectPath": "HalloweenEnvironment.[0]Environment.[190]RotatingLasersPair (18).[0]BaseL.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "HalloweenEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 18,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[195]RotatingLasersPair (23).[0]BaseL.[0]Laser",
+          "gameObjectPath": "HalloweenEnvironment.[0]Environment.[195]RotatingLasersPair (23).[0]BaseL.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "HalloweenEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 19,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[187]RotatingLasersPair (15).[0]BaseL.[0]Laser",
+          "gameObjectPath": "HalloweenEnvironment.[0]Environment.[187]RotatingLasersPair (15).[0]BaseL.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "HalloweenEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 4,
+      "commonGameObjectPath": "HalloweenEnvironment.[0]Environment",
+      "registeredLightCount": 18,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[170]NeonTubeR (1)",
+          "gameObjectPath": "HalloweenEnvironment.[0]Environment.[170]NeonTubeR (1)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "HalloweenEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[184]RotatingLasersPair (10).[1]BaseR.[0]Laser",
+          "gameObjectPath": "HalloweenEnvironment.[0]Environment.[184]RotatingLasersPair (10).[1]BaseR.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "HalloweenEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 4,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[181]RotatingLasersPair (7).[1]BaseR.[0]Laser",
+          "gameObjectPath": "HalloweenEnvironment.[0]Environment.[181]RotatingLasersPair (7).[1]BaseR.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "HalloweenEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 5,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[185]RotatingLasersPair (11).[1]BaseR.[0]Laser",
+          "gameObjectPath": "HalloweenEnvironment.[0]Environment.[185]RotatingLasersPair (11).[1]BaseR.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "HalloweenEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 6,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[182]RotatingLasersPair (8).[1]BaseR.[0]Laser",
+          "gameObjectPath": "HalloweenEnvironment.[0]Environment.[182]RotatingLasersPair (8).[1]BaseR.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "HalloweenEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 7,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[192]RotatingLasersPair (20).[1]BaseR.[0]Laser",
+          "gameObjectPath": "HalloweenEnvironment.[0]Environment.[192]RotatingLasersPair (20).[1]BaseR.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "HalloweenEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 8,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[179]RotatingLasersPair (13).[1]BaseR.[0]Laser",
+          "gameObjectPath": "HalloweenEnvironment.[0]Environment.[179]RotatingLasersPair (13).[1]BaseR.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "HalloweenEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 9,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[193]RotatingLasersPair (21).[1]BaseR.[0]Laser",
+          "gameObjectPath": "HalloweenEnvironment.[0]Environment.[193]RotatingLasersPair (21).[1]BaseR.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "HalloweenEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 10,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[180]RotatingLasersPair (12).[1]BaseR.[0]Laser",
+          "gameObjectPath": "HalloweenEnvironment.[0]Environment.[180]RotatingLasersPair (12).[1]BaseR.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "HalloweenEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 11,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[188]RotatingLasersPair (16).[1]BaseR.[0]Laser",
+          "gameObjectPath": "HalloweenEnvironment.[0]Environment.[188]RotatingLasersPair (16).[1]BaseR.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "HalloweenEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 12,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[194]RotatingLasersPair (22).[1]BaseR.[0]Laser",
+          "gameObjectPath": "HalloweenEnvironment.[0]Environment.[194]RotatingLasersPair (22).[1]BaseR.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "HalloweenEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 13,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[183]RotatingLasersPair (9).[1]BaseR.[0]Laser",
+          "gameObjectPath": "HalloweenEnvironment.[0]Environment.[183]RotatingLasersPair (9).[1]BaseR.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "HalloweenEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 14,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[189]RotatingLasersPair (17).[1]BaseR.[0]Laser",
+          "gameObjectPath": "HalloweenEnvironment.[0]Environment.[189]RotatingLasersPair (17).[1]BaseR.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "HalloweenEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 15,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[187]RotatingLasersPair (15).[1]BaseR.[0]Laser",
+          "gameObjectPath": "HalloweenEnvironment.[0]Environment.[187]RotatingLasersPair (15).[1]BaseR.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "HalloweenEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 16,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[195]RotatingLasersPair (23).[1]BaseR.[0]Laser",
+          "gameObjectPath": "HalloweenEnvironment.[0]Environment.[195]RotatingLasersPair (23).[1]BaseR.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "HalloweenEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 17,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[191]RotatingLasersPair (19).[1]BaseR.[0]Laser",
+          "gameObjectPath": "HalloweenEnvironment.[0]Environment.[191]RotatingLasersPair (19).[1]BaseR.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "HalloweenEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 18,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[190]RotatingLasersPair (18).[1]BaseR.[0]Laser",
+          "gameObjectPath": "HalloweenEnvironment.[0]Environment.[190]RotatingLasersPair (18).[1]BaseR.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "HalloweenEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 19,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[186]RotatingLasersPair (14).[1]BaseR.[0]Laser",
+          "gameObjectPath": "HalloweenEnvironment.[0]Environment.[186]RotatingLasersPair (14).[1]BaseR.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "HalloweenEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 5,
+      "commonGameObjectPath": "HalloweenEnvironment.[0]Environment",
+      "registeredLightCount": 4,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[5]PlayersPlace.[0]Feet",
+          "gameObjectPath": "HalloweenEnvironment.[0]Environment.[5]PlayersPlace.[0]Feet",
+          "componentType": "SpriteLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "HalloweenEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[168]NeonTubeR",
+          "gameObjectPath": "HalloweenEnvironment.[0]Environment.[168]NeonTubeR",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "HalloweenEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[169]NeonTubeL",
+          "gameObjectPath": "HalloweenEnvironment.[0]Environment.[169]NeonTubeL",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "HalloweenEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 6,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[171]GateLight",
+          "gameObjectPath": "HalloweenEnvironment.[0]Environment.[171]GateLight",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "HalloweenEnvironment"
+        }
+      ]
+    }
+  ]
+}

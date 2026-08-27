@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <!-- The locally patched Luna target now uses delimiter-safe release detection, so its built-in archive can be exercised alongside the custom target. -->
+  <PropertyGroup>
+    <DisableZipRelease>false</DisableZipRelease>
+  </PropertyGroup>
+  <!-- Produce the same per-version plugin-only archive layout as the ChromaGLS project. -->
+  <Target Name="Modified_ZipRelease" AfterTargets="Build" DependsOnTargets="BSMT_AfterBuild;CopyToArtifactDestination" Condition="'$(DefineConstants.Contains(RELEASE))'">
+    <Message Text="Target: Modified_ZipRelease" Importance="high" />
+    <PropertyGroup>
+      <ArtifactName Condition="'$(ArtifactName)' == ''">$(AssemblyName)</ArtifactName>
+      <ZipDestinationDirectory>$(OutDir)zip\</ZipDestinationDirectory>
+      <ZipDestinationFile>$(ZipDestinationDirectory)$(ArtifactName).zip</ZipDestinationFile>
+    </PropertyGroup>
+    <ItemGroup>
+      <OldZips Include="$(ZipDestinationDirectory)$(AssemblyName)*.zip" />
+    </ItemGroup>
+    <Delete Files="@(OldZips)" TreatErrorsAsWarnings="true" ContinueOnError="true" />
+    <ZipDir SourceDirectory="$(ArtifactDestination)" DestinationFile="$(ZipDestinationFile)" MessagePrefix="   " />
+  </Target>
+</Project>

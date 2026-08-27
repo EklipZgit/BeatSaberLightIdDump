@@ -1,0 +1,933 @@
+{
+  "formatVersion": 4,
+  "environmentName": "GagaEnvironment",
+  "gameVersion": "1.42.1_13508",
+  "lightManagerPath": "GagaEnvironment.[0]Environment.[40]LightWithIdManager",
+  "initialRegisteredLightCount": 1,
+  "totalRegisteredLightCount": 43,
+  "lightIdSlots": [
+    {
+      "beatSaberLightId": 1,
+      "commonGameObjectPath": "GagaEnvironment.[0]Environment",
+      "registeredLightCount": 6,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[39]DirectionalLights.[0]DirectionalLightFront",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "GagaEnvironment.[0]Environment.[39]DirectionalLights.[0]DirectionalLightFront",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 0,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "GagaEnvironment",
+          "intensity": 0.3,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[39]DirectionalLights.[2]DirectionalLightLeft",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "GagaEnvironment.[0]Environment.[39]DirectionalLights.[2]DirectionalLightLeft",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 0,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "GagaEnvironment",
+          "intensity": 0.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[6]LightmapLightsWithIds.[0]A",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "GagaEnvironment.[0]Environment.[6]LightmapLightsWithIds.[0]A",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 0,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "GagaEnvironment",
+          "intensity": 1.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 4,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[39]DirectionalLights.[4]DirectionalLightTop",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "GagaEnvironment.[0]Environment.[39]DirectionalLights.[4]DirectionalLightTop",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 0,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "GagaEnvironment",
+          "intensity": 0.7,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 5,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[39]DirectionalLights.[3]DirectionalLightRight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "GagaEnvironment.[0]Environment.[39]DirectionalLights.[3]DirectionalLightRight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 0,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "GagaEnvironment",
+          "intensity": 0.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 6,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[42]GradientBackground",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "GagaEnvironment.[0]Environment.[42]GradientBackground",
+          "ownerComponentType": "BloomPrePassBackgroundColorsGradientTintColorWithLightId",
+          "indexWithinOwner": 0,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "GagaEnvironment",
+          "intensity": 0.1,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 2,
+      "commonGameObjectPath": "GagaEnvironment.[0]Environment",
+      "registeredLightCount": 6,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "[39]DirectionalLights.[0]DirectionalLightFront",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "GagaEnvironment.[0]Environment.[39]DirectionalLights.[0]DirectionalLightFront",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 1,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "GagaEnvironment",
+          "intensity": 0.3,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "[39]DirectionalLights.[2]DirectionalLightLeft",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "GagaEnvironment.[0]Environment.[39]DirectionalLights.[2]DirectionalLightLeft",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 1,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "GagaEnvironment",
+          "intensity": 0.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "[6]LightmapLightsWithIds.[1]B",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "GagaEnvironment.[0]Environment.[6]LightmapLightsWithIds.[1]B",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 0,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "GagaEnvironment",
+          "intensity": 1.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 4,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "[39]DirectionalLights.[4]DirectionalLightTop",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "GagaEnvironment.[0]Environment.[39]DirectionalLights.[4]DirectionalLightTop",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 1,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "GagaEnvironment",
+          "intensity": 0.7,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 5,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "[39]DirectionalLights.[3]DirectionalLightRight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "GagaEnvironment.[0]Environment.[39]DirectionalLights.[3]DirectionalLightRight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 1,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "GagaEnvironment",
+          "intensity": 0.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 6,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "[42]GradientBackground",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "GagaEnvironment.[0]Environment.[42]GradientBackground",
+          "ownerComponentType": "BloomPrePassBackgroundColorsGradientTintColorWithLightId",
+          "indexWithinOwner": 1,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "GagaEnvironment",
+          "intensity": 0.1,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 3,
+      "commonGameObjectPath": "GagaEnvironment.[0]Environment",
+      "registeredLightCount": 5,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[39]DirectionalLights.[0]DirectionalLightFront",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "GagaEnvironment.[0]Environment.[39]DirectionalLights.[0]DirectionalLightFront",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 2,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "GagaEnvironment",
+          "intensity": 0.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 9,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[39]DirectionalLights.[2]DirectionalLightLeft",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "GagaEnvironment.[0]Environment.[39]DirectionalLights.[2]DirectionalLightLeft",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 2,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "GagaEnvironment",
+          "intensity": 1.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 12,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[6]LightmapLightsWithIds.[2]C",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "GagaEnvironment.[0]Environment.[6]LightmapLightsWithIds.[2]C",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 0,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "GagaEnvironment",
+          "intensity": 2.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 13,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[39]DirectionalLights.[3]DirectionalLightRight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "GagaEnvironment.[0]Environment.[39]DirectionalLights.[3]DirectionalLightRight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 2,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "GagaEnvironment",
+          "intensity": 0.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 15,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[42]GradientBackground",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "GagaEnvironment.[0]Environment.[42]GradientBackground",
+          "ownerComponentType": "BloomPrePassBackgroundColorsGradientTintColorWithLightId",
+          "indexWithinOwner": 2,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "GagaEnvironment",
+          "intensity": 0.1,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 4,
+      "commonGameObjectPath": "GagaEnvironment.[0]Environment",
+      "registeredLightCount": 5,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[39]DirectionalLights.[0]DirectionalLightFront",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "GagaEnvironment.[0]Environment.[39]DirectionalLights.[0]DirectionalLightFront",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 3,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "GagaEnvironment",
+          "intensity": 0.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 8,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[39]DirectionalLights.[2]DirectionalLightLeft",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "GagaEnvironment.[0]Environment.[39]DirectionalLights.[2]DirectionalLightLeft",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 3,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "GagaEnvironment",
+          "intensity": 0.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 13,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[6]LightmapLightsWithIds.[3]D",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "GagaEnvironment.[0]Environment.[6]LightmapLightsWithIds.[3]D",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 0,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "GagaEnvironment",
+          "intensity": 2.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 14,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[39]DirectionalLights.[3]DirectionalLightRight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "GagaEnvironment.[0]Environment.[39]DirectionalLights.[3]DirectionalLightRight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 3,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "GagaEnvironment",
+          "intensity": 1.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 15,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[42]GradientBackground",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "GagaEnvironment.[0]Environment.[42]GradientBackground",
+          "ownerComponentType": "BloomPrePassBackgroundColorsGradientTintColorWithLightId",
+          "indexWithinOwner": 3,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "GagaEnvironment",
+          "intensity": 0.1,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 5,
+      "commonGameObjectPath": "GagaEnvironment.[0]Environment",
+      "registeredLightCount": 5,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[39]DirectionalLights.[0]DirectionalLightFront",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "GagaEnvironment.[0]Environment.[39]DirectionalLights.[0]DirectionalLightFront",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 4,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "GagaEnvironment",
+          "intensity": 1.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 4,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[39]DirectionalLights.[2]DirectionalLightLeft",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "GagaEnvironment.[0]Environment.[39]DirectionalLights.[2]DirectionalLightLeft",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 4,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "GagaEnvironment",
+          "intensity": 0.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 5,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[6]LightmapLightsWithIds.[4]E",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "GagaEnvironment.[0]Environment.[6]LightmapLightsWithIds.[4]E",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 0,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "GagaEnvironment",
+          "intensity": 1.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 7,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[39]DirectionalLights.[3]DirectionalLightRight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "GagaEnvironment.[0]Environment.[39]DirectionalLights.[3]DirectionalLightRight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 4,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "GagaEnvironment",
+          "intensity": 0.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 9,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[42]GradientBackground",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "GagaEnvironment.[0]Environment.[42]GradientBackground",
+          "ownerComponentType": "BloomPrePassBackgroundColorsGradientTintColorWithLightId",
+          "indexWithinOwner": 4,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "GagaEnvironment",
+          "intensity": 0.4,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 6,
+      "commonGameObjectPath": "GagaEnvironment.[0]Environment",
+      "registeredLightCount": 4,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 4,
+          "componentLightId": 6,
+          "type": 6,
+          "typeName": "Event6",
+          "relativeGameObjectPath": "[39]DirectionalLights.[2]DirectionalLightLeft",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "GagaEnvironment.[0]Environment.[39]DirectionalLights.[2]DirectionalLightLeft",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 5,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "GagaEnvironment",
+          "intensity": 1.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 8,
+          "componentLightId": 6,
+          "type": 6,
+          "typeName": "Event6",
+          "relativeGameObjectPath": "[6]LightmapLightsWithIds.[2]C",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "GagaEnvironment.[0]Environment.[6]LightmapLightsWithIds.[2]C",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 1,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "GagaEnvironment",
+          "intensity": 1.8,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 9,
+          "componentLightId": 6,
+          "type": 6,
+          "typeName": "Event6",
+          "relativeGameObjectPath": "[39]DirectionalLights.[3]DirectionalLightRight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "GagaEnvironment.[0]Environment.[39]DirectionalLights.[3]DirectionalLightRight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 5,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "GagaEnvironment",
+          "intensity": 0.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 10,
+          "componentLightId": 6,
+          "type": 6,
+          "typeName": "Event6",
+          "relativeGameObjectPath": "[42]GradientBackground",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "GagaEnvironment.[0]Environment.[42]GradientBackground",
+          "ownerComponentType": "BloomPrePassBackgroundColorsGradientTintColorWithLightId",
+          "indexWithinOwner": 5,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "GagaEnvironment",
+          "intensity": 0.1,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 7,
+      "commonGameObjectPath": "GagaEnvironment.[0]Environment",
+      "registeredLightCount": 4,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 4,
+          "componentLightId": 7,
+          "type": 7,
+          "typeName": "Event7",
+          "relativeGameObjectPath": "[39]DirectionalLights.[2]DirectionalLightLeft",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "GagaEnvironment.[0]Environment.[39]DirectionalLights.[2]DirectionalLightLeft",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 6,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "GagaEnvironment",
+          "intensity": 0.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 8,
+          "componentLightId": 7,
+          "type": 7,
+          "typeName": "Event7",
+          "relativeGameObjectPath": "[6]LightmapLightsWithIds.[3]D",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "GagaEnvironment.[0]Environment.[6]LightmapLightsWithIds.[3]D",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 1,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "GagaEnvironment",
+          "intensity": 1.8,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 9,
+          "componentLightId": 7,
+          "type": 7,
+          "typeName": "Event7",
+          "relativeGameObjectPath": "[39]DirectionalLights.[3]DirectionalLightRight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "GagaEnvironment.[0]Environment.[39]DirectionalLights.[3]DirectionalLightRight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 6,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "GagaEnvironment",
+          "intensity": 1.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 10,
+          "componentLightId": 7,
+          "type": 7,
+          "typeName": "Event7",
+          "relativeGameObjectPath": "[42]GradientBackground",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "GagaEnvironment.[0]Environment.[42]GradientBackground",
+          "ownerComponentType": "BloomPrePassBackgroundColorsGradientTintColorWithLightId",
+          "indexWithinOwner": 6,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "GagaEnvironment",
+          "intensity": 0.1,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 8,
+      "commonGameObjectPath": "GagaEnvironment.[0]Environment",
+      "registeredLightCount": 4,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 4,
+          "componentLightId": 8,
+          "type": 10,
+          "typeName": "Event10",
+          "relativeGameObjectPath": "[39]DirectionalLights.[2]DirectionalLightLeft",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "GagaEnvironment.[0]Environment.[39]DirectionalLights.[2]DirectionalLightLeft",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 7,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "GagaEnvironment",
+          "intensity": 1.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 8,
+          "componentLightId": 8,
+          "type": 10,
+          "typeName": "Event10",
+          "relativeGameObjectPath": "[6]LightmapLightsWithIds.[2]C",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "GagaEnvironment.[0]Environment.[6]LightmapLightsWithIds.[2]C",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 2,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "GagaEnvironment",
+          "intensity": 1.5,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 9,
+          "componentLightId": 8,
+          "type": 10,
+          "typeName": "Event10",
+          "relativeGameObjectPath": "[39]DirectionalLights.[3]DirectionalLightRight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "GagaEnvironment.[0]Environment.[39]DirectionalLights.[3]DirectionalLightRight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 7,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "GagaEnvironment",
+          "intensity": 0.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 10,
+          "componentLightId": 8,
+          "type": 10,
+          "typeName": "Event10",
+          "relativeGameObjectPath": "[42]GradientBackground",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "GagaEnvironment.[0]Environment.[42]GradientBackground",
+          "ownerComponentType": "BloomPrePassBackgroundColorsGradientTintColorWithLightId",
+          "indexWithinOwner": 7,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "GagaEnvironment",
+          "intensity": 0.1,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 9,
+      "commonGameObjectPath": "GagaEnvironment.[0]Environment",
+      "registeredLightCount": 4,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 4,
+          "componentLightId": 9,
+          "type": 11,
+          "typeName": "Event11",
+          "relativeGameObjectPath": "[39]DirectionalLights.[2]DirectionalLightLeft",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "GagaEnvironment.[0]Environment.[39]DirectionalLights.[2]DirectionalLightLeft",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 8,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "GagaEnvironment",
+          "intensity": 0.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 8,
+          "componentLightId": 9,
+          "type": 11,
+          "typeName": "Event11",
+          "relativeGameObjectPath": "[6]LightmapLightsWithIds.[3]D",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "GagaEnvironment.[0]Environment.[6]LightmapLightsWithIds.[3]D",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 2,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "GagaEnvironment",
+          "intensity": 1.5,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 9,
+          "componentLightId": 9,
+          "type": 11,
+          "typeName": "Event11",
+          "relativeGameObjectPath": "[39]DirectionalLights.[3]DirectionalLightRight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "GagaEnvironment.[0]Environment.[39]DirectionalLights.[3]DirectionalLightRight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 8,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "GagaEnvironment",
+          "intensity": 1.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 10,
+          "componentLightId": 9,
+          "type": 11,
+          "typeName": "Event11",
+          "relativeGameObjectPath": "[42]GradientBackground",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "GagaEnvironment.[0]Environment.[42]GradientBackground",
+          "ownerComponentType": "BloomPrePassBackgroundColorsGradientTintColorWithLightId",
+          "indexWithinOwner": 8,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "GagaEnvironment",
+          "intensity": 0.1,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    }
+  ]
+}

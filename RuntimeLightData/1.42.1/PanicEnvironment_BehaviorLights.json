@@ -1,0 +1,1380 @@
+{
+  "formatVersion": 4,
+  "environmentName": "PanicEnvironment",
+  "gameVersion": "1.42.1_13508",
+  "lightManagerPath": "PanicEnvironment.[0]Environment.[25]LightWithIdManager",
+  "initialRegisteredLightCount": 1,
+  "totalRegisteredLightCount": 89,
+  "lightIdSlots": [
+    {
+      "beatSaberLightId": 1,
+      "commonGameObjectPath": "PanicEnvironment.[0]Environment",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 6,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[21]ConstructionGlowLine (6)",
+          "gameObjectPath": "PanicEnvironment.[0]Environment.[21]ConstructionGlowLine (6)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "PanicEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 7,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[22]ConstructionGlowLine (7)",
+          "gameObjectPath": "PanicEnvironment.[0]Environment.[22]ConstructionGlowLine (7)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "PanicEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 2,
+      "commonGameObjectPath": null,
+      "registeredLightCount": 62,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[510]Panels4TrackLaneRing(Clone).[1]GlowLine",
+          "gameObjectPath": "GameCore.[510]Panels4TrackLaneRing(Clone).[1]GlowLine",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[510]Panels4TrackLaneRing(Clone).[2]GlowLine",
+          "gameObjectPath": "GameCore.[510]Panels4TrackLaneRing(Clone).[2]GlowLine",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[511]Panels4TrackLaneRing(Clone).[1]GlowLine",
+          "gameObjectPath": "GameCore.[511]Panels4TrackLaneRing(Clone).[1]GlowLine",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[511]Panels4TrackLaneRing(Clone).[2]GlowLine",
+          "gameObjectPath": "GameCore.[511]Panels4TrackLaneRing(Clone).[2]GlowLine",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 4,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[512]Panels4TrackLaneRing(Clone).[1]GlowLine",
+          "gameObjectPath": "GameCore.[512]Panels4TrackLaneRing(Clone).[1]GlowLine",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 5,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[512]Panels4TrackLaneRing(Clone).[2]GlowLine",
+          "gameObjectPath": "GameCore.[512]Panels4TrackLaneRing(Clone).[2]GlowLine",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 6,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[513]Panels4TrackLaneRing(Clone).[1]GlowLine",
+          "gameObjectPath": "GameCore.[513]Panels4TrackLaneRing(Clone).[1]GlowLine",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 7,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[513]Panels4TrackLaneRing(Clone).[2]GlowLine",
+          "gameObjectPath": "GameCore.[513]Panels4TrackLaneRing(Clone).[2]GlowLine",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 8,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[514]Panels4TrackLaneRing(Clone).[1]GlowLine",
+          "gameObjectPath": "GameCore.[514]Panels4TrackLaneRing(Clone).[1]GlowLine",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 9,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[514]Panels4TrackLaneRing(Clone).[2]GlowLine",
+          "gameObjectPath": "GameCore.[514]Panels4TrackLaneRing(Clone).[2]GlowLine",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 10,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[515]Panels4TrackLaneRing(Clone).[1]GlowLine",
+          "gameObjectPath": "GameCore.[515]Panels4TrackLaneRing(Clone).[1]GlowLine",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 11,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[515]Panels4TrackLaneRing(Clone).[2]GlowLine",
+          "gameObjectPath": "GameCore.[515]Panels4TrackLaneRing(Clone).[2]GlowLine",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 12,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[516]Panels4TrackLaneRing(Clone).[1]GlowLine",
+          "gameObjectPath": "GameCore.[516]Panels4TrackLaneRing(Clone).[1]GlowLine",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 13,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[516]Panels4TrackLaneRing(Clone).[2]GlowLine",
+          "gameObjectPath": "GameCore.[516]Panels4TrackLaneRing(Clone).[2]GlowLine",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 14,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[517]Panels4TrackLaneRing(Clone).[1]GlowLine",
+          "gameObjectPath": "GameCore.[517]Panels4TrackLaneRing(Clone).[1]GlowLine",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 15,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[517]Panels4TrackLaneRing(Clone).[2]GlowLine",
+          "gameObjectPath": "GameCore.[517]Panels4TrackLaneRing(Clone).[2]GlowLine",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 16,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[518]Panels4TrackLaneRing(Clone).[1]GlowLine",
+          "gameObjectPath": "GameCore.[518]Panels4TrackLaneRing(Clone).[1]GlowLine",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 17,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[518]Panels4TrackLaneRing(Clone).[2]GlowLine",
+          "gameObjectPath": "GameCore.[518]Panels4TrackLaneRing(Clone).[2]GlowLine",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 18,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[519]Panels4TrackLaneRing(Clone).[1]GlowLine",
+          "gameObjectPath": "GameCore.[519]Panels4TrackLaneRing(Clone).[1]GlowLine",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 19,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[519]Panels4TrackLaneRing(Clone).[2]GlowLine",
+          "gameObjectPath": "GameCore.[519]Panels4TrackLaneRing(Clone).[2]GlowLine",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 20,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[520]Panels4TrackLaneRing(Clone).[1]GlowLine",
+          "gameObjectPath": "GameCore.[520]Panels4TrackLaneRing(Clone).[1]GlowLine",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 21,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[520]Panels4TrackLaneRing(Clone).[2]GlowLine",
+          "gameObjectPath": "GameCore.[520]Panels4TrackLaneRing(Clone).[2]GlowLine",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 22,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[521]Panels4TrackLaneRing(Clone).[1]GlowLine",
+          "gameObjectPath": "GameCore.[521]Panels4TrackLaneRing(Clone).[1]GlowLine",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 23,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[521]Panels4TrackLaneRing(Clone).[2]GlowLine",
+          "gameObjectPath": "GameCore.[521]Panels4TrackLaneRing(Clone).[2]GlowLine",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 24,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[522]Panels4TrackLaneRing(Clone).[1]GlowLine",
+          "gameObjectPath": "GameCore.[522]Panels4TrackLaneRing(Clone).[1]GlowLine",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 25,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[522]Panels4TrackLaneRing(Clone).[2]GlowLine",
+          "gameObjectPath": "GameCore.[522]Panels4TrackLaneRing(Clone).[2]GlowLine",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 26,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[523]Panels4TrackLaneRing(Clone).[1]GlowLine",
+          "gameObjectPath": "GameCore.[523]Panels4TrackLaneRing(Clone).[1]GlowLine",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 27,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[523]Panels4TrackLaneRing(Clone).[2]GlowLine",
+          "gameObjectPath": "GameCore.[523]Panels4TrackLaneRing(Clone).[2]GlowLine",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 28,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[524]Panels4TrackLaneRing(Clone).[1]GlowLine",
+          "gameObjectPath": "GameCore.[524]Panels4TrackLaneRing(Clone).[1]GlowLine",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 29,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[524]Panels4TrackLaneRing(Clone).[2]GlowLine",
+          "gameObjectPath": "GameCore.[524]Panels4TrackLaneRing(Clone).[2]GlowLine",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 30,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[525]Panels4TrackLaneRing(Clone).[1]GlowLine",
+          "gameObjectPath": "GameCore.[525]Panels4TrackLaneRing(Clone).[1]GlowLine",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 31,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[525]Panels4TrackLaneRing(Clone).[2]GlowLine",
+          "gameObjectPath": "GameCore.[525]Panels4TrackLaneRing(Clone).[2]GlowLine",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 32,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[526]Panels4TrackLaneRing(Clone).[1]GlowLine",
+          "gameObjectPath": "GameCore.[526]Panels4TrackLaneRing(Clone).[1]GlowLine",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 33,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[526]Panels4TrackLaneRing(Clone).[2]GlowLine",
+          "gameObjectPath": "GameCore.[526]Panels4TrackLaneRing(Clone).[2]GlowLine",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 34,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[527]Panels4TrackLaneRing(Clone).[1]GlowLine",
+          "gameObjectPath": "GameCore.[527]Panels4TrackLaneRing(Clone).[1]GlowLine",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 35,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[527]Panels4TrackLaneRing(Clone).[2]GlowLine",
+          "gameObjectPath": "GameCore.[527]Panels4TrackLaneRing(Clone).[2]GlowLine",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 36,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[528]Panels4TrackLaneRing(Clone).[1]GlowLine",
+          "gameObjectPath": "GameCore.[528]Panels4TrackLaneRing(Clone).[1]GlowLine",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 37,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[528]Panels4TrackLaneRing(Clone).[2]GlowLine",
+          "gameObjectPath": "GameCore.[528]Panels4TrackLaneRing(Clone).[2]GlowLine",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 38,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[529]Panels4TrackLaneRing(Clone).[1]GlowLine",
+          "gameObjectPath": "GameCore.[529]Panels4TrackLaneRing(Clone).[1]GlowLine",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 39,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[529]Panels4TrackLaneRing(Clone).[2]GlowLine",
+          "gameObjectPath": "GameCore.[529]Panels4TrackLaneRing(Clone).[2]GlowLine",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 40,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[530]Panels4TrackLaneRing(Clone).[1]GlowLine",
+          "gameObjectPath": "GameCore.[530]Panels4TrackLaneRing(Clone).[1]GlowLine",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 41,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[530]Panels4TrackLaneRing(Clone).[2]GlowLine",
+          "gameObjectPath": "GameCore.[530]Panels4TrackLaneRing(Clone).[2]GlowLine",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 42,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[531]Panels4TrackLaneRing(Clone).[1]GlowLine",
+          "gameObjectPath": "GameCore.[531]Panels4TrackLaneRing(Clone).[1]GlowLine",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 43,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[531]Panels4TrackLaneRing(Clone).[2]GlowLine",
+          "gameObjectPath": "GameCore.[531]Panels4TrackLaneRing(Clone).[2]GlowLine",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 44,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[532]Panels4TrackLaneRing(Clone).[1]GlowLine",
+          "gameObjectPath": "GameCore.[532]Panels4TrackLaneRing(Clone).[1]GlowLine",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 45,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[532]Panels4TrackLaneRing(Clone).[2]GlowLine",
+          "gameObjectPath": "GameCore.[532]Panels4TrackLaneRing(Clone).[2]GlowLine",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 46,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[533]Panels4TrackLaneRing(Clone).[1]GlowLine",
+          "gameObjectPath": "GameCore.[533]Panels4TrackLaneRing(Clone).[1]GlowLine",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 47,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[533]Panels4TrackLaneRing(Clone).[2]GlowLine",
+          "gameObjectPath": "GameCore.[533]Panels4TrackLaneRing(Clone).[2]GlowLine",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 48,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[534]Panels4TrackLaneRing(Clone).[1]GlowLine",
+          "gameObjectPath": "GameCore.[534]Panels4TrackLaneRing(Clone).[1]GlowLine",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 49,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[534]Panels4TrackLaneRing(Clone).[2]GlowLine",
+          "gameObjectPath": "GameCore.[534]Panels4TrackLaneRing(Clone).[2]GlowLine",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 50,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[535]Panels4TrackLaneRing(Clone).[1]GlowLine",
+          "gameObjectPath": "GameCore.[535]Panels4TrackLaneRing(Clone).[1]GlowLine",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 51,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[535]Panels4TrackLaneRing(Clone).[2]GlowLine",
+          "gameObjectPath": "GameCore.[535]Panels4TrackLaneRing(Clone).[2]GlowLine",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 52,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[536]Panels4TrackLaneRing(Clone).[1]GlowLine",
+          "gameObjectPath": "GameCore.[536]Panels4TrackLaneRing(Clone).[1]GlowLine",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 53,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[536]Panels4TrackLaneRing(Clone).[2]GlowLine",
+          "gameObjectPath": "GameCore.[536]Panels4TrackLaneRing(Clone).[2]GlowLine",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 54,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[537]Panels4TrackLaneRing(Clone).[1]GlowLine",
+          "gameObjectPath": "GameCore.[537]Panels4TrackLaneRing(Clone).[1]GlowLine",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 55,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[537]Panels4TrackLaneRing(Clone).[2]GlowLine",
+          "gameObjectPath": "GameCore.[537]Panels4TrackLaneRing(Clone).[2]GlowLine",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 56,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[538]Panels4TrackLaneRing(Clone).[1]GlowLine",
+          "gameObjectPath": "GameCore.[538]Panels4TrackLaneRing(Clone).[1]GlowLine",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 57,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[538]Panels4TrackLaneRing(Clone).[2]GlowLine",
+          "gameObjectPath": "GameCore.[538]Panels4TrackLaneRing(Clone).[2]GlowLine",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 58,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[539]Panels4TrackLaneRing(Clone).[1]GlowLine",
+          "gameObjectPath": "GameCore.[539]Panels4TrackLaneRing(Clone).[1]GlowLine",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 59,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[539]Panels4TrackLaneRing(Clone).[2]GlowLine",
+          "gameObjectPath": "GameCore.[539]Panels4TrackLaneRing(Clone).[2]GlowLine",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 66,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "PanicEnvironment.[0]Environment.[19]ConstructionGlowLine (4)",
+          "gameObjectPath": "PanicEnvironment.[0]Environment.[19]ConstructionGlowLine (4)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "PanicEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 67,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "PanicEnvironment.[0]Environment.[20]ConstructionGlowLine (5)",
+          "gameObjectPath": "PanicEnvironment.[0]Environment.[20]ConstructionGlowLine (5)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "PanicEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 3,
+      "commonGameObjectPath": "PanicEnvironment.[0]Environment",
+      "registeredLightCount": 7,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[34]RotatingLasersPair (6).[0]BaseL.[0]Laser",
+          "gameObjectPath": "PanicEnvironment.[0]Environment.[34]RotatingLasersPair (6).[0]BaseL.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "PanicEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[33]RotatingLasersPair (5).[0]BaseL.[0]Laser",
+          "gameObjectPath": "PanicEnvironment.[0]Environment.[33]RotatingLasersPair (5).[0]BaseL.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "PanicEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 4,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[31]RotatingLasersPair (3).[0]BaseL.[0]Laser",
+          "gameObjectPath": "PanicEnvironment.[0]Environment.[31]RotatingLasersPair (3).[0]BaseL.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "PanicEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 5,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[32]RotatingLasersPair (4).[0]BaseL.[0]Laser",
+          "gameObjectPath": "PanicEnvironment.[0]Environment.[32]RotatingLasersPair (4).[0]BaseL.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "PanicEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 6,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[30]RotatingLasersPair (2).[0]BaseL.[0]Laser",
+          "gameObjectPath": "PanicEnvironment.[0]Environment.[30]RotatingLasersPair (2).[0]BaseL.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "PanicEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 7,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[29]RotatingLasersPair (1).[0]BaseL.[0]Laser",
+          "gameObjectPath": "PanicEnvironment.[0]Environment.[29]RotatingLasersPair (1).[0]BaseL.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "PanicEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 8,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[28]RotatingLasersPair.[0]BaseL.[0]Laser",
+          "gameObjectPath": "PanicEnvironment.[0]Environment.[28]RotatingLasersPair.[0]BaseL.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "PanicEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 4,
+      "commonGameObjectPath": "PanicEnvironment.[0]Environment",
+      "registeredLightCount": 7,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[33]RotatingLasersPair (5).[1]BaseR.[0]Laser",
+          "gameObjectPath": "PanicEnvironment.[0]Environment.[33]RotatingLasersPair (5).[1]BaseR.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "PanicEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[34]RotatingLasersPair (6).[1]BaseR.[0]Laser",
+          "gameObjectPath": "PanicEnvironment.[0]Environment.[34]RotatingLasersPair (6).[1]BaseR.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "PanicEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 4,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[31]RotatingLasersPair (3).[1]BaseR.[0]Laser",
+          "gameObjectPath": "PanicEnvironment.[0]Environment.[31]RotatingLasersPair (3).[1]BaseR.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "PanicEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 5,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[32]RotatingLasersPair (4).[1]BaseR.[0]Laser",
+          "gameObjectPath": "PanicEnvironment.[0]Environment.[32]RotatingLasersPair (4).[1]BaseR.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "PanicEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 6,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[30]RotatingLasersPair (2).[1]BaseR.[0]Laser",
+          "gameObjectPath": "PanicEnvironment.[0]Environment.[30]RotatingLasersPair (2).[1]BaseR.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "PanicEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 7,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[29]RotatingLasersPair (1).[1]BaseR.[0]Laser",
+          "gameObjectPath": "PanicEnvironment.[0]Environment.[29]RotatingLasersPair (1).[1]BaseR.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "PanicEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 8,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[28]RotatingLasersPair.[1]BaseR.[0]Laser",
+          "gameObjectPath": "PanicEnvironment.[0]Environment.[28]RotatingLasersPair.[1]BaseR.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "PanicEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 5,
+      "commonGameObjectPath": "PanicEnvironment.[0]Environment",
+      "registeredLightCount": 11,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[4]PlayersPlace.[1]Feet",
+          "gameObjectPath": "PanicEnvironment.[0]Environment.[4]PlayersPlace.[1]Feet",
+          "componentType": "SpriteLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.00000048,
+            "z": 1.00000048
+          },
+          "sceneName": "PanicEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[35]NeonTube",
+          "gameObjectPath": "PanicEnvironment.[0]Environment.[35]NeonTube",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "PanicEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[36]NeonTube (1)",
+          "gameObjectPath": "PanicEnvironment.[0]Environment.[36]NeonTube (1)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "PanicEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[4]PlayersPlace.[3]RectangleFakeGlow",
+          "gameObjectPath": "PanicEnvironment.[0]Environment.[4]PlayersPlace.[3]RectangleFakeGlow",
+          "componentType": "RectangleFakeGlowLightWithId",
+          "localScale": {
+            "x": 1.495,
+            "y": 0.995,
+            "z": 1.0
+          },
+          "sceneName": "PanicEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 6,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[3]BackColumns.[1]BackColumnNeon",
+          "gameObjectPath": "PanicEnvironment.[0]Environment.[3]BackColumns.[1]BackColumnNeon",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "PanicEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 8,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[3]BackColumns.[0]BackColumnNeon",
+          "gameObjectPath": "PanicEnvironment.[0]Environment.[3]BackColumns.[0]BackColumnNeon",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "PanicEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 11,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[6]Window",
+          "gameObjectPath": "PanicEnvironment.[0]Environment.[6]Window",
+          "componentType": "SpriteLightWithId",
+          "localScale": {
+            "x": 10.0,
+            "y": 10.0,
+            "z": 1.0
+          },
+          "sceneName": "PanicEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 13,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[23]ConstructionGlowLine (8)",
+          "gameObjectPath": "PanicEnvironment.[0]Environment.[23]ConstructionGlowLine (8)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "PanicEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 14,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[27]Light (5)",
+          "gameObjectPath": "PanicEnvironment.[0]Environment.[27]Light (5)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "PanicEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 15,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[5]Window",
+          "gameObjectPath": "PanicEnvironment.[0]Environment.[5]Window",
+          "componentType": "SpriteLightWithId",
+          "localScale": {
+            "x": 10.0,
+            "y": 10.0,
+            "z": 1.0
+          },
+          "sceneName": "PanicEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 16,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[24]ConstructionGlowLine (15)",
+          "gameObjectPath": "PanicEnvironment.[0]Environment.[24]ConstructionGlowLine (15)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "PanicEnvironment"
+        }
+      ]
+    }
+  ]
+}

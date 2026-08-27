@@ -1,0 +1,645 @@
+{
+  "formatVersion": 4,
+  "environmentName": "FitBeatEnvironment",
+  "gameVersion": "1.37.1_9767668645",
+  "lightManagerPath": "FitBeatEnvironment.[0]Environment.[16]LightWithIdManager",
+  "initialRegisteredLightCount": 1,
+  "totalRegisteredLightCount": 30,
+  "lightIdSlots": [
+    {
+      "beatSaberLightId": 1,
+      "commonGameObjectPath": "FitBeatEnvironment.[0]Environment",
+      "registeredLightCount": 6,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 30,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[14]CoreLighting.[3]DirectionalLight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "FitBeatEnvironment.[0]Environment.[14]CoreLighting.[3]DirectionalLight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 0,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "FitBeatEnvironment",
+          "intensity": 0.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 31,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[28]BSBakedLightingLightWithIds",
+          "componentType": "LightmapLightsWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "FitBeatEnvironment.[0]Environment.[28]BSBakedLightingLightWithIds",
+          "ownerComponentType": "LightmapLightsWithIds",
+          "indexWithinOwner": 0,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "FitBeatEnvironment",
+          "intensity": 1.0,
+          "bakeId": 1,
+          "weight": 0.1
+        },
+        {
+          "indexWithinLightIdList": 32,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[14]CoreLighting.[4]DirectionalLight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "FitBeatEnvironment.[0]Environment.[14]CoreLighting.[4]DirectionalLight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 0,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "FitBeatEnvironment",
+          "intensity": 1.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 33,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[14]CoreLighting.[5]DirectionalLight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "FitBeatEnvironment.[0]Environment.[14]CoreLighting.[5]DirectionalLight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 0,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "FitBeatEnvironment",
+          "intensity": 0.2,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 34,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[14]CoreLighting.[1]LightWrapper0.[0]DirectionalLight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "FitBeatEnvironment.[0]Environment.[14]CoreLighting.[1]LightWrapper0.[0]DirectionalLight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 0,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "FitBeatEnvironment",
+          "intensity": 0.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 35,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[14]CoreLighting.[2]LightWrapper1.[0]DirectionalLight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "FitBeatEnvironment.[0]Environment.[14]CoreLighting.[2]LightWrapper1.[0]DirectionalLight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 0,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "FitBeatEnvironment",
+          "intensity": 0.0,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 2,
+      "commonGameObjectPath": "FitBeatEnvironment.[0]Environment",
+      "registeredLightCount": 6,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 30,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "[14]CoreLighting.[3]DirectionalLight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "FitBeatEnvironment.[0]Environment.[14]CoreLighting.[3]DirectionalLight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 1,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "FitBeatEnvironment",
+          "intensity": 0.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 31,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "[28]BSBakedLightingLightWithIds",
+          "componentType": "LightmapLightsWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "FitBeatEnvironment.[0]Environment.[28]BSBakedLightingLightWithIds",
+          "ownerComponentType": "LightmapLightsWithIds",
+          "indexWithinOwner": 1,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "FitBeatEnvironment",
+          "intensity": 1.0,
+          "bakeId": 2,
+          "weight": 0.1
+        },
+        {
+          "indexWithinLightIdList": 32,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "[14]CoreLighting.[4]DirectionalLight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "FitBeatEnvironment.[0]Environment.[14]CoreLighting.[4]DirectionalLight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 1,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "FitBeatEnvironment",
+          "intensity": 1.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 33,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "[14]CoreLighting.[5]DirectionalLight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "FitBeatEnvironment.[0]Environment.[14]CoreLighting.[5]DirectionalLight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 1,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "FitBeatEnvironment",
+          "intensity": 0.2,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 34,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "[14]CoreLighting.[1]LightWrapper0.[0]DirectionalLight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "FitBeatEnvironment.[0]Environment.[14]CoreLighting.[1]LightWrapper0.[0]DirectionalLight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 1,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "FitBeatEnvironment",
+          "intensity": 0.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 35,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "[14]CoreLighting.[2]LightWrapper1.[0]DirectionalLight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "FitBeatEnvironment.[0]Environment.[14]CoreLighting.[2]LightWrapper1.[0]DirectionalLight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 1,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "FitBeatEnvironment",
+          "intensity": 0.0,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 3,
+      "commonGameObjectPath": "FitBeatEnvironment.[0]Environment",
+      "registeredLightCount": 6,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[14]CoreLighting.[3]DirectionalLight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "FitBeatEnvironment.[0]Environment.[14]CoreLighting.[3]DirectionalLight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 2,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "FitBeatEnvironment",
+          "intensity": 0.5,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 8,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[28]BSBakedLightingLightWithIds",
+          "componentType": "LightmapLightsWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "FitBeatEnvironment.[0]Environment.[28]BSBakedLightingLightWithIds",
+          "ownerComponentType": "LightmapLightsWithIds",
+          "indexWithinOwner": 2,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "FitBeatEnvironment",
+          "intensity": 1.0,
+          "bakeId": 3,
+          "weight": 0.1
+        },
+        {
+          "indexWithinLightIdList": 10,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[14]CoreLighting.[4]DirectionalLight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "FitBeatEnvironment.[0]Environment.[14]CoreLighting.[4]DirectionalLight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 2,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "FitBeatEnvironment",
+          "intensity": 0.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 11,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[14]CoreLighting.[5]DirectionalLight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "FitBeatEnvironment.[0]Environment.[14]CoreLighting.[5]DirectionalLight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 2,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "FitBeatEnvironment",
+          "intensity": 0.5,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 12,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[14]CoreLighting.[1]LightWrapper0.[0]DirectionalLight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "FitBeatEnvironment.[0]Environment.[14]CoreLighting.[1]LightWrapper0.[0]DirectionalLight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 2,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "FitBeatEnvironment",
+          "intensity": 1.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 13,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[14]CoreLighting.[2]LightWrapper1.[0]DirectionalLight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "FitBeatEnvironment.[0]Environment.[14]CoreLighting.[2]LightWrapper1.[0]DirectionalLight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 2,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "FitBeatEnvironment",
+          "intensity": 0.0,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 4,
+      "commonGameObjectPath": "FitBeatEnvironment.[0]Environment",
+      "registeredLightCount": 6,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[14]CoreLighting.[3]DirectionalLight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "FitBeatEnvironment.[0]Environment.[14]CoreLighting.[3]DirectionalLight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 3,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "FitBeatEnvironment",
+          "intensity": 0.5,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 8,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[28]BSBakedLightingLightWithIds",
+          "componentType": "LightmapLightsWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "FitBeatEnvironment.[0]Environment.[28]BSBakedLightingLightWithIds",
+          "ownerComponentType": "LightmapLightsWithIds",
+          "indexWithinOwner": 3,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "FitBeatEnvironment",
+          "intensity": 1.0,
+          "bakeId": 4,
+          "weight": 0.1
+        },
+        {
+          "indexWithinLightIdList": 10,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[14]CoreLighting.[4]DirectionalLight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "FitBeatEnvironment.[0]Environment.[14]CoreLighting.[4]DirectionalLight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 3,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "FitBeatEnvironment",
+          "intensity": 0.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 11,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[14]CoreLighting.[5]DirectionalLight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "FitBeatEnvironment.[0]Environment.[14]CoreLighting.[5]DirectionalLight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 3,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "FitBeatEnvironment",
+          "intensity": 0.5,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 12,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[14]CoreLighting.[1]LightWrapper0.[0]DirectionalLight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "FitBeatEnvironment.[0]Environment.[14]CoreLighting.[1]LightWrapper0.[0]DirectionalLight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 3,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "FitBeatEnvironment",
+          "intensity": 0.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 13,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[14]CoreLighting.[2]LightWrapper1.[0]DirectionalLight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "FitBeatEnvironment.[0]Environment.[14]CoreLighting.[2]LightWrapper1.[0]DirectionalLight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 3,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "FitBeatEnvironment",
+          "intensity": 1.0,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 5,
+      "commonGameObjectPath": "FitBeatEnvironment.[0]Environment",
+      "registeredLightCount": 6,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[14]CoreLighting.[3]DirectionalLight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "FitBeatEnvironment.[0]Environment.[14]CoreLighting.[3]DirectionalLight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 4,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "FitBeatEnvironment",
+          "intensity": 1.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 5,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[28]BSBakedLightingLightWithIds",
+          "componentType": "LightmapLightsWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "FitBeatEnvironment.[0]Environment.[28]BSBakedLightingLightWithIds",
+          "ownerComponentType": "LightmapLightsWithIds",
+          "indexWithinOwner": 4,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "FitBeatEnvironment",
+          "intensity": 1.0,
+          "bakeId": 5,
+          "weight": 0.1
+        },
+        {
+          "indexWithinLightIdList": 6,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[14]CoreLighting.[4]DirectionalLight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "FitBeatEnvironment.[0]Environment.[14]CoreLighting.[4]DirectionalLight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 4,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "FitBeatEnvironment",
+          "intensity": 0.2,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 7,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[14]CoreLighting.[5]DirectionalLight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "FitBeatEnvironment.[0]Environment.[14]CoreLighting.[5]DirectionalLight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 4,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "FitBeatEnvironment",
+          "intensity": 0.2,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 8,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[14]CoreLighting.[1]LightWrapper0.[0]DirectionalLight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "FitBeatEnvironment.[0]Environment.[14]CoreLighting.[1]LightWrapper0.[0]DirectionalLight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 4,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "FitBeatEnvironment",
+          "intensity": 0.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 9,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[14]CoreLighting.[2]LightWrapper1.[0]DirectionalLight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "FitBeatEnvironment.[0]Environment.[14]CoreLighting.[2]LightWrapper1.[0]DirectionalLight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 4,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "FitBeatEnvironment",
+          "intensity": 0.0,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    }
+  ]
+}

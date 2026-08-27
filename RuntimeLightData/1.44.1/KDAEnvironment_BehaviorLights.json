@@ -1,0 +1,1710 @@
+{
+  "formatVersion": 4,
+  "environmentName": "KDAEnvironment",
+  "gameVersion": "1.44.1_20239",
+  "lightManagerPath": "KDAEnvironment.[0]Environment.[13]LightWithIdManager",
+  "initialRegisteredLightCount": 1,
+  "totalRegisteredLightCount": 111,
+  "lightIdSlots": [
+    {
+      "beatSaberLightId": 1,
+      "commonGameObjectPath": "KDAEnvironment.[0]Environment",
+      "registeredLightCount": 6,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 4,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[28]Laser (4)",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[28]Laser (4)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 5,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[31]Laser (9)",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[31]Laser (9)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 8,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[30]Laser (8)",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[30]Laser (8)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 9,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[26]Laser (2)",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[26]Laser (2)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 10,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[29]Laser (7)",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[29]Laser (7)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 11,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[27]Laser (3)",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[27]Laser (3)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 2,
+      "commonGameObjectPath": "KDAEnvironment.[0]Environment",
+      "registeredLightCount": 5,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 4,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "[22]GlowTopLine (3)",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[22]GlowTopLine (3)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 5,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "[19]GlowTopLine",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[19]GlowTopLine",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 7,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "[23]GlowTopLine (4)",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[23]GlowTopLine (4)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 9,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "[21]GlowTopLine (2)",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[21]GlowTopLine (2)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 10,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "[20]GlowTopLine (1)",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[20]GlowTopLine (1)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 3,
+      "commonGameObjectPath": "KDAEnvironment.[0]Environment",
+      "registeredLightCount": 7,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[112]RotatingLasersPair (4).[0]BaseL.[0]Laser",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[112]RotatingLasersPair (4).[0]BaseL.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[111]RotatingLasersPair (3).[0]BaseL.[0]Laser",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[111]RotatingLasersPair (3).[0]BaseL.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[110]RotatingLasersPair (2).[0]BaseL.[0]Laser",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[110]RotatingLasersPair (2).[0]BaseL.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[109]RotatingLasersPair (1).[0]BaseL.[0]Laser",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[109]RotatingLasersPair (1).[0]BaseL.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 4,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[113]RotatingLasersPair (5).[0]BaseL.[0]Laser",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[113]RotatingLasersPair (5).[0]BaseL.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 5,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[114]RotatingLasersPair (6).[0]BaseL.[0]Laser",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[114]RotatingLasersPair (6).[0]BaseL.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 8,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[108]RotatingLasersPair.[0]BaseL.[0]Laser",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[108]RotatingLasersPair.[0]BaseL.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 4,
+      "commonGameObjectPath": "KDAEnvironment.[0]Environment",
+      "registeredLightCount": 9,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[112]RotatingLasersPair (4).[1]BaseR.[0]Laser",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[112]RotatingLasersPair (4).[1]BaseR.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[111]RotatingLasersPair (3).[1]BaseR.[0]Laser",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[111]RotatingLasersPair (3).[1]BaseR.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[110]RotatingLasersPair (2).[1]BaseR.[0]Laser",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[110]RotatingLasersPair (2).[1]BaseR.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[109]RotatingLasersPair (1).[1]BaseR.[0]Laser",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[109]RotatingLasersPair (1).[1]BaseR.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 4,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[114]RotatingLasersPair (6).[1]BaseR.[0]Laser",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[114]RotatingLasersPair (6).[1]BaseR.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 5,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[113]RotatingLasersPair (5).[1]BaseR.[0]Laser",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[113]RotatingLasersPair (5).[1]BaseR.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 7,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[4]TentacleRight.[0]Crystal",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[4]TentacleRight.[0]Crystal",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 9,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[108]RotatingLasersPair.[1]BaseR.[0]Laser",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[108]RotatingLasersPair.[1]BaseR.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 13,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[3]TentacleLeft.[0]Crystal",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[3]TentacleLeft.[0]Crystal",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 5,
+      "commonGameObjectPath": "KDAEnvironment.[0]Environment",
+      "registeredLightCount": 84,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[7]PlayersPlace.[1]Feet",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[7]PlayersPlace.[1]Feet",
+          "componentType": "SpriteLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.00000048,
+            "z": 1.00000048
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[7]PlayersPlace.[3]RectangleFakeGlow",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[7]PlayersPlace.[3]RectangleFakeGlow",
+          "componentType": "RectangleFakeGlowLightWithId",
+          "localScale": {
+            "x": 1.495,
+            "y": 0.995,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[16]FrontLights.[1]NeonTube (1)",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[16]FrontLights.[1]NeonTube (1)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.00000024,
+            "y": 1.00000024,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 4,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[16]FrontLights.[0]NeonTube",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[16]FrontLights.[0]NeonTube",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.00000024,
+            "y": 1.00000024,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 8,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[60]GlowLine (55)",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[60]GlowLine (55)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 9,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[25]GlowLineFarR",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[25]GlowLineFarR",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 10,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[105]GlowLine (20)",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[105]GlowLine (20)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 11,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[95]GlowLine (40)",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[95]GlowLine (40)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 12,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[45]GlowLine (8)",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[45]GlowLine (8)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 13,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[54]GlowLine (9)",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[54]GlowLine (9)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 14,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[33]GlowLine (34)",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[33]GlowLine (34)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 15,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[97]GlowLine (70)",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[97]GlowLine (70)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 16,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[35]GlowLine (48)",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[35]GlowLine (48)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 17,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[34]GlowLine (36)",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[34]GlowLine (36)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 18,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[39]GlowLine (62)",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[39]GlowLine (62)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 19,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[32]GlowLine (2)",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[32]GlowLine (2)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 20,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[79]GlowLine (67)",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[79]GlowLine (67)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 21,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[68]GlowLine (39)",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[68]GlowLine (39)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 22,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[83]GlowLine (11)",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[83]GlowLine (11)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 23,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[56]GlowLine (29)",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[56]GlowLine (29)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 24,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[93]GlowLine (18)",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[93]GlowLine (18)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 25,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[24]GlowLineFarL",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[24]GlowLineFarL",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 26,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[58]GlowLine (44)",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[58]GlowLine (44)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 27,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[70]GlowLine (54)",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[70]GlowLine (54)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 28,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[107]GlowLine (56)",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[107]GlowLine (56)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 29,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[84]GlowLine (52)",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[84]GlowLine (52)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 30,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[44]GlowLine (51)",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[44]GlowLine (51)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 31,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[90]GlowLine (74)",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[90]GlowLine (74)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 32,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[57]GlowLine (5)",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[57]GlowLine (5)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 33,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[106]GlowLine",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[106]GlowLine",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 34,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[43]GlowLine (42)",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[43]GlowLine (42)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 35,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[51]GlowLine (21)",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[51]GlowLine (21)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 36,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[67]GlowLine (64)",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[67]GlowLine (64)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 37,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[94]GlowLine (1)",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[94]GlowLine (1)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 38,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[82]GlowLine (69)",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[82]GlowLine (69)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 40,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[75]GlowLine (49)",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[75]GlowLine (49)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 41,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[69]GlowLine (73)",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[69]GlowLine (73)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 43,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[47]GlowLine (10)",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[47]GlowLine (10)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 44,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[62]GlowLine (3)",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[62]GlowLine (3)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 45,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[66]GlowLine (59)",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[66]GlowLine (59)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 46,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[80]GlowLine (37)",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[80]GlowLine (37)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 47,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[74]GlowLine (23)",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[74]GlowLine (23)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 48,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[76]GlowLine (19)",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[76]GlowLine (19)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 49,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[52]GlowLine (58)",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[52]GlowLine (58)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 50,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[91]GlowLine (4)",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[91]GlowLine (4)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 51,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[96]GlowLine (12)",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[96]GlowLine (12)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 52,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[61]GlowLine (16)",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[61]GlowLine (16)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 53,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[17]GlowLineLVisible",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[17]GlowLineLVisible",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 54,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[98]GlowLine (13)",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[98]GlowLine (13)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 55,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[36]GlowLine (68)",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[36]GlowLine (68)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 56,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[65]GlowLine (46)",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[65]GlowLine (46)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 57,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[102]GlowLine (30)",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[102]GlowLine (30)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 58,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[38]GlowLine (53)",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[38]GlowLine (53)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 59,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[101]GlowLine (32)",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[101]GlowLine (32)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 60,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[40]GlowLine (65)",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[40]GlowLine (65)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 61,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[89]GlowLine (43)",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[89]GlowLine (43)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 62,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[49]GlowLine (76)",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[49]GlowLine (76)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 63,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[81]GlowLine (17)",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[81]GlowLine (17)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 64,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[37]GlowLine (27)",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[37]GlowLine (27)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 65,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[99]GlowLine (61)",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[99]GlowLine (61)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 66,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[71]GlowLine (25)",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[71]GlowLine (25)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 67,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[88]GlowLine (28)",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[88]GlowLine (28)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 68,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[48]GlowLine (60)",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[48]GlowLine (60)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 69,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[72]GlowLine (15)",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[72]GlowLine (15)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 70,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[41]GlowLine (71)",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[41]GlowLine (71)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 71,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[63]GlowLine (47)",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[63]GlowLine (47)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 72,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[100]GlowLine (75)",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[100]GlowLine (75)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 73,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[87]GlowLine (22)",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[87]GlowLine (22)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 74,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[86]GlowLine (45)",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[86]GlowLine (45)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 75,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[104]GlowLine (38)",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[104]GlowLine (38)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 76,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[50]GlowLine (50)",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[50]GlowLine (50)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 77,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[42]GlowLine (72)",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[42]GlowLine (72)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 78,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[92]GlowLine (31)",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[92]GlowLine (31)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 79,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[59]GlowLine (33)",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[59]GlowLine (33)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 80,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[77]GlowLine (63)",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[77]GlowLine (63)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 81,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[78]GlowLine (41)",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[78]GlowLine (41)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 82,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[103]GlowLine (57)",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[103]GlowLine (57)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 83,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[18]GlowLineRVisible",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[18]GlowLineRVisible",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 84,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[55]GlowLine (7)",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[55]GlowLine (7)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 85,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[73]GlowLine (14)",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[73]GlowLine (14)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 86,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[85]GlowLine (6)",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[85]GlowLine (6)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 87,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[46]GlowLine (24)",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[46]GlowLine (24)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 88,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[53]GlowLine (66)",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[53]GlowLine (66)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 89,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[64]GlowLine (35)",
+          "gameObjectPath": "KDAEnvironment.[0]Environment.[64]GlowLine (35)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "KDAEnvironment"
+        }
+      ]
+    }
+  ]
+}

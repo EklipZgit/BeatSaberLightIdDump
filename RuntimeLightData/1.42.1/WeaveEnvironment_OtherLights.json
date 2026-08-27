@@ -1,0 +1,145 @@
+{
+  "formatVersion": 4,
+  "environmentName": "WeaveEnvironment",
+  "gameVersion": "1.42.1_13508",
+  "lightManagerPath": "WeaveEnvironment.[0]Environment.[12]LightWithIdManager",
+  "initialRegisteredLightCount": 1,
+  "totalRegisteredLightCount": 5,
+  "lightIdSlots": [
+    {
+      "beatSaberLightId": 1,
+      "commonGameObjectPath": "WeaveEnvironment.[0]Environment.[30]LightmapLightWithIds",
+      "registeredLightCount": 1,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "",
+          "componentType": "LightmapLightsWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "WeaveEnvironment.[0]Environment.[30]LightmapLightWithIds",
+          "ownerComponentType": "LightmapLightsWithIds",
+          "indexWithinOwner": 0,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "WeaveEnvironment",
+          "intensity": 1.0,
+          "bakeId": 1,
+          "weight": 0.0
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 2,
+      "commonGameObjectPath": "WeaveEnvironment.[0]Environment.[30]LightmapLightWithIds",
+      "registeredLightCount": 1,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "",
+          "componentType": "LightmapLightsWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "WeaveEnvironment.[0]Environment.[30]LightmapLightWithIds",
+          "ownerComponentType": "LightmapLightsWithIds",
+          "indexWithinOwner": 1,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "WeaveEnvironment",
+          "intensity": 1.0,
+          "bakeId": 2,
+          "weight": 0.0
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 3,
+      "commonGameObjectPath": "WeaveEnvironment.[0]Environment.[30]LightmapLightWithIds",
+      "registeredLightCount": 1,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "",
+          "componentType": "LightmapLightsWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "WeaveEnvironment.[0]Environment.[30]LightmapLightWithIds",
+          "ownerComponentType": "LightmapLightsWithIds",
+          "indexWithinOwner": 2,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "WeaveEnvironment",
+          "intensity": 1.0,
+          "bakeId": 3,
+          "weight": 0.0
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 4,
+      "commonGameObjectPath": "WeaveEnvironment.[0]Environment.[30]LightmapLightWithIds",
+      "registeredLightCount": 1,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "",
+          "componentType": "LightmapLightsWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "WeaveEnvironment.[0]Environment.[30]LightmapLightWithIds",
+          "ownerComponentType": "LightmapLightsWithIds",
+          "indexWithinOwner": 3,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "WeaveEnvironment",
+          "intensity": 1.0,
+          "bakeId": 4,
+          "weight": 0.0
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 5,
+      "commonGameObjectPath": "WeaveEnvironment.[0]Environment.[30]LightmapLightWithIds",
+      "registeredLightCount": 1,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "",
+          "componentType": "LightmapLightsWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "WeaveEnvironment.[0]Environment.[30]LightmapLightWithIds",
+          "ownerComponentType": "LightmapLightsWithIds",
+          "indexWithinOwner": 4,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "WeaveEnvironment",
+          "intensity": 1.0,
+          "bakeId": 5,
+          "weight": 0.0
+        }
+      ]
+    }
+  ]
+}

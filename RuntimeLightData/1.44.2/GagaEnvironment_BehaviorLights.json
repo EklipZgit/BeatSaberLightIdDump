@@ -1,0 +1,943 @@
+{
+  "formatVersion": 4,
+  "environmentName": "GagaEnvironment",
+  "gameVersion": "1.44.2_21558",
+  "lightManagerPath": "GagaEnvironment.[0]Environment.[40]LightWithIdManager",
+  "initialRegisteredLightCount": 1,
+  "totalRegisteredLightCount": 58,
+  "lightIdSlots": [
+    {
+      "beatSaberLightId": 1,
+      "commonGameObjectPath": "GagaEnvironment.[0]Environment.[37]Aurora.[0]AuroraMain",
+      "registeredLightCount": 1,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "GagaEnvironment.[0]Environment.[37]Aurora.[0]AuroraMain",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 2.0,
+            "y": 2.0,
+            "z": 2.0
+          },
+          "sceneName": "GagaEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 2,
+      "commonGameObjectPath": "GagaEnvironment.[0]Environment.[37]Aurora.[1]AuroraSecondary",
+      "registeredLightCount": 1,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "GagaEnvironment.[0]Environment.[37]Aurora.[1]AuroraSecondary",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 2.3,
+            "y": 1.5,
+            "z": 2.0
+          },
+          "sceneName": "GagaEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 3,
+      "commonGameObjectPath": "GagaEnvironment.[0]Environment",
+      "registeredLightCount": 11,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[28]TeslaTower1L.[2]DiskBottom",
+          "gameObjectPath": "GagaEnvironment.[0]Environment.[28]TeslaTower1L.[2]DiskBottom",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GagaEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[17]RunwayPillar.[1]RunwayLightL0",
+          "gameObjectPath": "GagaEnvironment.[0]Environment.[17]RunwayPillar.[1]RunwayLightL0",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GagaEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[17]RunwayPillar.[0]RunwayLightL1",
+          "gameObjectPath": "GagaEnvironment.[0]Environment.[17]RunwayPillar.[0]RunwayLightL1",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GagaEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 4,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[16]RunwayPillarLow (2).[0]RunwayLightL1",
+          "gameObjectPath": "GagaEnvironment.[0]Environment.[16]RunwayPillarLow (2).[0]RunwayLightL1",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GagaEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 5,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[28]TeslaTower1L.[1]DiskUpper",
+          "gameObjectPath": "GagaEnvironment.[0]Environment.[28]TeslaTower1L.[1]DiskUpper",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GagaEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 6,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[16]RunwayPillarLow (2).[1]RunwayLightL0",
+          "gameObjectPath": "GagaEnvironment.[0]Environment.[16]RunwayPillarLow (2).[1]RunwayLightL0",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GagaEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 7,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[28]TeslaTower1L.[3]DynamicTeslaDisc",
+          "gameObjectPath": "GagaEnvironment.[0]Environment.[28]TeslaTower1L.[3]DynamicTeslaDisc",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GagaEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 8,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[28]TeslaTower1L.[4]BloomFog",
+          "gameObjectPath": "GagaEnvironment.[0]Environment.[28]TeslaTower1L.[4]BloomFog",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GagaEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 10,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[28]TeslaTower1L.[0]DiskTop",
+          "gameObjectPath": "GagaEnvironment.[0]Environment.[28]TeslaTower1L.[0]DiskTop",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 1.47,
+            "y": 1.0,
+            "z": 1.47
+          },
+          "sceneName": "GagaEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 11,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[28]TeslaTower1L.[3]DynamicTeslaDisc.[4]LightningWithTargetThin",
+          "gameObjectPath": "GagaEnvironment.[0]Environment.[28]TeslaTower1L.[3]DynamicTeslaDisc.[4]LightningWithTargetThin",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GagaEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 14,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[28]TeslaTower1L.[3]DynamicTeslaDisc.[3]LightningWithTarget",
+          "gameObjectPath": "GagaEnvironment.[0]Environment.[28]TeslaTower1L.[3]DynamicTeslaDisc.[3]LightningWithTarget",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GagaEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 4,
+      "commonGameObjectPath": "GagaEnvironment.[0]Environment",
+      "registeredLightCount": 11,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[29]TeslaTower1R.[2]DiskBottom",
+          "gameObjectPath": "GagaEnvironment.[0]Environment.[29]TeslaTower1R.[2]DiskBottom",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GagaEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[17]RunwayPillar.[2]RunwayLightR0",
+          "gameObjectPath": "GagaEnvironment.[0]Environment.[17]RunwayPillar.[2]RunwayLightR0",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GagaEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[16]RunwayPillarLow (2).[2]RunwayLightR0",
+          "gameObjectPath": "GagaEnvironment.[0]Environment.[16]RunwayPillarLow (2).[2]RunwayLightR0",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GagaEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 4,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[29]TeslaTower1R.[1]DiskUpper",
+          "gameObjectPath": "GagaEnvironment.[0]Environment.[29]TeslaTower1R.[1]DiskUpper",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GagaEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 5,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[29]TeslaTower1R.[3]DynamicTeslaDisc",
+          "gameObjectPath": "GagaEnvironment.[0]Environment.[29]TeslaTower1R.[3]DynamicTeslaDisc",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GagaEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 6,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[29]TeslaTower1R.[4]BloomFog",
+          "gameObjectPath": "GagaEnvironment.[0]Environment.[29]TeslaTower1R.[4]BloomFog",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GagaEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 7,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[17]RunwayPillar.[3]RunwayLightR1",
+          "gameObjectPath": "GagaEnvironment.[0]Environment.[17]RunwayPillar.[3]RunwayLightR1",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GagaEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 9,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[29]TeslaTower1R.[0]DiskTop",
+          "gameObjectPath": "GagaEnvironment.[0]Environment.[29]TeslaTower1R.[0]DiskTop",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 1.47,
+            "y": 1.0,
+            "z": 1.47
+          },
+          "sceneName": "GagaEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 10,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[16]RunwayPillarLow (2).[3]RunwayLightR1",
+          "gameObjectPath": "GagaEnvironment.[0]Environment.[16]RunwayPillarLow (2).[3]RunwayLightR1",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GagaEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 11,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[29]TeslaTower1R.[3]DynamicTeslaDisc.[3]LightningWithTarget",
+          "gameObjectPath": "GagaEnvironment.[0]Environment.[29]TeslaTower1R.[3]DynamicTeslaDisc.[3]LightningWithTarget",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GagaEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 12,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[29]TeslaTower1R.[3]DynamicTeslaDisc.[4]LightningWithTargetThin",
+          "gameObjectPath": "GagaEnvironment.[0]Environment.[29]TeslaTower1R.[3]DynamicTeslaDisc.[4]LightningWithTargetThin",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GagaEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 5,
+      "commonGameObjectPath": "GagaEnvironment.[0]Environment",
+      "registeredLightCount": 6,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[10]PlayersPlace.[1]Feet",
+          "gameObjectPath": "GagaEnvironment.[0]Environment.[10]PlayersPlace.[1]Feet",
+          "componentType": "SpriteLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.00000048,
+            "z": 1.00000048
+          },
+          "sceneName": "GagaEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[10]PlayersPlace.[3]RectangleFakeGlow",
+          "gameObjectPath": "GagaEnvironment.[0]Environment.[10]PlayersPlace.[3]RectangleFakeGlow",
+          "componentType": "RectangleFakeGlowLightWithId",
+          "localScale": {
+            "x": 1.495,
+            "y": 0.995,
+            "z": 1.0
+          },
+          "sceneName": "GagaEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[43]FrontLasers.[0]FrontLaserL",
+          "gameObjectPath": "GagaEnvironment.[0]Environment.[43]FrontLasers.[0]FrontLaserL",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GagaEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 6,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[43]FrontLasers.[1]FrontLaserR",
+          "gameObjectPath": "GagaEnvironment.[0]Environment.[43]FrontLasers.[1]FrontLaserR",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GagaEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 8,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[43]FrontLasers.[3]FrontLaserFogR",
+          "gameObjectPath": "GagaEnvironment.[0]Environment.[43]FrontLasers.[3]FrontLaserFogR",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GagaEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 10,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[43]FrontLasers.[2]FrontLaserFogL",
+          "gameObjectPath": "GagaEnvironment.[0]Environment.[43]FrontLasers.[2]FrontLaserFogL",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GagaEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 6,
+      "commonGameObjectPath": "GagaEnvironment.[0]Environment.[30]TeslaTower2L",
+      "registeredLightCount": 7,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 6,
+          "type": 6,
+          "typeName": "Event6",
+          "relativeGameObjectPath": "[2]DiskBottom",
+          "gameObjectPath": "GagaEnvironment.[0]Environment.[30]TeslaTower2L.[2]DiskBottom",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GagaEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 6,
+          "type": 6,
+          "typeName": "Event6",
+          "relativeGameObjectPath": "[1]DiskUpper",
+          "gameObjectPath": "GagaEnvironment.[0]Environment.[30]TeslaTower2L.[1]DiskUpper",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GagaEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 6,
+          "type": 6,
+          "typeName": "Event6",
+          "relativeGameObjectPath": "[3]DynamicTeslaDisc",
+          "gameObjectPath": "GagaEnvironment.[0]Environment.[30]TeslaTower2L.[3]DynamicTeslaDisc",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GagaEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 6,
+          "type": 6,
+          "typeName": "Event6",
+          "relativeGameObjectPath": "[4]BloomFog",
+          "gameObjectPath": "GagaEnvironment.[0]Environment.[30]TeslaTower2L.[4]BloomFog",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GagaEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 5,
+          "componentLightId": 6,
+          "type": 6,
+          "typeName": "Event6",
+          "relativeGameObjectPath": "[0]DiskTop",
+          "gameObjectPath": "GagaEnvironment.[0]Environment.[30]TeslaTower2L.[0]DiskTop",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 1.47,
+            "y": 1.0,
+            "z": 1.47
+          },
+          "sceneName": "GagaEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 6,
+          "componentLightId": 6,
+          "type": 6,
+          "typeName": "Event6",
+          "relativeGameObjectPath": "[3]DynamicTeslaDisc.[3]LightningWithTarget",
+          "gameObjectPath": "GagaEnvironment.[0]Environment.[30]TeslaTower2L.[3]DynamicTeslaDisc.[3]LightningWithTarget",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GagaEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 7,
+          "componentLightId": 6,
+          "type": 6,
+          "typeName": "Event6",
+          "relativeGameObjectPath": "[3]DynamicTeslaDisc.[4]LightningWithTargetThin",
+          "gameObjectPath": "GagaEnvironment.[0]Environment.[30]TeslaTower2L.[3]DynamicTeslaDisc.[4]LightningWithTargetThin",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GagaEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 7,
+      "commonGameObjectPath": "GagaEnvironment.[0]Environment.[31]TeslaTower2R",
+      "registeredLightCount": 7,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 7,
+          "type": 7,
+          "typeName": "Event7",
+          "relativeGameObjectPath": "[2]DiskBottom",
+          "gameObjectPath": "GagaEnvironment.[0]Environment.[31]TeslaTower2R.[2]DiskBottom",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GagaEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 7,
+          "type": 7,
+          "typeName": "Event7",
+          "relativeGameObjectPath": "[1]DiskUpper",
+          "gameObjectPath": "GagaEnvironment.[0]Environment.[31]TeslaTower2R.[1]DiskUpper",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GagaEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 7,
+          "type": 7,
+          "typeName": "Event7",
+          "relativeGameObjectPath": "[3]DynamicTeslaDisc",
+          "gameObjectPath": "GagaEnvironment.[0]Environment.[31]TeslaTower2R.[3]DynamicTeslaDisc",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GagaEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 7,
+          "type": 7,
+          "typeName": "Event7",
+          "relativeGameObjectPath": "[4]BloomFog",
+          "gameObjectPath": "GagaEnvironment.[0]Environment.[31]TeslaTower2R.[4]BloomFog",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GagaEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 5,
+          "componentLightId": 7,
+          "type": 7,
+          "typeName": "Event7",
+          "relativeGameObjectPath": "[0]DiskTop",
+          "gameObjectPath": "GagaEnvironment.[0]Environment.[31]TeslaTower2R.[0]DiskTop",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 1.47,
+            "y": 1.0,
+            "z": 1.47
+          },
+          "sceneName": "GagaEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 6,
+          "componentLightId": 7,
+          "type": 7,
+          "typeName": "Event7",
+          "relativeGameObjectPath": "[3]DynamicTeslaDisc.[4]LightningWithTargetThin",
+          "gameObjectPath": "GagaEnvironment.[0]Environment.[31]TeslaTower2R.[3]DynamicTeslaDisc.[4]LightningWithTargetThin",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GagaEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 7,
+          "componentLightId": 7,
+          "type": 7,
+          "typeName": "Event7",
+          "relativeGameObjectPath": "[3]DynamicTeslaDisc.[3]LightningWithTarget",
+          "gameObjectPath": "GagaEnvironment.[0]Environment.[31]TeslaTower2R.[3]DynamicTeslaDisc.[3]LightningWithTarget",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GagaEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 8,
+      "commonGameObjectPath": "GagaEnvironment.[0]Environment.[32]TeslaTower3L",
+      "registeredLightCount": 7,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 8,
+          "type": 10,
+          "typeName": "Event10",
+          "relativeGameObjectPath": "[2]DiskBottom",
+          "gameObjectPath": "GagaEnvironment.[0]Environment.[32]TeslaTower3L.[2]DiskBottom",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GagaEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 8,
+          "type": 10,
+          "typeName": "Event10",
+          "relativeGameObjectPath": "[1]DiskUpper",
+          "gameObjectPath": "GagaEnvironment.[0]Environment.[32]TeslaTower3L.[1]DiskUpper",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GagaEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 8,
+          "type": 10,
+          "typeName": "Event10",
+          "relativeGameObjectPath": "[3]DynamicTeslaDisc",
+          "gameObjectPath": "GagaEnvironment.[0]Environment.[32]TeslaTower3L.[3]DynamicTeslaDisc",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GagaEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 8,
+          "type": 10,
+          "typeName": "Event10",
+          "relativeGameObjectPath": "[4]BloomFog",
+          "gameObjectPath": "GagaEnvironment.[0]Environment.[32]TeslaTower3L.[4]BloomFog",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GagaEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 5,
+          "componentLightId": 8,
+          "type": 10,
+          "typeName": "Event10",
+          "relativeGameObjectPath": "[0]DiskTop",
+          "gameObjectPath": "GagaEnvironment.[0]Environment.[32]TeslaTower3L.[0]DiskTop",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 1.47,
+            "y": 1.0,
+            "z": 1.47
+          },
+          "sceneName": "GagaEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 6,
+          "componentLightId": 8,
+          "type": 10,
+          "typeName": "Event10",
+          "relativeGameObjectPath": "[3]DynamicTeslaDisc.[4]LightningWithTargetThin",
+          "gameObjectPath": "GagaEnvironment.[0]Environment.[32]TeslaTower3L.[3]DynamicTeslaDisc.[4]LightningWithTargetThin",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GagaEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 7,
+          "componentLightId": 8,
+          "type": 10,
+          "typeName": "Event10",
+          "relativeGameObjectPath": "[3]DynamicTeslaDisc.[3]LightningWithTarget",
+          "gameObjectPath": "GagaEnvironment.[0]Environment.[32]TeslaTower3L.[3]DynamicTeslaDisc.[3]LightningWithTarget",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GagaEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 9,
+      "commonGameObjectPath": "GagaEnvironment.[0]Environment.[33]TeslaTower3R",
+      "registeredLightCount": 7,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 9,
+          "type": 11,
+          "typeName": "Event11",
+          "relativeGameObjectPath": "[2]DiskBottom",
+          "gameObjectPath": "GagaEnvironment.[0]Environment.[33]TeslaTower3R.[2]DiskBottom",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GagaEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 9,
+          "type": 11,
+          "typeName": "Event11",
+          "relativeGameObjectPath": "[1]DiskUpper",
+          "gameObjectPath": "GagaEnvironment.[0]Environment.[33]TeslaTower3R.[1]DiskUpper",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GagaEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 9,
+          "type": 11,
+          "typeName": "Event11",
+          "relativeGameObjectPath": "[3]DynamicTeslaDisc",
+          "gameObjectPath": "GagaEnvironment.[0]Environment.[33]TeslaTower3R.[3]DynamicTeslaDisc",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GagaEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 9,
+          "type": 11,
+          "typeName": "Event11",
+          "relativeGameObjectPath": "[4]BloomFog",
+          "gameObjectPath": "GagaEnvironment.[0]Environment.[33]TeslaTower3R.[4]BloomFog",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GagaEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 5,
+          "componentLightId": 9,
+          "type": 11,
+          "typeName": "Event11",
+          "relativeGameObjectPath": "[0]DiskTop",
+          "gameObjectPath": "GagaEnvironment.[0]Environment.[33]TeslaTower3R.[0]DiskTop",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 1.47,
+            "y": 1.0,
+            "z": 1.47
+          },
+          "sceneName": "GagaEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 6,
+          "componentLightId": 9,
+          "type": 11,
+          "typeName": "Event11",
+          "relativeGameObjectPath": "[3]DynamicTeslaDisc.[4]LightningWithTargetThin",
+          "gameObjectPath": "GagaEnvironment.[0]Environment.[33]TeslaTower3R.[3]DynamicTeslaDisc.[4]LightningWithTargetThin",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GagaEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 7,
+          "componentLightId": 9,
+          "type": 11,
+          "typeName": "Event11",
+          "relativeGameObjectPath": "[3]DynamicTeslaDisc.[3]LightningWithTarget",
+          "gameObjectPath": "GagaEnvironment.[0]Environment.[33]TeslaTower3R.[3]DynamicTeslaDisc.[3]LightningWithTarget",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GagaEnvironment"
+        }
+      ]
+    }
+  ]
+}

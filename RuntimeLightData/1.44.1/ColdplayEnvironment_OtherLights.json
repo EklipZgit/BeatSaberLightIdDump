@@ -1,0 +1,3455 @@
+{
+  "formatVersion": 4,
+  "environmentName": "ColdplayEnvironment",
+  "gameVersion": "1.44.1_20239",
+  "lightManagerPath": "ColdplayEnvironment.[0]Environment.[3]LightWithIdManager",
+  "initialRegisteredLightCount": 1,
+  "totalRegisteredLightCount": 146,
+  "lightIdSlots": [
+    {
+      "beatSaberLightId": 7,
+      "commonGameObjectPath": "ColdplayEnvironment.[0]Environment.[13]GradientBackground",
+      "registeredLightCount": 3,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 7,
+          "type": 6,
+          "typeName": "Event6",
+          "relativeGameObjectPath": "",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[13]GradientBackground",
+          "ownerComponentType": "BloomPrePassBackgroundColorsGradientTintColorWithLightId",
+          "indexWithinOwner": 0,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 1.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 7,
+          "type": 6,
+          "typeName": "Event6",
+          "relativeGameObjectPath": "",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[13]GradientBackground",
+          "ownerComponentType": "BloomPrePassBackgroundColorsGradientTintColorWithLightId",
+          "indexWithinOwner": 1,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 1.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 7,
+          "type": 6,
+          "typeName": "Event6",
+          "relativeGameObjectPath": "",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[13]GradientBackground",
+          "ownerComponentType": "BloomPrePassBackgroundColorsGradientTintColorWithLightId",
+          "indexWithinOwner": 2,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 1.0,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 25,
+      "commonGameObjectPath": "ColdplayEnvironment.[0]Environment",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 25,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[6]ReflectionProbeMapping.[4]E",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[6]ReflectionProbeMapping.[4]E",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 0,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.5,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 25,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[21]CoreLighting.[5]TopFront",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[21]CoreLighting.[5]TopFront",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 0,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.5,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 26,
+      "commonGameObjectPath": "ColdplayEnvironment.[0]Environment",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 26,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[6]ReflectionProbeMapping.[4]E",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[6]ReflectionProbeMapping.[4]E",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 1,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.5,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 26,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[21]CoreLighting.[5]TopFront",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[21]CoreLighting.[5]TopFront",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 1,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.5,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 27,
+      "commonGameObjectPath": "ColdplayEnvironment.[0]Environment",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 27,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[6]ReflectionProbeMapping.[0]A",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[6]ReflectionProbeMapping.[0]A",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 0,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 27,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[21]CoreLighting.[1]LeftLasers",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[21]CoreLighting.[1]LeftLasers",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 0,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 28,
+      "commonGameObjectPath": "ColdplayEnvironment.[0]Environment",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 28,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[6]ReflectionProbeMapping.[0]A",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[6]ReflectionProbeMapping.[0]A",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 1,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 28,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[21]CoreLighting.[1]LeftLasers",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[21]CoreLighting.[1]LeftLasers",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 1,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 29,
+      "commonGameObjectPath": "ColdplayEnvironment.[0]Environment",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 29,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[6]ReflectionProbeMapping.[0]A",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[6]ReflectionProbeMapping.[0]A",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 2,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 29,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[21]CoreLighting.[1]LeftLasers",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[21]CoreLighting.[1]LeftLasers",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 2,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 30,
+      "commonGameObjectPath": "ColdplayEnvironment.[0]Environment",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 30,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[6]ReflectionProbeMapping.[0]A",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[6]ReflectionProbeMapping.[0]A",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 3,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 30,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[21]CoreLighting.[1]LeftLasers",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[21]CoreLighting.[1]LeftLasers",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 3,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 31,
+      "commonGameObjectPath": "ColdplayEnvironment.[0]Environment",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 31,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[6]ReflectionProbeMapping.[0]A",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[6]ReflectionProbeMapping.[0]A",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 4,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 31,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[21]CoreLighting.[1]LeftLasers",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[21]CoreLighting.[1]LeftLasers",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 4,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 32,
+      "commonGameObjectPath": "ColdplayEnvironment.[0]Environment",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 32,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[6]ReflectionProbeMapping.[0]A",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[6]ReflectionProbeMapping.[0]A",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 5,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 32,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[21]CoreLighting.[1]LeftLasers",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[21]CoreLighting.[1]LeftLasers",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 5,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 33,
+      "commonGameObjectPath": "ColdplayEnvironment.[0]Environment",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 33,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[6]ReflectionProbeMapping.[0]A",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[6]ReflectionProbeMapping.[0]A",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 6,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 33,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[21]CoreLighting.[1]LeftLasers",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[21]CoreLighting.[1]LeftLasers",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 6,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 34,
+      "commonGameObjectPath": "ColdplayEnvironment.[0]Environment",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 34,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[6]ReflectionProbeMapping.[0]A",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[6]ReflectionProbeMapping.[0]A",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 7,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 34,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[21]CoreLighting.[1]LeftLasers",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[21]CoreLighting.[1]LeftLasers",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 7,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 35,
+      "commonGameObjectPath": "ColdplayEnvironment.[0]Environment",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 35,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[6]ReflectionProbeMapping.[0]A",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[6]ReflectionProbeMapping.[0]A",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 8,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 35,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[21]CoreLighting.[1]LeftLasers",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[21]CoreLighting.[1]LeftLasers",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 8,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 36,
+      "commonGameObjectPath": "ColdplayEnvironment.[0]Environment",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 36,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[6]ReflectionProbeMapping.[0]A",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[6]ReflectionProbeMapping.[0]A",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 9,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 36,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[21]CoreLighting.[1]LeftLasers",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[21]CoreLighting.[1]LeftLasers",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 9,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 37,
+      "commonGameObjectPath": "ColdplayEnvironment.[0]Environment",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 37,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[6]ReflectionProbeMapping.[0]A",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[6]ReflectionProbeMapping.[0]A",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 10,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 37,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[21]CoreLighting.[1]LeftLasers",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[21]CoreLighting.[1]LeftLasers",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 10,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 38,
+      "commonGameObjectPath": "ColdplayEnvironment.[0]Environment",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 38,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[6]ReflectionProbeMapping.[0]A",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[6]ReflectionProbeMapping.[0]A",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 11,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 38,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[21]CoreLighting.[1]LeftLasers",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[21]CoreLighting.[1]LeftLasers",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 11,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 39,
+      "commonGameObjectPath": "ColdplayEnvironment.[0]Environment",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 39,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[6]ReflectionProbeMapping.[0]A",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[6]ReflectionProbeMapping.[0]A",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 12,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 39,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[21]CoreLighting.[1]LeftLasers",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[21]CoreLighting.[1]LeftLasers",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 12,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 40,
+      "commonGameObjectPath": "ColdplayEnvironment.[0]Environment",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 40,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[6]ReflectionProbeMapping.[0]A",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[6]ReflectionProbeMapping.[0]A",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 13,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 40,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[21]CoreLighting.[1]LeftLasers",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[21]CoreLighting.[1]LeftLasers",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 13,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 41,
+      "commonGameObjectPath": "ColdplayEnvironment.[0]Environment",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 41,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[6]ReflectionProbeMapping.[0]A",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[6]ReflectionProbeMapping.[0]A",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 14,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 41,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[21]CoreLighting.[1]LeftLasers",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[21]CoreLighting.[1]LeftLasers",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 14,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 42,
+      "commonGameObjectPath": "ColdplayEnvironment.[0]Environment",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 42,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[6]ReflectionProbeMapping.[0]A",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[6]ReflectionProbeMapping.[0]A",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 15,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 42,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[21]CoreLighting.[1]LeftLasers",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[21]CoreLighting.[1]LeftLasers",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 15,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 43,
+      "commonGameObjectPath": "ColdplayEnvironment.[0]Environment",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 43,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[6]ReflectionProbeMapping.[5]F",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[6]ReflectionProbeMapping.[5]F",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 0,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 43,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[21]CoreLighting.[2]RightLasers",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[21]CoreLighting.[2]RightLasers",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 0,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 44,
+      "commonGameObjectPath": "ColdplayEnvironment.[0]Environment",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 44,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[6]ReflectionProbeMapping.[5]F",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[6]ReflectionProbeMapping.[5]F",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 1,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 44,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[21]CoreLighting.[2]RightLasers",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[21]CoreLighting.[2]RightLasers",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 1,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 45,
+      "commonGameObjectPath": "ColdplayEnvironment.[0]Environment",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 45,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[6]ReflectionProbeMapping.[5]F",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[6]ReflectionProbeMapping.[5]F",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 2,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 45,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[21]CoreLighting.[2]RightLasers",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[21]CoreLighting.[2]RightLasers",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 2,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 46,
+      "commonGameObjectPath": "ColdplayEnvironment.[0]Environment",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 46,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[6]ReflectionProbeMapping.[5]F",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[6]ReflectionProbeMapping.[5]F",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 3,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 46,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[21]CoreLighting.[2]RightLasers",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[21]CoreLighting.[2]RightLasers",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 3,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 47,
+      "commonGameObjectPath": "ColdplayEnvironment.[0]Environment",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 47,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[6]ReflectionProbeMapping.[5]F",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[6]ReflectionProbeMapping.[5]F",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 4,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 47,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[21]CoreLighting.[2]RightLasers",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[21]CoreLighting.[2]RightLasers",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 4,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 48,
+      "commonGameObjectPath": "ColdplayEnvironment.[0]Environment",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 48,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[6]ReflectionProbeMapping.[5]F",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[6]ReflectionProbeMapping.[5]F",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 5,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 48,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[21]CoreLighting.[2]RightLasers",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[21]CoreLighting.[2]RightLasers",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 5,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 49,
+      "commonGameObjectPath": "ColdplayEnvironment.[0]Environment",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 49,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[6]ReflectionProbeMapping.[5]F",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[6]ReflectionProbeMapping.[5]F",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 6,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 49,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[21]CoreLighting.[2]RightLasers",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[21]CoreLighting.[2]RightLasers",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 6,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 50,
+      "commonGameObjectPath": "ColdplayEnvironment.[0]Environment",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 50,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[6]ReflectionProbeMapping.[5]F",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[6]ReflectionProbeMapping.[5]F",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 7,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 50,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[21]CoreLighting.[2]RightLasers",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[21]CoreLighting.[2]RightLasers",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 7,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 51,
+      "commonGameObjectPath": "ColdplayEnvironment.[0]Environment",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 51,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[6]ReflectionProbeMapping.[5]F",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[6]ReflectionProbeMapping.[5]F",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 8,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 51,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[21]CoreLighting.[2]RightLasers",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[21]CoreLighting.[2]RightLasers",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 8,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 52,
+      "commonGameObjectPath": "ColdplayEnvironment.[0]Environment",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 52,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[6]ReflectionProbeMapping.[5]F",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[6]ReflectionProbeMapping.[5]F",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 9,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 52,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[21]CoreLighting.[2]RightLasers",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[21]CoreLighting.[2]RightLasers",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 9,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 53,
+      "commonGameObjectPath": "ColdplayEnvironment.[0]Environment",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 53,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[6]ReflectionProbeMapping.[5]F",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[6]ReflectionProbeMapping.[5]F",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 10,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 53,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[21]CoreLighting.[2]RightLasers",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[21]CoreLighting.[2]RightLasers",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 10,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 54,
+      "commonGameObjectPath": "ColdplayEnvironment.[0]Environment",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 54,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[6]ReflectionProbeMapping.[5]F",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[6]ReflectionProbeMapping.[5]F",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 11,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 54,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[21]CoreLighting.[2]RightLasers",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[21]CoreLighting.[2]RightLasers",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 11,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 55,
+      "commonGameObjectPath": "ColdplayEnvironment.[0]Environment",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 55,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[6]ReflectionProbeMapping.[5]F",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[6]ReflectionProbeMapping.[5]F",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 12,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 55,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[21]CoreLighting.[2]RightLasers",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[21]CoreLighting.[2]RightLasers",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 12,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 56,
+      "commonGameObjectPath": "ColdplayEnvironment.[0]Environment",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 56,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[6]ReflectionProbeMapping.[5]F",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[6]ReflectionProbeMapping.[5]F",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 13,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 56,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[21]CoreLighting.[2]RightLasers",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[21]CoreLighting.[2]RightLasers",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 13,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 57,
+      "commonGameObjectPath": "ColdplayEnvironment.[0]Environment",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 57,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[6]ReflectionProbeMapping.[5]F",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[6]ReflectionProbeMapping.[5]F",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 14,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 57,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[21]CoreLighting.[2]RightLasers",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[21]CoreLighting.[2]RightLasers",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 14,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 58,
+      "commonGameObjectPath": "ColdplayEnvironment.[0]Environment",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 58,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[6]ReflectionProbeMapping.[5]F",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[6]ReflectionProbeMapping.[5]F",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 15,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 58,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[21]CoreLighting.[2]RightLasers",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[21]CoreLighting.[2]RightLasers",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 15,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 95,
+      "commonGameObjectPath": "ColdplayEnvironment.[0]Environment.[6]ReflectionProbeMapping.[1]B",
+      "registeredLightCount": 1,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 95,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[6]ReflectionProbeMapping.[1]B",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 0,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.25,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 96,
+      "commonGameObjectPath": "ColdplayEnvironment.[0]Environment.[6]ReflectionProbeMapping.[1]B",
+      "registeredLightCount": 1,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 96,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[6]ReflectionProbeMapping.[1]B",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 1,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.25,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 97,
+      "commonGameObjectPath": "ColdplayEnvironment.[0]Environment.[6]ReflectionProbeMapping.[1]B",
+      "registeredLightCount": 1,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 97,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[6]ReflectionProbeMapping.[1]B",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 2,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.25,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 98,
+      "commonGameObjectPath": "ColdplayEnvironment.[0]Environment.[6]ReflectionProbeMapping.[1]B",
+      "registeredLightCount": 1,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 98,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[6]ReflectionProbeMapping.[1]B",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 3,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.25,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 107,
+      "commonGameObjectPath": "ColdplayEnvironment.[0]Environment",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 107,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[6]ReflectionProbeMapping.[2]C",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[6]ReflectionProbeMapping.[2]C",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 0,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 6,
+          "componentLightId": 107,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[21]CoreLighting.[3]Left",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[21]CoreLighting.[3]Left",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 0,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 108,
+      "commonGameObjectPath": "ColdplayEnvironment.[0]Environment",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 108,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[6]ReflectionProbeMapping.[2]C",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[6]ReflectionProbeMapping.[2]C",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 1,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 4,
+          "componentLightId": 108,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[21]CoreLighting.[3]Left",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[21]CoreLighting.[3]Left",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 1,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 109,
+      "commonGameObjectPath": "ColdplayEnvironment.[0]Environment",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 109,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[6]ReflectionProbeMapping.[2]C",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[6]ReflectionProbeMapping.[2]C",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 2,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 109,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[21]CoreLighting.[3]Left",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[21]CoreLighting.[3]Left",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 2,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 110,
+      "commonGameObjectPath": "ColdplayEnvironment.[0]Environment",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 110,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[6]ReflectionProbeMapping.[2]C",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[6]ReflectionProbeMapping.[2]C",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 3,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 6,
+          "componentLightId": 110,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[21]CoreLighting.[3]Left",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[21]CoreLighting.[3]Left",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 3,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 111,
+      "commonGameObjectPath": "ColdplayEnvironment.[0]Environment",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 111,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[6]ReflectionProbeMapping.[2]C",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[6]ReflectionProbeMapping.[2]C",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 4,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 111,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[21]CoreLighting.[3]Left",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[21]CoreLighting.[3]Left",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 4,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 112,
+      "commonGameObjectPath": "ColdplayEnvironment.[0]Environment",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 112,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[6]ReflectionProbeMapping.[2]C",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[6]ReflectionProbeMapping.[2]C",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 5,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 6,
+          "componentLightId": 112,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[21]CoreLighting.[3]Left",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[21]CoreLighting.[3]Left",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 5,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 113,
+      "commonGameObjectPath": "ColdplayEnvironment.[0]Environment",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 113,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[6]ReflectionProbeMapping.[2]C",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[6]ReflectionProbeMapping.[2]C",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 6,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 4,
+          "componentLightId": 113,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[21]CoreLighting.[3]Left",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[21]CoreLighting.[3]Left",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 6,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 114,
+      "commonGameObjectPath": "ColdplayEnvironment.[0]Environment",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 114,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[6]ReflectionProbeMapping.[2]C",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[6]ReflectionProbeMapping.[2]C",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 7,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 6,
+          "componentLightId": 114,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[21]CoreLighting.[3]Left",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[21]CoreLighting.[3]Left",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 7,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 115,
+      "commonGameObjectPath": "ColdplayEnvironment.[0]Environment",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 115,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[6]ReflectionProbeMapping.[2]C",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[6]ReflectionProbeMapping.[2]C",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 8,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 5,
+          "componentLightId": 115,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[21]CoreLighting.[3]Left",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[21]CoreLighting.[3]Left",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 8,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 116,
+      "commonGameObjectPath": "ColdplayEnvironment.[0]Environment",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 116,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[6]ReflectionProbeMapping.[2]C",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[6]ReflectionProbeMapping.[2]C",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 9,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 6,
+          "componentLightId": 116,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[21]CoreLighting.[3]Left",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[21]CoreLighting.[3]Left",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 9,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 117,
+      "commonGameObjectPath": "ColdplayEnvironment.[0]Environment",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 117,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[6]ReflectionProbeMapping.[2]C",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[6]ReflectionProbeMapping.[2]C",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 10,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 5,
+          "componentLightId": 117,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[21]CoreLighting.[3]Left",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[21]CoreLighting.[3]Left",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 10,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 118,
+      "commonGameObjectPath": "ColdplayEnvironment.[0]Environment",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 118,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[6]ReflectionProbeMapping.[2]C",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[6]ReflectionProbeMapping.[2]C",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 11,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 118,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[21]CoreLighting.[3]Left",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[21]CoreLighting.[3]Left",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 11,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 119,
+      "commonGameObjectPath": "ColdplayEnvironment.[0]Environment",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 119,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[6]ReflectionProbeMapping.[2]C",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[6]ReflectionProbeMapping.[2]C",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 12,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 4,
+          "componentLightId": 119,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[21]CoreLighting.[3]Left",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[21]CoreLighting.[3]Left",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 12,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 120,
+      "commonGameObjectPath": "ColdplayEnvironment.[0]Environment",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 120,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[6]ReflectionProbeMapping.[2]C",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[6]ReflectionProbeMapping.[2]C",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 13,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 120,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[21]CoreLighting.[3]Left",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[21]CoreLighting.[3]Left",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 13,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 121,
+      "commonGameObjectPath": "ColdplayEnvironment.[0]Environment",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 121,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[6]ReflectionProbeMapping.[2]C",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[6]ReflectionProbeMapping.[2]C",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 14,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 5,
+          "componentLightId": 121,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[21]CoreLighting.[3]Left",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[21]CoreLighting.[3]Left",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 14,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 122,
+      "commonGameObjectPath": "ColdplayEnvironment.[0]Environment",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 122,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[6]ReflectionProbeMapping.[2]C",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[6]ReflectionProbeMapping.[2]C",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 15,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 6,
+          "componentLightId": 122,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[21]CoreLighting.[3]Left",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[21]CoreLighting.[3]Left",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 15,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 123,
+      "commonGameObjectPath": "ColdplayEnvironment.[0]Environment",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 123,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[6]ReflectionProbeMapping.[3]D",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[6]ReflectionProbeMapping.[3]D",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 0,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 123,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[21]CoreLighting.[4]Right",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[21]CoreLighting.[4]Right",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 0,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 124,
+      "commonGameObjectPath": "ColdplayEnvironment.[0]Environment",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 124,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[6]ReflectionProbeMapping.[3]D",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[6]ReflectionProbeMapping.[3]D",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 1,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 124,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[21]CoreLighting.[4]Right",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[21]CoreLighting.[4]Right",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 1,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 125,
+      "commonGameObjectPath": "ColdplayEnvironment.[0]Environment",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 125,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[6]ReflectionProbeMapping.[3]D",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[6]ReflectionProbeMapping.[3]D",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 2,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 125,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[21]CoreLighting.[4]Right",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[21]CoreLighting.[4]Right",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 2,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 126,
+      "commonGameObjectPath": "ColdplayEnvironment.[0]Environment",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 126,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[6]ReflectionProbeMapping.[3]D",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[6]ReflectionProbeMapping.[3]D",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 3,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 126,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[21]CoreLighting.[4]Right",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[21]CoreLighting.[4]Right",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 3,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 127,
+      "commonGameObjectPath": "ColdplayEnvironment.[0]Environment",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 127,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[6]ReflectionProbeMapping.[3]D",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[6]ReflectionProbeMapping.[3]D",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 4,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 127,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[21]CoreLighting.[4]Right",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[21]CoreLighting.[4]Right",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 4,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 128,
+      "commonGameObjectPath": "ColdplayEnvironment.[0]Environment",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 128,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[6]ReflectionProbeMapping.[3]D",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[6]ReflectionProbeMapping.[3]D",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 5,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 128,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[21]CoreLighting.[4]Right",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[21]CoreLighting.[4]Right",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 5,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 129,
+      "commonGameObjectPath": "ColdplayEnvironment.[0]Environment",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 129,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[6]ReflectionProbeMapping.[3]D",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[6]ReflectionProbeMapping.[3]D",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 6,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 129,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[21]CoreLighting.[4]Right",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[21]CoreLighting.[4]Right",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 6,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 130,
+      "commonGameObjectPath": "ColdplayEnvironment.[0]Environment",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 130,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[6]ReflectionProbeMapping.[3]D",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[6]ReflectionProbeMapping.[3]D",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 7,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 130,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[21]CoreLighting.[4]Right",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[21]CoreLighting.[4]Right",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 7,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 131,
+      "commonGameObjectPath": "ColdplayEnvironment.[0]Environment",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 131,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[6]ReflectionProbeMapping.[3]D",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[6]ReflectionProbeMapping.[3]D",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 8,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 131,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[21]CoreLighting.[4]Right",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[21]CoreLighting.[4]Right",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 8,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 132,
+      "commonGameObjectPath": "ColdplayEnvironment.[0]Environment",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 132,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[6]ReflectionProbeMapping.[3]D",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[6]ReflectionProbeMapping.[3]D",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 9,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 5,
+          "componentLightId": 132,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[21]CoreLighting.[4]Right",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[21]CoreLighting.[4]Right",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 9,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 133,
+      "commonGameObjectPath": "ColdplayEnvironment.[0]Environment",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 133,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[6]ReflectionProbeMapping.[3]D",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[6]ReflectionProbeMapping.[3]D",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 10,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 133,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[21]CoreLighting.[4]Right",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[21]CoreLighting.[4]Right",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 10,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 134,
+      "commonGameObjectPath": "ColdplayEnvironment.[0]Environment",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 134,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[6]ReflectionProbeMapping.[3]D",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[6]ReflectionProbeMapping.[3]D",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 11,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 134,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[21]CoreLighting.[4]Right",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[21]CoreLighting.[4]Right",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 11,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 135,
+      "commonGameObjectPath": "ColdplayEnvironment.[0]Environment",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 135,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[6]ReflectionProbeMapping.[3]D",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[6]ReflectionProbeMapping.[3]D",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 12,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 135,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[21]CoreLighting.[4]Right",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[21]CoreLighting.[4]Right",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 12,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 136,
+      "commonGameObjectPath": "ColdplayEnvironment.[0]Environment",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 136,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[6]ReflectionProbeMapping.[3]D",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[6]ReflectionProbeMapping.[3]D",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 13,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 136,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[21]CoreLighting.[4]Right",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[21]CoreLighting.[4]Right",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 13,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 137,
+      "commonGameObjectPath": "ColdplayEnvironment.[0]Environment",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 137,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[6]ReflectionProbeMapping.[3]D",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[6]ReflectionProbeMapping.[3]D",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 14,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 5,
+          "componentLightId": 137,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[21]CoreLighting.[4]Right",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[21]CoreLighting.[4]Right",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 14,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 138,
+      "commonGameObjectPath": "ColdplayEnvironment.[0]Environment",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 138,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[6]ReflectionProbeMapping.[3]D",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[6]ReflectionProbeMapping.[3]D",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 15,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 5,
+          "componentLightId": 138,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[21]CoreLighting.[4]Right",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[21]CoreLighting.[4]Right",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 15,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.0625,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 139,
+      "commonGameObjectPath": "ColdplayEnvironment.[0]Environment.[21]CoreLighting.[5]TopFront",
+      "registeredLightCount": 1,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 139,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[21]CoreLighting.[5]TopFront",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 2,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 1.0,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 141,
+      "commonGameObjectPath": "ColdplayEnvironment.[0]Environment.[21]CoreLighting",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 141,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[4]Right",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[21]CoreLighting.[4]Right",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 16,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.166666672,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 141,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[3]Left",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[21]CoreLighting.[3]Left",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 16,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.166666672,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 142,
+      "commonGameObjectPath": "ColdplayEnvironment.[0]Environment.[21]CoreLighting",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 142,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[4]Right",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[21]CoreLighting.[4]Right",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 17,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.166666672,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 142,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[3]Left",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[21]CoreLighting.[3]Left",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 17,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.166666672,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 143,
+      "commonGameObjectPath": "ColdplayEnvironment.[0]Environment.[21]CoreLighting",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 143,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[4]Right",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[21]CoreLighting.[4]Right",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 18,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.166666672,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 143,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[3]Left",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "ColdplayEnvironment.[0]Environment.[21]CoreLighting.[3]Left",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 18,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "ColdplayEnvironment",
+          "intensity": 0.166666672,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    }
+  ]
+}

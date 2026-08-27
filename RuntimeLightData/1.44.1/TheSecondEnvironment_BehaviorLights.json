@@ -1,0 +1,4929 @@
+{
+  "formatVersion": 4,
+  "environmentName": "TheSecondEnvironment",
+  "gameVersion": "1.44.1_20239",
+  "lightManagerPath": "TheSecondEnvironment.[0]Environment.[1]LightWithIdManager",
+  "initialRegisteredLightCount": 1,
+  "totalRegisteredLightCount": 271,
+  "lightIdSlots": [
+    {
+      "beatSaberLightId": 1,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[19]Buildings",
+      "registeredLightCount": 18,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[4]NearBuildingLeftTS (1).[1]NeonTubeDirectionalTS",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[19]Buildings.[4]NearBuildingLeftTS (1).[1]NeonTubeDirectionalTS",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[0]NearBuildingLeftTS.[1]NeonTubeDirectionalTS",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[19]Buildings.[0]NearBuildingLeftTS.[1]NeonTubeDirectionalTS",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[2]NearBuildingLeftTS.[1]NeonTubeDirectionalTS",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[19]Buildings.[2]NearBuildingLeftTS.[1]NeonTubeDirectionalTS",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[4]NearBuildingLeftTS (1).[2]NeonTubeDirectionalTS (1)",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[19]Buildings.[4]NearBuildingLeftTS (1).[2]NeonTubeDirectionalTS (1)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 4,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[0]NearBuildingLeftTS.[2]NeonTubeDirectionalTS (1)",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[19]Buildings.[0]NearBuildingLeftTS.[2]NeonTubeDirectionalTS (1)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 5,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[2]NearBuildingLeftTS.[2]NeonTubeDirectionalTS (1)",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[19]Buildings.[2]NearBuildingLeftTS.[2]NeonTubeDirectionalTS (1)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 6,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[5]NearBuildingRightTS (1).[2]NeonTubeDirectionalTS (1)",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[19]Buildings.[5]NearBuildingRightTS (1).[2]NeonTubeDirectionalTS (1)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 7,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[1]NearBuildingRightTS.[2]NeonTubeDirectionalTS (1)",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[19]Buildings.[1]NearBuildingRightTS.[2]NeonTubeDirectionalTS (1)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 8,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[3]NearBuildingRightTS.[2]NeonTubeDirectionalTS (1)",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[19]Buildings.[3]NearBuildingRightTS.[2]NeonTubeDirectionalTS (1)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 9,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[4]NearBuildingLeftTS (1).[3]NeonTubeTS",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[19]Buildings.[4]NearBuildingLeftTS (1).[3]NeonTubeTS",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 10,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[0]NearBuildingLeftTS.[3]NeonTubeTS",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[19]Buildings.[0]NearBuildingLeftTS.[3]NeonTubeTS",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 11,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[2]NearBuildingLeftTS.[3]NeonTubeTS",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[19]Buildings.[2]NearBuildingLeftTS.[3]NeonTubeTS",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 12,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[5]NearBuildingRightTS (1).[3]NeonTubeTS",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[19]Buildings.[5]NearBuildingRightTS (1).[3]NeonTubeTS",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 13,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[1]NearBuildingRightTS.[3]NeonTubeTS",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[19]Buildings.[1]NearBuildingRightTS.[3]NeonTubeTS",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 14,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[3]NearBuildingRightTS.[3]NeonTubeTS",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[19]Buildings.[3]NearBuildingRightTS.[3]NeonTubeTS",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 15,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[3]NearBuildingRightTS.[1]NeonTubeDirectionalTS",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[19]Buildings.[3]NearBuildingRightTS.[1]NeonTubeDirectionalTS",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 16,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[1]NearBuildingRightTS.[1]NeonTubeDirectionalTS",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[19]Buildings.[1]NearBuildingRightTS.[1]NeonTubeDirectionalTS",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 17,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[5]NearBuildingRightTS (1).[1]NeonTubeDirectionalTS",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[19]Buildings.[5]NearBuildingRightTS (1).[1]NeonTubeDirectionalTS",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 2,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[32]FrontLogo",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "[1]NeonTube (1)",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[32]FrontLogo.[1]NeonTube (1)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.00000024,
+            "y": 1.00000024,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "[0]NeonTube",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[32]FrontLogo.[0]NeonTube",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.00000024,
+            "y": 1.00000024,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 5,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment",
+      "registeredLightCount": 7,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[16]PlayersPlace.[1]Feet",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[16]PlayersPlace.[1]Feet",
+          "componentType": "SpriteLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.00000048,
+            "z": 1.00000048
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[29]RunwayLasers.[0]Far Left",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[29]RunwayLasers.[0]Far Left",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[29]RunwayLasers.[1]Far Right",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[29]RunwayLasers.[1]Far Right",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[16]PlayersPlace.[3]RectangleFakeGlow",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[16]PlayersPlace.[3]RectangleFakeGlow",
+          "componentType": "RectangleFakeGlowLightWithId",
+          "localScale": {
+            "x": 1.495,
+            "y": 0.995,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 4,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[21]BackColumns.[1]BackColumnNeon",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[21]BackColumns.[1]BackColumnNeon",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 5,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[21]BackColumns.[0]BackColumnNeon",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[21]BackColumns.[0]BackColumnNeon",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 6,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[5]GradientBackgroundTheSecond",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[5]GradientBackgroundTheSecond",
+          "componentType": "BloomPrePassBackgroundColorsGradientTintColorWithLightIds",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 50,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[25]BigTrackLaneRingsGroup.[0]BigTrackLaneRing.[0]AdditionalRotation.[0]RotationXParent",
+      "registeredLightCount": 4,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 50,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]NeonTubeBothSidesDirectional (3)",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[25]BigTrackLaneRingsGroup.[0]BigTrackLaneRing.[0]AdditionalRotation.[0]RotationXParent.[1]NeonTubeBothSidesDirectional (3)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 50,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[3]NeonTubeBothSidesDirectional (1)",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[25]BigTrackLaneRingsGroup.[0]BigTrackLaneRing.[0]AdditionalRotation.[0]RotationXParent.[3]NeonTubeBothSidesDirectional (1)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 50,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[4]NeonTubeBothSidesDirectional",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[25]BigTrackLaneRingsGroup.[0]BigTrackLaneRing.[0]AdditionalRotation.[0]RotationXParent.[4]NeonTubeBothSidesDirectional",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 4,
+          "componentLightId": 50,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[2]NeonTubeBothSidesDirectional (2)",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[25]BigTrackLaneRingsGroup.[0]BigTrackLaneRing.[0]AdditionalRotation.[0]RotationXParent.[2]NeonTubeBothSidesDirectional (2)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 51,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[25]BigTrackLaneRingsGroup.[1]BigTrackLaneRing.[0]AdditionalRotation.[0]RotationXParent",
+      "registeredLightCount": 4,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 51,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[4]NeonTubeBothSidesDirectional",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[25]BigTrackLaneRingsGroup.[1]BigTrackLaneRing.[0]AdditionalRotation.[0]RotationXParent.[4]NeonTubeBothSidesDirectional",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 51,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[3]NeonTubeBothSidesDirectional (1)",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[25]BigTrackLaneRingsGroup.[1]BigTrackLaneRing.[0]AdditionalRotation.[0]RotationXParent.[3]NeonTubeBothSidesDirectional (1)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 51,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]NeonTubeBothSidesDirectional (3)",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[25]BigTrackLaneRingsGroup.[1]BigTrackLaneRing.[0]AdditionalRotation.[0]RotationXParent.[1]NeonTubeBothSidesDirectional (3)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 4,
+          "componentLightId": 51,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[2]NeonTubeBothSidesDirectional (2)",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[25]BigTrackLaneRingsGroup.[1]BigTrackLaneRing.[0]AdditionalRotation.[0]RotationXParent.[2]NeonTubeBothSidesDirectional (2)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 52,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[25]BigTrackLaneRingsGroup.[2]BigTrackLaneRing.[0]AdditionalRotation.[0]RotationXParent",
+      "registeredLightCount": 4,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 52,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[2]NeonTubeBothSidesDirectional (2)",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[25]BigTrackLaneRingsGroup.[2]BigTrackLaneRing.[0]AdditionalRotation.[0]RotationXParent.[2]NeonTubeBothSidesDirectional (2)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 52,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[4]NeonTubeBothSidesDirectional",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[25]BigTrackLaneRingsGroup.[2]BigTrackLaneRing.[0]AdditionalRotation.[0]RotationXParent.[4]NeonTubeBothSidesDirectional",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 52,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[3]NeonTubeBothSidesDirectional (1)",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[25]BigTrackLaneRingsGroup.[2]BigTrackLaneRing.[0]AdditionalRotation.[0]RotationXParent.[3]NeonTubeBothSidesDirectional (1)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 4,
+          "componentLightId": 52,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]NeonTubeBothSidesDirectional (3)",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[25]BigTrackLaneRingsGroup.[2]BigTrackLaneRing.[0]AdditionalRotation.[0]RotationXParent.[1]NeonTubeBothSidesDirectional (3)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 53,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[25]BigTrackLaneRingsGroup.[3]BigTrackLaneRing.[0]AdditionalRotation.[0]RotationXParent",
+      "registeredLightCount": 4,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 53,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]NeonTubeBothSidesDirectional (3)",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[25]BigTrackLaneRingsGroup.[3]BigTrackLaneRing.[0]AdditionalRotation.[0]RotationXParent.[1]NeonTubeBothSidesDirectional (3)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 53,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[4]NeonTubeBothSidesDirectional",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[25]BigTrackLaneRingsGroup.[3]BigTrackLaneRing.[0]AdditionalRotation.[0]RotationXParent.[4]NeonTubeBothSidesDirectional",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 53,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[3]NeonTubeBothSidesDirectional (1)",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[25]BigTrackLaneRingsGroup.[3]BigTrackLaneRing.[0]AdditionalRotation.[0]RotationXParent.[3]NeonTubeBothSidesDirectional (1)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 53,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[2]NeonTubeBothSidesDirectional (2)",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[25]BigTrackLaneRingsGroup.[3]BigTrackLaneRing.[0]AdditionalRotation.[0]RotationXParent.[2]NeonTubeBothSidesDirectional (2)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 54,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[25]BigTrackLaneRingsGroup.[4]BigTrackLaneRing.[0]AdditionalRotation.[0]RotationXParent",
+      "registeredLightCount": 4,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 54,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[2]NeonTubeBothSidesDirectional (2)",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[25]BigTrackLaneRingsGroup.[4]BigTrackLaneRing.[0]AdditionalRotation.[0]RotationXParent.[2]NeonTubeBothSidesDirectional (2)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 54,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]NeonTubeBothSidesDirectional (3)",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[25]BigTrackLaneRingsGroup.[4]BigTrackLaneRing.[0]AdditionalRotation.[0]RotationXParent.[1]NeonTubeBothSidesDirectional (3)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 54,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[3]NeonTubeBothSidesDirectional (1)",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[25]BigTrackLaneRingsGroup.[4]BigTrackLaneRing.[0]AdditionalRotation.[0]RotationXParent.[3]NeonTubeBothSidesDirectional (1)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 4,
+          "componentLightId": 54,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[4]NeonTubeBothSidesDirectional",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[25]BigTrackLaneRingsGroup.[4]BigTrackLaneRing.[0]AdditionalRotation.[0]RotationXParent.[4]NeonTubeBothSidesDirectional",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 55,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[25]BigTrackLaneRingsGroup.[5]BigTrackLaneRing.[0]AdditionalRotation.[0]RotationXParent",
+      "registeredLightCount": 4,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 55,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]NeonTubeBothSidesDirectional (3)",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[25]BigTrackLaneRingsGroup.[5]BigTrackLaneRing.[0]AdditionalRotation.[0]RotationXParent.[1]NeonTubeBothSidesDirectional (3)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 55,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[3]NeonTubeBothSidesDirectional (1)",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[25]BigTrackLaneRingsGroup.[5]BigTrackLaneRing.[0]AdditionalRotation.[0]RotationXParent.[3]NeonTubeBothSidesDirectional (1)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 55,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[4]NeonTubeBothSidesDirectional",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[25]BigTrackLaneRingsGroup.[5]BigTrackLaneRing.[0]AdditionalRotation.[0]RotationXParent.[4]NeonTubeBothSidesDirectional",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 4,
+          "componentLightId": 55,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[2]NeonTubeBothSidesDirectional (2)",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[25]BigTrackLaneRingsGroup.[5]BigTrackLaneRing.[0]AdditionalRotation.[0]RotationXParent.[2]NeonTubeBothSidesDirectional (2)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 56,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[25]BigTrackLaneRingsGroup.[6]BigTrackLaneRing.[0]AdditionalRotation.[0]RotationXParent",
+      "registeredLightCount": 4,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 56,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]NeonTubeBothSidesDirectional (3)",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[25]BigTrackLaneRingsGroup.[6]BigTrackLaneRing.[0]AdditionalRotation.[0]RotationXParent.[1]NeonTubeBothSidesDirectional (3)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 56,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[4]NeonTubeBothSidesDirectional",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[25]BigTrackLaneRingsGroup.[6]BigTrackLaneRing.[0]AdditionalRotation.[0]RotationXParent.[4]NeonTubeBothSidesDirectional",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 56,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[3]NeonTubeBothSidesDirectional (1)",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[25]BigTrackLaneRingsGroup.[6]BigTrackLaneRing.[0]AdditionalRotation.[0]RotationXParent.[3]NeonTubeBothSidesDirectional (1)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 4,
+          "componentLightId": 56,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[2]NeonTubeBothSidesDirectional (2)",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[25]BigTrackLaneRingsGroup.[6]BigTrackLaneRing.[0]AdditionalRotation.[0]RotationXParent.[2]NeonTubeBothSidesDirectional (2)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 57,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[25]BigTrackLaneRingsGroup.[7]BigTrackLaneRing.[0]AdditionalRotation.[0]RotationXParent",
+      "registeredLightCount": 4,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 57,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]NeonTubeBothSidesDirectional (3)",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[25]BigTrackLaneRingsGroup.[7]BigTrackLaneRing.[0]AdditionalRotation.[0]RotationXParent.[1]NeonTubeBothSidesDirectional (3)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 57,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[4]NeonTubeBothSidesDirectional",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[25]BigTrackLaneRingsGroup.[7]BigTrackLaneRing.[0]AdditionalRotation.[0]RotationXParent.[4]NeonTubeBothSidesDirectional",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 57,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[3]NeonTubeBothSidesDirectional (1)",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[25]BigTrackLaneRingsGroup.[7]BigTrackLaneRing.[0]AdditionalRotation.[0]RotationXParent.[3]NeonTubeBothSidesDirectional (1)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 4,
+          "componentLightId": 57,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[2]NeonTubeBothSidesDirectional (2)",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[25]BigTrackLaneRingsGroup.[7]BigTrackLaneRing.[0]AdditionalRotation.[0]RotationXParent.[2]NeonTubeBothSidesDirectional (2)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 58,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[25]BigTrackLaneRingsGroup.[8]BigTrackLaneRing.[0]AdditionalRotation.[0]RotationXParent",
+      "registeredLightCount": 4,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 58,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[2]NeonTubeBothSidesDirectional (2)",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[25]BigTrackLaneRingsGroup.[8]BigTrackLaneRing.[0]AdditionalRotation.[0]RotationXParent.[2]NeonTubeBothSidesDirectional (2)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 58,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]NeonTubeBothSidesDirectional (3)",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[25]BigTrackLaneRingsGroup.[8]BigTrackLaneRing.[0]AdditionalRotation.[0]RotationXParent.[1]NeonTubeBothSidesDirectional (3)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 58,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[3]NeonTubeBothSidesDirectional (1)",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[25]BigTrackLaneRingsGroup.[8]BigTrackLaneRing.[0]AdditionalRotation.[0]RotationXParent.[3]NeonTubeBothSidesDirectional (1)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 4,
+          "componentLightId": 58,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[4]NeonTubeBothSidesDirectional",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[25]BigTrackLaneRingsGroup.[8]BigTrackLaneRing.[0]AdditionalRotation.[0]RotationXParent.[4]NeonTubeBothSidesDirectional",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 59,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[25]BigTrackLaneRingsGroup.[9]BigTrackLaneRing.[0]AdditionalRotation.[0]RotationXParent",
+      "registeredLightCount": 4,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 59,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[2]NeonTubeBothSidesDirectional (2)",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[25]BigTrackLaneRingsGroup.[9]BigTrackLaneRing.[0]AdditionalRotation.[0]RotationXParent.[2]NeonTubeBothSidesDirectional (2)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 59,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[4]NeonTubeBothSidesDirectional",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[25]BigTrackLaneRingsGroup.[9]BigTrackLaneRing.[0]AdditionalRotation.[0]RotationXParent.[4]NeonTubeBothSidesDirectional",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 59,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[3]NeonTubeBothSidesDirectional (1)",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[25]BigTrackLaneRingsGroup.[9]BigTrackLaneRing.[0]AdditionalRotation.[0]RotationXParent.[3]NeonTubeBothSidesDirectional (1)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 4,
+          "componentLightId": 59,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]NeonTubeBothSidesDirectional (3)",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[25]BigTrackLaneRingsGroup.[9]BigTrackLaneRing.[0]AdditionalRotation.[0]RotationXParent.[1]NeonTubeBothSidesDirectional (3)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 60,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[25]BigTrackLaneRingsGroup.[10]BigTrackLaneRing.[0]AdditionalRotation.[0]RotationXParent",
+      "registeredLightCount": 4,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 60,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[2]NeonTubeBothSidesDirectional (2)",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[25]BigTrackLaneRingsGroup.[10]BigTrackLaneRing.[0]AdditionalRotation.[0]RotationXParent.[2]NeonTubeBothSidesDirectional (2)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 60,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[4]NeonTubeBothSidesDirectional",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[25]BigTrackLaneRingsGroup.[10]BigTrackLaneRing.[0]AdditionalRotation.[0]RotationXParent.[4]NeonTubeBothSidesDirectional",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 60,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[3]NeonTubeBothSidesDirectional (1)",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[25]BigTrackLaneRingsGroup.[10]BigTrackLaneRing.[0]AdditionalRotation.[0]RotationXParent.[3]NeonTubeBothSidesDirectional (1)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 4,
+          "componentLightId": 60,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]NeonTubeBothSidesDirectional (3)",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[25]BigTrackLaneRingsGroup.[10]BigTrackLaneRing.[0]AdditionalRotation.[0]RotationXParent.[1]NeonTubeBothSidesDirectional (3)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 61,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[25]BigTrackLaneRingsGroup.[11]BigTrackLaneRing.[0]AdditionalRotation.[0]RotationXParent",
+      "registeredLightCount": 4,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 61,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]NeonTubeBothSidesDirectional (3)",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[25]BigTrackLaneRingsGroup.[11]BigTrackLaneRing.[0]AdditionalRotation.[0]RotationXParent.[1]NeonTubeBothSidesDirectional (3)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 61,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[4]NeonTubeBothSidesDirectional",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[25]BigTrackLaneRingsGroup.[11]BigTrackLaneRing.[0]AdditionalRotation.[0]RotationXParent.[4]NeonTubeBothSidesDirectional",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 61,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[3]NeonTubeBothSidesDirectional (1)",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[25]BigTrackLaneRingsGroup.[11]BigTrackLaneRing.[0]AdditionalRotation.[0]RotationXParent.[3]NeonTubeBothSidesDirectional (1)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 4,
+          "componentLightId": 61,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[2]NeonTubeBothSidesDirectional (2)",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[25]BigTrackLaneRingsGroup.[11]BigTrackLaneRing.[0]AdditionalRotation.[0]RotationXParent.[2]NeonTubeBothSidesDirectional (2)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 62,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[25]BigTrackLaneRingsGroup.[12]BigTrackLaneRing.[0]AdditionalRotation.[0]RotationXParent",
+      "registeredLightCount": 4,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 62,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]NeonTubeBothSidesDirectional (3)",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[25]BigTrackLaneRingsGroup.[12]BigTrackLaneRing.[0]AdditionalRotation.[0]RotationXParent.[1]NeonTubeBothSidesDirectional (3)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 62,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[3]NeonTubeBothSidesDirectional (1)",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[25]BigTrackLaneRingsGroup.[12]BigTrackLaneRing.[0]AdditionalRotation.[0]RotationXParent.[3]NeonTubeBothSidesDirectional (1)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 62,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[4]NeonTubeBothSidesDirectional",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[25]BigTrackLaneRingsGroup.[12]BigTrackLaneRing.[0]AdditionalRotation.[0]RotationXParent.[4]NeonTubeBothSidesDirectional",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 4,
+          "componentLightId": 62,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[2]NeonTubeBothSidesDirectional (2)",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[25]BigTrackLaneRingsGroup.[12]BigTrackLaneRing.[0]AdditionalRotation.[0]RotationXParent.[2]NeonTubeBothSidesDirectional (2)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 63,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[25]BigTrackLaneRingsGroup.[13]BigTrackLaneRing.[0]AdditionalRotation.[0]RotationXParent",
+      "registeredLightCount": 4,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 63,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]NeonTubeBothSidesDirectional (3)",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[25]BigTrackLaneRingsGroup.[13]BigTrackLaneRing.[0]AdditionalRotation.[0]RotationXParent.[1]NeonTubeBothSidesDirectional (3)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 63,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[3]NeonTubeBothSidesDirectional (1)",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[25]BigTrackLaneRingsGroup.[13]BigTrackLaneRing.[0]AdditionalRotation.[0]RotationXParent.[3]NeonTubeBothSidesDirectional (1)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 63,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[4]NeonTubeBothSidesDirectional",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[25]BigTrackLaneRingsGroup.[13]BigTrackLaneRing.[0]AdditionalRotation.[0]RotationXParent.[4]NeonTubeBothSidesDirectional",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 4,
+          "componentLightId": 63,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[2]NeonTubeBothSidesDirectional (2)",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[25]BigTrackLaneRingsGroup.[13]BigTrackLaneRing.[0]AdditionalRotation.[0]RotationXParent.[2]NeonTubeBothSidesDirectional (2)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 64,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[25]BigTrackLaneRingsGroup.[14]BigTrackLaneRing.[0]AdditionalRotation.[0]RotationXParent",
+      "registeredLightCount": 4,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 64,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[4]NeonTubeBothSidesDirectional",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[25]BigTrackLaneRingsGroup.[14]BigTrackLaneRing.[0]AdditionalRotation.[0]RotationXParent.[4]NeonTubeBothSidesDirectional",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 64,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[3]NeonTubeBothSidesDirectional (1)",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[25]BigTrackLaneRingsGroup.[14]BigTrackLaneRing.[0]AdditionalRotation.[0]RotationXParent.[3]NeonTubeBothSidesDirectional (1)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 64,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]NeonTubeBothSidesDirectional (3)",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[25]BigTrackLaneRingsGroup.[14]BigTrackLaneRing.[0]AdditionalRotation.[0]RotationXParent.[1]NeonTubeBothSidesDirectional (3)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 4,
+          "componentLightId": 64,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[2]NeonTubeBothSidesDirectional (2)",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[25]BigTrackLaneRingsGroup.[14]BigTrackLaneRing.[0]AdditionalRotation.[0]RotationXParent.[2]NeonTubeBothSidesDirectional (2)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 74,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[24]SmallTrackLaneRingsGroup.[0]SmallTrackLaneRing.[0]RotationXTransform.[0]AdditionalRotation.[1]RingLaser",
+      "registeredLightCount": 1,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 74,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[24]SmallTrackLaneRingsGroup.[0]SmallTrackLaneRing.[0]RotationXTransform.[0]AdditionalRotation.[1]RingLaser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 75,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[24]SmallTrackLaneRingsGroup.[0]SmallTrackLaneRing.[0]RotationXTransform.[0]AdditionalRotation.[2]RingLaser (1)",
+      "registeredLightCount": 1,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 75,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[24]SmallTrackLaneRingsGroup.[0]SmallTrackLaneRing.[0]RotationXTransform.[0]AdditionalRotation.[2]RingLaser (1)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 76,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[24]SmallTrackLaneRingsGroup.[1]SmallTrackLaneRing.[0]RotationXTransform.[0]AdditionalRotation.[1]RingLaser",
+      "registeredLightCount": 1,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 76,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[24]SmallTrackLaneRingsGroup.[1]SmallTrackLaneRing.[0]RotationXTransform.[0]AdditionalRotation.[1]RingLaser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 77,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[24]SmallTrackLaneRingsGroup.[1]SmallTrackLaneRing.[0]RotationXTransform.[0]AdditionalRotation.[2]RingLaser (1)",
+      "registeredLightCount": 1,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 77,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[24]SmallTrackLaneRingsGroup.[1]SmallTrackLaneRing.[0]RotationXTransform.[0]AdditionalRotation.[2]RingLaser (1)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 78,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[24]SmallTrackLaneRingsGroup.[2]SmallTrackLaneRing.[0]RotationXTransform.[0]AdditionalRotation.[1]RingLaser",
+      "registeredLightCount": 1,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 78,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[24]SmallTrackLaneRingsGroup.[2]SmallTrackLaneRing.[0]RotationXTransform.[0]AdditionalRotation.[1]RingLaser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 79,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[24]SmallTrackLaneRingsGroup.[2]SmallTrackLaneRing.[0]RotationXTransform.[0]AdditionalRotation.[2]RingLaser (1)",
+      "registeredLightCount": 1,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 79,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[24]SmallTrackLaneRingsGroup.[2]SmallTrackLaneRing.[0]RotationXTransform.[0]AdditionalRotation.[2]RingLaser (1)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 80,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[24]SmallTrackLaneRingsGroup.[3]SmallTrackLaneRing.[0]RotationXTransform.[0]AdditionalRotation.[1]RingLaser",
+      "registeredLightCount": 1,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 80,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[24]SmallTrackLaneRingsGroup.[3]SmallTrackLaneRing.[0]RotationXTransform.[0]AdditionalRotation.[1]RingLaser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 81,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[24]SmallTrackLaneRingsGroup.[3]SmallTrackLaneRing.[0]RotationXTransform.[0]AdditionalRotation.[2]RingLaser (1)",
+      "registeredLightCount": 1,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 81,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[24]SmallTrackLaneRingsGroup.[3]SmallTrackLaneRing.[0]RotationXTransform.[0]AdditionalRotation.[2]RingLaser (1)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 82,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[24]SmallTrackLaneRingsGroup.[4]SmallTrackLaneRing.[0]RotationXTransform.[0]AdditionalRotation.[1]RingLaser",
+      "registeredLightCount": 1,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 82,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[24]SmallTrackLaneRingsGroup.[4]SmallTrackLaneRing.[0]RotationXTransform.[0]AdditionalRotation.[1]RingLaser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 83,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[24]SmallTrackLaneRingsGroup.[4]SmallTrackLaneRing.[0]RotationXTransform.[0]AdditionalRotation.[2]RingLaser (1)",
+      "registeredLightCount": 1,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 83,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[24]SmallTrackLaneRingsGroup.[4]SmallTrackLaneRing.[0]RotationXTransform.[0]AdditionalRotation.[2]RingLaser (1)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 84,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[24]SmallTrackLaneRingsGroup.[5]SmallTrackLaneRing.[0]RotationXTransform.[0]AdditionalRotation.[1]RingLaser",
+      "registeredLightCount": 1,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 84,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[24]SmallTrackLaneRingsGroup.[5]SmallTrackLaneRing.[0]RotationXTransform.[0]AdditionalRotation.[1]RingLaser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 85,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[24]SmallTrackLaneRingsGroup.[5]SmallTrackLaneRing.[0]RotationXTransform.[0]AdditionalRotation.[2]RingLaser (1)",
+      "registeredLightCount": 1,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 85,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[24]SmallTrackLaneRingsGroup.[5]SmallTrackLaneRing.[0]RotationXTransform.[0]AdditionalRotation.[2]RingLaser (1)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 86,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[24]SmallTrackLaneRingsGroup.[6]SmallTrackLaneRing.[0]RotationXTransform.[0]AdditionalRotation.[1]RingLaser",
+      "registeredLightCount": 1,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 86,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[24]SmallTrackLaneRingsGroup.[6]SmallTrackLaneRing.[0]RotationXTransform.[0]AdditionalRotation.[1]RingLaser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 87,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[24]SmallTrackLaneRingsGroup.[6]SmallTrackLaneRing.[0]RotationXTransform.[0]AdditionalRotation.[2]RingLaser (1)",
+      "registeredLightCount": 1,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 87,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[24]SmallTrackLaneRingsGroup.[6]SmallTrackLaneRing.[0]RotationXTransform.[0]AdditionalRotation.[2]RingLaser (1)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 88,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[24]SmallTrackLaneRingsGroup.[7]SmallTrackLaneRing.[0]RotationXTransform.[0]AdditionalRotation.[1]RingLaser",
+      "registeredLightCount": 1,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 88,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[24]SmallTrackLaneRingsGroup.[7]SmallTrackLaneRing.[0]RotationXTransform.[0]AdditionalRotation.[1]RingLaser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 89,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[24]SmallTrackLaneRingsGroup.[7]SmallTrackLaneRing.[0]RotationXTransform.[0]AdditionalRotation.[2]RingLaser (1)",
+      "registeredLightCount": 1,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 89,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[24]SmallTrackLaneRingsGroup.[7]SmallTrackLaneRing.[0]RotationXTransform.[0]AdditionalRotation.[2]RingLaser (1)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 90,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[24]SmallTrackLaneRingsGroup.[8]SmallTrackLaneRing.[0]RotationXTransform.[0]AdditionalRotation.[1]RingLaser",
+      "registeredLightCount": 1,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 90,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[24]SmallTrackLaneRingsGroup.[8]SmallTrackLaneRing.[0]RotationXTransform.[0]AdditionalRotation.[1]RingLaser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 91,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[24]SmallTrackLaneRingsGroup.[8]SmallTrackLaneRing.[0]RotationXTransform.[0]AdditionalRotation.[2]RingLaser (1)",
+      "registeredLightCount": 1,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 91,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[24]SmallTrackLaneRingsGroup.[8]SmallTrackLaneRing.[0]RotationXTransform.[0]AdditionalRotation.[2]RingLaser (1)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 92,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[24]SmallTrackLaneRingsGroup.[9]SmallTrackLaneRing.[0]RotationXTransform.[0]AdditionalRotation.[1]RingLaser",
+      "registeredLightCount": 1,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 92,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[24]SmallTrackLaneRingsGroup.[9]SmallTrackLaneRing.[0]RotationXTransform.[0]AdditionalRotation.[1]RingLaser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 93,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[24]SmallTrackLaneRingsGroup.[9]SmallTrackLaneRing.[0]RotationXTransform.[0]AdditionalRotation.[2]RingLaser (1)",
+      "registeredLightCount": 1,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 93,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[24]SmallTrackLaneRingsGroup.[9]SmallTrackLaneRing.[0]RotationXTransform.[0]AdditionalRotation.[2]RingLaser (1)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 94,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[24]SmallTrackLaneRingsGroup.[10]SmallTrackLaneRing.[0]RotationXTransform.[0]AdditionalRotation.[1]RingLaser",
+      "registeredLightCount": 1,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 94,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[24]SmallTrackLaneRingsGroup.[10]SmallTrackLaneRing.[0]RotationXTransform.[0]AdditionalRotation.[1]RingLaser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 95,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[24]SmallTrackLaneRingsGroup.[10]SmallTrackLaneRing.[0]RotationXTransform.[0]AdditionalRotation.[2]RingLaser (1)",
+      "registeredLightCount": 1,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 95,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[24]SmallTrackLaneRingsGroup.[10]SmallTrackLaneRing.[0]RotationXTransform.[0]AdditionalRotation.[2]RingLaser (1)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 96,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[24]SmallTrackLaneRingsGroup.[11]SmallTrackLaneRing.[0]RotationXTransform.[0]AdditionalRotation.[1]RingLaser",
+      "registeredLightCount": 1,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 96,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[24]SmallTrackLaneRingsGroup.[11]SmallTrackLaneRing.[0]RotationXTransform.[0]AdditionalRotation.[1]RingLaser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 97,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[24]SmallTrackLaneRingsGroup.[11]SmallTrackLaneRing.[0]RotationXTransform.[0]AdditionalRotation.[2]RingLaser (1)",
+      "registeredLightCount": 1,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 97,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[24]SmallTrackLaneRingsGroup.[11]SmallTrackLaneRing.[0]RotationXTransform.[0]AdditionalRotation.[2]RingLaser (1)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 98,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[29]RunwayLasers.[2]RunwayLaserGroupLeft.[0]LaserFirst2",
+      "registeredLightCount": 1,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 98,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[29]RunwayLasers.[2]RunwayLaserGroupLeft.[0]LaserFirst2",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 99,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[29]RunwayLasers.[2]RunwayLaserGroupLeft.[1]LaserFirst2",
+      "registeredLightCount": 1,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 99,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[29]RunwayLasers.[2]RunwayLaserGroupLeft.[1]LaserFirst2",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 100,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[29]RunwayLasers.[2]RunwayLaserGroupLeft.[2]LaserFirst2",
+      "registeredLightCount": 1,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 100,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[29]RunwayLasers.[2]RunwayLaserGroupLeft.[2]LaserFirst2",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 101,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[29]RunwayLasers.[2]RunwayLaserGroupLeft.[3]LaserFirst2",
+      "registeredLightCount": 1,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 101,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[29]RunwayLasers.[2]RunwayLaserGroupLeft.[3]LaserFirst2",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 102,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[29]RunwayLasers.[2]RunwayLaserGroupLeft.[4]LaserFirst2",
+      "registeredLightCount": 1,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 102,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[29]RunwayLasers.[2]RunwayLaserGroupLeft.[4]LaserFirst2",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 103,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[29]RunwayLasers.[2]RunwayLaserGroupLeft.[5]LaserFirst2",
+      "registeredLightCount": 1,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 103,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[29]RunwayLasers.[2]RunwayLaserGroupLeft.[5]LaserFirst2",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 104,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[29]RunwayLasers.[2]RunwayLaserGroupLeft.[6]LaserFirst2",
+      "registeredLightCount": 1,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 104,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[29]RunwayLasers.[2]RunwayLaserGroupLeft.[6]LaserFirst2",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 105,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[29]RunwayLasers.[2]RunwayLaserGroupLeft.[7]LaserFirst2",
+      "registeredLightCount": 1,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 105,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[29]RunwayLasers.[2]RunwayLaserGroupLeft.[7]LaserFirst2",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 106,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[29]RunwayLasers.[2]RunwayLaserGroupLeft.[8]LaserFirst2",
+      "registeredLightCount": 1,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 106,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[29]RunwayLasers.[2]RunwayLaserGroupLeft.[8]LaserFirst2",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 107,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[29]RunwayLasers.[2]RunwayLaserGroupLeft.[9]LaserFirst2",
+      "registeredLightCount": 1,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 107,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[29]RunwayLasers.[2]RunwayLaserGroupLeft.[9]LaserFirst2",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 108,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[29]RunwayLasers.[2]RunwayLaserGroupLeft.[10]LaserFirst2",
+      "registeredLightCount": 1,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 108,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[29]RunwayLasers.[2]RunwayLaserGroupLeft.[10]LaserFirst2",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 109,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[29]RunwayLasers.[2]RunwayLaserGroupLeft.[11]LaserFirst2",
+      "registeredLightCount": 1,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 109,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[29]RunwayLasers.[2]RunwayLaserGroupLeft.[11]LaserFirst2",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 122,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[29]RunwayLasers.[3]RunwayLaserGroupRight.[0]LaserFirst2",
+      "registeredLightCount": 1,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 122,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[29]RunwayLasers.[3]RunwayLaserGroupRight.[0]LaserFirst2",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 123,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[29]RunwayLasers.[3]RunwayLaserGroupRight.[1]LaserFirst2",
+      "registeredLightCount": 1,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 123,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[29]RunwayLasers.[3]RunwayLaserGroupRight.[1]LaserFirst2",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 124,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[29]RunwayLasers.[3]RunwayLaserGroupRight.[2]LaserFirst2",
+      "registeredLightCount": 1,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 124,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[29]RunwayLasers.[3]RunwayLaserGroupRight.[2]LaserFirst2",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 125,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[29]RunwayLasers.[3]RunwayLaserGroupRight.[3]LaserFirst2",
+      "registeredLightCount": 1,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 125,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[29]RunwayLasers.[3]RunwayLaserGroupRight.[3]LaserFirst2",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 126,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[29]RunwayLasers.[3]RunwayLaserGroupRight.[4]LaserFirst2",
+      "registeredLightCount": 1,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 126,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[29]RunwayLasers.[3]RunwayLaserGroupRight.[4]LaserFirst2",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 127,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[29]RunwayLasers.[3]RunwayLaserGroupRight.[5]LaserFirst2",
+      "registeredLightCount": 1,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 127,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[29]RunwayLasers.[3]RunwayLaserGroupRight.[5]LaserFirst2",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 128,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[29]RunwayLasers.[3]RunwayLaserGroupRight.[6]LaserFirst2",
+      "registeredLightCount": 1,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 128,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[29]RunwayLasers.[3]RunwayLaserGroupRight.[6]LaserFirst2",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 129,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[29]RunwayLasers.[3]RunwayLaserGroupRight.[7]LaserFirst2",
+      "registeredLightCount": 1,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 129,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[29]RunwayLasers.[3]RunwayLaserGroupRight.[7]LaserFirst2",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 130,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[29]RunwayLasers.[3]RunwayLaserGroupRight.[8]LaserFirst2",
+      "registeredLightCount": 1,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 130,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[29]RunwayLasers.[3]RunwayLaserGroupRight.[8]LaserFirst2",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 131,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[29]RunwayLasers.[3]RunwayLaserGroupRight.[9]LaserFirst2",
+      "registeredLightCount": 1,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 131,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[29]RunwayLasers.[3]RunwayLaserGroupRight.[9]LaserFirst2",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 132,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[29]RunwayLasers.[3]RunwayLaserGroupRight.[10]LaserFirst2",
+      "registeredLightCount": 1,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 132,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[29]RunwayLasers.[3]RunwayLaserGroupRight.[10]LaserFirst2",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 133,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[29]RunwayLasers.[3]RunwayLaserGroupRight.[11]LaserFirst2",
+      "registeredLightCount": 1,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 133,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[29]RunwayLasers.[3]RunwayLaserGroupRight.[11]LaserFirst2",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 146,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[34]SpotlightGroupLeft.[0]WeaveLaser.[1]RotationBase",
+      "registeredLightCount": 3,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 146,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]LightSource.[1]Laser",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[34]SpotlightGroupLeft.[0]WeaveLaser.[1]RotationBase.[0]LightSource.[1]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 146,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]LightSource.[0]LightGlow",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[34]SpotlightGroupLeft.[0]WeaveLaser.[1]RotationBase.[0]LightSource.[0]LightGlow",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 146,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[34]SpotlightGroupLeft.[0]WeaveLaser.[1]RotationBase",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 147,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[34]SpotlightGroupLeft.[1]WeaveLaser.[1]RotationBase",
+      "registeredLightCount": 3,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 147,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]LightSource.[1]Laser",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[34]SpotlightGroupLeft.[1]WeaveLaser.[1]RotationBase.[0]LightSource.[1]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 147,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]LightSource.[0]LightGlow",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[34]SpotlightGroupLeft.[1]WeaveLaser.[1]RotationBase.[0]LightSource.[0]LightGlow",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 147,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[34]SpotlightGroupLeft.[1]WeaveLaser.[1]RotationBase",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 148,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[34]SpotlightGroupLeft.[2]WeaveLaser.[1]RotationBase",
+      "registeredLightCount": 3,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 148,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]LightSource.[1]Laser",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[34]SpotlightGroupLeft.[2]WeaveLaser.[1]RotationBase.[0]LightSource.[1]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 148,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]LightSource.[0]LightGlow",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[34]SpotlightGroupLeft.[2]WeaveLaser.[1]RotationBase.[0]LightSource.[0]LightGlow",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 148,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[34]SpotlightGroupLeft.[2]WeaveLaser.[1]RotationBase",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 149,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[34]SpotlightGroupLeft.[3]WeaveLaser.[1]RotationBase",
+      "registeredLightCount": 3,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 149,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]LightSource.[0]LightGlow",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[34]SpotlightGroupLeft.[3]WeaveLaser.[1]RotationBase.[0]LightSource.[0]LightGlow",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 149,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[34]SpotlightGroupLeft.[3]WeaveLaser.[1]RotationBase",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 149,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]LightSource.[1]Laser",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[34]SpotlightGroupLeft.[3]WeaveLaser.[1]RotationBase.[0]LightSource.[1]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 150,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[34]SpotlightGroupLeft.[4]WeaveLaser.[1]RotationBase",
+      "registeredLightCount": 3,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 150,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]LightSource.[1]Laser",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[34]SpotlightGroupLeft.[4]WeaveLaser.[1]RotationBase.[0]LightSource.[1]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 150,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]LightSource.[0]LightGlow",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[34]SpotlightGroupLeft.[4]WeaveLaser.[1]RotationBase.[0]LightSource.[0]LightGlow",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 150,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[34]SpotlightGroupLeft.[4]WeaveLaser.[1]RotationBase",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 151,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[34]SpotlightGroupLeft.[5]WeaveLaser.[1]RotationBase",
+      "registeredLightCount": 3,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 151,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]LightSource.[0]LightGlow",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[34]SpotlightGroupLeft.[5]WeaveLaser.[1]RotationBase.[0]LightSource.[0]LightGlow",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 151,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[34]SpotlightGroupLeft.[5]WeaveLaser.[1]RotationBase",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 151,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]LightSource.[1]Laser",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[34]SpotlightGroupLeft.[5]WeaveLaser.[1]RotationBase.[0]LightSource.[1]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 152,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[34]SpotlightGroupLeft.[6]WeaveLaser.[1]RotationBase",
+      "registeredLightCount": 3,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 152,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]LightSource.[1]Laser",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[34]SpotlightGroupLeft.[6]WeaveLaser.[1]RotationBase.[0]LightSource.[1]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 152,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[34]SpotlightGroupLeft.[6]WeaveLaser.[1]RotationBase",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 152,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]LightSource.[0]LightGlow",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[34]SpotlightGroupLeft.[6]WeaveLaser.[1]RotationBase.[0]LightSource.[0]LightGlow",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 153,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[34]SpotlightGroupLeft.[7]WeaveLaser.[1]RotationBase",
+      "registeredLightCount": 3,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 153,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]LightSource.[0]LightGlow",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[34]SpotlightGroupLeft.[7]WeaveLaser.[1]RotationBase.[0]LightSource.[0]LightGlow",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 153,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[34]SpotlightGroupLeft.[7]WeaveLaser.[1]RotationBase",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 153,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]LightSource.[1]Laser",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[34]SpotlightGroupLeft.[7]WeaveLaser.[1]RotationBase.[0]LightSource.[1]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 154,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[34]SpotlightGroupLeft.[8]WeaveLaser.[1]RotationBase",
+      "registeredLightCount": 3,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 154,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[34]SpotlightGroupLeft.[8]WeaveLaser.[1]RotationBase",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 154,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]LightSource.[0]LightGlow",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[34]SpotlightGroupLeft.[8]WeaveLaser.[1]RotationBase.[0]LightSource.[0]LightGlow",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 154,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]LightSource.[1]Laser",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[34]SpotlightGroupLeft.[8]WeaveLaser.[1]RotationBase.[0]LightSource.[1]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 155,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[34]SpotlightGroupLeft.[9]WeaveLaser.[1]RotationBase",
+      "registeredLightCount": 3,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 155,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]LightSource.[0]LightGlow",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[34]SpotlightGroupLeft.[9]WeaveLaser.[1]RotationBase.[0]LightSource.[0]LightGlow",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 155,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[34]SpotlightGroupLeft.[9]WeaveLaser.[1]RotationBase",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 155,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]LightSource.[1]Laser",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[34]SpotlightGroupLeft.[9]WeaveLaser.[1]RotationBase.[0]LightSource.[1]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 156,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[34]SpotlightGroupLeft.[10]WeaveLaser.[1]RotationBase",
+      "registeredLightCount": 3,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 156,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]LightSource.[1]Laser",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[34]SpotlightGroupLeft.[10]WeaveLaser.[1]RotationBase.[0]LightSource.[1]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 156,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]LightSource.[0]LightGlow",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[34]SpotlightGroupLeft.[10]WeaveLaser.[1]RotationBase.[0]LightSource.[0]LightGlow",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 156,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[34]SpotlightGroupLeft.[10]WeaveLaser.[1]RotationBase",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 157,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[34]SpotlightGroupLeft.[11]WeaveLaser.[1]RotationBase",
+      "registeredLightCount": 3,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 157,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]LightSource.[0]LightGlow",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[34]SpotlightGroupLeft.[11]WeaveLaser.[1]RotationBase.[0]LightSource.[0]LightGlow",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 157,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[34]SpotlightGroupLeft.[11]WeaveLaser.[1]RotationBase",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 157,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]LightSource.[1]Laser",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[34]SpotlightGroupLeft.[11]WeaveLaser.[1]RotationBase.[0]LightSource.[1]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 170,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[35]SpotlightGroupRight.[0]WeaveLaser.[1]RotationBase",
+      "registeredLightCount": 3,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 170,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]LightSource.[0]LightGlow",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[35]SpotlightGroupRight.[0]WeaveLaser.[1]RotationBase.[0]LightSource.[0]LightGlow",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 170,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[35]SpotlightGroupRight.[0]WeaveLaser.[1]RotationBase",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 170,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]LightSource.[1]Laser",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[35]SpotlightGroupRight.[0]WeaveLaser.[1]RotationBase.[0]LightSource.[1]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 171,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[35]SpotlightGroupRight.[1]WeaveLaser.[1]RotationBase",
+      "registeredLightCount": 3,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 171,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]LightSource.[1]Laser",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[35]SpotlightGroupRight.[1]WeaveLaser.[1]RotationBase.[0]LightSource.[1]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 171,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]LightSource.[0]LightGlow",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[35]SpotlightGroupRight.[1]WeaveLaser.[1]RotationBase.[0]LightSource.[0]LightGlow",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 171,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[35]SpotlightGroupRight.[1]WeaveLaser.[1]RotationBase",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 172,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[35]SpotlightGroupRight.[2]WeaveLaser.[1]RotationBase",
+      "registeredLightCount": 3,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 172,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]LightSource.[1]Laser",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[35]SpotlightGroupRight.[2]WeaveLaser.[1]RotationBase.[0]LightSource.[1]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 172,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]LightSource.[0]LightGlow",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[35]SpotlightGroupRight.[2]WeaveLaser.[1]RotationBase.[0]LightSource.[0]LightGlow",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 172,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[35]SpotlightGroupRight.[2]WeaveLaser.[1]RotationBase",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 173,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[35]SpotlightGroupRight.[3]WeaveLaser.[1]RotationBase",
+      "registeredLightCount": 3,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 173,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[35]SpotlightGroupRight.[3]WeaveLaser.[1]RotationBase",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 173,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]LightSource.[0]LightGlow",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[35]SpotlightGroupRight.[3]WeaveLaser.[1]RotationBase.[0]LightSource.[0]LightGlow",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 173,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]LightSource.[1]Laser",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[35]SpotlightGroupRight.[3]WeaveLaser.[1]RotationBase.[0]LightSource.[1]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 174,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[35]SpotlightGroupRight.[4]WeaveLaser.[1]RotationBase",
+      "registeredLightCount": 3,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 174,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]LightSource.[0]LightGlow",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[35]SpotlightGroupRight.[4]WeaveLaser.[1]RotationBase.[0]LightSource.[0]LightGlow",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 174,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[35]SpotlightGroupRight.[4]WeaveLaser.[1]RotationBase",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 174,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]LightSource.[1]Laser",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[35]SpotlightGroupRight.[4]WeaveLaser.[1]RotationBase.[0]LightSource.[1]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 175,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[35]SpotlightGroupRight.[5]WeaveLaser.[1]RotationBase",
+      "registeredLightCount": 3,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 175,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[35]SpotlightGroupRight.[5]WeaveLaser.[1]RotationBase",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 175,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]LightSource.[0]LightGlow",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[35]SpotlightGroupRight.[5]WeaveLaser.[1]RotationBase.[0]LightSource.[0]LightGlow",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 175,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]LightSource.[1]Laser",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[35]SpotlightGroupRight.[5]WeaveLaser.[1]RotationBase.[0]LightSource.[1]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 176,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[35]SpotlightGroupRight.[6]WeaveLaser.[1]RotationBase",
+      "registeredLightCount": 3,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 176,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]LightSource.[1]Laser",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[35]SpotlightGroupRight.[6]WeaveLaser.[1]RotationBase.[0]LightSource.[1]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 176,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[35]SpotlightGroupRight.[6]WeaveLaser.[1]RotationBase",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 176,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]LightSource.[0]LightGlow",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[35]SpotlightGroupRight.[6]WeaveLaser.[1]RotationBase.[0]LightSource.[0]LightGlow",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 177,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[35]SpotlightGroupRight.[7]WeaveLaser.[1]RotationBase",
+      "registeredLightCount": 3,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 177,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]LightSource.[1]Laser",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[35]SpotlightGroupRight.[7]WeaveLaser.[1]RotationBase.[0]LightSource.[1]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 177,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]LightSource.[0]LightGlow",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[35]SpotlightGroupRight.[7]WeaveLaser.[1]RotationBase.[0]LightSource.[0]LightGlow",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 177,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[35]SpotlightGroupRight.[7]WeaveLaser.[1]RotationBase",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 178,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[35]SpotlightGroupRight.[8]WeaveLaser.[1]RotationBase",
+      "registeredLightCount": 3,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 178,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]LightSource.[1]Laser",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[35]SpotlightGroupRight.[8]WeaveLaser.[1]RotationBase.[0]LightSource.[1]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 178,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[35]SpotlightGroupRight.[8]WeaveLaser.[1]RotationBase",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 178,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]LightSource.[0]LightGlow",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[35]SpotlightGroupRight.[8]WeaveLaser.[1]RotationBase.[0]LightSource.[0]LightGlow",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 179,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[35]SpotlightGroupRight.[9]WeaveLaser.[1]RotationBase",
+      "registeredLightCount": 3,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 179,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]LightSource.[1]Laser",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[35]SpotlightGroupRight.[9]WeaveLaser.[1]RotationBase.[0]LightSource.[1]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 179,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]LightSource.[0]LightGlow",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[35]SpotlightGroupRight.[9]WeaveLaser.[1]RotationBase.[0]LightSource.[0]LightGlow",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 179,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[35]SpotlightGroupRight.[9]WeaveLaser.[1]RotationBase",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 180,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[35]SpotlightGroupRight.[10]WeaveLaser.[1]RotationBase",
+      "registeredLightCount": 3,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 180,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]LightSource.[0]LightGlow",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[35]SpotlightGroupRight.[10]WeaveLaser.[1]RotationBase.[0]LightSource.[0]LightGlow",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 180,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[35]SpotlightGroupRight.[10]WeaveLaser.[1]RotationBase",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 180,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]LightSource.[1]Laser",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[35]SpotlightGroupRight.[10]WeaveLaser.[1]RotationBase.[0]LightSource.[1]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 181,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[35]SpotlightGroupRight.[11]WeaveLaser.[1]RotationBase",
+      "registeredLightCount": 3,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 181,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[35]SpotlightGroupRight.[11]WeaveLaser.[1]RotationBase",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 181,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]LightSource.[0]LightGlow",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[35]SpotlightGroupRight.[11]WeaveLaser.[1]RotationBase.[0]LightSource.[0]LightGlow",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 181,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]LightSource.[1]Laser",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[35]SpotlightGroupRight.[11]WeaveLaser.[1]RotationBase.[0]LightSource.[1]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 182,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[30]Main Lasers Top.[0]TopLasersLeftBottom.[0]MainLaser.[0]TransformX",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 182,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]LightGlow",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[30]Main Lasers Top.[0]TopLasersLeftBottom.[0]MainLaser.[0]TransformX.[1]LightGlow",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 182,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]Laser",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[30]Main Lasers Top.[0]TopLasersLeftBottom.[0]MainLaser.[0]TransformX.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 183,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[30]Main Lasers Top.[0]TopLasersLeftBottom.[1]MainLaser.[0]TransformX",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 183,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]Laser",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[30]Main Lasers Top.[0]TopLasersLeftBottom.[1]MainLaser.[0]TransformX.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 183,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]LightGlow",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[30]Main Lasers Top.[0]TopLasersLeftBottom.[1]MainLaser.[0]TransformX.[1]LightGlow",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 184,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[30]Main Lasers Top.[0]TopLasersLeftBottom.[2]MainLaser.[0]TransformX",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 184,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]LightGlow",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[30]Main Lasers Top.[0]TopLasersLeftBottom.[2]MainLaser.[0]TransformX.[1]LightGlow",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 184,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]Laser",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[30]Main Lasers Top.[0]TopLasersLeftBottom.[2]MainLaser.[0]TransformX.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 185,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[30]Main Lasers Top.[0]TopLasersLeftBottom.[3]MainLaser.[0]TransformX",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 185,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]Laser",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[30]Main Lasers Top.[0]TopLasersLeftBottom.[3]MainLaser.[0]TransformX.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 185,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]LightGlow",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[30]Main Lasers Top.[0]TopLasersLeftBottom.[3]MainLaser.[0]TransformX.[1]LightGlow",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 194,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[30]Main Lasers Top.[1]TopLasersRightBottom.[0]MainLaser.[0]TransformX",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 194,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]Laser",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[30]Main Lasers Top.[1]TopLasersRightBottom.[0]MainLaser.[0]TransformX.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 194,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]LightGlow",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[30]Main Lasers Top.[1]TopLasersRightBottom.[0]MainLaser.[0]TransformX.[1]LightGlow",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 195,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[30]Main Lasers Top.[1]TopLasersRightBottom.[1]MainLaser.[0]TransformX",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 195,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]LightGlow",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[30]Main Lasers Top.[1]TopLasersRightBottom.[1]MainLaser.[0]TransformX.[1]LightGlow",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 195,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]Laser",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[30]Main Lasers Top.[1]TopLasersRightBottom.[1]MainLaser.[0]TransformX.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 196,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[30]Main Lasers Top.[1]TopLasersRightBottom.[2]MainLaser.[0]TransformX",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 196,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]Laser",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[30]Main Lasers Top.[1]TopLasersRightBottom.[2]MainLaser.[0]TransformX.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 196,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]LightGlow",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[30]Main Lasers Top.[1]TopLasersRightBottom.[2]MainLaser.[0]TransformX.[1]LightGlow",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 197,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[30]Main Lasers Top.[1]TopLasersRightBottom.[3]MainLaser.[0]TransformX",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 197,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]LightGlow",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[30]Main Lasers Top.[1]TopLasersRightBottom.[3]MainLaser.[0]TransformX.[1]LightGlow",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 197,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]Laser",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[30]Main Lasers Top.[1]TopLasersRightBottom.[3]MainLaser.[0]TransformX.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 206,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[30]Main Lasers Top.[3]TopLasersLeftTop.[0]MainLaser.[0]TransformX",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 206,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]LightGlow",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[30]Main Lasers Top.[3]TopLasersLeftTop.[0]MainLaser.[0]TransformX.[1]LightGlow",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 206,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]Laser",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[30]Main Lasers Top.[3]TopLasersLeftTop.[0]MainLaser.[0]TransformX.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 207,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[30]Main Lasers Top.[3]TopLasersLeftTop.[1]MainLaser.[0]TransformX",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 207,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]Laser",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[30]Main Lasers Top.[3]TopLasersLeftTop.[1]MainLaser.[0]TransformX.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 207,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]LightGlow",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[30]Main Lasers Top.[3]TopLasersLeftTop.[1]MainLaser.[0]TransformX.[1]LightGlow",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 208,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[30]Main Lasers Top.[3]TopLasersLeftTop.[2]MainLaser.[0]TransformX",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 208,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]LightGlow",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[30]Main Lasers Top.[3]TopLasersLeftTop.[2]MainLaser.[0]TransformX.[1]LightGlow",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 208,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]Laser",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[30]Main Lasers Top.[3]TopLasersLeftTop.[2]MainLaser.[0]TransformX.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 209,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[30]Main Lasers Top.[3]TopLasersLeftTop.[3]MainLaser.[0]TransformX",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 209,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]Laser",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[30]Main Lasers Top.[3]TopLasersLeftTop.[3]MainLaser.[0]TransformX.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 209,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]LightGlow",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[30]Main Lasers Top.[3]TopLasersLeftTop.[3]MainLaser.[0]TransformX.[1]LightGlow",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 218,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[30]Main Lasers Top.[2]TopLasersRightTop.[0]MainLaser.[0]TransformX",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 218,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]LightGlow",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[30]Main Lasers Top.[2]TopLasersRightTop.[0]MainLaser.[0]TransformX.[1]LightGlow",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 218,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]Laser",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[30]Main Lasers Top.[2]TopLasersRightTop.[0]MainLaser.[0]TransformX.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 219,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[30]Main Lasers Top.[2]TopLasersRightTop.[1]MainLaser.[0]TransformX",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 219,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]Laser",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[30]Main Lasers Top.[2]TopLasersRightTop.[1]MainLaser.[0]TransformX.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 219,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]LightGlow",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[30]Main Lasers Top.[2]TopLasersRightTop.[1]MainLaser.[0]TransformX.[1]LightGlow",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 220,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[30]Main Lasers Top.[2]TopLasersRightTop.[2]MainLaser.[0]TransformX",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 220,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]LightGlow",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[30]Main Lasers Top.[2]TopLasersRightTop.[2]MainLaser.[0]TransformX.[1]LightGlow",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 220,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]Laser",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[30]Main Lasers Top.[2]TopLasersRightTop.[2]MainLaser.[0]TransformX.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 221,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[30]Main Lasers Top.[2]TopLasersRightTop.[3]MainLaser.[0]TransformX",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 221,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]Laser",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[30]Main Lasers Top.[2]TopLasersRightTop.[3]MainLaser.[0]TransformX.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 221,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]LightGlow",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[30]Main Lasers Top.[2]TopLasersRightTop.[3]MainLaser.[0]TransformX.[1]LightGlow",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 222,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[31]Main Lasers Bottom.[0]BottomLasersLeftBottom.[0]MainLaser.[0]TransformX",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 222,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]Laser",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[31]Main Lasers Bottom.[0]BottomLasersLeftBottom.[0]MainLaser.[0]TransformX.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 222,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]LightGlow",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[31]Main Lasers Bottom.[0]BottomLasersLeftBottom.[0]MainLaser.[0]TransformX.[1]LightGlow",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 223,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[31]Main Lasers Bottom.[0]BottomLasersLeftBottom.[1]MainLaser.[0]TransformX",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 223,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]LightGlow",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[31]Main Lasers Bottom.[0]BottomLasersLeftBottom.[1]MainLaser.[0]TransformX.[1]LightGlow",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 223,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]Laser",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[31]Main Lasers Bottom.[0]BottomLasersLeftBottom.[1]MainLaser.[0]TransformX.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 224,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[31]Main Lasers Bottom.[0]BottomLasersLeftBottom.[2]MainLaser.[0]TransformX",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 224,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]Laser",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[31]Main Lasers Bottom.[0]BottomLasersLeftBottom.[2]MainLaser.[0]TransformX.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 224,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]LightGlow",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[31]Main Lasers Bottom.[0]BottomLasersLeftBottom.[2]MainLaser.[0]TransformX.[1]LightGlow",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 225,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[31]Main Lasers Bottom.[0]BottomLasersLeftBottom.[3]MainLaser.[0]TransformX",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 225,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]LightGlow",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[31]Main Lasers Bottom.[0]BottomLasersLeftBottom.[3]MainLaser.[0]TransformX.[1]LightGlow",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 225,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]Laser",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[31]Main Lasers Bottom.[0]BottomLasersLeftBottom.[3]MainLaser.[0]TransformX.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 227,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[31]Main Lasers Bottom.[1]BottomLasersRightBottom.[0]MainLaser.[0]TransformX",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 227,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]Laser",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[31]Main Lasers Bottom.[1]BottomLasersRightBottom.[0]MainLaser.[0]TransformX.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 227,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]LightGlow",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[31]Main Lasers Bottom.[1]BottomLasersRightBottom.[0]MainLaser.[0]TransformX.[1]LightGlow",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 228,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[31]Main Lasers Bottom.[1]BottomLasersRightBottom.[1]MainLaser.[0]TransformX",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 228,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]LightGlow",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[31]Main Lasers Bottom.[1]BottomLasersRightBottom.[1]MainLaser.[0]TransformX.[1]LightGlow",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 228,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]Laser",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[31]Main Lasers Bottom.[1]BottomLasersRightBottom.[1]MainLaser.[0]TransformX.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 229,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[31]Main Lasers Bottom.[1]BottomLasersRightBottom.[2]MainLaser.[0]TransformX",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 229,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]Laser",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[31]Main Lasers Bottom.[1]BottomLasersRightBottom.[2]MainLaser.[0]TransformX.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 229,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]LightGlow",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[31]Main Lasers Bottom.[1]BottomLasersRightBottom.[2]MainLaser.[0]TransformX.[1]LightGlow",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 230,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[31]Main Lasers Bottom.[1]BottomLasersRightBottom.[3]MainLaser.[0]TransformX",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 230,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]LightGlow",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[31]Main Lasers Bottom.[1]BottomLasersRightBottom.[3]MainLaser.[0]TransformX.[1]LightGlow",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 230,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]Laser",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[31]Main Lasers Bottom.[1]BottomLasersRightBottom.[3]MainLaser.[0]TransformX.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 232,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[31]Main Lasers Bottom.[2]BottomLasersLeftTop.[0]MainLaser.[0]TransformX",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 232,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]Laser",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[31]Main Lasers Bottom.[2]BottomLasersLeftTop.[0]MainLaser.[0]TransformX.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 232,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]LightGlow",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[31]Main Lasers Bottom.[2]BottomLasersLeftTop.[0]MainLaser.[0]TransformX.[1]LightGlow",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 233,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[31]Main Lasers Bottom.[2]BottomLasersLeftTop.[1]MainLaser.[0]TransformX",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 233,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]LightGlow",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[31]Main Lasers Bottom.[2]BottomLasersLeftTop.[1]MainLaser.[0]TransformX.[1]LightGlow",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 233,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]Laser",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[31]Main Lasers Bottom.[2]BottomLasersLeftTop.[1]MainLaser.[0]TransformX.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 234,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[31]Main Lasers Bottom.[2]BottomLasersLeftTop.[2]MainLaser.[0]TransformX",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 234,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]Laser",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[31]Main Lasers Bottom.[2]BottomLasersLeftTop.[2]MainLaser.[0]TransformX.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 234,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]LightGlow",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[31]Main Lasers Bottom.[2]BottomLasersLeftTop.[2]MainLaser.[0]TransformX.[1]LightGlow",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 235,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[31]Main Lasers Bottom.[2]BottomLasersLeftTop.[3]MainLaser.[0]TransformX",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 235,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]LightGlow",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[31]Main Lasers Bottom.[2]BottomLasersLeftTop.[3]MainLaser.[0]TransformX.[1]LightGlow",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 235,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]Laser",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[31]Main Lasers Bottom.[2]BottomLasersLeftTop.[3]MainLaser.[0]TransformX.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 236,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[31]Main Lasers Bottom.[3]BottomLasersRightTop.[0]MainLaser.[0]TransformX",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 236,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]Laser",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[31]Main Lasers Bottom.[3]BottomLasersRightTop.[0]MainLaser.[0]TransformX.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 236,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]LightGlow",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[31]Main Lasers Bottom.[3]BottomLasersRightTop.[0]MainLaser.[0]TransformX.[1]LightGlow",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 237,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[31]Main Lasers Bottom.[3]BottomLasersRightTop.[1]MainLaser.[0]TransformX",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 237,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]LightGlow",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[31]Main Lasers Bottom.[3]BottomLasersRightTop.[1]MainLaser.[0]TransformX.[1]LightGlow",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 237,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]Laser",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[31]Main Lasers Bottom.[3]BottomLasersRightTop.[1]MainLaser.[0]TransformX.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 238,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[31]Main Lasers Bottom.[3]BottomLasersRightTop.[2]MainLaser.[0]TransformX",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 238,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]Laser",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[31]Main Lasers Bottom.[3]BottomLasersRightTop.[2]MainLaser.[0]TransformX.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 238,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]LightGlow",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[31]Main Lasers Bottom.[3]BottomLasersRightTop.[2]MainLaser.[0]TransformX.[1]LightGlow",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 239,
+      "commonGameObjectPath": "TheSecondEnvironment.[0]Environment.[31]Main Lasers Bottom.[3]BottomLasersRightTop.[3]MainLaser.[0]TransformX",
+      "registeredLightCount": 2,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 239,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[1]LightGlow",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[31]Main Lasers Bottom.[3]BottomLasersRightTop.[3]MainLaser.[0]TransformX.[1]LightGlow",
+          "componentType": "MaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 239,
+          "type": null,
+          "typeName": null,
+          "relativeGameObjectPath": "[0]Laser",
+          "gameObjectPath": "TheSecondEnvironment.[0]Environment.[31]Main Lasers Bottom.[3]BottomLasersRightTop.[3]MainLaser.[0]TransformX.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "TheSecondEnvironment"
+        }
+      ]
+    }
+  ]
+}

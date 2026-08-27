@@ -1,0 +1,2253 @@
+{
+  "formatVersion": 4,
+  "environmentName": "BillieEnvironment",
+  "gameVersion": "1.29.1_4575554838",
+  "lightManagerPath": "BillieEnvironment.[0]Environment.[9]LightWithIdManager",
+  "initialRegisteredLightCount": 1,
+  "totalRegisteredLightCount": 109,
+  "lightIdSlots": [
+    {
+      "beatSaberLightId": 1,
+      "commonGameObjectPath": "BillieEnvironment.[0]Environment",
+      "registeredLightCount": 13,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[25]WaterRainRipples",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[25]WaterRainRipples",
+          "ownerComponentType": "ParticleSystemLightWithIds",
+          "indexWithinOwner": 0,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 1.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[27]DayAndNight.[0]Day",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[27]DayAndNight.[0]Day",
+          "ownerComponentType": "BloomPrePassBackgroundColorsGradientTintColorWithLightId",
+          "indexWithinOwner": 0,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 0.1,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[27]DayAndNight.[0]Day.[2]DirectionalLightBack",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[27]DayAndNight.[0]Day.[2]DirectionalLightBack",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 0,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 0.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[25]WaterRainRipples.[0]SplashMesh",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[25]WaterRainRipples.[0]SplashMesh",
+          "ownerComponentType": "ParticleSystemLightWithIds",
+          "indexWithinOwner": 0,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 1.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 4,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[27]DayAndNight.[0]Day.[3]DirectionalLightLeft",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[27]DayAndNight.[0]Day.[3]DirectionalLightLeft",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 0,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 0.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 6,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[27]DayAndNight.[0]Day.[1]DirectionalLightFront",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[27]DayAndNight.[0]Day.[1]DirectionalLightFront",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 0,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 0.25,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 7,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[24]Rain",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[24]Rain",
+          "ownerComponentType": "MaterialLightWithIds",
+          "indexWithinOwner": 0,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 1.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 8,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[27]DayAndNight.[0]Day.[4]DirectionalLightRight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[27]DayAndNight.[0]Day.[4]DirectionalLightRight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 0,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 0.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 11,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[7]LightmapLightsWithIds.[1]B",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[7]LightmapLightsWithIds.[1]B",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 0,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 0.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 12,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[7]LightmapLightsWithIds.[0]A",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[7]LightmapLightsWithIds.[0]A",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 0,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 1.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 13,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[7]LightmapLightsWithIds.[2]C",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[7]LightmapLightsWithIds.[2]C",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 0,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 0.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 14,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[7]LightmapLightsWithIds.[4]E",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[7]LightmapLightsWithIds.[4]E",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 0,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 0.2,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 15,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[7]LightmapLightsWithIds.[3]D",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[7]LightmapLightsWithIds.[3]D",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 0,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 0.0,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 2,
+      "commonGameObjectPath": "BillieEnvironment.[0]Environment",
+      "registeredLightCount": 13,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "[25]WaterRainRipples",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[25]WaterRainRipples",
+          "ownerComponentType": "ParticleSystemLightWithIds",
+          "indexWithinOwner": 1,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 1.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "[27]DayAndNight.[0]Day",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[27]DayAndNight.[0]Day",
+          "ownerComponentType": "BloomPrePassBackgroundColorsGradientTintColorWithLightId",
+          "indexWithinOwner": 1,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 0.1,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "[27]DayAndNight.[0]Day.[2]DirectionalLightBack",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[27]DayAndNight.[0]Day.[2]DirectionalLightBack",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 1,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 0.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "[25]WaterRainRipples.[0]SplashMesh",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[25]WaterRainRipples.[0]SplashMesh",
+          "ownerComponentType": "ParticleSystemLightWithIds",
+          "indexWithinOwner": 1,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 1.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 4,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "[27]DayAndNight.[0]Day.[3]DirectionalLightLeft",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[27]DayAndNight.[0]Day.[3]DirectionalLightLeft",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 1,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 0.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 6,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "[27]DayAndNight.[0]Day.[1]DirectionalLightFront",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[27]DayAndNight.[0]Day.[1]DirectionalLightFront",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 1,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 0.25,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 7,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "[24]Rain",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[24]Rain",
+          "ownerComponentType": "MaterialLightWithIds",
+          "indexWithinOwner": 1,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 1.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 8,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "[27]DayAndNight.[0]Day.[4]DirectionalLightRight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[27]DayAndNight.[0]Day.[4]DirectionalLightRight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 1,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 0.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 11,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "[7]LightmapLightsWithIds.[1]B",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[7]LightmapLightsWithIds.[1]B",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 1,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 1.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 12,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "[7]LightmapLightsWithIds.[0]A",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[7]LightmapLightsWithIds.[0]A",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 1,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 0.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 13,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "[7]LightmapLightsWithIds.[2]C",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[7]LightmapLightsWithIds.[2]C",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 1,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 0.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 14,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "[7]LightmapLightsWithIds.[4]E",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[7]LightmapLightsWithIds.[4]E",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 1,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 0.2,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 15,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "[7]LightmapLightsWithIds.[3]D",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[7]LightmapLightsWithIds.[3]D",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 1,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 0.0,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 3,
+      "commonGameObjectPath": "BillieEnvironment.[0]Environment",
+      "registeredLightCount": 13,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 3,
+          "type": 6,
+          "typeName": "Event6",
+          "relativeGameObjectPath": "[25]WaterRainRipples",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[25]WaterRainRipples",
+          "ownerComponentType": "ParticleSystemLightWithIds",
+          "indexWithinOwner": 2,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 1.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 3,
+          "type": 6,
+          "typeName": "Event6",
+          "relativeGameObjectPath": "[27]DayAndNight.[0]Day",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[27]DayAndNight.[0]Day",
+          "ownerComponentType": "BloomPrePassBackgroundColorsGradientTintColorWithLightId",
+          "indexWithinOwner": 2,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 0.1,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 3,
+          "type": 6,
+          "typeName": "Event6",
+          "relativeGameObjectPath": "[27]DayAndNight.[0]Day.[2]DirectionalLightBack",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[27]DayAndNight.[0]Day.[2]DirectionalLightBack",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 2,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 0.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 3,
+          "type": 6,
+          "typeName": "Event6",
+          "relativeGameObjectPath": "[25]WaterRainRipples.[0]SplashMesh",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[25]WaterRainRipples.[0]SplashMesh",
+          "ownerComponentType": "ParticleSystemLightWithIds",
+          "indexWithinOwner": 2,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 1.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 4,
+          "componentLightId": 3,
+          "type": 6,
+          "typeName": "Event6",
+          "relativeGameObjectPath": "[27]DayAndNight.[0]Day.[3]DirectionalLightLeft",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[27]DayAndNight.[0]Day.[3]DirectionalLightLeft",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 2,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 0.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 6,
+          "componentLightId": 3,
+          "type": 6,
+          "typeName": "Event6",
+          "relativeGameObjectPath": "[27]DayAndNight.[0]Day.[1]DirectionalLightFront",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[27]DayAndNight.[0]Day.[1]DirectionalLightFront",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 2,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 0.25,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 7,
+          "componentLightId": 3,
+          "type": 6,
+          "typeName": "Event6",
+          "relativeGameObjectPath": "[24]Rain",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[24]Rain",
+          "ownerComponentType": "MaterialLightWithIds",
+          "indexWithinOwner": 2,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 1.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 8,
+          "componentLightId": 3,
+          "type": 6,
+          "typeName": "Event6",
+          "relativeGameObjectPath": "[27]DayAndNight.[0]Day.[4]DirectionalLightRight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[27]DayAndNight.[0]Day.[4]DirectionalLightRight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 2,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 0.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 11,
+          "componentLightId": 3,
+          "type": 6,
+          "typeName": "Event6",
+          "relativeGameObjectPath": "[7]LightmapLightsWithIds.[1]B",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[7]LightmapLightsWithIds.[1]B",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 2,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 0.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 12,
+          "componentLightId": 3,
+          "type": 6,
+          "typeName": "Event6",
+          "relativeGameObjectPath": "[7]LightmapLightsWithIds.[0]A",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[7]LightmapLightsWithIds.[0]A",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 2,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 0.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 13,
+          "componentLightId": 3,
+          "type": 6,
+          "typeName": "Event6",
+          "relativeGameObjectPath": "[7]LightmapLightsWithIds.[2]C",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[7]LightmapLightsWithIds.[2]C",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 2,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 1.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 14,
+          "componentLightId": 3,
+          "type": 6,
+          "typeName": "Event6",
+          "relativeGameObjectPath": "[7]LightmapLightsWithIds.[4]E",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[7]LightmapLightsWithIds.[4]E",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 2,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 0.2,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 15,
+          "componentLightId": 3,
+          "type": 6,
+          "typeName": "Event6",
+          "relativeGameObjectPath": "[7]LightmapLightsWithIds.[3]D",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[7]LightmapLightsWithIds.[3]D",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 2,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 0.0,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 4,
+      "commonGameObjectPath": "BillieEnvironment.[0]Environment",
+      "registeredLightCount": 13,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 4,
+          "type": 7,
+          "typeName": "Event7",
+          "relativeGameObjectPath": "[25]WaterRainRipples",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[25]WaterRainRipples",
+          "ownerComponentType": "ParticleSystemLightWithIds",
+          "indexWithinOwner": 3,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 1.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 4,
+          "type": 7,
+          "typeName": "Event7",
+          "relativeGameObjectPath": "[27]DayAndNight.[0]Day",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[27]DayAndNight.[0]Day",
+          "ownerComponentType": "BloomPrePassBackgroundColorsGradientTintColorWithLightId",
+          "indexWithinOwner": 3,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 0.1,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 4,
+          "type": 7,
+          "typeName": "Event7",
+          "relativeGameObjectPath": "[27]DayAndNight.[0]Day.[2]DirectionalLightBack",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[27]DayAndNight.[0]Day.[2]DirectionalLightBack",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 3,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 0.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 4,
+          "type": 7,
+          "typeName": "Event7",
+          "relativeGameObjectPath": "[25]WaterRainRipples.[0]SplashMesh",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[25]WaterRainRipples.[0]SplashMesh",
+          "ownerComponentType": "ParticleSystemLightWithIds",
+          "indexWithinOwner": 3,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 1.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 4,
+          "componentLightId": 4,
+          "type": 7,
+          "typeName": "Event7",
+          "relativeGameObjectPath": "[27]DayAndNight.[0]Day.[3]DirectionalLightLeft",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[27]DayAndNight.[0]Day.[3]DirectionalLightLeft",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 3,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 0.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 6,
+          "componentLightId": 4,
+          "type": 7,
+          "typeName": "Event7",
+          "relativeGameObjectPath": "[27]DayAndNight.[0]Day.[1]DirectionalLightFront",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[27]DayAndNight.[0]Day.[1]DirectionalLightFront",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 3,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 0.25,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 7,
+          "componentLightId": 4,
+          "type": 7,
+          "typeName": "Event7",
+          "relativeGameObjectPath": "[24]Rain",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[24]Rain",
+          "ownerComponentType": "MaterialLightWithIds",
+          "indexWithinOwner": 3,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 1.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 8,
+          "componentLightId": 4,
+          "type": 7,
+          "typeName": "Event7",
+          "relativeGameObjectPath": "[27]DayAndNight.[0]Day.[4]DirectionalLightRight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[27]DayAndNight.[0]Day.[4]DirectionalLightRight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 3,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 0.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 11,
+          "componentLightId": 4,
+          "type": 7,
+          "typeName": "Event7",
+          "relativeGameObjectPath": "[7]LightmapLightsWithIds.[1]B",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[7]LightmapLightsWithIds.[1]B",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 3,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 0.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 12,
+          "componentLightId": 4,
+          "type": 7,
+          "typeName": "Event7",
+          "relativeGameObjectPath": "[7]LightmapLightsWithIds.[0]A",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[7]LightmapLightsWithIds.[0]A",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 3,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 0.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 13,
+          "componentLightId": 4,
+          "type": 7,
+          "typeName": "Event7",
+          "relativeGameObjectPath": "[7]LightmapLightsWithIds.[2]C",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[7]LightmapLightsWithIds.[2]C",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 3,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 0.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 14,
+          "componentLightId": 4,
+          "type": 7,
+          "typeName": "Event7",
+          "relativeGameObjectPath": "[7]LightmapLightsWithIds.[4]E",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[7]LightmapLightsWithIds.[4]E",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 3,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 0.2,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 15,
+          "componentLightId": 4,
+          "type": 7,
+          "typeName": "Event7",
+          "relativeGameObjectPath": "[7]LightmapLightsWithIds.[3]D",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[7]LightmapLightsWithIds.[3]D",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 3,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 1.0,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 5,
+      "commonGameObjectPath": "BillieEnvironment.[0]Environment",
+      "registeredLightCount": 13,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[25]WaterRainRipples",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[25]WaterRainRipples",
+          "ownerComponentType": "ParticleSystemLightWithIds",
+          "indexWithinOwner": 4,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 1.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[27]DayAndNight.[0]Day",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[27]DayAndNight.[0]Day",
+          "ownerComponentType": "BloomPrePassBackgroundColorsGradientTintColorWithLightId",
+          "indexWithinOwner": 4,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 1.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 5,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[27]DayAndNight.[0]Day.[2]DirectionalLightBack",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[27]DayAndNight.[0]Day.[2]DirectionalLightBack",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 4,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 1.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 6,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[25]WaterRainRipples.[0]SplashMesh",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[25]WaterRainRipples.[0]SplashMesh",
+          "ownerComponentType": "ParticleSystemLightWithIds",
+          "indexWithinOwner": 4,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 1.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 7,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[27]DayAndNight.[0]Day.[3]DirectionalLightLeft",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[27]DayAndNight.[0]Day.[3]DirectionalLightLeft",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 4,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 1.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 9,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[27]DayAndNight.[0]Day.[1]DirectionalLightFront",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[27]DayAndNight.[0]Day.[1]DirectionalLightFront",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 4,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 1.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 10,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[24]Rain",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[24]Rain",
+          "ownerComponentType": "MaterialLightWithIds",
+          "indexWithinOwner": 4,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 1.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 11,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[27]DayAndNight.[0]Day.[4]DirectionalLightRight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[27]DayAndNight.[0]Day.[4]DirectionalLightRight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 4,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 1.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 14,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[7]LightmapLightsWithIds.[1]B",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[7]LightmapLightsWithIds.[1]B",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 4,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 0.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 15,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[7]LightmapLightsWithIds.[0]A",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[7]LightmapLightsWithIds.[0]A",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 4,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 0.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 16,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[7]LightmapLightsWithIds.[2]C",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[7]LightmapLightsWithIds.[2]C",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 4,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 0.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 17,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[7]LightmapLightsWithIds.[4]E",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[7]LightmapLightsWithIds.[4]E",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 4,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 1.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 18,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "[7]LightmapLightsWithIds.[3]D",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[7]LightmapLightsWithIds.[3]D",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 4,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 0.0,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 6,
+      "commonGameObjectPath": "BillieEnvironment.[0]Environment",
+      "registeredLightCount": 13,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 6,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[25]WaterRainRipples",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[25]WaterRainRipples",
+          "ownerComponentType": "ParticleSystemLightWithIds",
+          "indexWithinOwner": 5,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 0.8,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 12,
+          "componentLightId": 6,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[27]DayAndNight.[0]Day",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[27]DayAndNight.[0]Day",
+          "ownerComponentType": "BloomPrePassBackgroundColorsGradientTintColorWithLightId",
+          "indexWithinOwner": 5,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 0.25,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 13,
+          "componentLightId": 6,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[27]DayAndNight.[0]Day.[2]DirectionalLightBack",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[27]DayAndNight.[0]Day.[2]DirectionalLightBack",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 5,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 0.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 14,
+          "componentLightId": 6,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[25]WaterRainRipples.[0]SplashMesh",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[25]WaterRainRipples.[0]SplashMesh",
+          "ownerComponentType": "ParticleSystemLightWithIds",
+          "indexWithinOwner": 5,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 0.8,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 15,
+          "componentLightId": 6,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[27]DayAndNight.[0]Day.[3]DirectionalLightLeft",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[27]DayAndNight.[0]Day.[3]DirectionalLightLeft",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 5,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 0.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 16,
+          "componentLightId": 6,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[27]DayAndNight.[0]Day.[1]DirectionalLightFront",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[27]DayAndNight.[0]Day.[1]DirectionalLightFront",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 5,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 0.04,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 17,
+          "componentLightId": 6,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[24]Rain",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[24]Rain",
+          "ownerComponentType": "MaterialLightWithIds",
+          "indexWithinOwner": 5,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 1.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 18,
+          "componentLightId": 6,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[27]DayAndNight.[0]Day.[4]DirectionalLightRight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[27]DayAndNight.[0]Day.[4]DirectionalLightRight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 5,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 0.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 19,
+          "componentLightId": 6,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[7]LightmapLightsWithIds.[1]B",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[7]LightmapLightsWithIds.[1]B",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 5,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 0.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 20,
+          "componentLightId": 6,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[7]LightmapLightsWithIds.[0]A",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[7]LightmapLightsWithIds.[0]A",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 5,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 0.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 21,
+          "componentLightId": 6,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[7]LightmapLightsWithIds.[2]C",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[7]LightmapLightsWithIds.[2]C",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 5,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 0.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 22,
+          "componentLightId": 6,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[7]LightmapLightsWithIds.[4]E",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[7]LightmapLightsWithIds.[4]E",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 5,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 0.5,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 23,
+          "componentLightId": 6,
+          "type": 2,
+          "typeName": "Event2",
+          "relativeGameObjectPath": "[7]LightmapLightsWithIds.[3]D",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[7]LightmapLightsWithIds.[3]D",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 5,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 0.0,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 7,
+      "commonGameObjectPath": "BillieEnvironment.[0]Environment",
+      "registeredLightCount": 13,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 11,
+          "componentLightId": 7,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[25]WaterRainRipples",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[25]WaterRainRipples",
+          "ownerComponentType": "ParticleSystemLightWithIds",
+          "indexWithinOwner": 6,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 0.8,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 12,
+          "componentLightId": 7,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[27]DayAndNight.[0]Day",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[27]DayAndNight.[0]Day",
+          "ownerComponentType": "BloomPrePassBackgroundColorsGradientTintColorWithLightId",
+          "indexWithinOwner": 6,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 0.25,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 13,
+          "componentLightId": 7,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[27]DayAndNight.[0]Day.[2]DirectionalLightBack",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[27]DayAndNight.[0]Day.[2]DirectionalLightBack",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 6,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 0.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 14,
+          "componentLightId": 7,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[25]WaterRainRipples.[0]SplashMesh",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[25]WaterRainRipples.[0]SplashMesh",
+          "ownerComponentType": "ParticleSystemLightWithIds",
+          "indexWithinOwner": 6,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 0.8,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 15,
+          "componentLightId": 7,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[27]DayAndNight.[0]Day.[3]DirectionalLightLeft",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[27]DayAndNight.[0]Day.[3]DirectionalLightLeft",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 6,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 0.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 16,
+          "componentLightId": 7,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[27]DayAndNight.[0]Day.[1]DirectionalLightFront",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[27]DayAndNight.[0]Day.[1]DirectionalLightFront",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 6,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 0.04,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 17,
+          "componentLightId": 7,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[24]Rain",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[24]Rain",
+          "ownerComponentType": "MaterialLightWithIds",
+          "indexWithinOwner": 6,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 1.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 18,
+          "componentLightId": 7,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[27]DayAndNight.[0]Day.[4]DirectionalLightRight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[27]DayAndNight.[0]Day.[4]DirectionalLightRight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 6,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 0.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 19,
+          "componentLightId": 7,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[7]LightmapLightsWithIds.[1]B",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[7]LightmapLightsWithIds.[1]B",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 6,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 0.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 20,
+          "componentLightId": 7,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[7]LightmapLightsWithIds.[0]A",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[7]LightmapLightsWithIds.[0]A",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 6,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 0.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 21,
+          "componentLightId": 7,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[7]LightmapLightsWithIds.[2]C",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[7]LightmapLightsWithIds.[2]C",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 6,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 0.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 22,
+          "componentLightId": 7,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[7]LightmapLightsWithIds.[4]E",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[7]LightmapLightsWithIds.[4]E",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 6,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 0.5,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 23,
+          "componentLightId": 7,
+          "type": 3,
+          "typeName": "Event3",
+          "relativeGameObjectPath": "[7]LightmapLightsWithIds.[3]D",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[7]LightmapLightsWithIds.[3]D",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 6,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 0.0,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 8,
+      "commonGameObjectPath": "BillieEnvironment.[0]Environment",
+      "registeredLightCount": 9,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 8,
+          "type": 10,
+          "typeName": "Event10",
+          "relativeGameObjectPath": "[25]WaterRainRipples",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[25]WaterRainRipples",
+          "ownerComponentType": "ParticleSystemLightWithIds",
+          "indexWithinOwner": 7,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 0.85,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 10,
+          "componentLightId": 8,
+          "type": 10,
+          "typeName": "Event10",
+          "relativeGameObjectPath": "[27]DayAndNight.[0]Day",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[27]DayAndNight.[0]Day",
+          "ownerComponentType": "BloomPrePassBackgroundColorsGradientTintColorWithLightId",
+          "indexWithinOwner": 7,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 0.1,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 11,
+          "componentLightId": 8,
+          "type": 10,
+          "typeName": "Event10",
+          "relativeGameObjectPath": "[27]DayAndNight.[0]Day.[2]DirectionalLightBack",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[27]DayAndNight.[0]Day.[2]DirectionalLightBack",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 7,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 0.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 12,
+          "componentLightId": 8,
+          "type": 10,
+          "typeName": "Event10",
+          "relativeGameObjectPath": "[25]WaterRainRipples.[0]SplashMesh",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[25]WaterRainRipples.[0]SplashMesh",
+          "ownerComponentType": "ParticleSystemLightWithIds",
+          "indexWithinOwner": 7,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 0.85,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 13,
+          "componentLightId": 8,
+          "type": 10,
+          "typeName": "Event10",
+          "relativeGameObjectPath": "[27]DayAndNight.[0]Day.[3]DirectionalLightLeft",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[27]DayAndNight.[0]Day.[3]DirectionalLightLeft",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 7,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 0.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 14,
+          "componentLightId": 8,
+          "type": 10,
+          "typeName": "Event10",
+          "relativeGameObjectPath": "[27]DayAndNight.[0]Day.[1]DirectionalLightFront",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[27]DayAndNight.[0]Day.[1]DirectionalLightFront",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 7,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 0.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 15,
+          "componentLightId": 8,
+          "type": 10,
+          "typeName": "Event10",
+          "relativeGameObjectPath": "[24]Rain",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[24]Rain",
+          "ownerComponentType": "MaterialLightWithIds",
+          "indexWithinOwner": 7,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 1.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 16,
+          "componentLightId": 8,
+          "type": 10,
+          "typeName": "Event10",
+          "relativeGameObjectPath": "[27]DayAndNight.[0]Day.[4]DirectionalLightRight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[27]DayAndNight.[0]Day.[4]DirectionalLightRight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 7,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 0.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 17,
+          "componentLightId": 8,
+          "type": 10,
+          "typeName": "Event10",
+          "relativeGameObjectPath": "[7]LightmapLightsWithIds.[4]E",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[7]LightmapLightsWithIds.[4]E",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 7,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 0.5,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 9,
+      "commonGameObjectPath": "BillieEnvironment.[0]Environment",
+      "registeredLightCount": 9,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 9,
+          "type": 11,
+          "typeName": "Event11",
+          "relativeGameObjectPath": "[25]WaterRainRipples",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[25]WaterRainRipples",
+          "ownerComponentType": "ParticleSystemLightWithIds",
+          "indexWithinOwner": 8,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 0.85,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 9,
+          "type": 11,
+          "typeName": "Event11",
+          "relativeGameObjectPath": "[27]DayAndNight.[0]Day",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[27]DayAndNight.[0]Day",
+          "ownerComponentType": "BloomPrePassBackgroundColorsGradientTintColorWithLightId",
+          "indexWithinOwner": 8,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 0.1,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 10,
+          "componentLightId": 9,
+          "type": 11,
+          "typeName": "Event11",
+          "relativeGameObjectPath": "[27]DayAndNight.[0]Day.[2]DirectionalLightBack",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[27]DayAndNight.[0]Day.[2]DirectionalLightBack",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 8,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 0.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 11,
+          "componentLightId": 9,
+          "type": 11,
+          "typeName": "Event11",
+          "relativeGameObjectPath": "[25]WaterRainRipples.[0]SplashMesh",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[25]WaterRainRipples.[0]SplashMesh",
+          "ownerComponentType": "ParticleSystemLightWithIds",
+          "indexWithinOwner": 8,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 0.85,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 13,
+          "componentLightId": 9,
+          "type": 11,
+          "typeName": "Event11",
+          "relativeGameObjectPath": "[27]DayAndNight.[0]Day.[3]DirectionalLightLeft",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[27]DayAndNight.[0]Day.[3]DirectionalLightLeft",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 8,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 0.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 14,
+          "componentLightId": 9,
+          "type": 11,
+          "typeName": "Event11",
+          "relativeGameObjectPath": "[27]DayAndNight.[0]Day.[1]DirectionalLightFront",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[27]DayAndNight.[0]Day.[1]DirectionalLightFront",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 8,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 0.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 15,
+          "componentLightId": 9,
+          "type": 11,
+          "typeName": "Event11",
+          "relativeGameObjectPath": "[24]Rain",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[24]Rain",
+          "ownerComponentType": "MaterialLightWithIds",
+          "indexWithinOwner": 8,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 1.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 16,
+          "componentLightId": 9,
+          "type": 11,
+          "typeName": "Event11",
+          "relativeGameObjectPath": "[27]DayAndNight.[0]Day.[4]DirectionalLightRight",
+          "componentType": "RuntimeLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[27]DayAndNight.[0]Day.[4]DirectionalLightRight",
+          "ownerComponentType": "DirectionalLightWithIds",
+          "indexWithinOwner": 8,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 0.0,
+          "bakeId": null,
+          "weight": null
+        },
+        {
+          "indexWithinLightIdList": 17,
+          "componentLightId": 9,
+          "type": 11,
+          "typeName": "Event11",
+          "relativeGameObjectPath": "[7]LightmapLightsWithIds.[4]E",
+          "componentType": "LightmapLightWithIds+LightIntensitiesWithId",
+          "ownerGameObjectPath": "BillieEnvironment.[0]Environment.[7]LightmapLightsWithIds.[4]E",
+          "ownerComponentType": "LightmapLightWithIds",
+          "indexWithinOwner": 8,
+          "ownerLocalScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "ownerSceneName": "BillieEnvironment",
+          "intensity": 0.5,
+          "bakeId": null,
+          "weight": null
+        }
+      ]
+    }
+  ]
+}

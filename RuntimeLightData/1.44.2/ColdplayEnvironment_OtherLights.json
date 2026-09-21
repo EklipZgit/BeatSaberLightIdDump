@@ -1,5 +1,5 @@
 {
-  "formatVersion": 4,
+  "formatVersion": 5,
   "environmentName": "ColdplayEnvironment",
   "gameVersion": "1.44.2_21558",
   "lightManagerPath": "ColdplayEnvironment.[0]Environment.[3]LightWithIdManager",

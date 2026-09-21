@@ -1,10 +1,10 @@
 {
-  "formatVersion": 4,
+  "formatVersion": 5,
   "environmentName": "QueenEnvironment",
   "gameVersion": "1.42.1_13508",
   "lightManagerPath": "QueenEnvironment.[0]Environment.[16]LightWithIdManager",
   "initialRegisteredLightCount": 1,
-  "totalRegisteredLightCount": 373,
+  "totalRegisteredLightCount": 313,
   "lightIdSlots": [
     {
       "beatSaberLightId": 5,
@@ -701,17 +701,17 @@
     },
     {
       "beatSaberLightId": 65,
-      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[0]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY",
-      "registeredLightCount": 3,
+      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[0]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
+      "registeredLightCount": 2,
       "registeredLights": [
         {
-          "indexWithinLightIdList": 1,
+          "indexWithinLightIdList": 2,
           "componentLightId": 65,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[1]EmissionGlow",
-          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[0]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[1]EmissionGlow",
-          "componentType": "InstancedMaterialLightWithId",
+          "relativeGameObjectPath": "[1]TunnelBloom",
+          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[0]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor.[1]TunnelBloom",
+          "componentType": "TubeBloomPrePassLightWithId",
           "localScale": {
             "x": 1.0,
             "y": 1.0,
@@ -724,22 +724,7 @@
           "componentLightId": 65,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor.[1]TunnelBloom",
-          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[0]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor.[1]TunnelBloom",
-          "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "QueenEnvironment"
-        },
-        {
-          "indexWithinLightIdList": 4,
-          "componentLightId": 65,
-          "type": null,
-          "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor",
+          "relativeGameObjectPath": "",
           "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[0]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
           "componentType": "InstancedMaterialLightWithId",
           "localScale": {
@@ -753,15 +738,15 @@
     },
     {
       "beatSaberLightId": 66,
-      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[1]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY",
-      "registeredLightCount": 3,
+      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[1]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
+      "registeredLightCount": 2,
       "registeredLights": [
         {
           "indexWithinLightIdList": 0,
           "componentLightId": 66,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor.[1]TunnelBloom",
+          "relativeGameObjectPath": "[1]TunnelBloom",
           "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[1]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor.[1]TunnelBloom",
           "componentType": "TubeBloomPrePassLightWithId",
           "localScale": {
@@ -776,23 +761,8 @@
           "componentLightId": 66,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor",
+          "relativeGameObjectPath": "",
           "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[1]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
-          "componentType": "InstancedMaterialLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "QueenEnvironment"
-        },
-        {
-          "indexWithinLightIdList": 4,
-          "componentLightId": 66,
-          "type": null,
-          "typeName": null,
-          "relativeGameObjectPath": "[1]EmissionGlow",
-          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[1]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[1]EmissionGlow",
           "componentType": "InstancedMaterialLightWithId",
           "localScale": {
             "x": 1.0,
@@ -805,15 +775,15 @@
     },
     {
       "beatSaberLightId": 67,
-      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[2]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY",
-      "registeredLightCount": 3,
+      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[2]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
+      "registeredLightCount": 2,
       "registeredLights": [
         {
           "indexWithinLightIdList": 0,
           "componentLightId": 67,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor.[1]TunnelBloom",
+          "relativeGameObjectPath": "[1]TunnelBloom",
           "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[2]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor.[1]TunnelBloom",
           "componentType": "TubeBloomPrePassLightWithId",
           "localScale": {
@@ -828,23 +798,8 @@
           "componentLightId": 67,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor",
+          "relativeGameObjectPath": "",
           "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[2]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
-          "componentType": "InstancedMaterialLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "QueenEnvironment"
-        },
-        {
-          "indexWithinLightIdList": 4,
-          "componentLightId": 67,
-          "type": null,
-          "typeName": null,
-          "relativeGameObjectPath": "[1]EmissionGlow",
-          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[2]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[1]EmissionGlow",
           "componentType": "InstancedMaterialLightWithId",
           "localScale": {
             "x": 1.0,
@@ -857,16 +812,16 @@
     },
     {
       "beatSaberLightId": 68,
-      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[3]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY",
-      "registeredLightCount": 3,
+      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[3]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
+      "registeredLightCount": 2,
       "registeredLights": [
         {
-          "indexWithinLightIdList": 0,
+          "indexWithinLightIdList": 2,
           "componentLightId": 68,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[1]EmissionGlow",
-          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[3]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[1]EmissionGlow",
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[3]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
           "componentType": "InstancedMaterialLightWithId",
           "localScale": {
             "x": 1.0,
@@ -880,22 +835,7 @@
           "componentLightId": 68,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor",
-          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[3]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
-          "componentType": "InstancedMaterialLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "QueenEnvironment"
-        },
-        {
-          "indexWithinLightIdList": 4,
-          "componentLightId": 68,
-          "type": null,
-          "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor.[1]TunnelBloom",
+          "relativeGameObjectPath": "[1]TunnelBloom",
           "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[3]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor.[1]TunnelBloom",
           "componentType": "TubeBloomPrePassLightWithId",
           "localScale": {
@@ -909,15 +849,15 @@
     },
     {
       "beatSaberLightId": 69,
-      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[4]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY",
-      "registeredLightCount": 3,
+      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[4]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
+      "registeredLightCount": 2,
       "registeredLights": [
         {
           "indexWithinLightIdList": 0,
           "componentLightId": 69,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor",
+          "relativeGameObjectPath": "",
           "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[4]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
           "componentType": "InstancedMaterialLightWithId",
           "localScale": {
@@ -932,24 +872,9 @@
           "componentLightId": 69,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor.[1]TunnelBloom",
+          "relativeGameObjectPath": "[1]TunnelBloom",
           "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[4]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor.[1]TunnelBloom",
           "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "QueenEnvironment"
-        },
-        {
-          "indexWithinLightIdList": 4,
-          "componentLightId": 69,
-          "type": null,
-          "typeName": null,
-          "relativeGameObjectPath": "[1]EmissionGlow",
-          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[4]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[1]EmissionGlow",
-          "componentType": "InstancedMaterialLightWithId",
           "localScale": {
             "x": 1.0,
             "y": 1.0,
@@ -961,17 +886,17 @@
     },
     {
       "beatSaberLightId": 70,
-      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[5]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY",
-      "registeredLightCount": 3,
+      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[5]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
+      "registeredLightCount": 2,
       "registeredLights": [
         {
-          "indexWithinLightIdList": 1,
+          "indexWithinLightIdList": 2,
           "componentLightId": 70,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[1]EmissionGlow",
-          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[5]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[1]EmissionGlow",
-          "componentType": "InstancedMaterialLightWithId",
+          "relativeGameObjectPath": "[1]TunnelBloom",
+          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[5]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor.[1]TunnelBloom",
+          "componentType": "TubeBloomPrePassLightWithId",
           "localScale": {
             "x": 1.0,
             "y": 1.0,
@@ -984,22 +909,7 @@
           "componentLightId": 70,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor.[1]TunnelBloom",
-          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[5]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor.[1]TunnelBloom",
-          "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "QueenEnvironment"
-        },
-        {
-          "indexWithinLightIdList": 4,
-          "componentLightId": 70,
-          "type": null,
-          "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor",
+          "relativeGameObjectPath": "",
           "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[5]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
           "componentType": "InstancedMaterialLightWithId",
           "localScale": {
@@ -1013,16 +923,16 @@
     },
     {
       "beatSaberLightId": 71,
-      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[6]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY",
-      "registeredLightCount": 3,
+      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[6]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
+      "registeredLightCount": 2,
       "registeredLights": [
         {
-          "indexWithinLightIdList": 0,
+          "indexWithinLightIdList": 2,
           "componentLightId": 71,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[1]EmissionGlow",
-          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[6]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[1]EmissionGlow",
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[6]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
           "componentType": "InstancedMaterialLightWithId",
           "localScale": {
             "x": 1.0,
@@ -1036,22 +946,7 @@
           "componentLightId": 71,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor",
-          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[6]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
-          "componentType": "InstancedMaterialLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "QueenEnvironment"
-        },
-        {
-          "indexWithinLightIdList": 4,
-          "componentLightId": 71,
-          "type": null,
-          "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor.[1]TunnelBloom",
+          "relativeGameObjectPath": "[1]TunnelBloom",
           "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[6]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor.[1]TunnelBloom",
           "componentType": "TubeBloomPrePassLightWithId",
           "localScale": {
@@ -1065,16 +960,16 @@
     },
     {
       "beatSaberLightId": 72,
-      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[7]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY",
-      "registeredLightCount": 3,
+      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[7]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
+      "registeredLightCount": 2,
       "registeredLights": [
         {
-          "indexWithinLightIdList": 0,
+          "indexWithinLightIdList": 2,
           "componentLightId": 72,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[1]EmissionGlow",
-          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[7]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[1]EmissionGlow",
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[7]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
           "componentType": "InstancedMaterialLightWithId",
           "localScale": {
             "x": 1.0,
@@ -1088,22 +983,7 @@
           "componentLightId": 72,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor",
-          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[7]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
-          "componentType": "InstancedMaterialLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "QueenEnvironment"
-        },
-        {
-          "indexWithinLightIdList": 4,
-          "componentLightId": 72,
-          "type": null,
-          "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor.[1]TunnelBloom",
+          "relativeGameObjectPath": "[1]TunnelBloom",
           "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[7]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor.[1]TunnelBloom",
           "componentType": "TubeBloomPrePassLightWithId",
           "localScale": {
@@ -1117,15 +997,15 @@
     },
     {
       "beatSaberLightId": 73,
-      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[8]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY",
-      "registeredLightCount": 3,
+      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[8]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
+      "registeredLightCount": 2,
       "registeredLights": [
         {
           "indexWithinLightIdList": 0,
           "componentLightId": 73,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor",
+          "relativeGameObjectPath": "",
           "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[8]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
           "componentType": "InstancedMaterialLightWithId",
           "localScale": {
@@ -1140,24 +1020,9 @@
           "componentLightId": 73,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor.[1]TunnelBloom",
+          "relativeGameObjectPath": "[1]TunnelBloom",
           "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[8]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor.[1]TunnelBloom",
           "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "QueenEnvironment"
-        },
-        {
-          "indexWithinLightIdList": 4,
-          "componentLightId": 73,
-          "type": null,
-          "typeName": null,
-          "relativeGameObjectPath": "[1]EmissionGlow",
-          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[8]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[1]EmissionGlow",
-          "componentType": "InstancedMaterialLightWithId",
           "localScale": {
             "x": 1.0,
             "y": 1.0,
@@ -1169,15 +1034,15 @@
     },
     {
       "beatSaberLightId": 74,
-      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[9]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY",
-      "registeredLightCount": 3,
+      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[9]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
+      "registeredLightCount": 2,
       "registeredLights": [
         {
           "indexWithinLightIdList": 0,
           "componentLightId": 74,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor.[1]TunnelBloom",
+          "relativeGameObjectPath": "[1]TunnelBloom",
           "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[9]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor.[1]TunnelBloom",
           "componentType": "TubeBloomPrePassLightWithId",
           "localScale": {
@@ -1192,23 +1057,8 @@
           "componentLightId": 74,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor",
+          "relativeGameObjectPath": "",
           "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[9]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
-          "componentType": "InstancedMaterialLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "QueenEnvironment"
-        },
-        {
-          "indexWithinLightIdList": 4,
-          "componentLightId": 74,
-          "type": null,
-          "typeName": null,
-          "relativeGameObjectPath": "[1]EmissionGlow",
-          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[9]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[1]EmissionGlow",
           "componentType": "InstancedMaterialLightWithId",
           "localScale": {
             "x": 1.0,
@@ -1221,17 +1071,17 @@
     },
     {
       "beatSaberLightId": 75,
-      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[10]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY",
-      "registeredLightCount": 3,
+      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[10]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
+      "registeredLightCount": 2,
       "registeredLights": [
         {
-          "indexWithinLightIdList": 0,
+          "indexWithinLightIdList": 2,
           "componentLightId": 75,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[1]EmissionGlow",
-          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[10]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[1]EmissionGlow",
-          "componentType": "InstancedMaterialLightWithId",
+          "relativeGameObjectPath": "[1]TunnelBloom",
+          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[10]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor.[1]TunnelBloom",
+          "componentType": "TubeBloomPrePassLightWithId",
           "localScale": {
             "x": 1.0,
             "y": 1.0,
@@ -1244,22 +1094,7 @@
           "componentLightId": 75,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor.[1]TunnelBloom",
-          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[10]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor.[1]TunnelBloom",
-          "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "QueenEnvironment"
-        },
-        {
-          "indexWithinLightIdList": 4,
-          "componentLightId": 75,
-          "type": null,
-          "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor",
+          "relativeGameObjectPath": "",
           "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[10]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
           "componentType": "InstancedMaterialLightWithId",
           "localScale": {
@@ -1273,16 +1108,16 @@
     },
     {
       "beatSaberLightId": 76,
-      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[11]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY",
-      "registeredLightCount": 3,
+      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[11]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
+      "registeredLightCount": 2,
       "registeredLights": [
         {
-          "indexWithinLightIdList": 0,
+          "indexWithinLightIdList": 2,
           "componentLightId": 76,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[1]EmissionGlow",
-          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[11]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[1]EmissionGlow",
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[11]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
           "componentType": "InstancedMaterialLightWithId",
           "localScale": {
             "x": 1.0,
@@ -1296,22 +1131,7 @@
           "componentLightId": 76,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor",
-          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[11]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
-          "componentType": "InstancedMaterialLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "QueenEnvironment"
-        },
-        {
-          "indexWithinLightIdList": 4,
-          "componentLightId": 76,
-          "type": null,
-          "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor.[1]TunnelBloom",
+          "relativeGameObjectPath": "[1]TunnelBloom",
           "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[11]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor.[1]TunnelBloom",
           "componentType": "TubeBloomPrePassLightWithId",
           "localScale": {
@@ -1325,16 +1145,16 @@
     },
     {
       "beatSaberLightId": 77,
-      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[12]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY",
-      "registeredLightCount": 3,
+      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[12]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
+      "registeredLightCount": 2,
       "registeredLights": [
         {
-          "indexWithinLightIdList": 0,
+          "indexWithinLightIdList": 2,
           "componentLightId": 77,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[1]EmissionGlow",
-          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[12]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[1]EmissionGlow",
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[12]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
           "componentType": "InstancedMaterialLightWithId",
           "localScale": {
             "x": 1.0,
@@ -1348,22 +1168,7 @@
           "componentLightId": 77,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor",
-          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[12]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
-          "componentType": "InstancedMaterialLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "QueenEnvironment"
-        },
-        {
-          "indexWithinLightIdList": 4,
-          "componentLightId": 77,
-          "type": null,
-          "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor.[1]TunnelBloom",
+          "relativeGameObjectPath": "[1]TunnelBloom",
           "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[12]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor.[1]TunnelBloom",
           "componentType": "TubeBloomPrePassLightWithId",
           "localScale": {
@@ -1377,15 +1182,15 @@
     },
     {
       "beatSaberLightId": 78,
-      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[13]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY",
-      "registeredLightCount": 3,
+      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[13]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
+      "registeredLightCount": 2,
       "registeredLights": [
         {
           "indexWithinLightIdList": 0,
           "componentLightId": 78,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor.[1]TunnelBloom",
+          "relativeGameObjectPath": "[1]TunnelBloom",
           "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[13]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor.[1]TunnelBloom",
           "componentType": "TubeBloomPrePassLightWithId",
           "localScale": {
@@ -1400,23 +1205,8 @@
           "componentLightId": 78,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor",
+          "relativeGameObjectPath": "",
           "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[13]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
-          "componentType": "InstancedMaterialLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "QueenEnvironment"
-        },
-        {
-          "indexWithinLightIdList": 5,
-          "componentLightId": 78,
-          "type": null,
-          "typeName": null,
-          "relativeGameObjectPath": "[1]EmissionGlow",
-          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[13]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[1]EmissionGlow",
           "componentType": "InstancedMaterialLightWithId",
           "localScale": {
             "x": 1.0,
@@ -1429,17 +1219,17 @@
     },
     {
       "beatSaberLightId": 79,
-      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[14]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY",
-      "registeredLightCount": 3,
+      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[14]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
+      "registeredLightCount": 2,
       "registeredLights": [
         {
-          "indexWithinLightIdList": 1,
+          "indexWithinLightIdList": 2,
           "componentLightId": 79,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[1]EmissionGlow",
-          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[14]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[1]EmissionGlow",
-          "componentType": "InstancedMaterialLightWithId",
+          "relativeGameObjectPath": "[1]TunnelBloom",
+          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[14]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor.[1]TunnelBloom",
+          "componentType": "TubeBloomPrePassLightWithId",
           "localScale": {
             "x": 1.0,
             "y": 1.0,
@@ -1452,22 +1242,7 @@
           "componentLightId": 79,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor.[1]TunnelBloom",
-          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[14]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor.[1]TunnelBloom",
-          "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "QueenEnvironment"
-        },
-        {
-          "indexWithinLightIdList": 4,
-          "componentLightId": 79,
-          "type": null,
-          "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor",
+          "relativeGameObjectPath": "",
           "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[14]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
           "componentType": "InstancedMaterialLightWithId",
           "localScale": {
@@ -1481,16 +1256,16 @@
     },
     {
       "beatSaberLightId": 80,
-      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[15]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY",
-      "registeredLightCount": 3,
+      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[15]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
+      "registeredLightCount": 2,
       "registeredLights": [
         {
-          "indexWithinLightIdList": 0,
+          "indexWithinLightIdList": 2,
           "componentLightId": 80,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[1]EmissionGlow",
-          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[15]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[1]EmissionGlow",
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[15]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
           "componentType": "InstancedMaterialLightWithId",
           "localScale": {
             "x": 1.0,
@@ -1504,22 +1279,7 @@
           "componentLightId": 80,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor",
-          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[15]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
-          "componentType": "InstancedMaterialLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "QueenEnvironment"
-        },
-        {
-          "indexWithinLightIdList": 4,
-          "componentLightId": 80,
-          "type": null,
-          "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor.[1]TunnelBloom",
+          "relativeGameObjectPath": "[1]TunnelBloom",
           "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[15]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor.[1]TunnelBloom",
           "componentType": "TubeBloomPrePassLightWithId",
           "localScale": {
@@ -1533,17 +1293,17 @@
     },
     {
       "beatSaberLightId": 81,
-      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[16]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY",
-      "registeredLightCount": 3,
+      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[16]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
+      "registeredLightCount": 2,
       "registeredLights": [
         {
-          "indexWithinLightIdList": 0,
+          "indexWithinLightIdList": 2,
           "componentLightId": 81,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[1]EmissionGlow",
-          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[16]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[1]EmissionGlow",
-          "componentType": "InstancedMaterialLightWithId",
+          "relativeGameObjectPath": "[1]TunnelBloom",
+          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[16]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor.[1]TunnelBloom",
+          "componentType": "TubeBloomPrePassLightWithId",
           "localScale": {
             "x": 1.0,
             "y": 1.0,
@@ -1556,22 +1316,7 @@
           "componentLightId": 81,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor.[1]TunnelBloom",
-          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[16]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor.[1]TunnelBloom",
-          "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "QueenEnvironment"
-        },
-        {
-          "indexWithinLightIdList": 4,
-          "componentLightId": 81,
-          "type": null,
-          "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor",
+          "relativeGameObjectPath": "",
           "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[16]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
           "componentType": "InstancedMaterialLightWithId",
           "localScale": {
@@ -1585,16 +1330,16 @@
     },
     {
       "beatSaberLightId": 82,
-      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[17]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY",
-      "registeredLightCount": 3,
+      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[17]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
+      "registeredLightCount": 2,
       "registeredLights": [
         {
-          "indexWithinLightIdList": 0,
+          "indexWithinLightIdList": 2,
           "componentLightId": 82,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[1]EmissionGlow",
-          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[17]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[1]EmissionGlow",
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[17]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
           "componentType": "InstancedMaterialLightWithId",
           "localScale": {
             "x": 1.0,
@@ -1608,22 +1353,7 @@
           "componentLightId": 82,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor",
-          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[17]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
-          "componentType": "InstancedMaterialLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "QueenEnvironment"
-        },
-        {
-          "indexWithinLightIdList": 4,
-          "componentLightId": 82,
-          "type": null,
-          "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor.[1]TunnelBloom",
+          "relativeGameObjectPath": "[1]TunnelBloom",
           "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[17]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor.[1]TunnelBloom",
           "componentType": "TubeBloomPrePassLightWithId",
           "localScale": {
@@ -1637,15 +1367,15 @@
     },
     {
       "beatSaberLightId": 83,
-      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[18]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY",
-      "registeredLightCount": 3,
+      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[18]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
+      "registeredLightCount": 2,
       "registeredLights": [
         {
           "indexWithinLightIdList": 0,
           "componentLightId": 83,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor",
+          "relativeGameObjectPath": "",
           "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[18]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
           "componentType": "InstancedMaterialLightWithId",
           "localScale": {
@@ -1660,24 +1390,9 @@
           "componentLightId": 83,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor.[1]TunnelBloom",
+          "relativeGameObjectPath": "[1]TunnelBloom",
           "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[18]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor.[1]TunnelBloom",
           "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "QueenEnvironment"
-        },
-        {
-          "indexWithinLightIdList": 4,
-          "componentLightId": 83,
-          "type": null,
-          "typeName": null,
-          "relativeGameObjectPath": "[1]EmissionGlow",
-          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[18]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[1]EmissionGlow",
-          "componentType": "InstancedMaterialLightWithId",
           "localScale": {
             "x": 1.0,
             "y": 1.0,
@@ -1689,17 +1404,17 @@
     },
     {
       "beatSaberLightId": 84,
-      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[19]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY",
-      "registeredLightCount": 3,
+      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[19]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
+      "registeredLightCount": 2,
       "registeredLights": [
         {
-          "indexWithinLightIdList": 1,
+          "indexWithinLightIdList": 2,
           "componentLightId": 84,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[1]EmissionGlow",
-          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[19]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[1]EmissionGlow",
-          "componentType": "InstancedMaterialLightWithId",
+          "relativeGameObjectPath": "[1]TunnelBloom",
+          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[19]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor.[1]TunnelBloom",
+          "componentType": "TubeBloomPrePassLightWithId",
           "localScale": {
             "x": 1.0,
             "y": 1.0,
@@ -1712,22 +1427,7 @@
           "componentLightId": 84,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor.[1]TunnelBloom",
-          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[19]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor.[1]TunnelBloom",
-          "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "QueenEnvironment"
-        },
-        {
-          "indexWithinLightIdList": 4,
-          "componentLightId": 84,
-          "type": null,
-          "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor",
+          "relativeGameObjectPath": "",
           "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[0]TunnelRing.[19]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
           "componentType": "InstancedMaterialLightWithId",
           "localScale": {
@@ -1741,15 +1441,15 @@
     },
     {
       "beatSaberLightId": 85,
-      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[0]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY",
-      "registeredLightCount": 3,
+      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[0]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
+      "registeredLightCount": 2,
       "registeredLights": [
         {
           "indexWithinLightIdList": 0,
           "componentLightId": 85,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor",
+          "relativeGameObjectPath": "",
           "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[0]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
           "componentType": "InstancedMaterialLightWithId",
           "localScale": {
@@ -1764,24 +1464,9 @@
           "componentLightId": 85,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor.[1]TunnelBloom",
+          "relativeGameObjectPath": "[1]TunnelBloom",
           "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[0]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor.[1]TunnelBloom",
           "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "QueenEnvironment"
-        },
-        {
-          "indexWithinLightIdList": 4,
-          "componentLightId": 85,
-          "type": null,
-          "typeName": null,
-          "relativeGameObjectPath": "[1]EmissionGlow",
-          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[0]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[1]EmissionGlow",
-          "componentType": "InstancedMaterialLightWithId",
           "localScale": {
             "x": 1.0,
             "y": 1.0,
@@ -1793,15 +1478,15 @@
     },
     {
       "beatSaberLightId": 86,
-      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[1]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY",
-      "registeredLightCount": 3,
+      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[1]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
+      "registeredLightCount": 2,
       "registeredLights": [
         {
           "indexWithinLightIdList": 0,
           "componentLightId": 86,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor",
+          "relativeGameObjectPath": "",
           "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[1]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
           "componentType": "InstancedMaterialLightWithId",
           "localScale": {
@@ -1816,24 +1501,9 @@
           "componentLightId": 86,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor.[1]TunnelBloom",
+          "relativeGameObjectPath": "[1]TunnelBloom",
           "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[1]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor.[1]TunnelBloom",
           "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "QueenEnvironment"
-        },
-        {
-          "indexWithinLightIdList": 4,
-          "componentLightId": 86,
-          "type": null,
-          "typeName": null,
-          "relativeGameObjectPath": "[1]EmissionGlow",
-          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[1]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[1]EmissionGlow",
-          "componentType": "InstancedMaterialLightWithId",
           "localScale": {
             "x": 1.0,
             "y": 1.0,
@@ -1845,15 +1515,15 @@
     },
     {
       "beatSaberLightId": 87,
-      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[2]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY",
-      "registeredLightCount": 3,
+      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[2]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
+      "registeredLightCount": 2,
       "registeredLights": [
         {
           "indexWithinLightIdList": 0,
           "componentLightId": 87,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor.[1]TunnelBloom",
+          "relativeGameObjectPath": "[1]TunnelBloom",
           "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[2]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor.[1]TunnelBloom",
           "componentType": "TubeBloomPrePassLightWithId",
           "localScale": {
@@ -1868,23 +1538,8 @@
           "componentLightId": 87,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor",
+          "relativeGameObjectPath": "",
           "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[2]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
-          "componentType": "InstancedMaterialLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "QueenEnvironment"
-        },
-        {
-          "indexWithinLightIdList": 4,
-          "componentLightId": 87,
-          "type": null,
-          "typeName": null,
-          "relativeGameObjectPath": "[1]EmissionGlow",
-          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[2]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[1]EmissionGlow",
           "componentType": "InstancedMaterialLightWithId",
           "localScale": {
             "x": 1.0,
@@ -1897,15 +1552,15 @@
     },
     {
       "beatSaberLightId": 88,
-      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[3]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY",
-      "registeredLightCount": 3,
+      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[3]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
+      "registeredLightCount": 2,
       "registeredLights": [
         {
           "indexWithinLightIdList": 0,
           "componentLightId": 88,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor.[1]TunnelBloom",
+          "relativeGameObjectPath": "[1]TunnelBloom",
           "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[3]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor.[1]TunnelBloom",
           "componentType": "TubeBloomPrePassLightWithId",
           "localScale": {
@@ -1920,23 +1575,8 @@
           "componentLightId": 88,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor",
+          "relativeGameObjectPath": "",
           "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[3]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
-          "componentType": "InstancedMaterialLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "QueenEnvironment"
-        },
-        {
-          "indexWithinLightIdList": 4,
-          "componentLightId": 88,
-          "type": null,
-          "typeName": null,
-          "relativeGameObjectPath": "[1]EmissionGlow",
-          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[3]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[1]EmissionGlow",
           "componentType": "InstancedMaterialLightWithId",
           "localScale": {
             "x": 1.0,
@@ -1949,15 +1589,15 @@
     },
     {
       "beatSaberLightId": 89,
-      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[4]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY",
-      "registeredLightCount": 3,
+      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[4]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
+      "registeredLightCount": 2,
       "registeredLights": [
         {
           "indexWithinLightIdList": 0,
           "componentLightId": 89,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor.[1]TunnelBloom",
+          "relativeGameObjectPath": "[1]TunnelBloom",
           "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[4]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor.[1]TunnelBloom",
           "componentType": "TubeBloomPrePassLightWithId",
           "localScale": {
@@ -1972,23 +1612,8 @@
           "componentLightId": 89,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor",
+          "relativeGameObjectPath": "",
           "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[4]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
-          "componentType": "InstancedMaterialLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "QueenEnvironment"
-        },
-        {
-          "indexWithinLightIdList": 4,
-          "componentLightId": 89,
-          "type": null,
-          "typeName": null,
-          "relativeGameObjectPath": "[1]EmissionGlow",
-          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[4]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[1]EmissionGlow",
           "componentType": "InstancedMaterialLightWithId",
           "localScale": {
             "x": 1.0,
@@ -2001,16 +1626,16 @@
     },
     {
       "beatSaberLightId": 90,
-      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[5]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY",
-      "registeredLightCount": 3,
+      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[5]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
+      "registeredLightCount": 2,
       "registeredLights": [
         {
-          "indexWithinLightIdList": 0,
+          "indexWithinLightIdList": 2,
           "componentLightId": 90,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[1]EmissionGlow",
-          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[5]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[1]EmissionGlow",
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[5]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
           "componentType": "InstancedMaterialLightWithId",
           "localScale": {
             "x": 1.0,
@@ -2024,22 +1649,7 @@
           "componentLightId": 90,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor",
-          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[5]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
-          "componentType": "InstancedMaterialLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "QueenEnvironment"
-        },
-        {
-          "indexWithinLightIdList": 4,
-          "componentLightId": 90,
-          "type": null,
-          "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor.[1]TunnelBloom",
+          "relativeGameObjectPath": "[1]TunnelBloom",
           "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[5]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor.[1]TunnelBloom",
           "componentType": "TubeBloomPrePassLightWithId",
           "localScale": {
@@ -2053,15 +1663,15 @@
     },
     {
       "beatSaberLightId": 91,
-      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[6]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY",
-      "registeredLightCount": 3,
+      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[6]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
+      "registeredLightCount": 2,
       "registeredLights": [
         {
           "indexWithinLightIdList": 0,
           "componentLightId": 91,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor",
+          "relativeGameObjectPath": "",
           "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[6]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
           "componentType": "InstancedMaterialLightWithId",
           "localScale": {
@@ -2076,24 +1686,9 @@
           "componentLightId": 91,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor.[1]TunnelBloom",
+          "relativeGameObjectPath": "[1]TunnelBloom",
           "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[6]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor.[1]TunnelBloom",
           "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "QueenEnvironment"
-        },
-        {
-          "indexWithinLightIdList": 4,
-          "componentLightId": 91,
-          "type": null,
-          "typeName": null,
-          "relativeGameObjectPath": "[1]EmissionGlow",
-          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[6]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[1]EmissionGlow",
-          "componentType": "InstancedMaterialLightWithId",
           "localScale": {
             "x": 1.0,
             "y": 1.0,
@@ -2105,30 +1700,15 @@
     },
     {
       "beatSaberLightId": 92,
-      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[7]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY",
-      "registeredLightCount": 3,
+      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[7]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
+      "registeredLightCount": 2,
       "registeredLights": [
         {
-          "indexWithinLightIdList": 0,
+          "indexWithinLightIdList": 2,
           "componentLightId": 92,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[1]EmissionGlow",
-          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[7]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[1]EmissionGlow",
-          "componentType": "InstancedMaterialLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "QueenEnvironment"
-        },
-        {
-          "indexWithinLightIdList": 3,
-          "componentLightId": 92,
-          "type": null,
-          "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor",
+          "relativeGameObjectPath": "",
           "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[7]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
           "componentType": "InstancedMaterialLightWithId",
           "localScale": {
@@ -2139,11 +1719,11 @@
           "sceneName": "QueenEnvironment"
         },
         {
-          "indexWithinLightIdList": 5,
+          "indexWithinLightIdList": 4,
           "componentLightId": 92,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor.[1]TunnelBloom",
+          "relativeGameObjectPath": "[1]TunnelBloom",
           "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[7]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor.[1]TunnelBloom",
           "componentType": "TubeBloomPrePassLightWithId",
           "localScale": {
@@ -2157,16 +1737,16 @@
     },
     {
       "beatSaberLightId": 93,
-      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[8]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY",
-      "registeredLightCount": 3,
+      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[8]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
+      "registeredLightCount": 2,
       "registeredLights": [
         {
-          "indexWithinLightIdList": 0,
+          "indexWithinLightIdList": 2,
           "componentLightId": 93,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[1]EmissionGlow",
-          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[8]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[1]EmissionGlow",
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[8]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
           "componentType": "InstancedMaterialLightWithId",
           "localScale": {
             "x": 1.0,
@@ -2180,22 +1760,7 @@
           "componentLightId": 93,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor",
-          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[8]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
-          "componentType": "InstancedMaterialLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "QueenEnvironment"
-        },
-        {
-          "indexWithinLightIdList": 4,
-          "componentLightId": 93,
-          "type": null,
-          "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor.[1]TunnelBloom",
+          "relativeGameObjectPath": "[1]TunnelBloom",
           "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[8]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor.[1]TunnelBloom",
           "componentType": "TubeBloomPrePassLightWithId",
           "localScale": {
@@ -2209,16 +1774,16 @@
     },
     {
       "beatSaberLightId": 94,
-      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[9]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY",
-      "registeredLightCount": 3,
+      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[9]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
+      "registeredLightCount": 2,
       "registeredLights": [
         {
-          "indexWithinLightIdList": 0,
+          "indexWithinLightIdList": 2,
           "componentLightId": 94,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[1]EmissionGlow",
-          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[9]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[1]EmissionGlow",
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[9]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
           "componentType": "InstancedMaterialLightWithId",
           "localScale": {
             "x": 1.0,
@@ -2232,22 +1797,7 @@
           "componentLightId": 94,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor",
-          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[9]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
-          "componentType": "InstancedMaterialLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "QueenEnvironment"
-        },
-        {
-          "indexWithinLightIdList": 4,
-          "componentLightId": 94,
-          "type": null,
-          "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor.[1]TunnelBloom",
+          "relativeGameObjectPath": "[1]TunnelBloom",
           "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[9]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor.[1]TunnelBloom",
           "componentType": "TubeBloomPrePassLightWithId",
           "localScale": {
@@ -2261,15 +1811,15 @@
     },
     {
       "beatSaberLightId": 95,
-      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[10]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY",
-      "registeredLightCount": 3,
+      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[10]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
+      "registeredLightCount": 2,
       "registeredLights": [
         {
           "indexWithinLightIdList": 0,
           "componentLightId": 95,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor",
+          "relativeGameObjectPath": "",
           "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[10]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
           "componentType": "InstancedMaterialLightWithId",
           "localScale": {
@@ -2284,24 +1834,9 @@
           "componentLightId": 95,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor.[1]TunnelBloom",
+          "relativeGameObjectPath": "[1]TunnelBloom",
           "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[10]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor.[1]TunnelBloom",
           "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "QueenEnvironment"
-        },
-        {
-          "indexWithinLightIdList": 4,
-          "componentLightId": 95,
-          "type": null,
-          "typeName": null,
-          "relativeGameObjectPath": "[1]EmissionGlow",
-          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[10]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[1]EmissionGlow",
-          "componentType": "InstancedMaterialLightWithId",
           "localScale": {
             "x": 1.0,
             "y": 1.0,
@@ -2313,15 +1848,15 @@
     },
     {
       "beatSaberLightId": 96,
-      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[11]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY",
-      "registeredLightCount": 3,
+      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[11]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
+      "registeredLightCount": 2,
       "registeredLights": [
         {
           "indexWithinLightIdList": 0,
           "componentLightId": 96,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor.[1]TunnelBloom",
+          "relativeGameObjectPath": "[1]TunnelBloom",
           "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[11]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor.[1]TunnelBloom",
           "componentType": "TubeBloomPrePassLightWithId",
           "localScale": {
@@ -2336,23 +1871,8 @@
           "componentLightId": 96,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor",
+          "relativeGameObjectPath": "",
           "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[11]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
-          "componentType": "InstancedMaterialLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "QueenEnvironment"
-        },
-        {
-          "indexWithinLightIdList": 4,
-          "componentLightId": 96,
-          "type": null,
-          "typeName": null,
-          "relativeGameObjectPath": "[1]EmissionGlow",
-          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[11]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[1]EmissionGlow",
           "componentType": "InstancedMaterialLightWithId",
           "localScale": {
             "x": 1.0,
@@ -2365,15 +1885,15 @@
     },
     {
       "beatSaberLightId": 97,
-      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[12]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY",
-      "registeredLightCount": 3,
+      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[12]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
+      "registeredLightCount": 2,
       "registeredLights": [
         {
           "indexWithinLightIdList": 0,
           "componentLightId": 97,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor",
+          "relativeGameObjectPath": "",
           "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[12]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
           "componentType": "InstancedMaterialLightWithId",
           "localScale": {
@@ -2388,24 +1908,9 @@
           "componentLightId": 97,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor.[1]TunnelBloom",
+          "relativeGameObjectPath": "[1]TunnelBloom",
           "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[12]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor.[1]TunnelBloom",
           "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "QueenEnvironment"
-        },
-        {
-          "indexWithinLightIdList": 4,
-          "componentLightId": 97,
-          "type": null,
-          "typeName": null,
-          "relativeGameObjectPath": "[1]EmissionGlow",
-          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[12]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[1]EmissionGlow",
-          "componentType": "InstancedMaterialLightWithId",
           "localScale": {
             "x": 1.0,
             "y": 1.0,
@@ -2417,15 +1922,15 @@
     },
     {
       "beatSaberLightId": 98,
-      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[13]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY",
-      "registeredLightCount": 3,
+      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[13]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
+      "registeredLightCount": 2,
       "registeredLights": [
         {
           "indexWithinLightIdList": 0,
           "componentLightId": 98,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor",
+          "relativeGameObjectPath": "",
           "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[13]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
           "componentType": "InstancedMaterialLightWithId",
           "localScale": {
@@ -2440,24 +1945,9 @@
           "componentLightId": 98,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor.[1]TunnelBloom",
+          "relativeGameObjectPath": "[1]TunnelBloom",
           "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[13]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor.[1]TunnelBloom",
           "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "QueenEnvironment"
-        },
-        {
-          "indexWithinLightIdList": 4,
-          "componentLightId": 98,
-          "type": null,
-          "typeName": null,
-          "relativeGameObjectPath": "[1]EmissionGlow",
-          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[13]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[1]EmissionGlow",
-          "componentType": "InstancedMaterialLightWithId",
           "localScale": {
             "x": 1.0,
             "y": 1.0,
@@ -2469,17 +1959,17 @@
     },
     {
       "beatSaberLightId": 99,
-      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[14]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY",
-      "registeredLightCount": 3,
+      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[14]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
+      "registeredLightCount": 2,
       "registeredLights": [
         {
-          "indexWithinLightIdList": 1,
+          "indexWithinLightIdList": 2,
           "componentLightId": 99,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[1]EmissionGlow",
-          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[14]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[1]EmissionGlow",
-          "componentType": "InstancedMaterialLightWithId",
+          "relativeGameObjectPath": "[1]TunnelBloom",
+          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[14]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor.[1]TunnelBloom",
+          "componentType": "TubeBloomPrePassLightWithId",
           "localScale": {
             "x": 1.0,
             "y": 1.0,
@@ -2492,22 +1982,7 @@
           "componentLightId": 99,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor.[1]TunnelBloom",
-          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[14]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor.[1]TunnelBloom",
-          "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "QueenEnvironment"
-        },
-        {
-          "indexWithinLightIdList": 4,
-          "componentLightId": 99,
-          "type": null,
-          "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor",
+          "relativeGameObjectPath": "",
           "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[14]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
           "componentType": "InstancedMaterialLightWithId",
           "localScale": {
@@ -2521,15 +1996,15 @@
     },
     {
       "beatSaberLightId": 100,
-      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[15]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY",
-      "registeredLightCount": 3,
+      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[15]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
+      "registeredLightCount": 2,
       "registeredLights": [
         {
           "indexWithinLightIdList": 0,
           "componentLightId": 100,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor",
+          "relativeGameObjectPath": "",
           "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[15]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
           "componentType": "InstancedMaterialLightWithId",
           "localScale": {
@@ -2544,24 +2019,9 @@
           "componentLightId": 100,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor.[1]TunnelBloom",
+          "relativeGameObjectPath": "[1]TunnelBloom",
           "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[15]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor.[1]TunnelBloom",
           "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "QueenEnvironment"
-        },
-        {
-          "indexWithinLightIdList": 4,
-          "componentLightId": 100,
-          "type": null,
-          "typeName": null,
-          "relativeGameObjectPath": "[1]EmissionGlow",
-          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[15]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[1]EmissionGlow",
-          "componentType": "InstancedMaterialLightWithId",
           "localScale": {
             "x": 1.0,
             "y": 1.0,
@@ -2573,17 +2033,17 @@
     },
     {
       "beatSaberLightId": 101,
-      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[16]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY",
-      "registeredLightCount": 3,
+      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[16]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
+      "registeredLightCount": 2,
       "registeredLights": [
         {
-          "indexWithinLightIdList": 0,
+          "indexWithinLightIdList": 2,
           "componentLightId": 101,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[1]EmissionGlow",
-          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[16]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[1]EmissionGlow",
-          "componentType": "InstancedMaterialLightWithId",
+          "relativeGameObjectPath": "[1]TunnelBloom",
+          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[16]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor.[1]TunnelBloom",
+          "componentType": "TubeBloomPrePassLightWithId",
           "localScale": {
             "x": 1.0,
             "y": 1.0,
@@ -2596,22 +2056,7 @@
           "componentLightId": 101,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor.[1]TunnelBloom",
-          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[16]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor.[1]TunnelBloom",
-          "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "QueenEnvironment"
-        },
-        {
-          "indexWithinLightIdList": 4,
-          "componentLightId": 101,
-          "type": null,
-          "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor",
+          "relativeGameObjectPath": "",
           "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[16]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
           "componentType": "InstancedMaterialLightWithId",
           "localScale": {
@@ -2625,16 +2070,16 @@
     },
     {
       "beatSaberLightId": 102,
-      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[17]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY",
-      "registeredLightCount": 3,
+      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[17]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
+      "registeredLightCount": 2,
       "registeredLights": [
         {
-          "indexWithinLightIdList": 0,
+          "indexWithinLightIdList": 2,
           "componentLightId": 102,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[1]EmissionGlow",
-          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[17]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[1]EmissionGlow",
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[17]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
           "componentType": "InstancedMaterialLightWithId",
           "localScale": {
             "x": 1.0,
@@ -2648,22 +2093,7 @@
           "componentLightId": 102,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor",
-          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[17]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
-          "componentType": "InstancedMaterialLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "QueenEnvironment"
-        },
-        {
-          "indexWithinLightIdList": 4,
-          "componentLightId": 102,
-          "type": null,
-          "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor.[1]TunnelBloom",
+          "relativeGameObjectPath": "[1]TunnelBloom",
           "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[17]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor.[1]TunnelBloom",
           "componentType": "TubeBloomPrePassLightWithId",
           "localScale": {
@@ -2677,15 +2107,15 @@
     },
     {
       "beatSaberLightId": 103,
-      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[18]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY",
-      "registeredLightCount": 3,
+      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[18]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
+      "registeredLightCount": 2,
       "registeredLights": [
         {
           "indexWithinLightIdList": 0,
           "componentLightId": 103,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor.[1]TunnelBloom",
+          "relativeGameObjectPath": "[1]TunnelBloom",
           "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[18]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor.[1]TunnelBloom",
           "componentType": "TubeBloomPrePassLightWithId",
           "localScale": {
@@ -2700,23 +2130,8 @@
           "componentLightId": 103,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor",
+          "relativeGameObjectPath": "",
           "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[18]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
-          "componentType": "InstancedMaterialLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "QueenEnvironment"
-        },
-        {
-          "indexWithinLightIdList": 4,
-          "componentLightId": 103,
-          "type": null,
-          "typeName": null,
-          "relativeGameObjectPath": "[1]EmissionGlow",
-          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[18]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[1]EmissionGlow",
           "componentType": "InstancedMaterialLightWithId",
           "localScale": {
             "x": 1.0,
@@ -2729,15 +2144,15 @@
     },
     {
       "beatSaberLightId": 104,
-      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[19]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY",
-      "registeredLightCount": 3,
+      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[19]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
+      "registeredLightCount": 2,
       "registeredLights": [
         {
           "indexWithinLightIdList": 0,
           "componentLightId": 104,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor",
+          "relativeGameObjectPath": "",
           "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[19]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
           "componentType": "InstancedMaterialLightWithId",
           "localScale": {
@@ -2752,24 +2167,9 @@
           "componentLightId": 104,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor.[1]TunnelBloom",
+          "relativeGameObjectPath": "[1]TunnelBloom",
           "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[19]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor.[1]TunnelBloom",
           "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "QueenEnvironment"
-        },
-        {
-          "indexWithinLightIdList": 4,
-          "componentLightId": 104,
-          "type": null,
-          "typeName": null,
-          "relativeGameObjectPath": "[1]EmissionGlow",
-          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[1]TunnelRing (1).[19]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[1]EmissionGlow",
-          "componentType": "InstancedMaterialLightWithId",
           "localScale": {
             "x": 1.0,
             "y": 1.0,
@@ -2781,17 +2181,17 @@
     },
     {
       "beatSaberLightId": 105,
-      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[0]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY",
-      "registeredLightCount": 3,
+      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[0]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
+      "registeredLightCount": 2,
       "registeredLights": [
         {
-          "indexWithinLightIdList": 1,
+          "indexWithinLightIdList": 2,
           "componentLightId": 105,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[1]EmissionGlow",
-          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[0]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[1]EmissionGlow",
-          "componentType": "InstancedMaterialLightWithId",
+          "relativeGameObjectPath": "[1]TunnelBloom",
+          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[0]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor.[1]TunnelBloom",
+          "componentType": "TubeBloomPrePassLightWithId",
           "localScale": {
             "x": 1.0,
             "y": 1.0,
@@ -2804,22 +2204,7 @@
           "componentLightId": 105,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor.[1]TunnelBloom",
-          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[0]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor.[1]TunnelBloom",
-          "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "QueenEnvironment"
-        },
-        {
-          "indexWithinLightIdList": 4,
-          "componentLightId": 105,
-          "type": null,
-          "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor",
+          "relativeGameObjectPath": "",
           "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[0]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
           "componentType": "InstancedMaterialLightWithId",
           "localScale": {
@@ -2833,17 +2218,17 @@
     },
     {
       "beatSaberLightId": 106,
-      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[1]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY",
-      "registeredLightCount": 3,
+      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[1]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
+      "registeredLightCount": 2,
       "registeredLights": [
         {
-          "indexWithinLightIdList": 0,
+          "indexWithinLightIdList": 2,
           "componentLightId": 106,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[1]EmissionGlow",
-          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[1]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[1]EmissionGlow",
-          "componentType": "InstancedMaterialLightWithId",
+          "relativeGameObjectPath": "[1]TunnelBloom",
+          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[1]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor.[1]TunnelBloom",
+          "componentType": "TubeBloomPrePassLightWithId",
           "localScale": {
             "x": 1.0,
             "y": 1.0,
@@ -2856,22 +2241,7 @@
           "componentLightId": 106,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor.[1]TunnelBloom",
-          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[1]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor.[1]TunnelBloom",
-          "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "QueenEnvironment"
-        },
-        {
-          "indexWithinLightIdList": 4,
-          "componentLightId": 106,
-          "type": null,
-          "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor",
+          "relativeGameObjectPath": "",
           "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[1]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
           "componentType": "InstancedMaterialLightWithId",
           "localScale": {
@@ -2885,16 +2255,16 @@
     },
     {
       "beatSaberLightId": 107,
-      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[2]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY",
-      "registeredLightCount": 3,
+      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[2]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
+      "registeredLightCount": 2,
       "registeredLights": [
         {
-          "indexWithinLightIdList": 0,
+          "indexWithinLightIdList": 2,
           "componentLightId": 107,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[1]EmissionGlow",
-          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[2]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[1]EmissionGlow",
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[2]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
           "componentType": "InstancedMaterialLightWithId",
           "localScale": {
             "x": 1.0,
@@ -2908,22 +2278,7 @@
           "componentLightId": 107,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor",
-          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[2]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
-          "componentType": "InstancedMaterialLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "QueenEnvironment"
-        },
-        {
-          "indexWithinLightIdList": 4,
-          "componentLightId": 107,
-          "type": null,
-          "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor.[1]TunnelBloom",
+          "relativeGameObjectPath": "[1]TunnelBloom",
           "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[2]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor.[1]TunnelBloom",
           "componentType": "TubeBloomPrePassLightWithId",
           "localScale": {
@@ -2937,17 +2292,17 @@
     },
     {
       "beatSaberLightId": 108,
-      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[3]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY",
-      "registeredLightCount": 3,
+      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[3]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
+      "registeredLightCount": 2,
       "registeredLights": [
         {
-          "indexWithinLightIdList": 1,
+          "indexWithinLightIdList": 2,
           "componentLightId": 108,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[1]EmissionGlow",
-          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[3]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[1]EmissionGlow",
-          "componentType": "InstancedMaterialLightWithId",
+          "relativeGameObjectPath": "[1]TunnelBloom",
+          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[3]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor.[1]TunnelBloom",
+          "componentType": "TubeBloomPrePassLightWithId",
           "localScale": {
             "x": 1.0,
             "y": 1.0,
@@ -2960,22 +2315,7 @@
           "componentLightId": 108,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor.[1]TunnelBloom",
-          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[3]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor.[1]TunnelBloom",
-          "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "QueenEnvironment"
-        },
-        {
-          "indexWithinLightIdList": 4,
-          "componentLightId": 108,
-          "type": null,
-          "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor",
+          "relativeGameObjectPath": "",
           "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[3]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
           "componentType": "InstancedMaterialLightWithId",
           "localScale": {
@@ -2989,15 +2329,15 @@
     },
     {
       "beatSaberLightId": 109,
-      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[4]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY",
-      "registeredLightCount": 3,
+      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[4]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
+      "registeredLightCount": 2,
       "registeredLights": [
         {
           "indexWithinLightIdList": 0,
           "componentLightId": 109,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor",
+          "relativeGameObjectPath": "",
           "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[4]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
           "componentType": "InstancedMaterialLightWithId",
           "localScale": {
@@ -3012,24 +2352,9 @@
           "componentLightId": 109,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor.[1]TunnelBloom",
+          "relativeGameObjectPath": "[1]TunnelBloom",
           "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[4]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor.[1]TunnelBloom",
           "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "QueenEnvironment"
-        },
-        {
-          "indexWithinLightIdList": 4,
-          "componentLightId": 109,
-          "type": null,
-          "typeName": null,
-          "relativeGameObjectPath": "[1]EmissionGlow",
-          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[4]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[1]EmissionGlow",
-          "componentType": "InstancedMaterialLightWithId",
           "localScale": {
             "x": 1.0,
             "y": 1.0,
@@ -3041,15 +2366,15 @@
     },
     {
       "beatSaberLightId": 110,
-      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[5]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY",
-      "registeredLightCount": 3,
+      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[5]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
+      "registeredLightCount": 2,
       "registeredLights": [
         {
           "indexWithinLightIdList": 0,
           "componentLightId": 110,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor",
+          "relativeGameObjectPath": "",
           "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[5]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
           "componentType": "InstancedMaterialLightWithId",
           "localScale": {
@@ -3064,24 +2389,9 @@
           "componentLightId": 110,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor.[1]TunnelBloom",
+          "relativeGameObjectPath": "[1]TunnelBloom",
           "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[5]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor.[1]TunnelBloom",
           "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "QueenEnvironment"
-        },
-        {
-          "indexWithinLightIdList": 4,
-          "componentLightId": 110,
-          "type": null,
-          "typeName": null,
-          "relativeGameObjectPath": "[1]EmissionGlow",
-          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[5]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[1]EmissionGlow",
-          "componentType": "InstancedMaterialLightWithId",
           "localScale": {
             "x": 1.0,
             "y": 1.0,
@@ -3093,15 +2403,15 @@
     },
     {
       "beatSaberLightId": 111,
-      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[6]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY",
-      "registeredLightCount": 3,
+      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[6]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
+      "registeredLightCount": 2,
       "registeredLights": [
         {
           "indexWithinLightIdList": 0,
           "componentLightId": 111,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor",
+          "relativeGameObjectPath": "",
           "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[6]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
           "componentType": "InstancedMaterialLightWithId",
           "localScale": {
@@ -3116,24 +2426,9 @@
           "componentLightId": 111,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor.[1]TunnelBloom",
+          "relativeGameObjectPath": "[1]TunnelBloom",
           "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[6]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor.[1]TunnelBloom",
           "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "QueenEnvironment"
-        },
-        {
-          "indexWithinLightIdList": 4,
-          "componentLightId": 111,
-          "type": null,
-          "typeName": null,
-          "relativeGameObjectPath": "[1]EmissionGlow",
-          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[6]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[1]EmissionGlow",
-          "componentType": "InstancedMaterialLightWithId",
           "localScale": {
             "x": 1.0,
             "y": 1.0,
@@ -3145,16 +2440,16 @@
     },
     {
       "beatSaberLightId": 112,
-      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[7]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY",
-      "registeredLightCount": 3,
+      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[7]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
+      "registeredLightCount": 2,
       "registeredLights": [
         {
-          "indexWithinLightIdList": 0,
+          "indexWithinLightIdList": 2,
           "componentLightId": 112,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[1]EmissionGlow",
-          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[7]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[1]EmissionGlow",
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[7]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
           "componentType": "InstancedMaterialLightWithId",
           "localScale": {
             "x": 1.0,
@@ -3168,22 +2463,7 @@
           "componentLightId": 112,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor",
-          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[7]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
-          "componentType": "InstancedMaterialLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "QueenEnvironment"
-        },
-        {
-          "indexWithinLightIdList": 4,
-          "componentLightId": 112,
-          "type": null,
-          "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor.[1]TunnelBloom",
+          "relativeGameObjectPath": "[1]TunnelBloom",
           "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[7]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor.[1]TunnelBloom",
           "componentType": "TubeBloomPrePassLightWithId",
           "localScale": {
@@ -3197,15 +2477,15 @@
     },
     {
       "beatSaberLightId": 113,
-      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[8]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY",
-      "registeredLightCount": 3,
+      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[8]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
+      "registeredLightCount": 2,
       "registeredLights": [
         {
           "indexWithinLightIdList": 0,
           "componentLightId": 113,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor",
+          "relativeGameObjectPath": "",
           "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[8]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
           "componentType": "InstancedMaterialLightWithId",
           "localScale": {
@@ -3220,24 +2500,9 @@
           "componentLightId": 113,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor.[1]TunnelBloom",
+          "relativeGameObjectPath": "[1]TunnelBloom",
           "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[8]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor.[1]TunnelBloom",
           "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "QueenEnvironment"
-        },
-        {
-          "indexWithinLightIdList": 4,
-          "componentLightId": 113,
-          "type": null,
-          "typeName": null,
-          "relativeGameObjectPath": "[1]EmissionGlow",
-          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[8]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[1]EmissionGlow",
-          "componentType": "InstancedMaterialLightWithId",
           "localScale": {
             "x": 1.0,
             "y": 1.0,
@@ -3249,15 +2514,15 @@
     },
     {
       "beatSaberLightId": 114,
-      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[9]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY",
-      "registeredLightCount": 3,
+      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[9]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
+      "registeredLightCount": 2,
       "registeredLights": [
         {
           "indexWithinLightIdList": 0,
           "componentLightId": 114,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor.[1]TunnelBloom",
+          "relativeGameObjectPath": "[1]TunnelBloom",
           "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[9]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor.[1]TunnelBloom",
           "componentType": "TubeBloomPrePassLightWithId",
           "localScale": {
@@ -3272,23 +2537,8 @@
           "componentLightId": 114,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor",
+          "relativeGameObjectPath": "",
           "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[9]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
-          "componentType": "InstancedMaterialLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "QueenEnvironment"
-        },
-        {
-          "indexWithinLightIdList": 5,
-          "componentLightId": 114,
-          "type": null,
-          "typeName": null,
-          "relativeGameObjectPath": "[1]EmissionGlow",
-          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[9]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[1]EmissionGlow",
           "componentType": "InstancedMaterialLightWithId",
           "localScale": {
             "x": 1.0,
@@ -3301,17 +2551,17 @@
     },
     {
       "beatSaberLightId": 115,
-      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[10]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY",
-      "registeredLightCount": 3,
+      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[10]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
+      "registeredLightCount": 2,
       "registeredLights": [
         {
-          "indexWithinLightIdList": 0,
+          "indexWithinLightIdList": 2,
           "componentLightId": 115,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[1]EmissionGlow",
-          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[10]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[1]EmissionGlow",
-          "componentType": "InstancedMaterialLightWithId",
+          "relativeGameObjectPath": "[1]TunnelBloom",
+          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[10]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor.[1]TunnelBloom",
+          "componentType": "TubeBloomPrePassLightWithId",
           "localScale": {
             "x": 1.0,
             "y": 1.0,
@@ -3324,22 +2574,7 @@
           "componentLightId": 115,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor.[1]TunnelBloom",
-          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[10]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor.[1]TunnelBloom",
-          "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "QueenEnvironment"
-        },
-        {
-          "indexWithinLightIdList": 4,
-          "componentLightId": 115,
-          "type": null,
-          "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor",
+          "relativeGameObjectPath": "",
           "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[10]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
           "componentType": "InstancedMaterialLightWithId",
           "localScale": {
@@ -3353,15 +2588,15 @@
     },
     {
       "beatSaberLightId": 116,
-      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[11]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY",
-      "registeredLightCount": 3,
+      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[11]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
+      "registeredLightCount": 2,
       "registeredLights": [
         {
           "indexWithinLightIdList": 0,
           "componentLightId": 116,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor",
+          "relativeGameObjectPath": "",
           "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[11]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
           "componentType": "InstancedMaterialLightWithId",
           "localScale": {
@@ -3376,24 +2611,9 @@
           "componentLightId": 116,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor.[1]TunnelBloom",
+          "relativeGameObjectPath": "[1]TunnelBloom",
           "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[11]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor.[1]TunnelBloom",
           "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "QueenEnvironment"
-        },
-        {
-          "indexWithinLightIdList": 4,
-          "componentLightId": 116,
-          "type": null,
-          "typeName": null,
-          "relativeGameObjectPath": "[1]EmissionGlow",
-          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[11]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[1]EmissionGlow",
-          "componentType": "InstancedMaterialLightWithId",
           "localScale": {
             "x": 1.0,
             "y": 1.0,
@@ -3405,15 +2625,15 @@
     },
     {
       "beatSaberLightId": 117,
-      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[12]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY",
-      "registeredLightCount": 3,
+      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[12]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
+      "registeredLightCount": 2,
       "registeredLights": [
         {
           "indexWithinLightIdList": 0,
           "componentLightId": 117,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor.[1]TunnelBloom",
+          "relativeGameObjectPath": "[1]TunnelBloom",
           "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[12]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor.[1]TunnelBloom",
           "componentType": "TubeBloomPrePassLightWithId",
           "localScale": {
@@ -3428,23 +2648,8 @@
           "componentLightId": 117,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor",
+          "relativeGameObjectPath": "",
           "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[12]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
-          "componentType": "InstancedMaterialLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "QueenEnvironment"
-        },
-        {
-          "indexWithinLightIdList": 4,
-          "componentLightId": 117,
-          "type": null,
-          "typeName": null,
-          "relativeGameObjectPath": "[1]EmissionGlow",
-          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[12]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[1]EmissionGlow",
           "componentType": "InstancedMaterialLightWithId",
           "localScale": {
             "x": 1.0,
@@ -3457,15 +2662,15 @@
     },
     {
       "beatSaberLightId": 118,
-      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[13]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY",
-      "registeredLightCount": 3,
+      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[13]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
+      "registeredLightCount": 2,
       "registeredLights": [
         {
           "indexWithinLightIdList": 0,
           "componentLightId": 118,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor",
+          "relativeGameObjectPath": "",
           "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[13]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
           "componentType": "InstancedMaterialLightWithId",
           "localScale": {
@@ -3480,24 +2685,9 @@
           "componentLightId": 118,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor.[1]TunnelBloom",
+          "relativeGameObjectPath": "[1]TunnelBloom",
           "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[13]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor.[1]TunnelBloom",
           "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "QueenEnvironment"
-        },
-        {
-          "indexWithinLightIdList": 4,
-          "componentLightId": 118,
-          "type": null,
-          "typeName": null,
-          "relativeGameObjectPath": "[1]EmissionGlow",
-          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[13]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[1]EmissionGlow",
-          "componentType": "InstancedMaterialLightWithId",
           "localScale": {
             "x": 1.0,
             "y": 1.0,
@@ -3509,16 +2699,16 @@
     },
     {
       "beatSaberLightId": 119,
-      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[14]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY",
-      "registeredLightCount": 3,
+      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[14]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
+      "registeredLightCount": 2,
       "registeredLights": [
         {
-          "indexWithinLightIdList": 0,
+          "indexWithinLightIdList": 2,
           "componentLightId": 119,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[1]EmissionGlow",
-          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[14]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[1]EmissionGlow",
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[14]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
           "componentType": "InstancedMaterialLightWithId",
           "localScale": {
             "x": 1.0,
@@ -3532,22 +2722,7 @@
           "componentLightId": 119,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor",
-          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[14]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
-          "componentType": "InstancedMaterialLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "QueenEnvironment"
-        },
-        {
-          "indexWithinLightIdList": 4,
-          "componentLightId": 119,
-          "type": null,
-          "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor.[1]TunnelBloom",
+          "relativeGameObjectPath": "[1]TunnelBloom",
           "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[14]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor.[1]TunnelBloom",
           "componentType": "TubeBloomPrePassLightWithId",
           "localScale": {
@@ -3561,16 +2736,16 @@
     },
     {
       "beatSaberLightId": 120,
-      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[15]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY",
-      "registeredLightCount": 3,
+      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[15]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
+      "registeredLightCount": 2,
       "registeredLights": [
         {
-          "indexWithinLightIdList": 0,
+          "indexWithinLightIdList": 2,
           "componentLightId": 120,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[1]EmissionGlow",
-          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[15]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[1]EmissionGlow",
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[15]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
           "componentType": "InstancedMaterialLightWithId",
           "localScale": {
             "x": 1.0,
@@ -3584,22 +2759,7 @@
           "componentLightId": 120,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor",
-          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[15]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
-          "componentType": "InstancedMaterialLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "QueenEnvironment"
-        },
-        {
-          "indexWithinLightIdList": 4,
-          "componentLightId": 120,
-          "type": null,
-          "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor.[1]TunnelBloom",
+          "relativeGameObjectPath": "[1]TunnelBloom",
           "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[15]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor.[1]TunnelBloom",
           "componentType": "TubeBloomPrePassLightWithId",
           "localScale": {
@@ -3613,16 +2773,16 @@
     },
     {
       "beatSaberLightId": 121,
-      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[16]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY",
-      "registeredLightCount": 3,
+      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[16]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
+      "registeredLightCount": 2,
       "registeredLights": [
         {
-          "indexWithinLightIdList": 0,
+          "indexWithinLightIdList": 2,
           "componentLightId": 121,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[1]EmissionGlow",
-          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[16]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[1]EmissionGlow",
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[16]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
           "componentType": "InstancedMaterialLightWithId",
           "localScale": {
             "x": 1.0,
@@ -3636,22 +2796,7 @@
           "componentLightId": 121,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor",
-          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[16]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
-          "componentType": "InstancedMaterialLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "QueenEnvironment"
-        },
-        {
-          "indexWithinLightIdList": 4,
-          "componentLightId": 121,
-          "type": null,
-          "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor.[1]TunnelBloom",
+          "relativeGameObjectPath": "[1]TunnelBloom",
           "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[16]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor.[1]TunnelBloom",
           "componentType": "TubeBloomPrePassLightWithId",
           "localScale": {
@@ -3665,16 +2810,16 @@
     },
     {
       "beatSaberLightId": 122,
-      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[17]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY",
-      "registeredLightCount": 3,
+      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[17]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
+      "registeredLightCount": 2,
       "registeredLights": [
         {
-          "indexWithinLightIdList": 0,
+          "indexWithinLightIdList": 2,
           "componentLightId": 122,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[1]EmissionGlow",
-          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[17]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[1]EmissionGlow",
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[17]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
           "componentType": "InstancedMaterialLightWithId",
           "localScale": {
             "x": 1.0,
@@ -3688,22 +2833,7 @@
           "componentLightId": 122,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor",
-          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[17]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
-          "componentType": "InstancedMaterialLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "QueenEnvironment"
-        },
-        {
-          "indexWithinLightIdList": 4,
-          "componentLightId": 122,
-          "type": null,
-          "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor.[1]TunnelBloom",
+          "relativeGameObjectPath": "[1]TunnelBloom",
           "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[17]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor.[1]TunnelBloom",
           "componentType": "TubeBloomPrePassLightWithId",
           "localScale": {
@@ -3717,15 +2847,15 @@
     },
     {
       "beatSaberLightId": 123,
-      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[18]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY",
-      "registeredLightCount": 3,
+      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[18]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
+      "registeredLightCount": 2,
       "registeredLights": [
         {
           "indexWithinLightIdList": 0,
           "componentLightId": 123,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor",
+          "relativeGameObjectPath": "",
           "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[18]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
           "componentType": "InstancedMaterialLightWithId",
           "localScale": {
@@ -3740,24 +2870,9 @@
           "componentLightId": 123,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor.[1]TunnelBloom",
+          "relativeGameObjectPath": "[1]TunnelBloom",
           "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[18]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor.[1]TunnelBloom",
           "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "QueenEnvironment"
-        },
-        {
-          "indexWithinLightIdList": 4,
-          "componentLightId": 123,
-          "type": null,
-          "typeName": null,
-          "relativeGameObjectPath": "[1]EmissionGlow",
-          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[18]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[1]EmissionGlow",
-          "componentType": "InstancedMaterialLightWithId",
           "localScale": {
             "x": 1.0,
             "y": 1.0,
@@ -3769,15 +2884,15 @@
     },
     {
       "beatSaberLightId": 124,
-      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[19]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY",
-      "registeredLightCount": 3,
+      "commonGameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[19]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
+      "registeredLightCount": 2,
       "registeredLights": [
         {
           "indexWithinLightIdList": 0,
           "componentLightId": 124,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor",
+          "relativeGameObjectPath": "",
           "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[19]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor",
           "componentType": "InstancedMaterialLightWithId",
           "localScale": {
@@ -3792,24 +2907,9 @@
           "componentLightId": 124,
           "type": null,
           "typeName": null,
-          "relativeGameObjectPath": "[0]EmissionColor.[1]TunnelBloom",
+          "relativeGameObjectPath": "[1]TunnelBloom",
           "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[19]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[0]EmissionColor.[1]TunnelBloom",
           "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "QueenEnvironment"
-        },
-        {
-          "indexWithinLightIdList": 4,
-          "componentLightId": 124,
-          "type": null,
-          "typeName": null,
-          "relativeGameObjectPath": "[1]EmissionGlow",
-          "gameObjectPath": "QueenEnvironment.[0]Environment.[24]TunnelRings.[0]TunnelPieceWrapper.[2]TunnelRing (2).[19]TunnelPiece.[0]LocalTransformZ.[0]LocalTransformY.[1]EmissionGlow",
-          "componentType": "InstancedMaterialLightWithId",
           "localScale": {
             "x": 1.0,
             "y": 1.0,

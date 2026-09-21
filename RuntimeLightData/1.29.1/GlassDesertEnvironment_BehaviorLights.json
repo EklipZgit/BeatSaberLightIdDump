@@ -1,5 +1,5 @@
 {
-  "formatVersion": 4,
+  "formatVersion": 5,
   "environmentName": "GlassDesertEnvironment",
   "gameVersion": "1.29.1_4575554838",
   "lightManagerPath": "GlassDesertEnvironment.[0]Environment.[2]LightWithIdManager",

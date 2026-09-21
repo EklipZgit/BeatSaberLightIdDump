@@ -1,5 +1,5 @@
 {
-  "formatVersion": 4,
+  "formatVersion": 5,
   "environmentName": "SkrillexEnvironment",
   "gameVersion": "1.44.1_20239",
   "lightManagerPath": "SkrillexEnvironment.[0]Environment.[14]LightWithIdManager",
@@ -39,7 +39,7 @@
       "registeredLightCount": 1,
       "registeredLights": [
         {
-          "indexWithinLightIdList": 62,
+          "indexWithinLightIdList": 2,
           "componentLightId": 2,
           "type": 1,
           "typeName": "Event1",
@@ -120,7 +120,7 @@
       "registeredLightCount": 1,
       "registeredLights": [
         {
-          "indexWithinLightIdList": 64,
+          "indexWithinLightIdList": 4,
           "componentLightId": 5,
           "type": 4,
           "typeName": "Event4",

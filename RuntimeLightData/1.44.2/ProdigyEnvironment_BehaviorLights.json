@@ -1,5 +1,5 @@
 {
-  "formatVersion": 4,
+  "formatVersion": 5,
   "environmentName": "ProdigyEnvironment",
   "gameVersion": "1.44.2_21558",
   "lightManagerPath": "ProdigyEnvironment.[0]Environment.[3]LightWithIdManager",

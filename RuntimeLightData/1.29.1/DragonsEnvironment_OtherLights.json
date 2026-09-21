@@ -1,5 +1,5 @@
 {
-  "formatVersion": 4,
+  "formatVersion": 5,
   "environmentName": "DragonsEnvironment",
   "gameVersion": "1.29.1_4575554838",
   "lightManagerPath": "DragonsEnvironment.[0]Environment.[22]LightWithIdManager",

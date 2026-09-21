@@ -1,5 +1,5 @@
 {
-  "formatVersion": 4,
+  "formatVersion": 5,
   "environmentName": "KDAEnvironment",
   "gameVersion": "1.44.2_21558",
   "lightManagerPath": "KDAEnvironment.[0]Environment.[13]LightWithIdManager",

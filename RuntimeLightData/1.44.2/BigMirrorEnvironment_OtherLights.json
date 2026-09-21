@@ -1,5 +1,5 @@
 {
-  "formatVersion": 4,
+  "formatVersion": 5,
   "environmentName": "BigMirrorEnvironment",
   "gameVersion": "1.44.2_21558",
   "lightManagerPath": "BigMirrorEnvironment.[0]Environment.[17]LightWithIdManager",

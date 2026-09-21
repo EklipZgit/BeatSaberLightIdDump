@@ -111,6 +111,9 @@ foreach ($GameVersion in $VersionsToBuild) {
         $BuiltDll = Get-Item -LiteralPath $BuiltDllPath
         Write-Host "Built DLL: $($BuiltDll.FullName)" -ForegroundColor Green
         Write-Host "Built DLL timestamp (UTC): $($BuiltDll.LastWriteTimeUtc.ToString('O'))" -ForegroundColor Green
+
+        # BSMT has now deployed either live or pending; discard only a pending LightIdDumper older than the live copy.
+        Remove-StaleLightIdDumperPendingPlugin -GameDirectory $BeatSaberDir
     }
     else {
         $FailedBuilds += $BuildConfiguration

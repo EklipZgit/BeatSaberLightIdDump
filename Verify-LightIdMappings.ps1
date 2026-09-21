@@ -8,8 +8,8 @@ Beat Saber version, such as 1.44.1. When omitted, every archived runtime-data
 version is exported and summarized.
 
 .PARAMETER EnvironmentName
-Serialized environment name. When omitted, every table-covered environment is
-exported and summarized.
+Serialized environment name. When omitted, every captured environment with
+Chroma-addressable Basic Event lights is exported and summarized.
 
 .PARAMETER RuntimeLightDataPath
 Repository-style RuntimeLightData root. Defaults to RuntimeLightData beside this script.
@@ -71,10 +71,10 @@ if (-not [string]::IsNullOrWhiteSpace($RuntimeLightDataPath)) {
     $exportArguments.RuntimeLightDataPath = $RuntimeLightDataPath
 }
 
-# The exporter may discover mapping errors while building rows; suppress its legacy console streams so this wrapper reports only CSV-derived facts.
+# The exporter may discover mapping errors while building rows; suppress its verbose streams while retaining structured source-coverage warnings for tableless Basic Event and hybrid environments.
 $exportResults = @(& $ExportScript @exportArguments 2>$null 3>$null 4>$null 5>$null 6>$null)
 if ($exportResults.Count -eq 0) {
-    throw "The CSV exporter returned no table-covered environment results."
+    throw "The CSV exporter returned no environments with Chroma-addressable Basic Event lights."
 }
 
 # One result identity per environment prevents recursive all-version exporter output from being summarized more than once.
@@ -151,8 +151,35 @@ foreach ($identity in $resultIdentities) {
         })
     }
 
+    # A wholly absent source table has no source rows on which to place a CSV Boolean, so retain the exporter's environment-level coverage warning in the same synopsis.
+    $sourceCoverageWarnings = @(
+        $exportResults |
+            Where-Object {
+                $null -ne $_ -and
+                    $null -ne $_.PSObject.Properties["GameVersion"] -and
+                    $null -ne $_.PSObject.Properties["EnvironmentName"] -and
+                    $null -ne $_.PSObject.Properties["Warnings"] -and
+                    $_.GameVersion -ceq $identity.GameVersion -and
+                    $_.EnvironmentName -ceq $identity.EnvironmentName
+            } |
+            ForEach-Object { @($_.Warnings) } |
+            Where-Object { $_.Code -in @("HECK_LIGHT_ID_TABLE_MISSING", "CHROMAPPER_LIGHT_ID_TABLE_MISSING") } |
+            Sort-Object Code -Unique
+    )
+    foreach ($sourceCoverageWarning in $sourceCoverageWarnings) {
+        $allCategoryResults.Add([pscustomobject]@{
+            GameVersion = $identity.GameVersion
+            EnvironmentName = $identity.EnvironmentName
+            Perspective = "SourceCoverage"
+            Severity = "Warning"
+            Code = $sourceCoverageWarning.Code
+            AffectedRows = 1
+        })
+    }
+
+    # Environment warning totals include coverage gaps because those cannot appear as row flags in an empty source perspective.
     $environmentErrorRows = [int](($perspectiveResults | Measure-Object ErrorRows -Sum).Sum ?? 0)
-    $environmentWarningRows = [int](($perspectiveResults | Measure-Object WarningRows -Sum).Sum ?? 0)
+    $environmentWarningRows = [int](($perspectiveResults | Measure-Object WarningRows -Sum).Sum ?? 0) + $sourceCoverageWarnings.Count
     $environmentCategories = @(
         $allCategoryResults |
             Where-Object {
@@ -201,13 +228,13 @@ $categorySynopsis = @(
 $totalErrorRows = [int](($environmentResults | Measure-Object ErrorCount -Sum).Sum ?? 0)
 $totalWarningRows = [int](($environmentResults | Measure-Object WarningCount -Sum).Sum ?? 0)
 
-# Final console output mirrors the original verifier's category tables while making clear that counts are flagged rows across perspectives.
+# Final console output mirrors the original verifier's category tables while counting absent-source coverage once per affected environment.
 Write-Host ""
 Write-Host "=== Light ID mapping verification CSV synopsis ===" -ForegroundColor Cyan
 Write-Host "CSV root: $LightMappingValidationPath"
 Write-Host "Environments: $($environmentResults.Count)"
 Write-Host "Flagged error rows: $totalErrorRows"
-Write-Host "Flagged warning rows: $totalWarningRows"
+Write-Host "Warnings (flagged rows plus source coverage): $totalWarningRows"
 $errorSynopsis = @($categorySynopsis | Where-Object Severity -eq "Error")
 if ($errorSynopsis.Count -gt 0) {
     Write-Host ""

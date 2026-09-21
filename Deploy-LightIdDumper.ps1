@@ -35,11 +35,14 @@ if ($Uninstall) {
     foreach ($GameVersion in $VersionsToProcess) {
         $BeatSaberDir = Get-LightIdDumperBeatSaberDirectory -GameVersion $GameVersion
 
-        # Luna deploys a companion PDB, so uninstall removes both exact mod artifacts and nothing recursively.
+        # Luna may have queued a running-game deployment, so uninstall removes exact live and pending artifacts without recursion.
         $PluginDirectory = Join-Path $BeatSaberDir "Plugins"
+        $PendingPluginDirectory = Join-Path $BeatSaberDir "IPA\Pending\Plugins"
         $InstalledArtifacts = @(
             (Join-Path $PluginDirectory "LightIdDumper.dll"),
-            (Join-Path $PluginDirectory "LightIdDumper.pdb")
+            (Join-Path $PluginDirectory "LightIdDumper.pdb"),
+            (Join-Path $PendingPluginDirectory "LightIdDumper.dll"),
+            (Join-Path $PendingPluginDirectory "LightIdDumper.pdb")
         )
         $ExistingArtifacts = @($InstalledArtifacts | Where-Object { Test-Path -LiteralPath $_ })
         if ($ExistingArtifacts.Count -gt 0) {

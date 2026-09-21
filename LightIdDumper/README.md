@@ -250,9 +250,14 @@ schema change or explicit companion expansion in Chroma.
 
 ## What LightIdDumper captures
 
-The current and only supported JSON schema is format version 4, defined in
+The current and only supported JSON schema is format version 5, defined in
 [LightDumpModels.cs](LightDumpModels.cs). Older dump formats are intentionally
-unsupported.
+unsupported. Format 5 samples at Chroma's environment-enhancement boundary so
+every dumped path and GameCore root index matches what Chroma resolves during
+real gameplay; format 5 and earlier sampled before level setup completed and
+carried transient GameCore root offsets in dynamically-spawned ring paths
+(for example, Timbaland's `PairLaserTrackLaneRing(Clone)` roots captured at
+`[513..522]` instead of Chroma's `[1..10]`).
 
 The capture implementation is [LightDumpCapture.cs](LightDumpCapture.cs), and
 the lifecycle patches are in
@@ -262,27 +267,24 @@ The capture sequence is:
 
 1. `EnvironmentSceneSetup.InstallBindings` identifies the environment and tries
    to resolve `LightWithIdManager` from the `LightManager` GameObject, then
-   arms the capture and schedules a last-ordered `Start` fallback.
+   arms the capture.
 2. A `LightWithIdManager.RegisterLight` observation supplies the authoritative
    manager if setup occurred before it was discoverable.
-3. In a lane-ring environment, a prefix on the first
-   `TrackLaneRingsManager.FixedUpdate` captures after the manager's stock
-   `Start()` has created and initialized its rings, but before
-   `FixedUpdateRing` or `LateUpdateRing` can move their transforms. This patch
-   does not change the execution order of any game component.
-4. In an environment without a lane-ring manager, the
-   `DefaultExecutionOrder(32000)` component captures at its late `Start`
-   fallback after ordinary fixture initialization.
-5. The first valid boundary traverses every populated manager slot and records every
-   original inner-list index, including null tombstones.
-6. The completed snapshot is split by actual MonoBehaviour identity, replaces
+3. A prefix on `BeatmapObjectSpawnController.Start` starts a coroutine that
+   resumes at `WaitForEndOfFrame` and captures there. This is the exact
+   boundary at which Heck Chroma's `EnvironmentEnhancementManager` computes
+   the IDs it matches environment-enhancement lookups against, so sampled
+   paths are identical to Chroma's in-game view. Ring transforms include
+   their first movement update, exactly as Chroma sees them.
+4. The boundary traversal covers every populated manager slot and records
+   every original inner-list index, including null tombstones.
+5. The completed snapshot is split by actual MonoBehaviour identity, replaces
    the environment's prior paired files, and removes its obsolete combined file
    for that `Application.version`.
 
-The log records the frame on which capture was armed and whether the winning
-boundary was the ring-manager prefix or the no-ring fallback. This is retained
-as diagnostic evidence until repeat dumps prove that both registration indexes
-and initial ring transforms are stable.
+The log records the frame on which capture was armed and the boundary that
+produced the snapshot. This is retained as diagnostic evidence until repeat
+dumps prove that registration indexes and root paths are stable.
 
 The output paths are:
 
@@ -299,7 +301,7 @@ version-with-build-suffix directories and selects the newest matching capture.
 
 Both classified files have the same root fields:
 
-- `formatVersion`, currently and exclusively `4`;
+- `formatVersion`, currently and exclusively `5`;
 - `environmentName` and the exact `Application.version` in `gameVersion`;
 - `lightManagerPath`;
 - `initialRegisteredLightCount`, the unsplit count observed at setup;
@@ -322,7 +324,7 @@ in either file contains:
 local-scale/scene fields, and optional wrapper values
 `intensity`, `bakeId`, and `weight`. Class-specific nulls remain explicit, but
 fields that cannot apply to an entire classified file are omitted. The filename
-is the classification; format 4 has no redundant per-record behaviour flag.
+is the classification; format 5 has no redundant per-record behaviour flag.
 
 ### Path identity
 
@@ -345,7 +347,7 @@ paths are consumed in stable editor/list order because runtime position values
 are intentionally unavailable.
 
 Unity instance IDs, active state, and registration state were intentionally
-removed from format 4 because they were either run-unstable or constant and did
+removed from format 5 because they were either run-unstable or constant and did
 not contribute durable mapping identity.
 
 ### BehaviorLights versus OtherLights
@@ -397,12 +399,12 @@ OtherLights emits a dedicated error with the mapping and owner identity.
 
 The comparison exporter is
 [Export-LightIdMappingVerificationCsvs.ps1](../Export-LightIdMappingVerificationCsvs.ps1).
-It consumes five files:
+It consumes up to five files:
 
-1. the latest format-4 BehaviorLights runtime dump;
+1. the latest format-5 BehaviorLights runtime dump;
 2. its paired OtherLights diagnostic dump;
-3. Heck/Chroma's runtime light-ID table;
-4. ChroMapper's editor light-ID table;
+3. Heck/Chroma's runtime light-ID table, when one is authored;
+4. ChroMapper's editor light-ID table, when one is authored;
 5. ChroMapper's EnvironmentData, which supplies reconstructed manager lists,
    object paths, transforms, event-track names, and event-to-slot bindings.
 
@@ -421,12 +423,19 @@ CSV perspectives and prints per-perspective affected-row counts plus aggregated
 error/warning categories. Invoke `Export-LightIdMappingVerificationCsvs.ps1`
 directly when only refreshed CSVs are wanted.
 
-Omit `-EnvironmentName` to verify every captured environment with complete
-Heck/Chroma and ChroMapper basic-event table coverage. Uncovered environments,
-including GLS-only environments whose lights use OEM group-lighting IDs, are
-skipped. Omit `-GameVersion` as well to verify every archived version. The
-exporter prefers `RuntimeLightData/<version>` beside the script and falls back
-to the game installation's capture directory.
+<!-- A fixed 25-environment list omitted hybrid environments, so automatic coverage now comes from authored tables plus serialized Basic Event bindings. -->
+Omit `-EnvironmentName` to verify every captured environment with
+Chroma-addressable Basic Event lights. An authored Heck or ChroMapper light-ID
+table is definitive coverage. Without one, the exporter uses ChroMapper
+EnvironmentData's `LightSwitchEventEffect` bindings and requires at least one
+real runtime `BehaviorLight` in a bound slot. The shared player-platform `Feet`
+and `RectangleFakeGlow` components do not make a pure GLS environment qualify.
+Mixed environments do qualify: `TheSecondEnvironment`, for example, exports its
+Basic Event buildings, logo, and runway slots while its GLS-only slots are left
+out of every perspective. An older game version exports only qualifying members
+that exist in its runtime corpus. Omit `-GameVersion` as well to verify every
+archived version. The exporter prefers `RuntimeLightData/<version>` beside the
+script and falls back to the game installation's capture directory.
 
 Each covered exporter comparison writes
 `<version>_<environment>_DumpBehaviorLights.csv`,
@@ -454,6 +463,14 @@ perspective, Chroma CSVs omit the tautological `existsInChromaTable`,
 `warningMissingFromChromaTable`, and `notMappedByChroma` columns. They also omit
 duplicate aliases for the Chroma-table runtime target, Chroma/ChroMapper
 membership agreement, and the inverse of `warningMissingFromChroMapperTable`.
+<!-- Heck and ChroMapper use raw list-index identity when no remap table is authored, so tableless environments must not lose their usable Chroma IDs. -->
+Gaga, Spoooky, The Second, and other tableless hybrid environments can still
+have runtime and ChroMapper EnvironmentData inventories without an authored
+Heck/Chroma or ChroMapper light-ID table. They are still exported: both dump
+perspectives are populated, Chroma derives identity mappings from raw Beat
+Saber BehaviorLight manager indexes, and ChroMapper derives identity mappings
+from non-array-wrapper editor indexes. Source-coverage warnings keep both absent
+authored tables explicit.
 
 Verification occurs in two layers.
 
@@ -602,7 +619,7 @@ injects BSManager's `SteamAppId`, `SteamOverlayGameId`, and `SteamGameId`
 environment values (`620980`) so Steamworks accepts the direct instance launch,
 waits for the matching game executable to exit before starting the next,
 validates both files' current timestamps, classifications, sparse manager
-indexes, and format-4 invariants,
+indexes, and format-5 invariants,
 invokes mapping verification only when `-Verify` is passed and corresponding
 Heck and ChroMapper data exist,
 checks the authoritative live log, copies only the paired light-data files to

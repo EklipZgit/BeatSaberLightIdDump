@@ -1,5 +1,5 @@
 {
-  "formatVersion": 4,
+  "formatVersion": 5,
   "environmentName": "PanicEnvironment",
   "gameVersion": "1.44.2_21558",
   "lightManagerPath": "PanicEnvironment.[0]Environment.[25]LightWithIdManager",

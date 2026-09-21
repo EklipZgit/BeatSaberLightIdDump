@@ -1,5 +1,5 @@
 {
-  "formatVersion": 4,
+  "formatVersion": 5,
   "environmentName": "GagaEnvironment",
   "gameVersion": "1.44.2_21558",
   "lightManagerPath": "GagaEnvironment.[0]Environment.[40]LightWithIdManager",

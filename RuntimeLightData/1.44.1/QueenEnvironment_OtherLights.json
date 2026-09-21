@@ -1,5 +1,5 @@
 {
-  "formatVersion": 4,
+  "formatVersion": 5,
   "environmentName": "QueenEnvironment",
   "gameVersion": "1.44.1_20239",
   "lightManagerPath": "QueenEnvironment.[0]Environment.[16]LightWithIdManager",
@@ -455,7 +455,7 @@
           "weight": null
         },
         {
-          "indexWithinLightIdList": 2,
+          "indexWithinLightIdList": 1,
           "componentLightId": 65,
           "type": null,
           "typeName": null,
@@ -475,7 +475,7 @@
           "weight": null
         },
         {
-          "indexWithinLightIdList": 5,
+          "indexWithinLightIdList": 4,
           "componentLightId": 65,
           "type": null,
           "typeName": null,
@@ -542,7 +542,7 @@
           "weight": null
         },
         {
-          "indexWithinLightIdList": 5,
+          "indexWithinLightIdList": 4,
           "componentLightId": 66,
           "type": null,
           "typeName": null,
@@ -609,7 +609,7 @@
           "weight": null
         },
         {
-          "indexWithinLightIdList": 5,
+          "indexWithinLightIdList": 4,
           "componentLightId": 67,
           "type": null,
           "typeName": null,
@@ -636,7 +636,7 @@
       "registeredLightCount": 3,
       "registeredLights": [
         {
-          "indexWithinLightIdList": 1,
+          "indexWithinLightIdList": 0,
           "componentLightId": 68,
           "type": null,
           "typeName": null,
@@ -656,7 +656,7 @@
           "weight": null
         },
         {
-          "indexWithinLightIdList": 2,
+          "indexWithinLightIdList": 1,
           "componentLightId": 68,
           "type": null,
           "typeName": null,
@@ -676,7 +676,7 @@
           "weight": null
         },
         {
-          "indexWithinLightIdList": 5,
+          "indexWithinLightIdList": 4,
           "componentLightId": 68,
           "type": null,
           "typeName": null,
@@ -743,7 +743,7 @@
           "weight": null
         },
         {
-          "indexWithinLightIdList": 5,
+          "indexWithinLightIdList": 4,
           "componentLightId": 69,
           "type": null,
           "typeName": null,
@@ -790,7 +790,7 @@
           "weight": null
         },
         {
-          "indexWithinLightIdList": 2,
+          "indexWithinLightIdList": 1,
           "componentLightId": 70,
           "type": null,
           "typeName": null,
@@ -810,7 +810,7 @@
           "weight": null
         },
         {
-          "indexWithinLightIdList": 5,
+          "indexWithinLightIdList": 4,
           "componentLightId": 70,
           "type": null,
           "typeName": null,
@@ -837,7 +837,7 @@
       "registeredLightCount": 3,
       "registeredLights": [
         {
-          "indexWithinLightIdList": 1,
+          "indexWithinLightIdList": 0,
           "componentLightId": 71,
           "type": null,
           "typeName": null,
@@ -857,7 +857,7 @@
           "weight": null
         },
         {
-          "indexWithinLightIdList": 2,
+          "indexWithinLightIdList": 1,
           "componentLightId": 71,
           "type": null,
           "typeName": null,
@@ -877,7 +877,7 @@
           "weight": null
         },
         {
-          "indexWithinLightIdList": 5,
+          "indexWithinLightIdList": 4,
           "componentLightId": 71,
           "type": null,
           "typeName": null,
@@ -904,7 +904,7 @@
       "registeredLightCount": 3,
       "registeredLights": [
         {
-          "indexWithinLightIdList": 1,
+          "indexWithinLightIdList": 0,
           "componentLightId": 72,
           "type": null,
           "typeName": null,
@@ -924,7 +924,7 @@
           "weight": null
         },
         {
-          "indexWithinLightIdList": 2,
+          "indexWithinLightIdList": 1,
           "componentLightId": 72,
           "type": null,
           "typeName": null,
@@ -944,7 +944,7 @@
           "weight": null
         },
         {
-          "indexWithinLightIdList": 5,
+          "indexWithinLightIdList": 4,
           "componentLightId": 72,
           "type": null,
           "typeName": null,
@@ -1011,7 +1011,7 @@
           "weight": null
         },
         {
-          "indexWithinLightIdList": 5,
+          "indexWithinLightIdList": 4,
           "componentLightId": 73,
           "type": null,
           "typeName": null,
@@ -1078,7 +1078,7 @@
           "weight": null
         },
         {
-          "indexWithinLightIdList": 5,
+          "indexWithinLightIdList": 4,
           "componentLightId": 74,
           "type": null,
           "typeName": null,
@@ -1105,7 +1105,7 @@
       "registeredLightCount": 3,
       "registeredLights": [
         {
-          "indexWithinLightIdList": 1,
+          "indexWithinLightIdList": 0,
           "componentLightId": 75,
           "type": null,
           "typeName": null,
@@ -1125,7 +1125,7 @@
           "weight": null
         },
         {
-          "indexWithinLightIdList": 2,
+          "indexWithinLightIdList": 1,
           "componentLightId": 75,
           "type": null,
           "typeName": null,
@@ -1145,7 +1145,7 @@
           "weight": null
         },
         {
-          "indexWithinLightIdList": 5,
+          "indexWithinLightIdList": 4,
           "componentLightId": 75,
           "type": null,
           "typeName": null,
@@ -1172,7 +1172,7 @@
       "registeredLightCount": 3,
       "registeredLights": [
         {
-          "indexWithinLightIdList": 1,
+          "indexWithinLightIdList": 0,
           "componentLightId": 76,
           "type": null,
           "typeName": null,
@@ -1192,7 +1192,7 @@
           "weight": null
         },
         {
-          "indexWithinLightIdList": 2,
+          "indexWithinLightIdList": 1,
           "componentLightId": 76,
           "type": null,
           "typeName": null,
@@ -1212,7 +1212,7 @@
           "weight": null
         },
         {
-          "indexWithinLightIdList": 5,
+          "indexWithinLightIdList": 4,
           "componentLightId": 76,
           "type": null,
           "typeName": null,
@@ -1239,7 +1239,7 @@
       "registeredLightCount": 3,
       "registeredLights": [
         {
-          "indexWithinLightIdList": 1,
+          "indexWithinLightIdList": 0,
           "componentLightId": 77,
           "type": null,
           "typeName": null,
@@ -1259,7 +1259,7 @@
           "weight": null
         },
         {
-          "indexWithinLightIdList": 2,
+          "indexWithinLightIdList": 1,
           "componentLightId": 77,
           "type": null,
           "typeName": null,
@@ -1279,7 +1279,7 @@
           "weight": null
         },
         {
-          "indexWithinLightIdList": 5,
+          "indexWithinLightIdList": 4,
           "componentLightId": 77,
           "type": null,
           "typeName": null,
@@ -1393,7 +1393,7 @@
           "weight": null
         },
         {
-          "indexWithinLightIdList": 2,
+          "indexWithinLightIdList": 1,
           "componentLightId": 79,
           "type": null,
           "typeName": null,
@@ -1413,7 +1413,7 @@
           "weight": null
         },
         {
-          "indexWithinLightIdList": 5,
+          "indexWithinLightIdList": 4,
           "componentLightId": 79,
           "type": null,
           "typeName": null,
@@ -1440,7 +1440,7 @@
       "registeredLightCount": 3,
       "registeredLights": [
         {
-          "indexWithinLightIdList": 1,
+          "indexWithinLightIdList": 0,
           "componentLightId": 80,
           "type": null,
           "typeName": null,
@@ -1460,7 +1460,7 @@
           "weight": null
         },
         {
-          "indexWithinLightIdList": 2,
+          "indexWithinLightIdList": 1,
           "componentLightId": 80,
           "type": null,
           "typeName": null,
@@ -1480,7 +1480,7 @@
           "weight": null
         },
         {
-          "indexWithinLightIdList": 5,
+          "indexWithinLightIdList": 4,
           "componentLightId": 80,
           "type": null,
           "typeName": null,
@@ -1507,7 +1507,7 @@
       "registeredLightCount": 3,
       "registeredLights": [
         {
-          "indexWithinLightIdList": 1,
+          "indexWithinLightIdList": 0,
           "componentLightId": 81,
           "type": null,
           "typeName": null,
@@ -1527,7 +1527,7 @@
           "weight": null
         },
         {
-          "indexWithinLightIdList": 2,
+          "indexWithinLightIdList": 1,
           "componentLightId": 81,
           "type": null,
           "typeName": null,
@@ -1547,7 +1547,7 @@
           "weight": null
         },
         {
-          "indexWithinLightIdList": 5,
+          "indexWithinLightIdList": 4,
           "componentLightId": 81,
           "type": null,
           "typeName": null,
@@ -1574,7 +1574,7 @@
       "registeredLightCount": 3,
       "registeredLights": [
         {
-          "indexWithinLightIdList": 1,
+          "indexWithinLightIdList": 0,
           "componentLightId": 82,
           "type": null,
           "typeName": null,
@@ -1594,7 +1594,7 @@
           "weight": null
         },
         {
-          "indexWithinLightIdList": 2,
+          "indexWithinLightIdList": 1,
           "componentLightId": 82,
           "type": null,
           "typeName": null,
@@ -1614,7 +1614,7 @@
           "weight": null
         },
         {
-          "indexWithinLightIdList": 5,
+          "indexWithinLightIdList": 4,
           "componentLightId": 82,
           "type": null,
           "typeName": null,
@@ -1681,7 +1681,7 @@
           "weight": null
         },
         {
-          "indexWithinLightIdList": 5,
+          "indexWithinLightIdList": 4,
           "componentLightId": 83,
           "type": null,
           "typeName": null,
@@ -1728,7 +1728,7 @@
           "weight": null
         },
         {
-          "indexWithinLightIdList": 2,
+          "indexWithinLightIdList": 1,
           "componentLightId": 84,
           "type": null,
           "typeName": null,
@@ -1748,7 +1748,7 @@
           "weight": null
         },
         {
-          "indexWithinLightIdList": 5,
+          "indexWithinLightIdList": 4,
           "componentLightId": 84,
           "type": null,
           "typeName": null,
@@ -1815,7 +1815,7 @@
           "weight": null
         },
         {
-          "indexWithinLightIdList": 5,
+          "indexWithinLightIdList": 4,
           "componentLightId": 85,
           "type": null,
           "typeName": null,
@@ -1882,7 +1882,7 @@
           "weight": null
         },
         {
-          "indexWithinLightIdList": 5,
+          "indexWithinLightIdList": 4,
           "componentLightId": 86,
           "type": null,
           "typeName": null,
@@ -1949,7 +1949,7 @@
           "weight": null
         },
         {
-          "indexWithinLightIdList": 5,
+          "indexWithinLightIdList": 4,
           "componentLightId": 87,
           "type": null,
           "typeName": null,
@@ -2016,7 +2016,7 @@
           "weight": null
         },
         {
-          "indexWithinLightIdList": 5,
+          "indexWithinLightIdList": 4,
           "componentLightId": 88,
           "type": null,
           "typeName": null,
@@ -2083,7 +2083,7 @@
           "weight": null
         },
         {
-          "indexWithinLightIdList": 5,
+          "indexWithinLightIdList": 4,
           "componentLightId": 89,
           "type": null,
           "typeName": null,
@@ -2110,7 +2110,7 @@
       "registeredLightCount": 3,
       "registeredLights": [
         {
-          "indexWithinLightIdList": 1,
+          "indexWithinLightIdList": 0,
           "componentLightId": 90,
           "type": null,
           "typeName": null,
@@ -2130,7 +2130,7 @@
           "weight": null
         },
         {
-          "indexWithinLightIdList": 2,
+          "indexWithinLightIdList": 1,
           "componentLightId": 90,
           "type": null,
           "typeName": null,
@@ -2150,7 +2150,7 @@
           "weight": null
         },
         {
-          "indexWithinLightIdList": 5,
+          "indexWithinLightIdList": 4,
           "componentLightId": 90,
           "type": null,
           "typeName": null,
@@ -2217,7 +2217,7 @@
           "weight": null
         },
         {
-          "indexWithinLightIdList": 5,
+          "indexWithinLightIdList": 4,
           "componentLightId": 91,
           "type": null,
           "typeName": null,
@@ -2244,7 +2244,7 @@
       "registeredLightCount": 3,
       "registeredLights": [
         {
-          "indexWithinLightIdList": 1,
+          "indexWithinLightIdList": 0,
           "componentLightId": 92,
           "type": null,
           "typeName": null,
@@ -2264,7 +2264,7 @@
           "weight": null
         },
         {
-          "indexWithinLightIdList": 2,
+          "indexWithinLightIdList": 1,
           "componentLightId": 92,
           "type": null,
           "typeName": null,
@@ -2284,7 +2284,7 @@
           "weight": null
         },
         {
-          "indexWithinLightIdList": 4,
+          "indexWithinLightIdList": 3,
           "componentLightId": 92,
           "type": null,
           "typeName": null,
@@ -2311,7 +2311,7 @@
       "registeredLightCount": 3,
       "registeredLights": [
         {
-          "indexWithinLightIdList": 1,
+          "indexWithinLightIdList": 0,
           "componentLightId": 93,
           "type": null,
           "typeName": null,
@@ -2331,7 +2331,7 @@
           "weight": null
         },
         {
-          "indexWithinLightIdList": 2,
+          "indexWithinLightIdList": 1,
           "componentLightId": 93,
           "type": null,
           "typeName": null,
@@ -2351,7 +2351,7 @@
           "weight": null
         },
         {
-          "indexWithinLightIdList": 5,
+          "indexWithinLightIdList": 4,
           "componentLightId": 93,
           "type": null,
           "typeName": null,
@@ -2378,7 +2378,7 @@
       "registeredLightCount": 3,
       "registeredLights": [
         {
-          "indexWithinLightIdList": 1,
+          "indexWithinLightIdList": 0,
           "componentLightId": 94,
           "type": null,
           "typeName": null,
@@ -2398,7 +2398,7 @@
           "weight": null
         },
         {
-          "indexWithinLightIdList": 2,
+          "indexWithinLightIdList": 1,
           "componentLightId": 94,
           "type": null,
           "typeName": null,
@@ -2418,7 +2418,7 @@
           "weight": null
         },
         {
-          "indexWithinLightIdList": 5,
+          "indexWithinLightIdList": 4,
           "componentLightId": 94,
           "type": null,
           "typeName": null,
@@ -2485,7 +2485,7 @@
           "weight": null
         },
         {
-          "indexWithinLightIdList": 5,
+          "indexWithinLightIdList": 4,
           "componentLightId": 95,
           "type": null,
           "typeName": null,
@@ -2552,7 +2552,7 @@
           "weight": null
         },
         {
-          "indexWithinLightIdList": 5,
+          "indexWithinLightIdList": 4,
           "componentLightId": 96,
           "type": null,
           "typeName": null,
@@ -2619,7 +2619,7 @@
           "weight": null
         },
         {
-          "indexWithinLightIdList": 5,
+          "indexWithinLightIdList": 4,
           "componentLightId": 97,
           "type": null,
           "typeName": null,
@@ -2686,7 +2686,7 @@
           "weight": null
         },
         {
-          "indexWithinLightIdList": 5,
+          "indexWithinLightIdList": 4,
           "componentLightId": 98,
           "type": null,
           "typeName": null,
@@ -2733,7 +2733,7 @@
           "weight": null
         },
         {
-          "indexWithinLightIdList": 2,
+          "indexWithinLightIdList": 1,
           "componentLightId": 99,
           "type": null,
           "typeName": null,
@@ -2753,7 +2753,7 @@
           "weight": null
         },
         {
-          "indexWithinLightIdList": 5,
+          "indexWithinLightIdList": 4,
           "componentLightId": 99,
           "type": null,
           "typeName": null,
@@ -2820,7 +2820,7 @@
           "weight": null
         },
         {
-          "indexWithinLightIdList": 5,
+          "indexWithinLightIdList": 4,
           "componentLightId": 100,
           "type": null,
           "typeName": null,
@@ -2847,7 +2847,7 @@
       "registeredLightCount": 3,
       "registeredLights": [
         {
-          "indexWithinLightIdList": 1,
+          "indexWithinLightIdList": 0,
           "componentLightId": 101,
           "type": null,
           "typeName": null,
@@ -2867,7 +2867,7 @@
           "weight": null
         },
         {
-          "indexWithinLightIdList": 2,
+          "indexWithinLightIdList": 1,
           "componentLightId": 101,
           "type": null,
           "typeName": null,
@@ -2887,7 +2887,7 @@
           "weight": null
         },
         {
-          "indexWithinLightIdList": 5,
+          "indexWithinLightIdList": 4,
           "componentLightId": 101,
           "type": null,
           "typeName": null,
@@ -2914,7 +2914,7 @@
       "registeredLightCount": 3,
       "registeredLights": [
         {
-          "indexWithinLightIdList": 1,
+          "indexWithinLightIdList": 0,
           "componentLightId": 102,
           "type": null,
           "typeName": null,
@@ -2934,7 +2934,7 @@
           "weight": null
         },
         {
-          "indexWithinLightIdList": 2,
+          "indexWithinLightIdList": 1,
           "componentLightId": 102,
           "type": null,
           "typeName": null,
@@ -2954,7 +2954,7 @@
           "weight": null
         },
         {
-          "indexWithinLightIdList": 5,
+          "indexWithinLightIdList": 4,
           "componentLightId": 102,
           "type": null,
           "typeName": null,
@@ -3021,7 +3021,7 @@
           "weight": null
         },
         {
-          "indexWithinLightIdList": 5,
+          "indexWithinLightIdList": 4,
           "componentLightId": 103,
           "type": null,
           "typeName": null,
@@ -3088,7 +3088,7 @@
           "weight": null
         },
         {
-          "indexWithinLightIdList": 5,
+          "indexWithinLightIdList": 4,
           "componentLightId": 104,
           "type": null,
           "typeName": null,
@@ -3135,7 +3135,7 @@
           "weight": null
         },
         {
-          "indexWithinLightIdList": 2,
+          "indexWithinLightIdList": 1,
           "componentLightId": 105,
           "type": null,
           "typeName": null,
@@ -3155,7 +3155,7 @@
           "weight": null
         },
         {
-          "indexWithinLightIdList": 5,
+          "indexWithinLightIdList": 4,
           "componentLightId": 105,
           "type": null,
           "typeName": null,
@@ -3182,7 +3182,7 @@
       "registeredLightCount": 3,
       "registeredLights": [
         {
-          "indexWithinLightIdList": 1,
+          "indexWithinLightIdList": 0,
           "componentLightId": 106,
           "type": null,
           "typeName": null,
@@ -3202,7 +3202,7 @@
           "weight": null
         },
         {
-          "indexWithinLightIdList": 2,
+          "indexWithinLightIdList": 1,
           "componentLightId": 106,
           "type": null,
           "typeName": null,
@@ -3222,7 +3222,7 @@
           "weight": null
         },
         {
-          "indexWithinLightIdList": 5,
+          "indexWithinLightIdList": 4,
           "componentLightId": 106,
           "type": null,
           "typeName": null,
@@ -3249,7 +3249,7 @@
       "registeredLightCount": 3,
       "registeredLights": [
         {
-          "indexWithinLightIdList": 1,
+          "indexWithinLightIdList": 0,
           "componentLightId": 107,
           "type": null,
           "typeName": null,
@@ -3269,7 +3269,7 @@
           "weight": null
         },
         {
-          "indexWithinLightIdList": 2,
+          "indexWithinLightIdList": 1,
           "componentLightId": 107,
           "type": null,
           "typeName": null,
@@ -3289,7 +3289,7 @@
           "weight": null
         },
         {
-          "indexWithinLightIdList": 5,
+          "indexWithinLightIdList": 4,
           "componentLightId": 107,
           "type": null,
           "typeName": null,
@@ -3336,7 +3336,7 @@
           "weight": null
         },
         {
-          "indexWithinLightIdList": 2,
+          "indexWithinLightIdList": 1,
           "componentLightId": 108,
           "type": null,
           "typeName": null,
@@ -3356,7 +3356,7 @@
           "weight": null
         },
         {
-          "indexWithinLightIdList": 5,
+          "indexWithinLightIdList": 4,
           "componentLightId": 108,
           "type": null,
           "typeName": null,
@@ -3423,7 +3423,7 @@
           "weight": null
         },
         {
-          "indexWithinLightIdList": 5,
+          "indexWithinLightIdList": 4,
           "componentLightId": 109,
           "type": null,
           "typeName": null,
@@ -3490,7 +3490,7 @@
           "weight": null
         },
         {
-          "indexWithinLightIdList": 5,
+          "indexWithinLightIdList": 4,
           "componentLightId": 110,
           "type": null,
           "typeName": null,
@@ -3557,7 +3557,7 @@
           "weight": null
         },
         {
-          "indexWithinLightIdList": 5,
+          "indexWithinLightIdList": 4,
           "componentLightId": 111,
           "type": null,
           "typeName": null,
@@ -3584,7 +3584,7 @@
       "registeredLightCount": 3,
       "registeredLights": [
         {
-          "indexWithinLightIdList": 1,
+          "indexWithinLightIdList": 0,
           "componentLightId": 112,
           "type": null,
           "typeName": null,
@@ -3604,7 +3604,7 @@
           "weight": null
         },
         {
-          "indexWithinLightIdList": 2,
+          "indexWithinLightIdList": 1,
           "componentLightId": 112,
           "type": null,
           "typeName": null,
@@ -3624,7 +3624,7 @@
           "weight": null
         },
         {
-          "indexWithinLightIdList": 5,
+          "indexWithinLightIdList": 4,
           "componentLightId": 112,
           "type": null,
           "typeName": null,
@@ -3691,7 +3691,7 @@
           "weight": null
         },
         {
-          "indexWithinLightIdList": 5,
+          "indexWithinLightIdList": 4,
           "componentLightId": 113,
           "type": null,
           "typeName": null,
@@ -3785,7 +3785,7 @@
       "registeredLightCount": 3,
       "registeredLights": [
         {
-          "indexWithinLightIdList": 1,
+          "indexWithinLightIdList": 0,
           "componentLightId": 115,
           "type": null,
           "typeName": null,
@@ -3805,7 +3805,7 @@
           "weight": null
         },
         {
-          "indexWithinLightIdList": 2,
+          "indexWithinLightIdList": 1,
           "componentLightId": 115,
           "type": null,
           "typeName": null,
@@ -3825,7 +3825,7 @@
           "weight": null
         },
         {
-          "indexWithinLightIdList": 5,
+          "indexWithinLightIdList": 4,
           "componentLightId": 115,
           "type": null,
           "typeName": null,
@@ -3892,7 +3892,7 @@
           "weight": null
         },
         {
-          "indexWithinLightIdList": 5,
+          "indexWithinLightIdList": 4,
           "componentLightId": 116,
           "type": null,
           "typeName": null,
@@ -3959,7 +3959,7 @@
           "weight": null
         },
         {
-          "indexWithinLightIdList": 5,
+          "indexWithinLightIdList": 4,
           "componentLightId": 117,
           "type": null,
           "typeName": null,
@@ -4026,7 +4026,7 @@
           "weight": null
         },
         {
-          "indexWithinLightIdList": 5,
+          "indexWithinLightIdList": 4,
           "componentLightId": 118,
           "type": null,
           "typeName": null,
@@ -4053,7 +4053,7 @@
       "registeredLightCount": 3,
       "registeredLights": [
         {
-          "indexWithinLightIdList": 1,
+          "indexWithinLightIdList": 0,
           "componentLightId": 119,
           "type": null,
           "typeName": null,
@@ -4073,7 +4073,7 @@
           "weight": null
         },
         {
-          "indexWithinLightIdList": 2,
+          "indexWithinLightIdList": 1,
           "componentLightId": 119,
           "type": null,
           "typeName": null,
@@ -4093,7 +4093,7 @@
           "weight": null
         },
         {
-          "indexWithinLightIdList": 5,
+          "indexWithinLightIdList": 4,
           "componentLightId": 119,
           "type": null,
           "typeName": null,
@@ -4120,7 +4120,7 @@
       "registeredLightCount": 3,
       "registeredLights": [
         {
-          "indexWithinLightIdList": 1,
+          "indexWithinLightIdList": 0,
           "componentLightId": 120,
           "type": null,
           "typeName": null,
@@ -4140,7 +4140,7 @@
           "weight": null
         },
         {
-          "indexWithinLightIdList": 2,
+          "indexWithinLightIdList": 1,
           "componentLightId": 120,
           "type": null,
           "typeName": null,
@@ -4160,7 +4160,7 @@
           "weight": null
         },
         {
-          "indexWithinLightIdList": 5,
+          "indexWithinLightIdList": 4,
           "componentLightId": 120,
           "type": null,
           "typeName": null,
@@ -4187,7 +4187,7 @@
       "registeredLightCount": 3,
       "registeredLights": [
         {
-          "indexWithinLightIdList": 1,
+          "indexWithinLightIdList": 0,
           "componentLightId": 121,
           "type": null,
           "typeName": null,
@@ -4207,7 +4207,7 @@
           "weight": null
         },
         {
-          "indexWithinLightIdList": 2,
+          "indexWithinLightIdList": 1,
           "componentLightId": 121,
           "type": null,
           "typeName": null,
@@ -4227,7 +4227,7 @@
           "weight": null
         },
         {
-          "indexWithinLightIdList": 5,
+          "indexWithinLightIdList": 4,
           "componentLightId": 121,
           "type": null,
           "typeName": null,
@@ -4254,7 +4254,7 @@
       "registeredLightCount": 3,
       "registeredLights": [
         {
-          "indexWithinLightIdList": 1,
+          "indexWithinLightIdList": 0,
           "componentLightId": 122,
           "type": null,
           "typeName": null,
@@ -4274,7 +4274,7 @@
           "weight": null
         },
         {
-          "indexWithinLightIdList": 2,
+          "indexWithinLightIdList": 1,
           "componentLightId": 122,
           "type": null,
           "typeName": null,
@@ -4294,7 +4294,7 @@
           "weight": null
         },
         {
-          "indexWithinLightIdList": 5,
+          "indexWithinLightIdList": 4,
           "componentLightId": 122,
           "type": null,
           "typeName": null,
@@ -4361,7 +4361,7 @@
           "weight": null
         },
         {
-          "indexWithinLightIdList": 5,
+          "indexWithinLightIdList": 4,
           "componentLightId": 123,
           "type": null,
           "typeName": null,
@@ -4428,7 +4428,7 @@
           "weight": null
         },
         {
-          "indexWithinLightIdList": 5,
+          "indexWithinLightIdList": 4,
           "componentLightId": 124,
           "type": null,
           "typeName": null,

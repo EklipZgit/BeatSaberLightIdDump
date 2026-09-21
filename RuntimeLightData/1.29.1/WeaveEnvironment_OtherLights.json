@@ -1,5 +1,5 @@
 {
-  "formatVersion": 4,
+  "formatVersion": 5,
   "environmentName": "WeaveEnvironment",
   "gameVersion": "1.29.1_4575554838",
   "lightManagerPath": "WeaveEnvironment.[0]Environment.[13]LightWithIdManager",

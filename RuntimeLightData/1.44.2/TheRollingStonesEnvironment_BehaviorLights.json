@@ -1,5 +1,5 @@
 {
-  "formatVersion": 4,
+  "formatVersion": 5,
   "environmentName": "TheRollingStonesEnvironment",
   "gameVersion": "1.44.2_21558",
   "lightManagerPath": "TheRollingStonesEnvironment.[0]Environment.[2]LightWithIdManager",

@@ -37,7 +37,8 @@ namespace LightIdDumper
             RootObjectsBySceneHandle.Clear();
         }
 
-        // Regression: frame-delayed capture observed startup-animated ring transforms, so environment setup arms both a ring-aware pre-movement boundary and a no-ring late-Start fallback.
+        // Regression: frame-delayed capture observed startup-animated ring transforms, so the capture boundary must
+        // be the single authoritative one instead of whichever lifecycle edge runs first.
         internal static void BeginEnvironment(EnvironmentSceneSetup environmentSceneSetup)
         {
             _captureToken++;
@@ -51,15 +52,14 @@ namespace LightIdDumper
                 ? CountRegisteredLights(_lightManager._lights)
                 : 0;
             RootObjectsBySceneHandle.Clear();
-            BeforeFirstFrameCapture.Schedule(environmentSceneSetup.gameObject, _captureToken);
 
             if (_lightManager == null)
             {
-                Plugin.Log.Warn($"Environment [{_environmentName}] began before LightManager could be resolved; registration observation will supply it before the pre-render snapshot.");
+                Plugin.Log.Warn($"Environment [{_environmentName}] began before LightManager could be resolved; registration observation will supply it before the Chroma-boundary snapshot.");
                 return;
             }
 
-            Plugin.Log.Info($"Environment [{_environmentName}] began at frame [{_environmentBeginFrame}] with {_initialRegisteredLightCount} registered lights already present; capture is armed after scene initialization and before lane-ring movement, with a late-Start fallback for environments without rings.");
+            Plugin.Log.Info($"Environment [{_environmentName}] began at frame [{_environmentBeginFrame}] with {_initialRegisteredLightCount} registered lights already present; capture runs at Chroma's environment-enhancement boundary (end of frame after BeatmapObjectSpawnController.Start).");
         }
 
         // Regression: the manager can be undiscoverable during InstallBindings, so RegisterLight supplies it without delaying the pre-render snapshot into an animation frame.
@@ -92,16 +92,26 @@ namespace LightIdDumper
             RootObjectsBySceneHandle.Clear();
         }
 
-        // The no-ring fallback carries its setup token so callbacks left over from a prior environment cannot capture the next environment.
-        internal static void CaptureBeforeFirstFrame(int captureToken)
+        // Chroma resolves environment-enhancement IDs from a coroutine started in a BeatmapObjectSpawnController.Start
+        // prefix and resumed at WaitForEndOfFrame (Heck Chroma EnvironmentEnhancementManager.Start/DelayedStart);
+        // sampling at that identical boundary is the dumper's core parity requirement (see ChromaBoundaryCapturePatch).
+        // The scheduled token keeps a prior environment's coroutine from capturing the next environment.
+        internal static void ScheduleChromaBoundaryCapture(BeatmapObjectSpawnController spawnController)
         {
-            CaptureAtInitializedBoundary(captureToken, "late Start fallback");
+            if (!_capturePending)
+            {
+                return;
+            }
+
+            spawnController.StartCoroutine(CaptureAtChromaBoundary(_captureToken));
         }
 
-        // Regression: environment-scene Start could run after GameCore had already advanced lane rings, so the manager prefix captures before its first transform-mutating update without changing stock initialization order.
-        internal static void CaptureBeforeRingMovement()
+        private static IEnumerator CaptureAtChromaBoundary(int captureToken)
         {
-            CaptureAtInitializedBoundary(_captureToken, "TrackLaneRingsManager.FixedUpdate prefix");
+            yield return new WaitForEndOfFrame();
+            CaptureAtInitializedBoundary(
+                captureToken,
+                "BeatmapObjectSpawnController.Start + WaitForEndOfFrame (Chroma environment-enhancement boundary)");
         }
 
         // A single guarded capture path makes the first valid post-initialization boundary win and records which lifecycle edge produced the snapshot.
@@ -123,7 +133,7 @@ namespace LightIdDumper
             }
 
             _lightManager = lightManager;
-            Plugin.Log.Info($"Capturing environment [{_environmentName}] synchronously at frame [{Time.frameCount}] (armed at [{_environmentBeginFrame}]) from [{trigger}] after scene initialization and before lane-ring transform movement.");
+            Plugin.Log.Info($"Capturing environment [{_environmentName}] synchronously at frame [{Time.frameCount}] (armed at [{_environmentBeginFrame}]) from [{trigger}].");
             WriteDump(lightManager);
         }
 

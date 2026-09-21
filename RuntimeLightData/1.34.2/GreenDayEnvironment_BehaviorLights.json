@@ -1,5 +1,5 @@
 {
-  "formatVersion": 4,
+  "formatVersion": 5,
   "environmentName": "GreenDayEnvironment",
   "gameVersion": "1.34.2_7115288407",
   "lightManagerPath": "GreenDayEnvironment.[0]Environment.[14]LightWithIdManager",

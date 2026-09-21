@@ -1,5 +1,5 @@
 {
-  "formatVersion": 4,
+  "formatVersion": 5,
   "environmentName": "RocketEnvironment",
   "gameVersion": "1.40.8_7379",
   "lightManagerPath": "RocketEnvironment.[0]Environment.[16]LightWithIdManager",

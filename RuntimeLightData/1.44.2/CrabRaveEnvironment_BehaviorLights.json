@@ -1,5 +1,5 @@
 {
-  "formatVersion": 4,
+  "formatVersion": 5,
   "environmentName": "CrabRaveEnvironment",
   "gameVersion": "1.44.2_21558",
   "lightManagerPath": "CrabRaveEnvironment.[0]Environment.[20]LightWithIdManager",

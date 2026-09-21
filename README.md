@@ -141,7 +141,7 @@ be emitted in `OtherLights` on a subsequent capture.
 
 ## JSON schema
 
-The current and only supported schema is format 4. The model is defined in
+The current and only supported schema is format 5. The model is defined in
 [`LightIdDumper/LightDumpModels.cs`](LightIdDumper/LightDumpModels.cs). Output is
 camel-cased and includes meaningful class-specific null values deliberately,
 while fields proven constant or inapplicable for an entire classified file are
@@ -152,7 +152,7 @@ an unchanged JSON file on subsequent dump-all runs.
 
 ```json
 {
-  "formatVersion": 4,
+  "formatVersion": 5,
   "environmentName": "KaleidoscopeEnvironment",
   "gameVersion": "1.44.1",
   "lightManagerPath": "MainMenu.[0]LightManager",
@@ -183,7 +183,7 @@ an unchanged JSON file on subsequent dump-all runs.
 
 The paired `OtherLights` file uses the same root, slot, and common record
 fields. A non-MonoBehaviour wrapper record uses its owner for Unity identity,
-as in this format-4 shape:
+as in this format-5 shape:
 
 ```json
 {
@@ -250,7 +250,7 @@ Important fields:
   classified file. `initialRegisteredLightCount` remains the unsplit manager
   count observed at environment setup.
 
-If an `ILightWithId` is not a `MonoBehaviour`, format 4 writes it only to
+If an `ILightWithId` is not a `MonoBehaviour`, format 5 writes it only to
 `OtherLights`, omits the inapplicable direct Unity fields, and resolves the
 private owning `LightWithIds` MonoBehaviour's path, type, transform, and
 child-array index. Runtime-only owner instance IDs and constant active-state
@@ -335,12 +335,25 @@ performs the mapping comparison and writes the four CSV perspectives.
 reads the resulting CSV Boolean columns, and prints a warning/error synopsis.
 Both accept an optional game version and serialized environment name, search the
 repository `RuntimeLightData` archive, and fall back to the matching game's
-`UserData/LightIdDumper` capture, then loads the Heck table, ChroMapper table,
-and ChroMapper EnvironmentData. Omitting the environment verifies every
-captured environment that has both a Heck/Chroma and ChroMapper basic-event
-light-ID table; environments without that complete coverage are skipped because
-GLS uses its own OEM group-lighting IDs rather than these legacy Chroma IDs.
-Omitting the version verifies every archived version.
+`UserData/LightIdDumper` capture, then load ChroMapper EnvironmentData and any
+available Heck/Chroma or ChroMapper light-ID tables. Omitting the environment
+verifies every captured environment that has Chroma-addressable Basic Event
+lights. Pure GLS environments remain excluded because their fixtures use OEM
+group-lighting IDs instead of the legacy Chroma light-ID tables. Omitting the
+version verifies every archived version.
+
+<!-- The fixed environment allowlist hid hybrid environments such as The Second, so selection now follows the serialized event bindings and runtime fixtures. -->
+Environment selection is evidence-based rather than name-based. An environment
+is included when it has an authored Heck or ChroMapper light-ID table, or when
+ChroMapper EnvironmentData binds a `LightSwitchEventEffect` slot containing a
+real runtime `BehaviorLight`. The ubiquitous player-platform `Feet`
+`SpriteLightWithId` and `RectangleFakeGlowLightWithId` do not qualify an
+otherwise GLS-only environment by themselves. Mixed environments do qualify:
+for example, `TheSecondEnvironment` is included because its buildings, logo,
+and runway are Basic Event lights even though the environment also contains GLS
+fixtures. Its CSVs contain Basic Event slots 1, 2, and 5 and omit its unrelated
+GLS manager slots. An older game version naturally exports only qualifying
+environments present in that version's runtime corpus.
 
 The normal verifier invocation prints per-environment perspective counts plus
 an aggregate category synopsis:
@@ -391,15 +404,26 @@ perspectives beneath
 `LightMappingValidation/<version>/<environmentName>/`:
 
 - `<version>_<environmentName>_DumpBehaviorLights.csv` contains every exported
-  MonoBehaviour light.
-- `<version>_<environmentName>_DumpOtherLights.csv` contains every exported non-MonoBehaviour wrapper and
+  MonoBehaviour light in the selected Basic Event slots.
+- `<version>_<environmentName>_DumpOtherLights.csv` contains every exported non-MonoBehaviour wrapper in those Basic Event slots and
   makes any accidental Heck/ChroMapper mapping into this class an explicit
   error Boolean.
-- `<version>_<environmentName>_ChroMapper.csv` contains every reconstructed ChroMapper entry in the
-  basic-event slots covered by a mapping table; GLS-only slots are not included.
-- `<version>_<environmentName>_Chroma.csv` contains every authored Chroma ID in Heck's Chroma table and
-  cross-links each source row to ChroMapper and the runtime dumps. ChroMapper-only IDs remain in the
-  ChroMapper perspective as missing-from-Chroma warnings.
+- `<version>_<environmentName>_ChroMapper.csv` contains every reconstructed
+  ChroMapper entry in the selected Basic Event environment's manager slots,
+  including environments whose authored ChroMapper mapping table is absent.
+- `<version>_<environmentName>_Chroma.csv` contains every authored Chroma ID in
+  Heck's Chroma table, or every raw BehaviorLight manager index when Heck uses
+  its no-table identity fallback, and cross-links each source row to ChroMapper
+  and the runtime dumps. ChroMapper-only IDs remain in the ChroMapper
+  perspective as missing-from-Chroma warnings.
+
+<!-- Heck and ChroMapper both fall back to raw list indexes when no remap table exists, so a tableless environment still has real Chroma light IDs. -->
+If an entire mapping table is absent, the exporter models that implementation's
+identity fallback instead of suppressing the environment. The Chroma perspective
+uses each BehaviorLight's raw Beat Saber manager-list index as its Chroma ID;
+the ChroMapper perspective uses each non-array-wrapper editor-list index. An
+explicit environment-level source-coverage warning still distinguishes these
+derived identity mappings from authored remap-table rows.
 
 Each perspective has its own CSV schema. It contains only that perspective's
 source identity, applicable validation flags, and explicitly named target
@@ -484,7 +508,7 @@ environment by setting `SteamAppId`, `SteamOverlayGameId`, and `SteamGameId` to
 Beat Saber's app ID (`620980`); this prevents Steam from relaunching the copied
 instance and showing its custom-arguments prompt. The runner tracks the real
 executable until it exits, rejects either missing, stale, misclassified, or
-structurally invalid format-4 file in every pair, copies every pair to
+structurally invalid format-5 file in every pair, copies every pair to
 `RuntimeLightData/<version>` (or `-OutputPath`), optionally runs
 mapping verification with `-Verify` where all repository inputs exist,
 corroborates completion in the live log, and always calls the deploy script's `-Uninstall`

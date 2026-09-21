@@ -1,5 +1,5 @@
 {
-  "formatVersion": 4,
+  "formatVersion": 5,
   "environmentName": "TheSecondEnvironment",
   "gameVersion": "1.29.1_4575554838",
   "lightManagerPath": "TheSecondEnvironment.[0]Environment.[1]LightWithIdManager",

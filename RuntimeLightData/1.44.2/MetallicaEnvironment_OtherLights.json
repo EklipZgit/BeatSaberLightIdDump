@@ -1,5 +1,5 @@
 {
-  "formatVersion": 4,
+  "formatVersion": 5,
   "environmentName": "MetallicaEnvironment",
   "gameVersion": "1.44.2_21558",
   "lightManagerPath": "MetallicaEnvironment.[0]Environment.[4]LightWithIdManager",

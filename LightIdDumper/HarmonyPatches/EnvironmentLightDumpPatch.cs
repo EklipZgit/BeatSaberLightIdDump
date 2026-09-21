@@ -24,14 +24,20 @@ namespace LightIdDumper.HarmonyPatches
         }
     }
 
-    // Regression: the environment setup object's late Start sometimes ran after GameCore lane-ring updates, so capture immediately before the manager's first FixedUpdate mutates ring state.
-    [HarmonyPatch(typeof(TrackLaneRingsManager), "FixedUpdate")]
-    internal static class TrackLaneRingsPreMovementCapturePatch
+    // Chroma resolves environment-enhancement IDs from a coroutine started in a BeatmapObjectSpawnController.Start
+    // prefix and resumed at WaitForEndOfFrame (Heck Chroma EnvironmentEnhancementManager.Start/DelayedStart). The
+    // previous pre-ring-movement boundary sampled while transient GameCore roots (gameplay pools) still existed,
+    // inflating the root indices of dynamically-spawned ring clones: Timbaland's PairLaserTrackLaneRings dumped at
+    // [513..522] while Chroma matches the same rings in real gameplay at [1..10]. Sampling at Chroma's exact
+    // boundary keeps every dumped path and root index identical to what Chroma resolves, which is this dumper's
+    // entire purpose; ring transforms therefore include their first movement update, exactly as Chroma sees them.
+    [HarmonyPatch(typeof(BeatmapObjectSpawnController), nameof(BeatmapObjectSpawnController.Start))]
+    internal static class ChromaBoundaryCapturePatch
     {
         [HarmonyPrefix]
-        private static void Prefix()
+        private static void Prefix(BeatmapObjectSpawnController __instance)
         {
-            LightDumpCapture.CaptureBeforeRingMovement();
+            LightDumpCapture.ScheduleChromaBoundaryCapture(__instance);
         }
     }
 }

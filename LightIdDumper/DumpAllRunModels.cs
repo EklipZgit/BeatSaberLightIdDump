@@ -11,7 +11,7 @@ namespace LightIdDumper
         public int StatusFormatVersion { get; set; } = 1;
 
         [JsonProperty(Order = 1)]
-        public int DumpFormatVersion { get; set; } = 4;
+        public int DumpFormatVersion { get; set; } = 5;
 
         [JsonProperty(Order = 2)]
         public string GameVersion { get; set; } = string.Empty;

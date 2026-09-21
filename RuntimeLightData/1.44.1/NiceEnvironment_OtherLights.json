@@ -1,5 +1,5 @@
 {
-  "formatVersion": 4,
+  "formatVersion": 5,
   "environmentName": "NiceEnvironment",
   "gameVersion": "1.44.1_20239",
   "lightManagerPath": "NiceEnvironment.[0]Environment.[18]LightWithIdManager",
@@ -139,7 +139,7 @@
       "registeredLightCount": 6,
       "registeredLights": [
         {
-          "indexWithinLightIdList": 40,
+          "indexWithinLightIdList": 0,
           "componentLightId": 2,
           "type": 1,
           "typeName": "Event1",
@@ -159,7 +159,7 @@
           "weight": null
         },
         {
-          "indexWithinLightIdList": 41,
+          "indexWithinLightIdList": 1,
           "componentLightId": 2,
           "type": 1,
           "typeName": "Event1",
@@ -179,7 +179,7 @@
           "weight": 0.0
         },
         {
-          "indexWithinLightIdList": 42,
+          "indexWithinLightIdList": 2,
           "componentLightId": 2,
           "type": 1,
           "typeName": "Event1",
@@ -199,7 +199,7 @@
           "weight": null
         },
         {
-          "indexWithinLightIdList": 43,
+          "indexWithinLightIdList": 3,
           "componentLightId": 2,
           "type": 1,
           "typeName": "Event1",
@@ -219,7 +219,7 @@
           "weight": null
         },
         {
-          "indexWithinLightIdList": 44,
+          "indexWithinLightIdList": 4,
           "componentLightId": 2,
           "type": 1,
           "typeName": "Event1",
@@ -239,7 +239,7 @@
           "weight": null
         },
         {
-          "indexWithinLightIdList": 45,
+          "indexWithinLightIdList": 5,
           "componentLightId": 2,
           "type": 1,
           "typeName": "Event1",

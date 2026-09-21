@@ -1,5 +1,5 @@
 {
-  "formatVersion": 4,
+  "formatVersion": 5,
   "environmentName": "Halloween2Environment",
   "gameVersion": "1.42.1_13508",
   "lightManagerPath": "Halloween2Environment.[0]Environment.[38]LightWithIdManager",

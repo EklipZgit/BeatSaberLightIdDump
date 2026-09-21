@@ -1,5 +1,5 @@
 {
-  "formatVersion": 4,
+  "formatVersion": 5,
   "environmentName": "RockMixtapeEnvironment",
   "gameVersion": "1.29.1_4575554838",
   "lightManagerPath": "RockMixtapeEnvironment.[0]Environment.[15]LightWithIdManager",

@@ -1,5 +1,5 @@
 {
-  "formatVersion": 4,
+  "formatVersion": 5,
   "environmentName": "PanicEnvironment",
   "gameVersion": "1.40.8_7379",
   "lightManagerPath": "PanicEnvironment.[0]Environment.[25]LightWithIdManager",
@@ -139,7 +139,7 @@
       "registeredLightCount": 6,
       "registeredLights": [
         {
-          "indexWithinLightIdList": 60,
+          "indexWithinLightIdList": 0,
           "componentLightId": 2,
           "type": 1,
           "typeName": "Event1",
@@ -159,7 +159,7 @@
           "weight": null
         },
         {
-          "indexWithinLightIdList": 61,
+          "indexWithinLightIdList": 1,
           "componentLightId": 2,
           "type": 1,
           "typeName": "Event1",
@@ -179,7 +179,7 @@
           "weight": 0.1
         },
         {
-          "indexWithinLightIdList": 62,
+          "indexWithinLightIdList": 2,
           "componentLightId": 2,
           "type": 1,
           "typeName": "Event1",
@@ -199,7 +199,7 @@
           "weight": null
         },
         {
-          "indexWithinLightIdList": 63,
+          "indexWithinLightIdList": 3,
           "componentLightId": 2,
           "type": 1,
           "typeName": "Event1",
@@ -219,7 +219,7 @@
           "weight": null
         },
         {
-          "indexWithinLightIdList": 64,
+          "indexWithinLightIdList": 4,
           "componentLightId": 2,
           "type": 1,
           "typeName": "Event1",
@@ -239,7 +239,7 @@
           "weight": null
         },
         {
-          "indexWithinLightIdList": 65,
+          "indexWithinLightIdList": 5,
           "componentLightId": 2,
           "type": 1,
           "typeName": "Event1",

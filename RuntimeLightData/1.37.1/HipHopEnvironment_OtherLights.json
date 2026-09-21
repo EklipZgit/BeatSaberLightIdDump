@@ -1,5 +1,5 @@
 {
-  "formatVersion": 4,
+  "formatVersion": 5,
   "environmentName": "HipHopEnvironment",
   "gameVersion": "1.37.1_9767668645",
   "lightManagerPath": "HipHopEnvironment.[0]Environment.[2]LightWithIdManager",

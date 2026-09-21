@@ -4,11 +4,14 @@ using UnityEngine;
 
 namespace LightIdDumper
 {
-    // Format 4 is the only supported dump shape; paired filenames classify lights without repeating constant or inapplicable fields on every record.
+    // Format 5 samples at Chroma's environment-enhancement boundary (end of frame after BeatmapObjectSpawnController.Start),
+    // so every path and GameCore root index matches what Chroma resolves in gameplay; format 4 and earlier sampled
+    // before level setup completed and carried transient GameCore root offsets in dynamically-spawned ring paths.
+    // Paired filenames classify lights without repeating constant or inapplicable fields on every record.
     internal sealed class EnvironmentLightDump
     {
         [JsonProperty(Order = 0)]
-        public int FormatVersion { get; set; } = 4;
+        public int FormatVersion { get; set; } = 5;
 
         [JsonProperty(Order = 1)]
         public string EnvironmentName { get; set; } = string.Empty;

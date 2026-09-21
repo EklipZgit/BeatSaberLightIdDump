@@ -1,5 +1,5 @@
 {
-  "formatVersion": 4,
+  "formatVersion": 5,
   "environmentName": "FitBeatEnvironment",
   "gameVersion": "1.42.1_13508",
   "lightManagerPath": "FitBeatEnvironment.[0]Environment.[16]LightWithIdManager",
@@ -12,7 +12,7 @@
       "registeredLightCount": 6,
       "registeredLights": [
         {
-          "indexWithinLightIdList": 30,
+          "indexWithinLightIdList": 0,
           "componentLightId": 1,
           "type": 0,
           "typeName": "Event0",
@@ -32,7 +32,7 @@
           "weight": null
         },
         {
-          "indexWithinLightIdList": 31,
+          "indexWithinLightIdList": 1,
           "componentLightId": 1,
           "type": 0,
           "typeName": "Event0",
@@ -52,7 +52,7 @@
           "weight": 0.1
         },
         {
-          "indexWithinLightIdList": 32,
+          "indexWithinLightIdList": 2,
           "componentLightId": 1,
           "type": 0,
           "typeName": "Event0",
@@ -72,7 +72,7 @@
           "weight": null
         },
         {
-          "indexWithinLightIdList": 33,
+          "indexWithinLightIdList": 3,
           "componentLightId": 1,
           "type": 0,
           "typeName": "Event0",
@@ -92,7 +92,7 @@
           "weight": null
         },
         {
-          "indexWithinLightIdList": 34,
+          "indexWithinLightIdList": 4,
           "componentLightId": 1,
           "type": 0,
           "typeName": "Event0",
@@ -112,7 +112,7 @@
           "weight": null
         },
         {
-          "indexWithinLightIdList": 35,
+          "indexWithinLightIdList": 5,
           "componentLightId": 1,
           "type": 0,
           "typeName": "Event0",
@@ -139,7 +139,7 @@
       "registeredLightCount": 6,
       "registeredLights": [
         {
-          "indexWithinLightIdList": 30,
+          "indexWithinLightIdList": 0,
           "componentLightId": 2,
           "type": 1,
           "typeName": "Event1",
@@ -159,7 +159,7 @@
           "weight": null
         },
         {
-          "indexWithinLightIdList": 31,
+          "indexWithinLightIdList": 1,
           "componentLightId": 2,
           "type": 1,
           "typeName": "Event1",
@@ -179,7 +179,7 @@
           "weight": 0.1
         },
         {
-          "indexWithinLightIdList": 32,
+          "indexWithinLightIdList": 2,
           "componentLightId": 2,
           "type": 1,
           "typeName": "Event1",
@@ -199,7 +199,7 @@
           "weight": null
         },
         {
-          "indexWithinLightIdList": 33,
+          "indexWithinLightIdList": 3,
           "componentLightId": 2,
           "type": 1,
           "typeName": "Event1",
@@ -219,7 +219,7 @@
           "weight": null
         },
         {
-          "indexWithinLightIdList": 34,
+          "indexWithinLightIdList": 4,
           "componentLightId": 2,
           "type": 1,
           "typeName": "Event1",
@@ -239,7 +239,7 @@
           "weight": null
         },
         {
-          "indexWithinLightIdList": 35,
+          "indexWithinLightIdList": 5,
           "componentLightId": 2,
           "type": 1,
           "typeName": "Event1",

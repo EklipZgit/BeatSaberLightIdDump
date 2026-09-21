@@ -1,5 +1,5 @@
 {
-  "formatVersion": 4,
+  "formatVersion": 5,
   "environmentName": "BTSEnvironment",
   "gameVersion": "1.29.1_4575554838",
   "lightManagerPath": "BTSEnvironment.[0]Environment.[29]LightWithIdManager",

@@ -1,10 +1,10 @@
 {
-  "formatVersion": 4,
+  "formatVersion": 5,
   "environmentName": "BritneyEnvironment",
   "gameVersion": "1.44.1_20239",
   "lightManagerPath": "BritneyEnvironment.[0]Environment.[3]LightWithIdManager",
   "initialRegisteredLightCount": 1,
-  "totalRegisteredLightCount": 602,
+  "totalRegisteredLightCount": 603,
   "lightIdSlots": [
     {
       "beatSaberLightId": 9,
@@ -37,6 +37,28 @@
           "localScale": {
             "x": 1.495,
             "y": 0.995,
+            "z": 1.0
+          },
+          "sceneName": "BritneyEnvironment"
+        }
+      ]
+    },
+    {
+      "beatSaberLightId": 10,
+      "commonGameObjectPath": "BritneyEnvironment.[0]Environment.[19]DustBritney",
+      "registeredLightCount": 1,
+      "registeredLights": [
+        {
+          "indexWithinLightIdList": 0,
+          "componentLightId": 10,
+          "type": 9,
+          "typeName": "Event9",
+          "relativeGameObjectPath": "",
+          "gameObjectPath": "BritneyEnvironment.[0]Environment.[19]DustBritney",
+          "componentType": "InstancedMaterialLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
             "z": 1.0
           },
           "sceneName": "BritneyEnvironment"

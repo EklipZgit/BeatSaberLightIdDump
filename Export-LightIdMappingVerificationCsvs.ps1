@@ -9,15 +9,15 @@ the selected RuntimeLightData repository is verified. Installed supported
 versions are used only when the repository contains no version directories.
 
 .PARAMETER EnvironmentName
-Serialized environment name. When omitted, every BehaviorLights capture in the
-newest matching game-version capture directory is verified.
+Serialized environment name. When omitted, every captured environment with
+Chroma-addressable Basic Event lights is verified.
 
 .PARAMETER RuntimeLightDataPath
 Repository-style RuntimeLightData root. Defaults to RuntimeLightData beside this script.
 
 .PARAMETER LightMappingValidationPath
 CSV validation root. Defaults to LightMappingValidation beside this script. Four
-perspective files are written per covered environment.
+perspective files are written per selected Basic Event environment.
 
 .PARAMETER SummaryOnly
 Collect and summarize every warning category without printing every individual warning.
@@ -280,6 +280,77 @@ function Get-RuntimeComparableComponentType {
 
 # A repository version directory is the sole source when present; game captures are a fallback only for versions absent from RuntimeLightData.
 $RepoRoot = Split-Path -Parent $PSScriptRoot
+
+# Shared Feet and RectangleFakeGlow components do not make an otherwise GLS-only environment Chroma-addressable.
+function Test-IsSharedPlayerPlatformLight {
+    param([Parameter(Mandatory)][object]$Light)
+
+    $componentType = [string](Get-JsonPropertyValue -InputObject $Light -Name "componentType")
+    $leafName = Get-PathLeafName -GameObjectPath ([string](Get-JsonPropertyValue -InputObject $Light -Name "gameObjectPath"))
+    return ($componentType -ceq "SpriteLightWithId" -and $leafName -ceq "Feet") -or
+        ($componentType -ceq "RectangleFakeGlowLightWithId" -and $leafName -ceq "RectangleFakeGlow")
+}
+
+# LightSwitchEventEffect is the authoritative Basic Event-to-manager-slot binding exported by ChroMapper.
+function Get-LightSwitchSlotIds {
+    param([Parameter(Mandatory)][object]$ChroMapperEnvironmentData)
+
+    $slotIds = [System.Collections.Generic.HashSet[int]]::new()
+    foreach ($chroMapperObject in @($ChroMapperEnvironmentData.objects)) {
+        $switchEffects = @(Get-JsonPropertyValue -InputObject $chroMapperObject.components -Name "LightSwitchEventEffect" -DefaultValue @())
+        foreach ($switchEffect in $switchEffects) {
+            $lightsId = Get-JsonPropertyValue -InputObject $switchEffect -Name "lightsId"
+            if ($null -ne $lightsId) {
+                $null = $slotIds.Add([int]$lightsId)
+            }
+        }
+    }
+
+    # Preserve the HashSet as one object so one-slot environments still expose Count and Contains consistently.
+    Write-Output -NoEnumerate $slotIds
+}
+
+# Mixed GLS environments such as The Second must be included when any LightSwitch-bound slot owns a real BehaviorLight; mapping tables remain definitive when present.
+function Test-EnvironmentHasChromaAddressableBasicLights {
+    param(
+        [Parameter(Mandatory)][string]$CapturedEnvironmentName,
+        [Parameter(Mandatory)][string]$BehaviorDumpPath
+    )
+
+    $heckTablePath = Join-Path $RepoRoot "Heck\Chroma\LightIDTables\$CapturedEnvironmentName.json"
+    $chroMapperTablePath = Join-Path $RepoRoot "ChroMapper\Assets\Editor\Environments\LightIDTables\$CapturedEnvironmentName.json"
+    if ((Test-Path -LiteralPath $heckTablePath -PathType Leaf) -or (Test-Path -LiteralPath $chroMapperTablePath -PathType Leaf)) {
+        return $true
+    }
+
+    $chroMapperDataPath = Join-Path $RepoRoot "ChroMapper\Assets\__Scenes\Environments\Data\$CapturedEnvironmentName.json"
+    # With no authored table or serialized LightSwitch binding, there is no evidence that a captured environment has Chroma-addressable Basic Event lights.
+    if (-not (Test-Path -LiteralPath $chroMapperDataPath -PathType Leaf)) {
+        return $false
+    }
+
+    $chroMapperData = Get-Content -LiteralPath $chroMapperDataPath -Raw | ConvertFrom-Json -Depth 100
+    $lightSwitchSlotIds = Get-LightSwitchSlotIds -ChroMapperEnvironmentData $chroMapperData
+    if ($lightSwitchSlotIds.Count -eq 0) {
+        return $false
+    }
+
+    $behaviorDump = Get-Content -LiteralPath $BehaviorDumpPath -Raw | ConvertFrom-Json -Depth 100
+    foreach ($slot in @($behaviorDump.lightIdSlots)) {
+        if (-not $lightSwitchSlotIds.Contains([int]$slot.beatSaberLightId)) {
+            continue
+        }
+
+        foreach ($light in @($slot.registeredLights)) {
+            if (-not (Test-IsSharedPlayerPlatformLight -Light $light)) {
+                return $true
+            }
+        }
+    }
+
+    return $false
+}
+
 $RepositoryVersionDirectory = Join-Path $RuntimeLightDataPath $GameVersion
 $DumpRoot = $null
 if (Test-Path -LiteralPath $RepositoryVersionDirectory -PathType Container) {
@@ -325,20 +396,16 @@ if ([string]::IsNullOrWhiteSpace($EnvironmentName)) {
             Sort-Object -Unique
     )
 
-    # GLS-only and otherwise unmapped environments have no pair of basic-event light-ID tables, so they are outside this verifier's scope.
+    # Runtime and serialized scene evidence includes hybrid GLS/Basic Event environments while excluding only captures without Chroma-addressable BehaviorLights.
     $environmentNames = @(
         $capturedEnvironmentNames |
             Where-Object {
-                $candidateHeckTable = Join-Path $RepoRoot "Heck\Chroma\LightIDTables\$_.json"
-                $candidateChroMapperTable = Join-Path $RepoRoot "ChroMapper\Assets\Editor\Environments\LightIDTables\$_.json"
-                $candidateChroMapperData = Join-Path $RepoRoot "ChroMapper\Assets\__Scenes\Environments\Data\$_.json"
-                (Test-Path -LiteralPath $candidateHeckTable -PathType Leaf) -and
-                    (Test-Path -LiteralPath $candidateChroMapperTable -PathType Leaf) -and
-                    (Test-Path -LiteralPath $candidateChroMapperData -PathType Leaf)
+                $behaviorDumpPath = Join-Path $selectedCaptureDirectory.FullName "${_}_BehaviorLights.json"
+                Test-EnvironmentHasChromaAddressableBasicLights -CapturedEnvironmentName $_ -BehaviorDumpPath $behaviorDumpPath
             }
     )
     $skippedEnvironmentCount = $capturedEnvironmentNames.Count - $environmentNames.Count
-    Write-Host "Verifying [$($environmentNames.Count)] table-covered environments from [$($selectedCaptureDirectory.FullName)]; skipping [$skippedEnvironmentCount] environments without complete basic-event mapping coverage." -ForegroundColor Cyan
+    Write-Host "Verifying [$($environmentNames.Count)] captured environments with Chroma-addressable Basic Event lights from [$($selectedCaptureDirectory.FullName)]; skipping [$skippedEnvironmentCount] environments without them." -ForegroundColor Cyan
 
     $allResults = [System.Collections.Generic.List[object]]::new()
     foreach ($capturedEnvironmentName in $environmentNames) {
@@ -395,7 +462,8 @@ $OtherDumpPath = $DumpPath -replace '_BehaviorLights\.json$', '_OtherLights.json
 $HeckTablePath = Join-Path $RepoRoot "Heck\Chroma\LightIDTables\$EnvironmentBaseName.json"
 $ChroMapperTablePath = Join-Path $RepoRoot "ChroMapper\Assets\Editor\Environments\LightIDTables\$EnvironmentBaseName.json"
 $ChroMapperDataPath = Join-Path $RepoRoot "ChroMapper\Assets\__Scenes\Environments\Data\$EnvironmentBaseName.json"
-$RequiredPaths = @($DumpPath, $OtherDumpPath, $HeckTablePath, $ChroMapperTablePath, $ChroMapperDataPath)
+# Runtime dumps and EnvironmentData are mandatory, while missing authored mapping tables must remain exportable as explicit coverage gaps.
+$RequiredPaths = @($DumpPath, $OtherDumpPath, $ChroMapperDataPath)
 foreach ($requiredPath in $RequiredPaths) {
     if (-not (Test-Path -LiteralPath $requiredPath -PathType Leaf)) {
         throw "Required verification input not found: $requiredPath"
@@ -405,7 +473,7 @@ foreach ($requiredPath in $RequiredPaths) {
 # Parse all inputs and reject anything except the current schema before emitting mapping results.
 $Dump = Get-Content -LiteralPath $DumpPath -Raw | ConvertFrom-Json -Depth 100
 $OtherDump = Get-Content -LiteralPath $OtherDumpPath -Raw | ConvertFrom-Json -Depth 100
-$ExpectedDumpFormatVersion = 4
+$ExpectedDumpFormatVersion = 5
 foreach ($classifiedDump in @($Dump, $OtherDump)) {
     if ($null -eq $classifiedDump.PSObject.Properties["formatVersion"] -or [int]$classifiedDump.formatVersion -ne $ExpectedDumpFormatVersion) {
         $actualFormatVersion = Get-JsonPropertyValue -InputObject $classifiedDump -Name "formatVersion" -DefaultValue "missing"
@@ -418,9 +486,30 @@ foreach ($classifiedDump in @($Dump, $OtherDump)) {
     }
 }
 
-$HeckTable = Get-Content -LiteralPath $HeckTablePath -Raw | ConvertFrom-Json -Depth 100
-$ChroMapperTable = Get-Content -LiteralPath $ChroMapperTablePath -Raw | ConvertFrom-Json -Depth 100
+# Tableless Basic Event and hybrid environments still need dump/editor perspectives, so empty table objects preserve coverage without inventing mappings.
+$HasHeckTable = Test-Path -LiteralPath $HeckTablePath -PathType Leaf
+$HasChroMapperTable = Test-Path -LiteralPath $ChroMapperTablePath -PathType Leaf
+$HeckTable = if ($HasHeckTable) {
+    Get-Content -LiteralPath $HeckTablePath -Raw | ConvertFrom-Json -Depth 100
+}
+else {
+    [pscustomobject]@{}
+}
+$ChroMapperTable = if ($HasChroMapperTable) {
+    Get-Content -LiteralPath $ChroMapperTablePath -Raw | ConvertFrom-Json -Depth 100
+}
+else {
+    [pscustomobject]@{}
+}
 $ChroMapperData = Get-Content -LiteralPath $ChroMapperDataPath -Raw | ConvertFrom-Json -Depth 100
+
+# Missing source tables are coverage facts, not reasons to suppress an otherwise valid Basic Event environment export.
+if (-not $HasHeckTable) {
+    Add-VerificationWarning -Code "HECK_LIGHT_ID_TABLE_MISSING" -Message "No authored Heck/Chroma light-ID table exists for Basic Event environment [$EnvironmentBaseName]; Chroma's raw manager-index identity fallback will be exported."
+}
+if (-not $HasChroMapperTable) {
+    Add-VerificationWarning -Code "CHROMAPPER_LIGHT_ID_TABLE_MISSING" -Message "No authored ChroMapper light-ID table exists for Basic Event environment [$EnvironmentBaseName]; its raw editor-index identity fallback will be exported."
+}
 
 # ChroMapper's event-track metadata names each semantic lighting group while LightSwitchEventEffect binds it to a manager slot.
 $TrackNamesByEventType = @{}
@@ -470,6 +559,17 @@ foreach ($chroMapperObject in $ChroMapperData.objects) {
         }
 
         $LightGroupNamesById[$lightsId] = $groupName
+    }
+}
+
+# The exported perspectives must contain only Basic Event slots; authored tables extend the set when serialized scene metadata is incomplete.
+$BasicLightSlotIds = [System.Collections.Generic.HashSet[int]]::new()
+foreach ($lightsId in $EventTypesByLightId.Keys) {
+    $null = $BasicLightSlotIds.Add([int]$lightsId)
+}
+foreach ($table in @($HeckTable, $ChroMapperTable)) {
+    foreach ($property in $table.PSObject.Properties) {
+        $null = $BasicLightSlotIds.Add([int]$property.Name)
     }
 }
 
@@ -543,6 +643,8 @@ if ([int]$Dump.totalRegisteredLightCount -ne $calculatedRuntimeLightCount) {
 $OtherDumpSlotsById = @{}
 $OtherLightsBySlotAndIndex = @{}
 $calculatedOtherLightCount = 0
+# Mixed environments need a second count because only Basic Event OtherLights are emitted and compared.
+$basicEventOtherLightCount = 0
 foreach ($slot in $OtherDump.lightIdSlots) {
     $slotId = [int]$slot.beatSaberLightId
     if ($OtherDumpSlotsById.ContainsKey($slotId)) {
@@ -582,6 +684,10 @@ foreach ($slot in $OtherDump.lightIdSlots) {
     }
 
     $calculatedOtherLightCount += $registeredLights.Count
+    # The result summary reports the same Basic Event OtherLights population emitted to CSV, while the full count above still validates capture integrity.
+    if ($BasicLightSlotIds.Contains($slotId)) {
+        $basicEventOtherLightCount += $registeredLights.Count
+    }
 }
 if ([int]$OtherDump.totalRegisteredLightCount -ne $calculatedOtherLightCount) {
     Add-VerificationError -Code "OTHER_DUMP_TOTAL_COUNT_MISMATCH" -Message "OtherLights reports [$($OtherDump.totalRegisteredLightCount)] total entries but its slots contain [$calculatedOtherLightCount]."
@@ -595,6 +701,57 @@ if ($ChroMapperManagers.Count -ne 1) {
 
 $ChroMapperManagerComponents = @(Get-JsonPropertyValue -InputObject $ChroMapperManagers[0].components -Name "LightWithIdManager")
 $ChroMapperLightsById = Get-JsonPropertyValue -InputObject $ChroMapperManagerComponents[0] -Name "lights"
+
+# Heck resolves an unmapped Chroma lightID with `tableValue ?? id`, so a missing authored table means BehaviorLights use their raw manager indexes as Chroma IDs.
+if (-not $HasHeckTable) {
+    $identityRuntimeTable = [ordered]@{}
+    foreach ($slot in @($Dump.lightIdSlots | Sort-Object { [int]$_.beatSaberLightId })) {
+        $slotId = [int]$slot.beatSaberLightId
+        if (-not $BasicLightSlotIds.Contains($slotId)) {
+            continue
+        }
+
+        $identityGroup = [ordered]@{}
+        foreach ($light in @($slot.registeredLights | Sort-Object { [int]$_.indexWithinLightIdList })) {
+            $managerIndex = [int]$light.indexWithinLightIdList
+            $identityGroup[[string]$managerIndex] = $managerIndex
+        }
+
+        # Omit empty groups because they have no Chroma-ID source rows and PowerShell strict mode cannot enumerate a propertyless group through the legacy table traversal.
+        if ($identityGroup.Count -gt 0) {
+            $identityRuntimeTable[[string]$slotId] = [pscustomobject]$identityGroup
+        }
+    }
+    $HeckTable = [pscustomobject]$identityRuntimeTable
+}
+
+# ChroMapper likewise uses its raw reconstruction index without a remap table; array wrappers remain OtherLights and are not promoted into the Chroma-ID perspective.
+if (-not $HasChroMapperTable) {
+    $identityEditorTable = [ordered]@{}
+    foreach ($slotProperty in @($ChroMapperLightsById.PSObject.Properties | Sort-Object { [int]$_.Name })) {
+        $slotId = [int]$slotProperty.Name
+        if (-not $BasicLightSlotIds.Contains($slotId)) {
+            continue
+        }
+
+        $identityGroup = [ordered]@{}
+        $editorLights = @($slotProperty.Value)
+        for ($editorIndex = 0; $editorIndex -lt $editorLights.Count; $editorIndex++) {
+            if ($null -ne (Get-JsonPropertyValue -InputObject $editorLights[$editorIndex] -Name "arrayId")) {
+                continue
+            }
+
+            $identityGroup[[string]$editorIndex] = $editorIndex
+        }
+
+        # A source perspective needs no row for an empty editor group, and omitting it keeps strict-mode table enumeration valid.
+        if ($identityGroup.Count -gt 0) {
+            $identityEditorTable[[string]$slotId] = [pscustomobject]$identityGroup
+        }
+    }
+    $ChroMapperTable = [pscustomobject]$identityEditorTable
+}
+
 $ChroMapperObjectsById = @{}
 foreach ($chroMapperObject in $ChroMapperData.objects) {
     $ChroMapperObjectsById[[string]$chroMapperObject.id] = $chroMapperObject
@@ -606,6 +763,11 @@ $RuntimeLightCount = 0
 foreach ($slot in $Dump.lightIdSlots) {
     # Convert JSON's Int64 value once so hashtable keys match the Int32 table keys used during lookup.
     $slotLightId = [int]$slot.beatSaberLightId
+    # Hybrid environments expose GLS manager slots beside Basic Event slots; only the latter participate in Chroma light-ID verification.
+    if (-not $BasicLightSlotIds.Contains($slotLightId)) {
+        continue
+    }
+
     if ($DumpSlotsById.ContainsKey($slotLightId)) {
         continue
     }
@@ -630,17 +792,24 @@ $MappingsByLightId = @{}
 $MappedFixtureFamilies = [System.Collections.Generic.List[object]]::new()
 $ReportedOtherMappingKeys = [System.Collections.Generic.HashSet[string]]::new([StringComparer]::Ordinal)
 
-# Union traversal reports table keys missing from either Heck or ChroMapper before resolving their different index spaces.
-$BeatSaberLightIds = @($HeckTable.PSObject.Properties.Name + $ChroMapperTable.PSObject.Properties.Name | Sort-Object { [int]$_ } -Unique)
+# Missing tables must not erase Basic Event source rows, while unrelated GLS slots must not enter the mapping corpus.
+$allBeatSaberLightIds = @(
+    @($HeckTable.PSObject.Properties | ForEach-Object { $_.Name }) +
+    @($ChroMapperTable.PSObject.Properties | ForEach-Object { $_.Name }) +
+    @($Dump.lightIdSlots | Where-Object { $BasicLightSlotIds.Contains([int]$_.beatSaberLightId) } | ForEach-Object { [string][int]$_.beatSaberLightId }) +
+    @($OtherDump.lightIdSlots | Where-Object { $BasicLightSlotIds.Contains([int]$_.beatSaberLightId) } | ForEach-Object { [string][int]$_.beatSaberLightId }) +
+    @($ChroMapperLightsById.PSObject.Properties | Where-Object { $BasicLightSlotIds.Contains([int]$_.Name) } | ForEach-Object { $_.Name })
+)
+$BeatSaberLightIds = @($allBeatSaberLightIds | Sort-Object { [int]$_ } -Unique)
 foreach ($beatSaberLightIdText in $BeatSaberLightIds) {
     $beatSaberLightId = [int]$beatSaberLightIdText
     $heckGroupProperty = $HeckTable.PSObject.Properties[$beatSaberLightIdText]
     $chroMapperGroupProperty = $ChroMapperTable.PSObject.Properties[$beatSaberLightIdText]
-    if ($null -eq $heckGroupProperty) {
+    if ($HasHeckTable -and $null -eq $heckGroupProperty) {
         Add-VerificationWarning -Code "LIGHT_ID_SLOT_MISSING_FROM_HECK" -Message "Beat Saber light ID [$beatSaberLightId] exists in ChroMapper's table but not Heck's table."
     }
 
-    if ($null -eq $chroMapperGroupProperty) {
+    if ($HasChroMapperTable -and $null -eq $chroMapperGroupProperty) {
         Add-VerificationWarning -Code "LIGHT_ID_SLOT_MISSING_FROM_CHROMAPPER" -Message "Beat Saber light ID [$beatSaberLightId] exists in Heck's table but not ChroMapper's table."
     }
 
@@ -806,6 +975,11 @@ $RuntimePathComponents = [System.Collections.Generic.List[object]]::new()
 $RuntimeNonGameObjectComponents = [System.Collections.Generic.List[object]]::new()
 foreach ($slot in $Dump.lightIdSlots) {
     $slotLightId = [int]$slot.beatSaberLightId
+    # Inventory discrepancies are meaningful only inside the Basic Event slots selected above.
+    if (-not $BasicLightSlotIds.Contains($slotLightId)) {
+        continue
+    }
+
     foreach ($light in $slot.registeredLights) {
         $runtimeEntityPath = Get-RuntimeEntityPath -Light $light
         $runtimeRecord = [pscustomobject]@{
@@ -831,6 +1005,11 @@ $ExcludedChroMapperNonMonoBehaviourCount = 0
 $ChroMapperPathComponents = [System.Collections.Generic.List[object]]::new()
 foreach ($chroMapperSlotProperty in $ChroMapperLightsById.PSObject.Properties) {
     $beatSaberLightId = [int]$chroMapperSlotProperty.Name
+    # ChroMapper may reconstruct GLS slots in the same manager, but those are outside Chroma light-ID-table verification.
+    if (-not $BasicLightSlotIds.Contains($beatSaberLightId)) {
+        continue
+    }
+
     $chroMapperLights = @($chroMapperSlotProperty.Value)
     for ($editorListIndex = 0; $editorListIndex -lt $chroMapperLights.Count; $editorListIndex++) {
         $chroMapperLight = $chroMapperLights[$editorListIndex]
@@ -1140,6 +1319,11 @@ function Complete-LightMappingValidationRow {
 $BehaviorLightsBySlotAndIndex = @{}
 foreach ($slot in $Dump.lightIdSlots) {
     $slotId = [int]$slot.beatSaberLightId
+    # Keep cross-perspective joins scoped to the same Basic Event slot set as the emitted CSVs.
+    if (-not $BasicLightSlotIds.Contains($slotId)) {
+        continue
+    }
+
     foreach ($light in $slot.registeredLights) {
         $BehaviorLightsBySlotAndIndex["$slotId/$([int]$light.indexWithinLightIdList)"] = $light
     }
@@ -1155,6 +1339,11 @@ function Get-DumpPerspectiveRows {
     $rows = [System.Collections.Generic.List[object]]::new()
     foreach ($slot in @($ClassifiedDump.lightIdSlots | Sort-Object { [int]$_.beatSaberLightId })) {
         $slotId = [int]$slot.beatSaberLightId
+        # A mixed environment's Dump perspectives intentionally omit GLS-only manager slots.
+        if (-not $BasicLightSlotIds.Contains($slotId)) {
+            continue
+        }
+
         $heckGroup = Get-LightIdTableGroup -Table $HeckTable -BeatSaberLightId $slotId
         $chroMapperGroup = Get-LightIdTableGroup -Table $ChroMapperTable -BeatSaberLightId $slotId
         foreach ($light in @($slot.registeredLights | Sort-Object { [int]$_.indexWithinLightIdList })) {
@@ -1239,7 +1428,7 @@ function Get-DumpPerspectiveRows {
     return @($rows)
 }
 
-# ChroMapper perspective rows cover only basic-event slots present in a mapping table, excluding unrelated GLS-only group-lighting slots.
+# ChroMapper perspective rows cover every reconstructed slot in a selected Basic Event environment, even when its authored mapping table is absent.
 function Get-ChroMapperPerspectiveRows {
     $rows = [System.Collections.Generic.List[object]]::new()
     foreach ($slotIdText in @($BeatSaberLightIds | Sort-Object { [int]$_ })) {
@@ -1620,7 +1809,7 @@ function ConvertTo-LightMappingValidationCsvRow {
     }
 }
 
-# Empty perspectives still receive their own header-only schema so every covered environment preserves the four-file contract.
+# A perspective with no source rows still requires its schema header so every selected environment preserves the four-file contract.
 function Export-LightMappingValidationCsv {
     param(
         [Parameter(Mandatory)][string]$Path,
@@ -1663,8 +1852,8 @@ foreach ($legacyFileName in @("DumpBehaviorLights.csv", "DumpOtherLights.csv", "
 }
 Write-Host "Validation CSVs: $ValidationEnvironmentDirectory" -ForegroundColor DarkCyan
 
-# Per-slot summaries preserve the semantic event interpretation while distinguishing fixtures from their renderer layers.
-$GroupSummaries = foreach ($slot in $Dump.lightIdSlots) {
+# Per-slot summaries preserve the semantic event interpretation while excluding unrelated GLS slots in hybrid environments.
+$GroupSummaries = foreach ($slot in @($Dump.lightIdSlots | Where-Object { $BasicLightSlotIds.Contains([int]$_.beatSaberLightId) })) {
     $slotLightId = [int]$slot.beatSaberLightId
     # Semantic summaries count only mapping-comparable MonoBehaviour fixtures.
     # BehaviorLights is already the complete MonoBehaviour set, so its named file replaces the removed per-record discriminator.
@@ -1703,12 +1892,13 @@ Write-Host ""
 Write-Host "=== Light ID mapping verification ===" -ForegroundColor Cyan
 Write-Host "BehaviorLights dump: $DumpPath"
 Write-Host "OtherLights dump: $OtherDumpPath"
-Write-Host "Heck table: $HeckTablePath"
-Write-Host "ChroMapper table: $ChroMapperTablePath"
+# Tableless Basic Event environments must identify the absent input clearly instead of printing a path that appears to have loaded successfully.
+Write-Host "Heck table: $($HasHeckTable ? $HeckTablePath : "$HeckTablePath (missing)")"
+Write-Host "ChroMapper table: $($HasChroMapperTable ? $ChroMapperTablePath : "$ChroMapperTablePath (missing)")"
 Write-Host "ChroMapper data: $ChroMapperDataPath"
 Write-Host "Mappings compared: $ComparedMappingCount"
 Write-Host "Behavior lights: $RuntimeLightCount"
-Write-Host "Other lights checked for classification conflicts: $calculatedOtherLightCount"
+Write-Host "Basic Event OtherLights checked for classification conflicts: $basicEventOtherLightCount"
 Write-Host "ChroMapper reconstructed lights: $ChroMapperLightCount"
 Write-Host "Excluded ChroMapper arrayId entries: $ExcludedChroMapperNonMonoBehaviourCount"
 Write-Host "Matched GameObject-backed components: $MatchedPathComponentCount"
@@ -1753,9 +1943,12 @@ $Result = [pscustomobject]@{
     GameVersion = $GameVersion
     EnvironmentName = $EnvironmentBaseName
     DumpFormatVersion = $Dump.formatVersion
+    # The wrapper needs authored-source coverage separately because derived identity rows must not masquerade as a checked-in remap table.
+    HasHeckTable = $HasHeckTable
+    HasChroMapperTable = $HasChroMapperTable
     MappingCount = $ComparedMappingCount
     RuntimeLightCount = $RuntimeLightCount
-    OtherLightCount = $calculatedOtherLightCount
+    OtherLightCount = $basicEventOtherLightCount
     ChroMapperLightCount = $ChroMapperLightCount
     ExcludedChroMapperNonMonoBehaviourCount = $ExcludedChroMapperNonMonoBehaviourCount
     MatchedPathComponentCount = $MatchedPathComponentCount

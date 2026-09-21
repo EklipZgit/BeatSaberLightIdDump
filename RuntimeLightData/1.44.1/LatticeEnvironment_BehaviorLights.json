@@ -1,5 +1,5 @@
 {
-  "formatVersion": 4,
+  "formatVersion": 5,
   "environmentName": "LatticeEnvironment",
   "gameVersion": "1.44.1_20239",
   "lightManagerPath": "LatticeEnvironment.[0]Environment.[16]LightWithIdManager",

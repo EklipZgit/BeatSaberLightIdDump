@@ -1,5 +1,5 @@
 {
-  "formatVersion": 4,
+  "formatVersion": 5,
   "environmentName": "TimbalandEnvironment",
   "gameVersion": "1.44.2_21558",
   "lightManagerPath": "TimbalandEnvironment.[0]Environment.[19]LightWithIdManager",
@@ -16,6 +16,36 @@
           "componentLightId": 1,
           "type": 0,
           "typeName": "Event0",
+          "relativeGameObjectPath": "[526]PairLaserTrackLaneRing(Clone).[5]RotatingLasersPair.[0]BaseL.[0]Laser",
+          "gameObjectPath": "GameCore.[526]PairLaserTrackLaneRing(Clone).[5]RotatingLasersPair.[0]BaseL.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
+          "relativeGameObjectPath": "[526]PairLaserTrackLaneRing(Clone).[5]RotatingLasersPair.[1]BaseR.[0]Laser",
+          "gameObjectPath": "GameCore.[526]PairLaserTrackLaneRing(Clone).[5]RotatingLasersPair.[1]BaseR.[0]Laser",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 1,
+          "type": 0,
+          "typeName": "Event0",
           "relativeGameObjectPath": "[527]PairLaserTrackLaneRing(Clone).[5]RotatingLasersPair.[0]BaseL.[0]Laser",
           "gameObjectPath": "GameCore.[527]PairLaserTrackLaneRing(Clone).[5]RotatingLasersPair.[0]BaseL.[0]Laser",
           "componentType": "TubeBloomPrePassLightWithId",
@@ -27,7 +57,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 1,
+          "indexWithinLightIdList": 3,
           "componentLightId": 1,
           "type": 0,
           "typeName": "Event0",
@@ -42,7 +72,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 2,
+          "indexWithinLightIdList": 4,
           "componentLightId": 1,
           "type": 0,
           "typeName": "Event0",
@@ -57,7 +87,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 3,
+          "indexWithinLightIdList": 5,
           "componentLightId": 1,
           "type": 0,
           "typeName": "Event0",
@@ -72,7 +102,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 4,
+          "indexWithinLightIdList": 6,
           "componentLightId": 1,
           "type": 0,
           "typeName": "Event0",
@@ -87,7 +117,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 5,
+          "indexWithinLightIdList": 7,
           "componentLightId": 1,
           "type": 0,
           "typeName": "Event0",
@@ -102,7 +132,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 6,
+          "indexWithinLightIdList": 8,
           "componentLightId": 1,
           "type": 0,
           "typeName": "Event0",
@@ -117,7 +147,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 7,
+          "indexWithinLightIdList": 9,
           "componentLightId": 1,
           "type": 0,
           "typeName": "Event0",
@@ -132,7 +162,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 8,
+          "indexWithinLightIdList": 10,
           "componentLightId": 1,
           "type": 0,
           "typeName": "Event0",
@@ -147,7 +177,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 9,
+          "indexWithinLightIdList": 11,
           "componentLightId": 1,
           "type": 0,
           "typeName": "Event0",
@@ -162,7 +192,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 10,
+          "indexWithinLightIdList": 12,
           "componentLightId": 1,
           "type": 0,
           "typeName": "Event0",
@@ -177,7 +207,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 11,
+          "indexWithinLightIdList": 13,
           "componentLightId": 1,
           "type": 0,
           "typeName": "Event0",
@@ -192,7 +222,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 12,
+          "indexWithinLightIdList": 14,
           "componentLightId": 1,
           "type": 0,
           "typeName": "Event0",
@@ -207,7 +237,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 13,
+          "indexWithinLightIdList": 15,
           "componentLightId": 1,
           "type": 0,
           "typeName": "Event0",
@@ -222,7 +252,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 14,
+          "indexWithinLightIdList": 16,
           "componentLightId": 1,
           "type": 0,
           "typeName": "Event0",
@@ -237,7 +267,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 15,
+          "indexWithinLightIdList": 17,
           "componentLightId": 1,
           "type": 0,
           "typeName": "Event0",
@@ -252,7 +282,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 16,
+          "indexWithinLightIdList": 18,
           "componentLightId": 1,
           "type": 0,
           "typeName": "Event0",
@@ -267,42 +297,12 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 17,
+          "indexWithinLightIdList": 19,
           "componentLightId": 1,
           "type": 0,
           "typeName": "Event0",
           "relativeGameObjectPath": "[535]PairLaserTrackLaneRing(Clone).[5]RotatingLasersPair.[1]BaseR.[0]Laser",
           "gameObjectPath": "GameCore.[535]PairLaserTrackLaneRing(Clone).[5]RotatingLasersPair.[1]BaseR.[0]Laser",
-          "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "GameCore"
-        },
-        {
-          "indexWithinLightIdList": 18,
-          "componentLightId": 1,
-          "type": 0,
-          "typeName": "Event0",
-          "relativeGameObjectPath": "[536]PairLaserTrackLaneRing(Clone).[5]RotatingLasersPair.[0]BaseL.[0]Laser",
-          "gameObjectPath": "GameCore.[536]PairLaserTrackLaneRing(Clone).[5]RotatingLasersPair.[0]BaseL.[0]Laser",
-          "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "GameCore"
-        },
-        {
-          "indexWithinLightIdList": 19,
-          "componentLightId": 1,
-          "type": 0,
-          "typeName": "Event0",
-          "relativeGameObjectPath": "[536]PairLaserTrackLaneRing(Clone).[5]RotatingLasersPair.[1]BaseR.[0]Laser",
-          "gameObjectPath": "GameCore.[536]PairLaserTrackLaneRing(Clone).[5]RotatingLasersPair.[1]BaseR.[0]Laser",
           "componentType": "TubeBloomPrePassLightWithId",
           "localScale": {
             "x": 1.0,
@@ -323,6 +323,36 @@
           "componentLightId": 2,
           "type": 1,
           "typeName": "Event1",
+          "relativeGameObjectPath": "[526]PairLaserTrackLaneRing(Clone).[3]LaserLF",
+          "gameObjectPath": "GameCore.[526]PairLaserTrackLaneRing(Clone).[3]LaserLF",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "[526]PairLaserTrackLaneRing(Clone).[4]LaserRF",
+          "gameObjectPath": "GameCore.[526]PairLaserTrackLaneRing(Clone).[4]LaserRF",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
           "relativeGameObjectPath": "[527]PairLaserTrackLaneRing(Clone).[3]LaserLF",
           "gameObjectPath": "GameCore.[527]PairLaserTrackLaneRing(Clone).[3]LaserLF",
           "componentType": "TubeBloomPrePassLightWithId",
@@ -334,7 +364,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 1,
+          "indexWithinLightIdList": 3,
           "componentLightId": 2,
           "type": 1,
           "typeName": "Event1",
@@ -349,7 +379,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 2,
+          "indexWithinLightIdList": 4,
           "componentLightId": 2,
           "type": 1,
           "typeName": "Event1",
@@ -364,7 +394,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 3,
+          "indexWithinLightIdList": 5,
           "componentLightId": 2,
           "type": 1,
           "typeName": "Event1",
@@ -379,7 +409,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 4,
+          "indexWithinLightIdList": 6,
           "componentLightId": 2,
           "type": 1,
           "typeName": "Event1",
@@ -394,7 +424,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 5,
+          "indexWithinLightIdList": 7,
           "componentLightId": 2,
           "type": 1,
           "typeName": "Event1",
@@ -409,7 +439,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 6,
+          "indexWithinLightIdList": 8,
           "componentLightId": 2,
           "type": 1,
           "typeName": "Event1",
@@ -424,7 +454,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 7,
+          "indexWithinLightIdList": 9,
           "componentLightId": 2,
           "type": 1,
           "typeName": "Event1",
@@ -439,7 +469,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 8,
+          "indexWithinLightIdList": 10,
           "componentLightId": 2,
           "type": 1,
           "typeName": "Event1",
@@ -454,7 +484,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 9,
+          "indexWithinLightIdList": 11,
           "componentLightId": 2,
           "type": 1,
           "typeName": "Event1",
@@ -469,7 +499,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 10,
+          "indexWithinLightIdList": 12,
           "componentLightId": 2,
           "type": 1,
           "typeName": "Event1",
@@ -484,7 +514,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 11,
+          "indexWithinLightIdList": 13,
           "componentLightId": 2,
           "type": 1,
           "typeName": "Event1",
@@ -499,7 +529,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 12,
+          "indexWithinLightIdList": 14,
           "componentLightId": 2,
           "type": 1,
           "typeName": "Event1",
@@ -514,7 +544,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 13,
+          "indexWithinLightIdList": 15,
           "componentLightId": 2,
           "type": 1,
           "typeName": "Event1",
@@ -529,7 +559,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 14,
+          "indexWithinLightIdList": 16,
           "componentLightId": 2,
           "type": 1,
           "typeName": "Event1",
@@ -544,7 +574,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 15,
+          "indexWithinLightIdList": 17,
           "componentLightId": 2,
           "type": 1,
           "typeName": "Event1",
@@ -559,7 +589,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 16,
+          "indexWithinLightIdList": 18,
           "componentLightId": 2,
           "type": 1,
           "typeName": "Event1",
@@ -574,42 +604,12 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 17,
+          "indexWithinLightIdList": 19,
           "componentLightId": 2,
           "type": 1,
           "typeName": "Event1",
           "relativeGameObjectPath": "[535]PairLaserTrackLaneRing(Clone).[4]LaserRF",
           "gameObjectPath": "GameCore.[535]PairLaserTrackLaneRing(Clone).[4]LaserRF",
-          "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "GameCore"
-        },
-        {
-          "indexWithinLightIdList": 18,
-          "componentLightId": 2,
-          "type": 1,
-          "typeName": "Event1",
-          "relativeGameObjectPath": "[536]PairLaserTrackLaneRing(Clone).[3]LaserLF",
-          "gameObjectPath": "GameCore.[536]PairLaserTrackLaneRing(Clone).[3]LaserLF",
-          "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "GameCore"
-        },
-        {
-          "indexWithinLightIdList": 19,
-          "componentLightId": 2,
-          "type": 1,
-          "typeName": "Event1",
-          "relativeGameObjectPath": "[536]PairLaserTrackLaneRing(Clone).[4]LaserRF",
-          "gameObjectPath": "GameCore.[536]PairLaserTrackLaneRing(Clone).[4]LaserRF",
           "componentType": "TubeBloomPrePassLightWithId",
           "localScale": {
             "x": 1.0,
@@ -630,6 +630,21 @@
           "componentLightId": 3,
           "type": 2,
           "typeName": "Event2",
+          "relativeGameObjectPath": "[526]PairLaserTrackLaneRing(Clone).[1]LaserL",
+          "gameObjectPath": "GameCore.[526]PairLaserTrackLaneRing(Clone).[1]LaserL",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 3,
+          "type": 2,
+          "typeName": "Event2",
           "relativeGameObjectPath": "[527]PairLaserTrackLaneRing(Clone).[1]LaserL",
           "gameObjectPath": "GameCore.[527]PairLaserTrackLaneRing(Clone).[1]LaserL",
           "componentType": "TubeBloomPrePassLightWithId",
@@ -641,7 +656,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 1,
+          "indexWithinLightIdList": 2,
           "componentLightId": 3,
           "type": 2,
           "typeName": "Event2",
@@ -656,7 +671,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 2,
+          "indexWithinLightIdList": 3,
           "componentLightId": 3,
           "type": 2,
           "typeName": "Event2",
@@ -671,7 +686,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 3,
+          "indexWithinLightIdList": 4,
           "componentLightId": 3,
           "type": 2,
           "typeName": "Event2",
@@ -686,7 +701,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 4,
+          "indexWithinLightIdList": 5,
           "componentLightId": 3,
           "type": 2,
           "typeName": "Event2",
@@ -701,7 +716,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 5,
+          "indexWithinLightIdList": 6,
           "componentLightId": 3,
           "type": 2,
           "typeName": "Event2",
@@ -716,7 +731,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 6,
+          "indexWithinLightIdList": 7,
           "componentLightId": 3,
           "type": 2,
           "typeName": "Event2",
@@ -731,7 +746,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 7,
+          "indexWithinLightIdList": 8,
           "componentLightId": 3,
           "type": 2,
           "typeName": "Event2",
@@ -746,27 +761,12 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 8,
+          "indexWithinLightIdList": 9,
           "componentLightId": 3,
           "type": 2,
           "typeName": "Event2",
           "relativeGameObjectPath": "[535]PairLaserTrackLaneRing(Clone).[1]LaserL",
           "gameObjectPath": "GameCore.[535]PairLaserTrackLaneRing(Clone).[1]LaserL",
-          "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "GameCore"
-        },
-        {
-          "indexWithinLightIdList": 9,
-          "componentLightId": 3,
-          "type": 2,
-          "typeName": "Event2",
-          "relativeGameObjectPath": "[536]PairLaserTrackLaneRing(Clone).[1]LaserL",
-          "gameObjectPath": "GameCore.[536]PairLaserTrackLaneRing(Clone).[1]LaserL",
           "componentType": "TubeBloomPrePassLightWithId",
           "localScale": {
             "x": 1.0,
@@ -787,6 +787,21 @@
           "componentLightId": 4,
           "type": 3,
           "typeName": "Event3",
+          "relativeGameObjectPath": "GameCore.[526]PairLaserTrackLaneRing(Clone).[2]LaserR",
+          "gameObjectPath": "GameCore.[526]PairLaserTrackLaneRing(Clone).[2]LaserR",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 4,
+          "type": 3,
+          "typeName": "Event3",
           "relativeGameObjectPath": "GameCore.[527]PairLaserTrackLaneRing(Clone).[2]LaserR",
           "gameObjectPath": "GameCore.[527]PairLaserTrackLaneRing(Clone).[2]LaserR",
           "componentType": "TubeBloomPrePassLightWithId",
@@ -798,7 +813,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 1,
+          "indexWithinLightIdList": 2,
           "componentLightId": 4,
           "type": 3,
           "typeName": "Event3",
@@ -813,7 +828,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 2,
+          "indexWithinLightIdList": 3,
           "componentLightId": 4,
           "type": 3,
           "typeName": "Event3",
@@ -828,7 +843,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 3,
+          "indexWithinLightIdList": 4,
           "componentLightId": 4,
           "type": 3,
           "typeName": "Event3",
@@ -843,7 +858,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 4,
+          "indexWithinLightIdList": 5,
           "componentLightId": 4,
           "type": 3,
           "typeName": "Event3",
@@ -858,7 +873,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 5,
+          "indexWithinLightIdList": 6,
           "componentLightId": 4,
           "type": 3,
           "typeName": "Event3",
@@ -873,7 +888,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 6,
+          "indexWithinLightIdList": 7,
           "componentLightId": 4,
           "type": 3,
           "typeName": "Event3",
@@ -888,7 +903,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 7,
+          "indexWithinLightIdList": 8,
           "componentLightId": 4,
           "type": 3,
           "typeName": "Event3",
@@ -903,27 +918,12 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 8,
+          "indexWithinLightIdList": 9,
           "componentLightId": 4,
           "type": 3,
           "typeName": "Event3",
           "relativeGameObjectPath": "GameCore.[535]PairLaserTrackLaneRing(Clone).[2]LaserR",
           "gameObjectPath": "GameCore.[535]PairLaserTrackLaneRing(Clone).[2]LaserR",
-          "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "GameCore"
-        },
-        {
-          "indexWithinLightIdList": 9,
-          "componentLightId": 4,
-          "type": 3,
-          "typeName": "Event3",
-          "relativeGameObjectPath": "GameCore.[536]PairLaserTrackLaneRing(Clone).[2]LaserR",
-          "gameObjectPath": "GameCore.[536]PairLaserTrackLaneRing(Clone).[2]LaserR",
           "componentType": "TubeBloomPrePassLightWithId",
           "localScale": {
             "x": 1.0,

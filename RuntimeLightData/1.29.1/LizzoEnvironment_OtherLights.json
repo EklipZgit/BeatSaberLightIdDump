@@ -1,5 +1,5 @@
 {
-  "formatVersion": 4,
+  "formatVersion": 5,
   "environmentName": "LizzoEnvironment",
   "gameVersion": "1.29.1_4575554838",
   "lightManagerPath": "LizzoEnvironment.[0]Environment.[1]LightWithIdManager",

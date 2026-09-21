@@ -6,6 +6,11 @@ Builds LightIdDumper, generates a clean donor map from the first custom song, ba
 .PARAMETER Version
 One or more supported game versions. All installed supported versions run when omitted.
 
+.PARAMETER Environment
+Dumps only this one catalog entry instead of the whole catalog. The controller receives the filter argument and
+exits after that single environment, so each run resolves dynamically-spawned GameCore roots (ring clones) in a
+fresh process; only the named environment's paired captures are replaced in RuntimeLightData.
+
 .PARAMETER OutputPath
 Final RuntimeLightData root. Defaults to RuntimeLightData inside this repository.
 
@@ -18,6 +23,9 @@ Also compares captured lights with the Heck/Chroma and ChroMapper mapping datase
 param(
     [ValidateSet("1.29.1", "1.34.2", "1.37.1", "1.40.8", "1.42.1", "1.44.1", "1.44.2")]
     [string[]]$Version,
+
+    [ValidateNotNullOrEmpty()]
+    [string]$Environment,
 
     [string]$OutputPath,
 
@@ -44,18 +52,25 @@ $FinalOutputRoot = if ([string]::IsNullOrWhiteSpace($OutputPath)) {
 else {
     [System.IO.Path]::GetFullPath($OutputPath)
 }
-$ExpectedDumpFormatVersion = 4
+$ExpectedDumpFormatVersion = 5
 $RunFailures = [System.Collections.Generic.List[string]]::new()
 $GeneratedDonorDirectories = [System.Collections.Generic.List[object]]::new()
 
-# A generated vanilla map preserves the first installed custom song while removing its notes, events, requirements, and environment edits.
+# A generated donor map preserves the first installed custom song's audio while replacing its content with one empty
+# difficulty that declares Chroma and Noodle Extensions requirements (on modern, fully modded installs), so automated
+# level launches load through the same modded beatmap-data pipeline as the real Chroma/Noodle maps whose GameCore
+# root ordering must be captured. Legacy installs (pre-1.37.1 Harmony/SiraUtil stacks) and installs without both mods
+# keep a requirements-free donor because the requirements either cannot be satisfied or activate fragile legacy
+# patch chains (the combined BeatmapObjectSpawnController.Start patching corrupted the dynamic method on 1.29.1).
 function New-LightIdDumperGeneratedDonorMap {
     param(
         [Parameter(Mandatory)]
         [string]$GameDirectory,
 
         [Parameter(Mandatory)]
-        [string]$GameVersion
+        [string]$GameVersion,
+
+        [bool]$CarryRequirements
     )
 
     $customLevelsRoot = Join-Path $GameDirectory "Beat Saber_Data\CustomLevels"
@@ -128,6 +143,24 @@ function New-LightIdDumperGeneratedDonorMap {
     }
     $generatedBeatmap | ConvertTo-Json -Depth 20 | Set-Content -LiteralPath (Join-Path $generatedDirectory "LightIdDumper.dat") -Encoding utf8
 
+    # An omitted _requirements key is the original working donor shape; an empty array would serialize as null
+    # through the empty-pipeline behavior and break legacy StandardLevelInfoSaveData deserialization.
+    $generatedDifficulty = [ordered]@{
+        _difficulty = "Easy"
+        _difficultyRank = 1
+        _beatmapFilename = "LightIdDumper.dat"
+        _noteJumpMovementSpeed = 10
+        _noteJumpStartBeatOffset = 0
+    }
+    if ($CarryRequirements) {
+        # Real Chroma/Noodle maps load through the modded pipeline whose GameCore root ordering this dumper must
+        # reproduce; declaring the requirements makes the donor take that same load path while the empty beatmap
+        # keeps the captured environment unmodified.
+        $generatedDifficulty["_customData"] = [ordered]@{
+            _requirements = @("Chroma", "Noodle Extensions")
+        }
+    }
+
     $generatedInfo = [ordered]@{
         _version = "2.1.0"
         _songName = "LightIdDumper - " + [string]($sourceInfo._songName ?? $sourceInfo.songName ?? $sourceMap.Name)
@@ -147,15 +180,7 @@ function New-LightIdDumperGeneratedDonorMap {
         _difficultyBeatmapSets = @(
             [ordered]@{
                 _beatmapCharacteristicName = "Standard"
-                _difficultyBeatmaps = @(
-                    [ordered]@{
-                        _difficulty = "Easy"
-                        _difficultyRank = 1
-                        _beatmapFilename = "LightIdDumper.dat"
-                        _noteJumpMovementSpeed = 10
-                        _noteJumpStartBeatOffset = 0
-                    }
-                )
+                _difficultyBeatmaps = @($generatedDifficulty)
             }
         )
     }
@@ -475,13 +500,23 @@ try {
         }
 
         # The generated map is present before process start so SongCore indexes one clean donor that reuses the first installed custom song.
-        $generatedDonor = New-LightIdDumperGeneratedDonorMap -GameDirectory $gameDirectory -GameVersion $gameVersion
+        # Requirements ride along only on modern (1.37.1+) installs with both mods actually installed; legacy or
+        # partially modded installs keep a vanilla donor because the requirements are unsatisfiable or fragile there.
+        $pluginsDirectory = Join-Path $gameDirectory "Plugins"
+        $hasChroma = Test-Path -LiteralPath (Join-Path $pluginsDirectory "Chroma.dll") -PathType Leaf
+        $hasNoodleExtensions = Test-Path -LiteralPath (Join-Path $pluginsDirectory "NoodleExtensions.dll") -PathType Leaf
+        $carryRequirements = ([version]$gameVersion -ge [version]"1.37.1") -and $hasChroma -and $hasNoodleExtensions
+        $generatedDonor = New-LightIdDumperGeneratedDonorMap -GameDirectory $gameDirectory -GameVersion $gameVersion -CarryRequirements $carryRequirements
         $GeneratedDonorDirectories.Add($generatedDonor)
 
         $startedAtUtc = [datetime]::UtcNow
         Write-Host "Starting Beat Saber [$gameVersion] in FPFC dump-all mode..." -ForegroundColor Cyan
         # BSManager's Oculus+FPFC launch uses this argument prefix; the dump flag is the only argument added by this runner.
         $launchArguments = @("--no-yeet", "-vrmode", "oculus", "fpfc", "--dump-all-light-ids")
+        if (-not [string]::IsNullOrWhiteSpace($Environment)) {
+            # A fresh process per targeted run keeps dynamically-spawned GameCore roots at their first-play indices.
+            $launchArguments += "--dump-light-ids-environment=$Environment"
+        }
         $printedCommand = '"{0}" {1}' -f $gameExecutable, ($launchArguments -join ' ')
         Write-Host "Command: $printedCommand" -ForegroundColor DarkCyan
 
@@ -509,7 +544,9 @@ try {
             throw "Beat Saber [$gameVersion] process creation returned no process."
         }
 
-        # Polling the exact executable path survives a short-lived bootstrap PID and waits five quiet seconds after the real game exits.
+        # Polling the exact executable path survives a short-lived bootstrap PID; the settle delay outlasts Steam's
+        # app-instance lock so the next per-version launch does not race Steam into "already running" errors.
+        $processExitSettleSeconds = 15
         $deadlineUtc = $startedAtUtc.AddMinutes($TimeoutMinutes)
         $lastGameProcessSeenUtc = [datetime]::UtcNow
         do {
@@ -517,7 +554,7 @@ try {
             if ($matchingGameProcesses.Count -gt 0) {
                 $lastGameProcessSeenUtc = [datetime]::UtcNow
             }
-            elseif (([datetime]::UtcNow - $lastGameProcessSeenUtc).TotalSeconds -ge 5) {
+            elseif (([datetime]::UtcNow - $lastGameProcessSeenUtc).TotalSeconds -ge $processExitSettleSeconds) {
                 break
             }
 
@@ -570,9 +607,25 @@ try {
 
         New-Item -ItemType Directory -Path $versionOutputDirectory -Force | Out-Null
         # Remove prior captures and legacy archived status manifests in this exact version directory so neither removed environments nor transient runner state survive.
-        Get-ChildItem -LiteralPath $versionOutputDirectory -File -ErrorAction SilentlyContinue |
-            Where-Object { $_.Name -eq "_dump-all-status.json" -or $_.Name -like "*Environment_BehaviorLights.json" -or $_.Name -like "*Environment_OtherLights.json" } |
-            Remove-Item -Force
+        $staleOutputFiles = @(Get-ChildItem -LiteralPath $versionOutputDirectory -File -ErrorAction SilentlyContinue |
+            Where-Object { $_.Name -eq "_dump-all-status.json" -or $_.Name -like "*Environment_BehaviorLights.json" -or $_.Name -like "*Environment_OtherLights.json" })
+        if (-not [string]::IsNullOrWhiteSpace($Environment)) {
+            # A targeted run replaces only the named environment's captures; the rest of the version directory must survive.
+            $staleOutputFiles = @($staleOutputFiles | Where-Object {
+                if ($_.Name -eq "_dump-all-status.json") {
+                    return $true
+                }
+
+                foreach ($completedEnvironmentName in $completedEnvironmentNames) {
+                    if ($_.Name -like "$completedEnvironmentName`_*Lights.json") {
+                        return $true
+                    }
+                }
+
+                return $false
+            })
+        }
+        $staleOutputFiles | Remove-Item -Force
         foreach ($environmentResult in $environmentResults) {
             if (-not $environmentResult.succeeded) {
                 throw "Beat Saber [$gameVersion] environment [$($environmentResult.environmentName)] failed: $($environmentResult.error)"

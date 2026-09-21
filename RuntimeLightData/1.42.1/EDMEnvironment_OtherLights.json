@@ -1,5 +1,5 @@
 {
-  "formatVersion": 4,
+  "formatVersion": 5,
   "environmentName": "EDMEnvironment",
   "gameVersion": "1.42.1_13508",
   "lightManagerPath": "EDMEnvironment.[0]Environment.[12]LightWithIdManager",

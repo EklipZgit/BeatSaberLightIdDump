@@ -19,8 +19,16 @@ namespace LightIdDumper
     internal sealed class DumpAllEnvironmentsController : MonoBehaviour
     {
         internal const string CommandLineArgument = "--dump-all-light-ids";
+
+        // A single-environment filter dumps exactly one catalog entry and exits, so a fresh game process can
+        // capture canonical first-play state: the gameplay pools are created lazily during
+        // BeatmapObjectSpawnController.Start, so the first level of a process resolves dynamically-spawned
+        // GameCore roots (ring clones) at their unshifted indices while later batch levels inherit the previous
+        // level's pooled GameCore roots (Timbaland rings at [513..522] instead of Chroma's in-game [1..10]).
+        internal const string EnvironmentFilterArgument = "--dump-light-ids-environment";
         internal const int DumpTimeoutSeconds = 90;
         private static DumpAllEnvironmentsController? _instance;
+        private static string? _environmentFilter;
         private readonly DumpAllRunStatus _status = new();
         private LightDumpCompletion? _pendingCompletion;
         private string? _waitingForEnvironment;
@@ -34,6 +42,21 @@ namespace LightIdDumper
             if (!requested || _instance != null)
             {
                 return;
+            }
+
+            string[] arguments = Environment.GetCommandLineArgs();
+            for (int argumentIndex = 0; argumentIndex < arguments.Length; argumentIndex++)
+            {
+                string argument = arguments[argumentIndex];
+                if (argument.StartsWith(EnvironmentFilterArgument + "=", StringComparison.OrdinalIgnoreCase))
+                {
+                    _environmentFilter = argument.Substring(EnvironmentFilterArgument.Length + 1);
+                }
+                else if (string.Equals(argument, EnvironmentFilterArgument, StringComparison.OrdinalIgnoreCase)
+                    && argumentIndex + 1 < arguments.Length)
+                {
+                    _environmentFilter = arguments[argumentIndex + 1];
+                }
             }
 
             var controllerObject = new GameObject("LightIdDumper.DumpAllEnvironmentsController");
@@ -161,7 +184,23 @@ namespace LightIdDumper
                     donor.IsLegacy,
                     entry.EnvironmentInfo))
                 .ToList();
-            _status.ExpectedEnvironmentNames = environmentCatalog.Select(entry => entry.EnvironmentName).ToList();
+
+            // A single-environment launch runs in a fresh process so dynamically-spawned GameCore roots resolve at
+            // their canonical first-play indices; see EnvironmentFilterArgument for why batch levels cannot.
+            if (_environmentFilter != null)
+            {
+                candidates = candidates
+                    .Where(candidate => string.Equals(candidate.EnvironmentName, _environmentFilter, StringComparison.Ordinal))
+                    .ToList();
+                if (candidates.Count == 0)
+                {
+                    FinishWithFatalError(
+                        $"Environment filter [{_environmentFilter}] matched no entry in Beat Saber's standard environment catalog.");
+                    yield break;
+                }
+            }
+
+            _status.ExpectedEnvironmentNames = candidates.Select(candidate => candidate.EnvironmentName).ToList();
             WriteStatus();
             Plugin.Log.Info($"Dump-all mode generated [{candidates.Count}] environment launches from donor map [{donor.MapDirectory}] for Beat Saber [{Application.version}].");
 
@@ -325,7 +364,11 @@ namespace LightIdDumper
                 }
 
                 // A modded donor could replace the environment before capture; skip it and choose the next deterministic map directory.
-                if (IsChromaOrVivifyMap(mapDirectory!))
+                // The runner's generated donor is exempt: it intentionally declares Chroma and Noodle Extensions
+                // requirements so the level loads through the same modded pipeline as the maps whose in-game
+                // GameCore root ordering this dumper must reproduce, while its empty beatmap modifies nothing.
+                if (IsChromaOrVivifyMap(mapDirectory!)
+                    && !IsGeneratedDonorDirectory(mapDirectory!))
                 {
                     Plugin.Log.Info($"Dump-all mode skipped Chroma/Vivify donor candidate [{mapDirectory}].");
                     continue;
@@ -411,6 +454,14 @@ namespace LightIdDumper
             }
 
             return null;
+        }
+
+        // The runner's generated donor directories carry this prefix and intentionally declare Chroma and Noodle
+        // Extensions requirements (see DumpAllLightIds.ps1); every other Chroma/Vivify map is still skipped.
+        private bool IsGeneratedDonorDirectory(string mapDirectory)
+        {
+            string leafName = Path.GetFileName(mapDirectory.TrimEnd(Path.DirectorySeparatorChar, Path.AltDirectorySeparatorChar));
+            return leafName.StartsWith("000_LightIdDumperGenerated-", StringComparison.OrdinalIgnoreCase);
         }
 
         // Chroma/Vivify requirements or suggestions are rejected so automated captures always enter an unmodified stock environment with a vanilla lightshow path.

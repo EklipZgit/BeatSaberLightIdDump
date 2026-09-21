@@ -39,3 +39,28 @@ function Get-LightIdDumperInstalledVersions {
 
     return $installedVersions
 }
+
+function Remove-StaleLightIdDumperPendingPlugin {
+    param(
+        [Parameter(Mandatory)]
+        [string]$GameDirectory
+    )
+
+    $livePath = Join-Path $GameDirectory "Plugins\LightIdDumper.dll"
+    $pendingPath = Join-Path $GameDirectory "IPA\Pending\Plugins\LightIdDumper.dll"
+    if (-not (Test-Path -LiteralPath $livePath -PathType Leaf) -or
+        -not (Test-Path -LiteralPath $pendingPath -PathType Leaf)) {
+        return
+    }
+
+    $liveFile = Get-Item -LiteralPath $livePath
+    $pendingFile = Get-Item -LiteralPath $pendingPath
+
+    # A later direct deployment must win over an older queued BSIPA deployment on the next game launch.
+    if ($pendingFile.LastWriteTimeUtc -lt $liveFile.LastWriteTimeUtc) {
+        Remove-Item -LiteralPath $pendingFile.FullName -Force
+        Write-Host "Removed stale BSIPA pending plugin: $($pendingFile.FullName)" -ForegroundColor Yellow
+        Write-Host "  Pending UTC: $($pendingFile.LastWriteTimeUtc.ToString('O'))" -ForegroundColor DarkYellow
+        Write-Host "  Live UTC   : $($liveFile.LastWriteTimeUtc.ToString('O'))" -ForegroundColor DarkYellow
+    }
+}

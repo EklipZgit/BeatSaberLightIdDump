@@ -1,5 +1,5 @@
 {
-  "formatVersion": 4,
+  "formatVersion": 5,
   "environmentName": "LinkinPark2Environment",
   "gameVersion": "1.44.2_21558",
   "lightManagerPath": "LinkinPark2Environment.[0]Environment.[6]LightWithIdManager",

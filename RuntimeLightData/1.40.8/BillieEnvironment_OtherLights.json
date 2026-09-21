@@ -1,5 +1,5 @@
 {
-  "formatVersion": 4,
+  "formatVersion": 5,
   "environmentName": "BillieEnvironment",
   "gameVersion": "1.40.8_7379",
   "lightManagerPath": "BillieEnvironment.[0]Environment.[9]LightWithIdManager",

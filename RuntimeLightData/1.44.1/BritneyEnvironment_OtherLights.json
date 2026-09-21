@@ -1,5 +1,5 @@
 {
-  "formatVersion": 4,
+  "formatVersion": 5,
   "environmentName": "BritneyEnvironment",
   "gameVersion": "1.44.1_20239",
   "lightManagerPath": "BritneyEnvironment.[0]Environment.[3]LightWithIdManager",

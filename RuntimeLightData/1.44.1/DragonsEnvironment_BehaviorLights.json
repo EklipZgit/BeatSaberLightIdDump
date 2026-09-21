@@ -1,5 +1,5 @@
 {
-  "formatVersion": 4,
+  "formatVersion": 5,
   "environmentName": "DragonsEnvironment",
   "gameVersion": "1.44.1_20239",
   "lightManagerPath": "DragonsEnvironment.[0]Environment.[22]LightWithIdManager",
@@ -49,907 +49,7 @@
       "registeredLightCount": 62,
       "registeredLights": [
         {
-          "indexWithinLightIdList": 0,
-          "componentLightId": 2,
-          "type": 1,
-          "typeName": "Event1",
-          "relativeGameObjectPath": "GameCore.[543]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional",
-          "gameObjectPath": "GameCore.[543]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional",
-          "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "GameCore"
-        },
-        {
-          "indexWithinLightIdList": 1,
-          "componentLightId": 2,
-          "type": 1,
-          "typeName": "Event1",
-          "relativeGameObjectPath": "GameCore.[543]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1)",
-          "gameObjectPath": "GameCore.[543]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1)",
-          "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "GameCore"
-        },
-        {
-          "indexWithinLightIdList": 2,
-          "componentLightId": 2,
-          "type": 1,
-          "typeName": "Event1",
-          "relativeGameObjectPath": "GameCore.[543]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2)",
-          "gameObjectPath": "GameCore.[543]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2)",
-          "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "GameCore"
-        },
-        {
-          "indexWithinLightIdList": 3,
-          "componentLightId": 2,
-          "type": 1,
-          "typeName": "Event1",
-          "relativeGameObjectPath": "GameCore.[543]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3)",
-          "gameObjectPath": "GameCore.[543]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3)",
-          "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "GameCore"
-        },
-        {
           "indexWithinLightIdList": 4,
-          "componentLightId": 2,
-          "type": 1,
-          "typeName": "Event1",
-          "relativeGameObjectPath": "GameCore.[544]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional",
-          "gameObjectPath": "GameCore.[544]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional",
-          "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "GameCore"
-        },
-        {
-          "indexWithinLightIdList": 5,
-          "componentLightId": 2,
-          "type": 1,
-          "typeName": "Event1",
-          "relativeGameObjectPath": "GameCore.[544]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1)",
-          "gameObjectPath": "GameCore.[544]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1)",
-          "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "GameCore"
-        },
-        {
-          "indexWithinLightIdList": 6,
-          "componentLightId": 2,
-          "type": 1,
-          "typeName": "Event1",
-          "relativeGameObjectPath": "GameCore.[544]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2)",
-          "gameObjectPath": "GameCore.[544]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2)",
-          "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "GameCore"
-        },
-        {
-          "indexWithinLightIdList": 7,
-          "componentLightId": 2,
-          "type": 1,
-          "typeName": "Event1",
-          "relativeGameObjectPath": "GameCore.[544]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3)",
-          "gameObjectPath": "GameCore.[544]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3)",
-          "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "GameCore"
-        },
-        {
-          "indexWithinLightIdList": 8,
-          "componentLightId": 2,
-          "type": 1,
-          "typeName": "Event1",
-          "relativeGameObjectPath": "GameCore.[545]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional",
-          "gameObjectPath": "GameCore.[545]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional",
-          "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "GameCore"
-        },
-        {
-          "indexWithinLightIdList": 9,
-          "componentLightId": 2,
-          "type": 1,
-          "typeName": "Event1",
-          "relativeGameObjectPath": "GameCore.[545]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1)",
-          "gameObjectPath": "GameCore.[545]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1)",
-          "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "GameCore"
-        },
-        {
-          "indexWithinLightIdList": 10,
-          "componentLightId": 2,
-          "type": 1,
-          "typeName": "Event1",
-          "relativeGameObjectPath": "GameCore.[545]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2)",
-          "gameObjectPath": "GameCore.[545]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2)",
-          "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "GameCore"
-        },
-        {
-          "indexWithinLightIdList": 11,
-          "componentLightId": 2,
-          "type": 1,
-          "typeName": "Event1",
-          "relativeGameObjectPath": "GameCore.[545]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3)",
-          "gameObjectPath": "GameCore.[545]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3)",
-          "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "GameCore"
-        },
-        {
-          "indexWithinLightIdList": 12,
-          "componentLightId": 2,
-          "type": 1,
-          "typeName": "Event1",
-          "relativeGameObjectPath": "GameCore.[546]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional",
-          "gameObjectPath": "GameCore.[546]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional",
-          "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "GameCore"
-        },
-        {
-          "indexWithinLightIdList": 13,
-          "componentLightId": 2,
-          "type": 1,
-          "typeName": "Event1",
-          "relativeGameObjectPath": "GameCore.[546]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1)",
-          "gameObjectPath": "GameCore.[546]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1)",
-          "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "GameCore"
-        },
-        {
-          "indexWithinLightIdList": 14,
-          "componentLightId": 2,
-          "type": 1,
-          "typeName": "Event1",
-          "relativeGameObjectPath": "GameCore.[546]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2)",
-          "gameObjectPath": "GameCore.[546]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2)",
-          "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "GameCore"
-        },
-        {
-          "indexWithinLightIdList": 15,
-          "componentLightId": 2,
-          "type": 1,
-          "typeName": "Event1",
-          "relativeGameObjectPath": "GameCore.[546]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3)",
-          "gameObjectPath": "GameCore.[546]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3)",
-          "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "GameCore"
-        },
-        {
-          "indexWithinLightIdList": 16,
-          "componentLightId": 2,
-          "type": 1,
-          "typeName": "Event1",
-          "relativeGameObjectPath": "GameCore.[547]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional",
-          "gameObjectPath": "GameCore.[547]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional",
-          "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "GameCore"
-        },
-        {
-          "indexWithinLightIdList": 17,
-          "componentLightId": 2,
-          "type": 1,
-          "typeName": "Event1",
-          "relativeGameObjectPath": "GameCore.[547]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1)",
-          "gameObjectPath": "GameCore.[547]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1)",
-          "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "GameCore"
-        },
-        {
-          "indexWithinLightIdList": 18,
-          "componentLightId": 2,
-          "type": 1,
-          "typeName": "Event1",
-          "relativeGameObjectPath": "GameCore.[547]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2)",
-          "gameObjectPath": "GameCore.[547]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2)",
-          "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "GameCore"
-        },
-        {
-          "indexWithinLightIdList": 19,
-          "componentLightId": 2,
-          "type": 1,
-          "typeName": "Event1",
-          "relativeGameObjectPath": "GameCore.[547]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3)",
-          "gameObjectPath": "GameCore.[547]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3)",
-          "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "GameCore"
-        },
-        {
-          "indexWithinLightIdList": 20,
-          "componentLightId": 2,
-          "type": 1,
-          "typeName": "Event1",
-          "relativeGameObjectPath": "GameCore.[548]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional",
-          "gameObjectPath": "GameCore.[548]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional",
-          "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "GameCore"
-        },
-        {
-          "indexWithinLightIdList": 21,
-          "componentLightId": 2,
-          "type": 1,
-          "typeName": "Event1",
-          "relativeGameObjectPath": "GameCore.[548]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1)",
-          "gameObjectPath": "GameCore.[548]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1)",
-          "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "GameCore"
-        },
-        {
-          "indexWithinLightIdList": 22,
-          "componentLightId": 2,
-          "type": 1,
-          "typeName": "Event1",
-          "relativeGameObjectPath": "GameCore.[548]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2)",
-          "gameObjectPath": "GameCore.[548]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2)",
-          "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "GameCore"
-        },
-        {
-          "indexWithinLightIdList": 23,
-          "componentLightId": 2,
-          "type": 1,
-          "typeName": "Event1",
-          "relativeGameObjectPath": "GameCore.[548]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3)",
-          "gameObjectPath": "GameCore.[548]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3)",
-          "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "GameCore"
-        },
-        {
-          "indexWithinLightIdList": 24,
-          "componentLightId": 2,
-          "type": 1,
-          "typeName": "Event1",
-          "relativeGameObjectPath": "GameCore.[549]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional",
-          "gameObjectPath": "GameCore.[549]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional",
-          "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "GameCore"
-        },
-        {
-          "indexWithinLightIdList": 25,
-          "componentLightId": 2,
-          "type": 1,
-          "typeName": "Event1",
-          "relativeGameObjectPath": "GameCore.[549]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1)",
-          "gameObjectPath": "GameCore.[549]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1)",
-          "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "GameCore"
-        },
-        {
-          "indexWithinLightIdList": 26,
-          "componentLightId": 2,
-          "type": 1,
-          "typeName": "Event1",
-          "relativeGameObjectPath": "GameCore.[549]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2)",
-          "gameObjectPath": "GameCore.[549]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2)",
-          "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "GameCore"
-        },
-        {
-          "indexWithinLightIdList": 27,
-          "componentLightId": 2,
-          "type": 1,
-          "typeName": "Event1",
-          "relativeGameObjectPath": "GameCore.[549]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3)",
-          "gameObjectPath": "GameCore.[549]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3)",
-          "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "GameCore"
-        },
-        {
-          "indexWithinLightIdList": 28,
-          "componentLightId": 2,
-          "type": 1,
-          "typeName": "Event1",
-          "relativeGameObjectPath": "GameCore.[550]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional",
-          "gameObjectPath": "GameCore.[550]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional",
-          "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "GameCore"
-        },
-        {
-          "indexWithinLightIdList": 29,
-          "componentLightId": 2,
-          "type": 1,
-          "typeName": "Event1",
-          "relativeGameObjectPath": "GameCore.[550]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1)",
-          "gameObjectPath": "GameCore.[550]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1)",
-          "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "GameCore"
-        },
-        {
-          "indexWithinLightIdList": 30,
-          "componentLightId": 2,
-          "type": 1,
-          "typeName": "Event1",
-          "relativeGameObjectPath": "GameCore.[550]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2)",
-          "gameObjectPath": "GameCore.[550]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2)",
-          "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "GameCore"
-        },
-        {
-          "indexWithinLightIdList": 31,
-          "componentLightId": 2,
-          "type": 1,
-          "typeName": "Event1",
-          "relativeGameObjectPath": "GameCore.[550]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3)",
-          "gameObjectPath": "GameCore.[550]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3)",
-          "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "GameCore"
-        },
-        {
-          "indexWithinLightIdList": 32,
-          "componentLightId": 2,
-          "type": 1,
-          "typeName": "Event1",
-          "relativeGameObjectPath": "GameCore.[551]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional",
-          "gameObjectPath": "GameCore.[551]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional",
-          "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "GameCore"
-        },
-        {
-          "indexWithinLightIdList": 33,
-          "componentLightId": 2,
-          "type": 1,
-          "typeName": "Event1",
-          "relativeGameObjectPath": "GameCore.[551]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1)",
-          "gameObjectPath": "GameCore.[551]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1)",
-          "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "GameCore"
-        },
-        {
-          "indexWithinLightIdList": 34,
-          "componentLightId": 2,
-          "type": 1,
-          "typeName": "Event1",
-          "relativeGameObjectPath": "GameCore.[551]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2)",
-          "gameObjectPath": "GameCore.[551]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2)",
-          "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "GameCore"
-        },
-        {
-          "indexWithinLightIdList": 35,
-          "componentLightId": 2,
-          "type": 1,
-          "typeName": "Event1",
-          "relativeGameObjectPath": "GameCore.[551]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3)",
-          "gameObjectPath": "GameCore.[551]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3)",
-          "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "GameCore"
-        },
-        {
-          "indexWithinLightIdList": 36,
-          "componentLightId": 2,
-          "type": 1,
-          "typeName": "Event1",
-          "relativeGameObjectPath": "GameCore.[552]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional",
-          "gameObjectPath": "GameCore.[552]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional",
-          "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "GameCore"
-        },
-        {
-          "indexWithinLightIdList": 37,
-          "componentLightId": 2,
-          "type": 1,
-          "typeName": "Event1",
-          "relativeGameObjectPath": "GameCore.[552]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1)",
-          "gameObjectPath": "GameCore.[552]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1)",
-          "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "GameCore"
-        },
-        {
-          "indexWithinLightIdList": 38,
-          "componentLightId": 2,
-          "type": 1,
-          "typeName": "Event1",
-          "relativeGameObjectPath": "GameCore.[552]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2)",
-          "gameObjectPath": "GameCore.[552]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2)",
-          "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "GameCore"
-        },
-        {
-          "indexWithinLightIdList": 39,
-          "componentLightId": 2,
-          "type": 1,
-          "typeName": "Event1",
-          "relativeGameObjectPath": "GameCore.[552]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3)",
-          "gameObjectPath": "GameCore.[552]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3)",
-          "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "GameCore"
-        },
-        {
-          "indexWithinLightIdList": 40,
-          "componentLightId": 2,
-          "type": 1,
-          "typeName": "Event1",
-          "relativeGameObjectPath": "GameCore.[553]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional",
-          "gameObjectPath": "GameCore.[553]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional",
-          "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "GameCore"
-        },
-        {
-          "indexWithinLightIdList": 41,
-          "componentLightId": 2,
-          "type": 1,
-          "typeName": "Event1",
-          "relativeGameObjectPath": "GameCore.[553]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1)",
-          "gameObjectPath": "GameCore.[553]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1)",
-          "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "GameCore"
-        },
-        {
-          "indexWithinLightIdList": 42,
-          "componentLightId": 2,
-          "type": 1,
-          "typeName": "Event1",
-          "relativeGameObjectPath": "GameCore.[553]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2)",
-          "gameObjectPath": "GameCore.[553]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2)",
-          "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "GameCore"
-        },
-        {
-          "indexWithinLightIdList": 43,
-          "componentLightId": 2,
-          "type": 1,
-          "typeName": "Event1",
-          "relativeGameObjectPath": "GameCore.[553]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3)",
-          "gameObjectPath": "GameCore.[553]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3)",
-          "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "GameCore"
-        },
-        {
-          "indexWithinLightIdList": 44,
-          "componentLightId": 2,
-          "type": 1,
-          "typeName": "Event1",
-          "relativeGameObjectPath": "GameCore.[554]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional",
-          "gameObjectPath": "GameCore.[554]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional",
-          "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "GameCore"
-        },
-        {
-          "indexWithinLightIdList": 45,
-          "componentLightId": 2,
-          "type": 1,
-          "typeName": "Event1",
-          "relativeGameObjectPath": "GameCore.[554]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1)",
-          "gameObjectPath": "GameCore.[554]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1)",
-          "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "GameCore"
-        },
-        {
-          "indexWithinLightIdList": 46,
-          "componentLightId": 2,
-          "type": 1,
-          "typeName": "Event1",
-          "relativeGameObjectPath": "GameCore.[554]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2)",
-          "gameObjectPath": "GameCore.[554]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2)",
-          "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "GameCore"
-        },
-        {
-          "indexWithinLightIdList": 47,
-          "componentLightId": 2,
-          "type": 1,
-          "typeName": "Event1",
-          "relativeGameObjectPath": "GameCore.[554]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3)",
-          "gameObjectPath": "GameCore.[554]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3)",
-          "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "GameCore"
-        },
-        {
-          "indexWithinLightIdList": 48,
-          "componentLightId": 2,
-          "type": 1,
-          "typeName": "Event1",
-          "relativeGameObjectPath": "GameCore.[555]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional",
-          "gameObjectPath": "GameCore.[555]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional",
-          "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "GameCore"
-        },
-        {
-          "indexWithinLightIdList": 49,
-          "componentLightId": 2,
-          "type": 1,
-          "typeName": "Event1",
-          "relativeGameObjectPath": "GameCore.[555]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1)",
-          "gameObjectPath": "GameCore.[555]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1)",
-          "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "GameCore"
-        },
-        {
-          "indexWithinLightIdList": 50,
-          "componentLightId": 2,
-          "type": 1,
-          "typeName": "Event1",
-          "relativeGameObjectPath": "GameCore.[555]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2)",
-          "gameObjectPath": "GameCore.[555]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2)",
-          "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "GameCore"
-        },
-        {
-          "indexWithinLightIdList": 51,
-          "componentLightId": 2,
-          "type": 1,
-          "typeName": "Event1",
-          "relativeGameObjectPath": "GameCore.[555]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3)",
-          "gameObjectPath": "GameCore.[555]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3)",
-          "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "GameCore"
-        },
-        {
-          "indexWithinLightIdList": 52,
-          "componentLightId": 2,
-          "type": 1,
-          "typeName": "Event1",
-          "relativeGameObjectPath": "GameCore.[556]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional",
-          "gameObjectPath": "GameCore.[556]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional",
-          "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "GameCore"
-        },
-        {
-          "indexWithinLightIdList": 53,
-          "componentLightId": 2,
-          "type": 1,
-          "typeName": "Event1",
-          "relativeGameObjectPath": "GameCore.[556]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1)",
-          "gameObjectPath": "GameCore.[556]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1)",
-          "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "GameCore"
-        },
-        {
-          "indexWithinLightIdList": 54,
-          "componentLightId": 2,
-          "type": 1,
-          "typeName": "Event1",
-          "relativeGameObjectPath": "GameCore.[556]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2)",
-          "gameObjectPath": "GameCore.[556]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2)",
-          "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "GameCore"
-        },
-        {
-          "indexWithinLightIdList": 55,
-          "componentLightId": 2,
-          "type": 1,
-          "typeName": "Event1",
-          "relativeGameObjectPath": "GameCore.[556]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3)",
-          "gameObjectPath": "GameCore.[556]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3)",
-          "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "GameCore"
-        },
-        {
-          "indexWithinLightIdList": 56,
-          "componentLightId": 2,
-          "type": 1,
-          "typeName": "Event1",
-          "relativeGameObjectPath": "GameCore.[557]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional",
-          "gameObjectPath": "GameCore.[557]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional",
-          "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "GameCore"
-        },
-        {
-          "indexWithinLightIdList": 57,
-          "componentLightId": 2,
-          "type": 1,
-          "typeName": "Event1",
-          "relativeGameObjectPath": "GameCore.[557]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1)",
-          "gameObjectPath": "GameCore.[557]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1)",
-          "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "GameCore"
-        },
-        {
-          "indexWithinLightIdList": 58,
-          "componentLightId": 2,
-          "type": 1,
-          "typeName": "Event1",
-          "relativeGameObjectPath": "GameCore.[557]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2)",
-          "gameObjectPath": "GameCore.[557]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2)",
-          "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "GameCore"
-        },
-        {
-          "indexWithinLightIdList": 59,
-          "componentLightId": 2,
-          "type": 1,
-          "typeName": "Event1",
-          "relativeGameObjectPath": "GameCore.[557]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3)",
-          "gameObjectPath": "GameCore.[557]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3)",
-          "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "GameCore"
-        },
-        {
-          "indexWithinLightIdList": 64,
           "componentLightId": 2,
           "type": 1,
           "typeName": "Event1",
@@ -964,7 +64,7 @@
           "sceneName": "DragonsEnvironment"
         },
         {
-          "indexWithinLightIdList": 67,
+          "indexWithinLightIdList": 7,
           "componentLightId": 2,
           "type": 1,
           "typeName": "Event1",
@@ -977,6 +77,906 @@
             "z": 1.0
           },
           "sceneName": "DragonsEnvironment"
+        },
+        {
+          "indexWithinLightIdList": 8,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[31]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional",
+          "gameObjectPath": "GameCore.[31]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 9,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[31]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1)",
+          "gameObjectPath": "GameCore.[31]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 10,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[31]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2)",
+          "gameObjectPath": "GameCore.[31]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 11,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[31]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3)",
+          "gameObjectPath": "GameCore.[31]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 12,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[32]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional",
+          "gameObjectPath": "GameCore.[32]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 13,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[32]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1)",
+          "gameObjectPath": "GameCore.[32]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 14,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[32]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2)",
+          "gameObjectPath": "GameCore.[32]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 15,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[32]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3)",
+          "gameObjectPath": "GameCore.[32]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 16,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[33]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional",
+          "gameObjectPath": "GameCore.[33]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 17,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[33]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1)",
+          "gameObjectPath": "GameCore.[33]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 18,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[33]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2)",
+          "gameObjectPath": "GameCore.[33]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 19,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[33]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3)",
+          "gameObjectPath": "GameCore.[33]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 20,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[34]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional",
+          "gameObjectPath": "GameCore.[34]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 21,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[34]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1)",
+          "gameObjectPath": "GameCore.[34]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 22,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[34]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2)",
+          "gameObjectPath": "GameCore.[34]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 23,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[34]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3)",
+          "gameObjectPath": "GameCore.[34]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 24,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[35]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional",
+          "gameObjectPath": "GameCore.[35]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 25,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[35]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1)",
+          "gameObjectPath": "GameCore.[35]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 26,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[35]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2)",
+          "gameObjectPath": "GameCore.[35]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 27,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[35]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3)",
+          "gameObjectPath": "GameCore.[35]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 28,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[36]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional",
+          "gameObjectPath": "GameCore.[36]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 29,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[36]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1)",
+          "gameObjectPath": "GameCore.[36]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 30,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[36]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2)",
+          "gameObjectPath": "GameCore.[36]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 31,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[36]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3)",
+          "gameObjectPath": "GameCore.[36]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 32,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[37]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional",
+          "gameObjectPath": "GameCore.[37]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 33,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[37]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1)",
+          "gameObjectPath": "GameCore.[37]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 34,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[37]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2)",
+          "gameObjectPath": "GameCore.[37]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 35,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[37]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3)",
+          "gameObjectPath": "GameCore.[37]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 36,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[38]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional",
+          "gameObjectPath": "GameCore.[38]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 37,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[38]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1)",
+          "gameObjectPath": "GameCore.[38]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 38,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[38]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2)",
+          "gameObjectPath": "GameCore.[38]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 39,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[38]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3)",
+          "gameObjectPath": "GameCore.[38]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 40,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[39]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional",
+          "gameObjectPath": "GameCore.[39]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 41,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[39]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1)",
+          "gameObjectPath": "GameCore.[39]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 42,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[39]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2)",
+          "gameObjectPath": "GameCore.[39]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 43,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[39]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3)",
+          "gameObjectPath": "GameCore.[39]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 44,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[40]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional",
+          "gameObjectPath": "GameCore.[40]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 45,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[40]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1)",
+          "gameObjectPath": "GameCore.[40]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 46,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[40]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2)",
+          "gameObjectPath": "GameCore.[40]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 47,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[40]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3)",
+          "gameObjectPath": "GameCore.[40]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 48,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[41]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional",
+          "gameObjectPath": "GameCore.[41]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 49,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[41]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1)",
+          "gameObjectPath": "GameCore.[41]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 50,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[41]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2)",
+          "gameObjectPath": "GameCore.[41]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 51,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[41]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3)",
+          "gameObjectPath": "GameCore.[41]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 52,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[42]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional",
+          "gameObjectPath": "GameCore.[42]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 53,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[42]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1)",
+          "gameObjectPath": "GameCore.[42]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 54,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[42]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2)",
+          "gameObjectPath": "GameCore.[42]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 55,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[42]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3)",
+          "gameObjectPath": "GameCore.[42]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 56,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[43]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional",
+          "gameObjectPath": "GameCore.[43]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 57,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[43]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1)",
+          "gameObjectPath": "GameCore.[43]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 58,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[43]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2)",
+          "gameObjectPath": "GameCore.[43]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 59,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[43]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3)",
+          "gameObjectPath": "GameCore.[43]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 60,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[44]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional",
+          "gameObjectPath": "GameCore.[44]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 61,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[44]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1)",
+          "gameObjectPath": "GameCore.[44]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 62,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[44]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2)",
+          "gameObjectPath": "GameCore.[44]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 63,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[44]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3)",
+          "gameObjectPath": "GameCore.[44]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 64,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[45]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional",
+          "gameObjectPath": "GameCore.[45]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 65,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[45]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1)",
+          "gameObjectPath": "GameCore.[45]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 66,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[45]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2)",
+          "gameObjectPath": "GameCore.[45]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 67,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[45]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3)",
+          "gameObjectPath": "GameCore.[45]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
         }
       ]
     },

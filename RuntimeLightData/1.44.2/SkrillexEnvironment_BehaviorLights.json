@@ -1,5 +1,5 @@
 {
-  "formatVersion": 4,
+  "formatVersion": 5,
   "environmentName": "SkrillexEnvironment",
   "gameVersion": "1.44.2_21558",
   "lightManagerPath": "SkrillexEnvironment.[0]Environment.[14]LightWithIdManager",
@@ -143,6 +143,186 @@
           "componentLightId": 2,
           "type": 1,
           "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[531]SkrillexTrackRing1(Clone).[0]NeonTubeBothSidesDirectional (6)",
+          "gameObjectPath": "GameCore.[531]SkrillexTrackRing1(Clone).[0]NeonTubeBothSidesDirectional (6)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[531]SkrillexTrackRing1(Clone).[1]NeonTubeBothSidesDirectional (5)",
+          "gameObjectPath": "GameCore.[531]SkrillexTrackRing1(Clone).[1]NeonTubeBothSidesDirectional (5)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[531]SkrillexTrackRing1(Clone).[2]NeonTubeBothSidesDirectional (4)",
+          "gameObjectPath": "GameCore.[531]SkrillexTrackRing1(Clone).[2]NeonTubeBothSidesDirectional (4)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[531]SkrillexTrackRing1(Clone).[3]NeonTubeBothSidesDirectional (6)",
+          "gameObjectPath": "GameCore.[531]SkrillexTrackRing1(Clone).[3]NeonTubeBothSidesDirectional (6)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 4,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[531]SkrillexTrackRing1(Clone).[4]NeonTubeBothSidesDirectional (5)",
+          "gameObjectPath": "GameCore.[531]SkrillexTrackRing1(Clone).[4]NeonTubeBothSidesDirectional (5)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 5,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[531]SkrillexTrackRing1(Clone).[5]NeonTubeBothSidesDirectional (4)",
+          "gameObjectPath": "GameCore.[531]SkrillexTrackRing1(Clone).[5]NeonTubeBothSidesDirectional (4)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 6,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[531]SkrillexTrackRing1(Clone).[6]NeonTubeBothSidesDirectional (6)",
+          "gameObjectPath": "GameCore.[531]SkrillexTrackRing1(Clone).[6]NeonTubeBothSidesDirectional (6)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 7,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[531]SkrillexTrackRing1(Clone).[7]NeonTubeBothSidesDirectional (5)",
+          "gameObjectPath": "GameCore.[531]SkrillexTrackRing1(Clone).[7]NeonTubeBothSidesDirectional (5)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 8,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[531]SkrillexTrackRing1(Clone).[8]NeonTubeBothSidesDirectional (4)",
+          "gameObjectPath": "GameCore.[531]SkrillexTrackRing1(Clone).[8]NeonTubeBothSidesDirectional (4)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 9,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[531]SkrillexTrackRing1(Clone).[9]NeonTubeBothSidesDirectional (6)",
+          "gameObjectPath": "GameCore.[531]SkrillexTrackRing1(Clone).[9]NeonTubeBothSidesDirectional (6)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 10,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[531]SkrillexTrackRing1(Clone).[10]NeonTubeBothSidesDirectional (5)",
+          "gameObjectPath": "GameCore.[531]SkrillexTrackRing1(Clone).[10]NeonTubeBothSidesDirectional (5)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 11,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
+          "relativeGameObjectPath": "GameCore.[531]SkrillexTrackRing1(Clone).[11]NeonTubeBothSidesDirectional (4)",
+          "gameObjectPath": "GameCore.[531]SkrillexTrackRing1(Clone).[11]NeonTubeBothSidesDirectional (4)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 12,
+          "componentLightId": 2,
+          "type": 1,
+          "typeName": "Event1",
           "relativeGameObjectPath": "GameCore.[532]SkrillexTrackRing1(Clone).[0]NeonTubeBothSidesDirectional (6)",
           "gameObjectPath": "GameCore.[532]SkrillexTrackRing1(Clone).[0]NeonTubeBothSidesDirectional (6)",
           "componentType": "TubeBloomPrePassLightWithId",
@@ -154,7 +334,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 1,
+          "indexWithinLightIdList": 13,
           "componentLightId": 2,
           "type": 1,
           "typeName": "Event1",
@@ -169,7 +349,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 2,
+          "indexWithinLightIdList": 14,
           "componentLightId": 2,
           "type": 1,
           "typeName": "Event1",
@@ -184,7 +364,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 3,
+          "indexWithinLightIdList": 15,
           "componentLightId": 2,
           "type": 1,
           "typeName": "Event1",
@@ -199,7 +379,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 4,
+          "indexWithinLightIdList": 16,
           "componentLightId": 2,
           "type": 1,
           "typeName": "Event1",
@@ -214,7 +394,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 5,
+          "indexWithinLightIdList": 17,
           "componentLightId": 2,
           "type": 1,
           "typeName": "Event1",
@@ -229,7 +409,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 6,
+          "indexWithinLightIdList": 18,
           "componentLightId": 2,
           "type": 1,
           "typeName": "Event1",
@@ -244,7 +424,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 7,
+          "indexWithinLightIdList": 19,
           "componentLightId": 2,
           "type": 1,
           "typeName": "Event1",
@@ -259,7 +439,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 8,
+          "indexWithinLightIdList": 20,
           "componentLightId": 2,
           "type": 1,
           "typeName": "Event1",
@@ -274,7 +454,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 9,
+          "indexWithinLightIdList": 21,
           "componentLightId": 2,
           "type": 1,
           "typeName": "Event1",
@@ -289,7 +469,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 10,
+          "indexWithinLightIdList": 22,
           "componentLightId": 2,
           "type": 1,
           "typeName": "Event1",
@@ -304,7 +484,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 11,
+          "indexWithinLightIdList": 23,
           "componentLightId": 2,
           "type": 1,
           "typeName": "Event1",
@@ -319,7 +499,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 12,
+          "indexWithinLightIdList": 24,
           "componentLightId": 2,
           "type": 1,
           "typeName": "Event1",
@@ -334,7 +514,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 13,
+          "indexWithinLightIdList": 25,
           "componentLightId": 2,
           "type": 1,
           "typeName": "Event1",
@@ -349,7 +529,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 14,
+          "indexWithinLightIdList": 26,
           "componentLightId": 2,
           "type": 1,
           "typeName": "Event1",
@@ -364,7 +544,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 15,
+          "indexWithinLightIdList": 27,
           "componentLightId": 2,
           "type": 1,
           "typeName": "Event1",
@@ -379,7 +559,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 16,
+          "indexWithinLightIdList": 28,
           "componentLightId": 2,
           "type": 1,
           "typeName": "Event1",
@@ -394,7 +574,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 17,
+          "indexWithinLightIdList": 29,
           "componentLightId": 2,
           "type": 1,
           "typeName": "Event1",
@@ -409,7 +589,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 18,
+          "indexWithinLightIdList": 30,
           "componentLightId": 2,
           "type": 1,
           "typeName": "Event1",
@@ -424,7 +604,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 19,
+          "indexWithinLightIdList": 31,
           "componentLightId": 2,
           "type": 1,
           "typeName": "Event1",
@@ -439,7 +619,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 20,
+          "indexWithinLightIdList": 32,
           "componentLightId": 2,
           "type": 1,
           "typeName": "Event1",
@@ -454,7 +634,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 21,
+          "indexWithinLightIdList": 33,
           "componentLightId": 2,
           "type": 1,
           "typeName": "Event1",
@@ -469,7 +649,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 22,
+          "indexWithinLightIdList": 34,
           "componentLightId": 2,
           "type": 1,
           "typeName": "Event1",
@@ -484,7 +664,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 23,
+          "indexWithinLightIdList": 35,
           "componentLightId": 2,
           "type": 1,
           "typeName": "Event1",
@@ -499,7 +679,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 24,
+          "indexWithinLightIdList": 36,
           "componentLightId": 2,
           "type": 1,
           "typeName": "Event1",
@@ -514,7 +694,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 25,
+          "indexWithinLightIdList": 37,
           "componentLightId": 2,
           "type": 1,
           "typeName": "Event1",
@@ -529,7 +709,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 26,
+          "indexWithinLightIdList": 38,
           "componentLightId": 2,
           "type": 1,
           "typeName": "Event1",
@@ -544,7 +724,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 27,
+          "indexWithinLightIdList": 39,
           "componentLightId": 2,
           "type": 1,
           "typeName": "Event1",
@@ -559,7 +739,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 28,
+          "indexWithinLightIdList": 40,
           "componentLightId": 2,
           "type": 1,
           "typeName": "Event1",
@@ -574,7 +754,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 29,
+          "indexWithinLightIdList": 41,
           "componentLightId": 2,
           "type": 1,
           "typeName": "Event1",
@@ -589,7 +769,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 30,
+          "indexWithinLightIdList": 42,
           "componentLightId": 2,
           "type": 1,
           "typeName": "Event1",
@@ -604,7 +784,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 31,
+          "indexWithinLightIdList": 43,
           "componentLightId": 2,
           "type": 1,
           "typeName": "Event1",
@@ -619,7 +799,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 32,
+          "indexWithinLightIdList": 44,
           "componentLightId": 2,
           "type": 1,
           "typeName": "Event1",
@@ -634,7 +814,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 33,
+          "indexWithinLightIdList": 45,
           "componentLightId": 2,
           "type": 1,
           "typeName": "Event1",
@@ -649,7 +829,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 34,
+          "indexWithinLightIdList": 46,
           "componentLightId": 2,
           "type": 1,
           "typeName": "Event1",
@@ -664,7 +844,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 35,
+          "indexWithinLightIdList": 47,
           "componentLightId": 2,
           "type": 1,
           "typeName": "Event1",
@@ -679,7 +859,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 36,
+          "indexWithinLightIdList": 48,
           "componentLightId": 2,
           "type": 1,
           "typeName": "Event1",
@@ -694,7 +874,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 37,
+          "indexWithinLightIdList": 49,
           "componentLightId": 2,
           "type": 1,
           "typeName": "Event1",
@@ -709,7 +889,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 38,
+          "indexWithinLightIdList": 50,
           "componentLightId": 2,
           "type": 1,
           "typeName": "Event1",
@@ -724,7 +904,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 39,
+          "indexWithinLightIdList": 51,
           "componentLightId": 2,
           "type": 1,
           "typeName": "Event1",
@@ -739,7 +919,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 40,
+          "indexWithinLightIdList": 52,
           "componentLightId": 2,
           "type": 1,
           "typeName": "Event1",
@@ -754,7 +934,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 41,
+          "indexWithinLightIdList": 53,
           "componentLightId": 2,
           "type": 1,
           "typeName": "Event1",
@@ -769,7 +949,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 42,
+          "indexWithinLightIdList": 54,
           "componentLightId": 2,
           "type": 1,
           "typeName": "Event1",
@@ -784,7 +964,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 43,
+          "indexWithinLightIdList": 55,
           "componentLightId": 2,
           "type": 1,
           "typeName": "Event1",
@@ -799,7 +979,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 44,
+          "indexWithinLightIdList": 56,
           "componentLightId": 2,
           "type": 1,
           "typeName": "Event1",
@@ -814,7 +994,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 45,
+          "indexWithinLightIdList": 57,
           "componentLightId": 2,
           "type": 1,
           "typeName": "Event1",
@@ -829,7 +1009,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 46,
+          "indexWithinLightIdList": 58,
           "componentLightId": 2,
           "type": 1,
           "typeName": "Event1",
@@ -844,192 +1024,12 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 47,
+          "indexWithinLightIdList": 59,
           "componentLightId": 2,
           "type": 1,
           "typeName": "Event1",
           "relativeGameObjectPath": "GameCore.[535]SkrillexTrackRing1(Clone).[11]NeonTubeBothSidesDirectional (4)",
           "gameObjectPath": "GameCore.[535]SkrillexTrackRing1(Clone).[11]NeonTubeBothSidesDirectional (4)",
-          "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "GameCore"
-        },
-        {
-          "indexWithinLightIdList": 48,
-          "componentLightId": 2,
-          "type": 1,
-          "typeName": "Event1",
-          "relativeGameObjectPath": "GameCore.[536]SkrillexTrackRing1(Clone).[0]NeonTubeBothSidesDirectional (6)",
-          "gameObjectPath": "GameCore.[536]SkrillexTrackRing1(Clone).[0]NeonTubeBothSidesDirectional (6)",
-          "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "GameCore"
-        },
-        {
-          "indexWithinLightIdList": 49,
-          "componentLightId": 2,
-          "type": 1,
-          "typeName": "Event1",
-          "relativeGameObjectPath": "GameCore.[536]SkrillexTrackRing1(Clone).[1]NeonTubeBothSidesDirectional (5)",
-          "gameObjectPath": "GameCore.[536]SkrillexTrackRing1(Clone).[1]NeonTubeBothSidesDirectional (5)",
-          "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "GameCore"
-        },
-        {
-          "indexWithinLightIdList": 50,
-          "componentLightId": 2,
-          "type": 1,
-          "typeName": "Event1",
-          "relativeGameObjectPath": "GameCore.[536]SkrillexTrackRing1(Clone).[2]NeonTubeBothSidesDirectional (4)",
-          "gameObjectPath": "GameCore.[536]SkrillexTrackRing1(Clone).[2]NeonTubeBothSidesDirectional (4)",
-          "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "GameCore"
-        },
-        {
-          "indexWithinLightIdList": 51,
-          "componentLightId": 2,
-          "type": 1,
-          "typeName": "Event1",
-          "relativeGameObjectPath": "GameCore.[536]SkrillexTrackRing1(Clone).[3]NeonTubeBothSidesDirectional (6)",
-          "gameObjectPath": "GameCore.[536]SkrillexTrackRing1(Clone).[3]NeonTubeBothSidesDirectional (6)",
-          "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "GameCore"
-        },
-        {
-          "indexWithinLightIdList": 52,
-          "componentLightId": 2,
-          "type": 1,
-          "typeName": "Event1",
-          "relativeGameObjectPath": "GameCore.[536]SkrillexTrackRing1(Clone).[4]NeonTubeBothSidesDirectional (5)",
-          "gameObjectPath": "GameCore.[536]SkrillexTrackRing1(Clone).[4]NeonTubeBothSidesDirectional (5)",
-          "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "GameCore"
-        },
-        {
-          "indexWithinLightIdList": 53,
-          "componentLightId": 2,
-          "type": 1,
-          "typeName": "Event1",
-          "relativeGameObjectPath": "GameCore.[536]SkrillexTrackRing1(Clone).[5]NeonTubeBothSidesDirectional (4)",
-          "gameObjectPath": "GameCore.[536]SkrillexTrackRing1(Clone).[5]NeonTubeBothSidesDirectional (4)",
-          "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "GameCore"
-        },
-        {
-          "indexWithinLightIdList": 54,
-          "componentLightId": 2,
-          "type": 1,
-          "typeName": "Event1",
-          "relativeGameObjectPath": "GameCore.[536]SkrillexTrackRing1(Clone).[6]NeonTubeBothSidesDirectional (6)",
-          "gameObjectPath": "GameCore.[536]SkrillexTrackRing1(Clone).[6]NeonTubeBothSidesDirectional (6)",
-          "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "GameCore"
-        },
-        {
-          "indexWithinLightIdList": 55,
-          "componentLightId": 2,
-          "type": 1,
-          "typeName": "Event1",
-          "relativeGameObjectPath": "GameCore.[536]SkrillexTrackRing1(Clone).[7]NeonTubeBothSidesDirectional (5)",
-          "gameObjectPath": "GameCore.[536]SkrillexTrackRing1(Clone).[7]NeonTubeBothSidesDirectional (5)",
-          "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "GameCore"
-        },
-        {
-          "indexWithinLightIdList": 56,
-          "componentLightId": 2,
-          "type": 1,
-          "typeName": "Event1",
-          "relativeGameObjectPath": "GameCore.[536]SkrillexTrackRing1(Clone).[8]NeonTubeBothSidesDirectional (4)",
-          "gameObjectPath": "GameCore.[536]SkrillexTrackRing1(Clone).[8]NeonTubeBothSidesDirectional (4)",
-          "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "GameCore"
-        },
-        {
-          "indexWithinLightIdList": 57,
-          "componentLightId": 2,
-          "type": 1,
-          "typeName": "Event1",
-          "relativeGameObjectPath": "GameCore.[536]SkrillexTrackRing1(Clone).[9]NeonTubeBothSidesDirectional (6)",
-          "gameObjectPath": "GameCore.[536]SkrillexTrackRing1(Clone).[9]NeonTubeBothSidesDirectional (6)",
-          "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "GameCore"
-        },
-        {
-          "indexWithinLightIdList": 58,
-          "componentLightId": 2,
-          "type": 1,
-          "typeName": "Event1",
-          "relativeGameObjectPath": "GameCore.[536]SkrillexTrackRing1(Clone).[10]NeonTubeBothSidesDirectional (5)",
-          "gameObjectPath": "GameCore.[536]SkrillexTrackRing1(Clone).[10]NeonTubeBothSidesDirectional (5)",
-          "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "GameCore"
-        },
-        {
-          "indexWithinLightIdList": 59,
-          "componentLightId": 2,
-          "type": 1,
-          "typeName": "Event1",
-          "relativeGameObjectPath": "GameCore.[536]SkrillexTrackRing1(Clone).[11]NeonTubeBothSidesDirectional (4)",
-          "gameObjectPath": "GameCore.[536]SkrillexTrackRing1(Clone).[11]NeonTubeBothSidesDirectional (4)",
           "componentType": "TubeBloomPrePassLightWithId",
           "localScale": {
             "x": 1.0,
@@ -1844,6 +1844,186 @@
           "componentLightId": 5,
           "type": 4,
           "typeName": "Event4",
+          "relativeGameObjectPath": "GameCore.[526]SkrillexTrackRing2(Clone).[0]NeonTubeBothSidesDirectional (6)",
+          "gameObjectPath": "GameCore.[526]SkrillexTrackRing2(Clone).[0]NeonTubeBothSidesDirectional (6)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 1,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "GameCore.[526]SkrillexTrackRing2(Clone).[1]NeonTubeBothSidesDirectional (5)",
+          "gameObjectPath": "GameCore.[526]SkrillexTrackRing2(Clone).[1]NeonTubeBothSidesDirectional (5)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 2,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "GameCore.[526]SkrillexTrackRing2(Clone).[2]NeonTubeBothSidesDirectional (4)",
+          "gameObjectPath": "GameCore.[526]SkrillexTrackRing2(Clone).[2]NeonTubeBothSidesDirectional (4)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 3,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "GameCore.[526]SkrillexTrackRing2(Clone).[3]NeonTubeBothSidesDirectional (6)",
+          "gameObjectPath": "GameCore.[526]SkrillexTrackRing2(Clone).[3]NeonTubeBothSidesDirectional (6)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 4,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "GameCore.[526]SkrillexTrackRing2(Clone).[4]NeonTubeBothSidesDirectional (5)",
+          "gameObjectPath": "GameCore.[526]SkrillexTrackRing2(Clone).[4]NeonTubeBothSidesDirectional (5)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 5,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "GameCore.[526]SkrillexTrackRing2(Clone).[5]NeonTubeBothSidesDirectional (4)",
+          "gameObjectPath": "GameCore.[526]SkrillexTrackRing2(Clone).[5]NeonTubeBothSidesDirectional (4)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 6,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "GameCore.[526]SkrillexTrackRing2(Clone).[6]NeonTubeBothSidesDirectional (6)",
+          "gameObjectPath": "GameCore.[526]SkrillexTrackRing2(Clone).[6]NeonTubeBothSidesDirectional (6)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 7,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "GameCore.[526]SkrillexTrackRing2(Clone).[7]NeonTubeBothSidesDirectional (5)",
+          "gameObjectPath": "GameCore.[526]SkrillexTrackRing2(Clone).[7]NeonTubeBothSidesDirectional (5)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 8,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "GameCore.[526]SkrillexTrackRing2(Clone).[8]NeonTubeBothSidesDirectional (4)",
+          "gameObjectPath": "GameCore.[526]SkrillexTrackRing2(Clone).[8]NeonTubeBothSidesDirectional (4)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 9,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "GameCore.[526]SkrillexTrackRing2(Clone).[9]NeonTubeBothSidesDirectional (6)",
+          "gameObjectPath": "GameCore.[526]SkrillexTrackRing2(Clone).[9]NeonTubeBothSidesDirectional (6)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 10,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "GameCore.[526]SkrillexTrackRing2(Clone).[10]NeonTubeBothSidesDirectional (5)",
+          "gameObjectPath": "GameCore.[526]SkrillexTrackRing2(Clone).[10]NeonTubeBothSidesDirectional (5)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 11,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
+          "relativeGameObjectPath": "GameCore.[526]SkrillexTrackRing2(Clone).[11]NeonTubeBothSidesDirectional (4)",
+          "gameObjectPath": "GameCore.[526]SkrillexTrackRing2(Clone).[11]NeonTubeBothSidesDirectional (4)",
+          "componentType": "TubeBloomPrePassLightWithId",
+          "localScale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "sceneName": "GameCore"
+        },
+        {
+          "indexWithinLightIdList": 12,
+          "componentLightId": 5,
+          "type": 4,
+          "typeName": "Event4",
           "relativeGameObjectPath": "GameCore.[527]SkrillexTrackRing2(Clone).[0]NeonTubeBothSidesDirectional (6)",
           "gameObjectPath": "GameCore.[527]SkrillexTrackRing2(Clone).[0]NeonTubeBothSidesDirectional (6)",
           "componentType": "TubeBloomPrePassLightWithId",
@@ -1855,7 +2035,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 1,
+          "indexWithinLightIdList": 13,
           "componentLightId": 5,
           "type": 4,
           "typeName": "Event4",
@@ -1870,7 +2050,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 2,
+          "indexWithinLightIdList": 14,
           "componentLightId": 5,
           "type": 4,
           "typeName": "Event4",
@@ -1885,7 +2065,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 3,
+          "indexWithinLightIdList": 15,
           "componentLightId": 5,
           "type": 4,
           "typeName": "Event4",
@@ -1900,7 +2080,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 4,
+          "indexWithinLightIdList": 16,
           "componentLightId": 5,
           "type": 4,
           "typeName": "Event4",
@@ -1915,7 +2095,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 5,
+          "indexWithinLightIdList": 17,
           "componentLightId": 5,
           "type": 4,
           "typeName": "Event4",
@@ -1930,7 +2110,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 6,
+          "indexWithinLightIdList": 18,
           "componentLightId": 5,
           "type": 4,
           "typeName": "Event4",
@@ -1945,7 +2125,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 7,
+          "indexWithinLightIdList": 19,
           "componentLightId": 5,
           "type": 4,
           "typeName": "Event4",
@@ -1960,7 +2140,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 8,
+          "indexWithinLightIdList": 20,
           "componentLightId": 5,
           "type": 4,
           "typeName": "Event4",
@@ -1975,7 +2155,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 9,
+          "indexWithinLightIdList": 21,
           "componentLightId": 5,
           "type": 4,
           "typeName": "Event4",
@@ -1990,7 +2170,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 10,
+          "indexWithinLightIdList": 22,
           "componentLightId": 5,
           "type": 4,
           "typeName": "Event4",
@@ -2005,7 +2185,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 11,
+          "indexWithinLightIdList": 23,
           "componentLightId": 5,
           "type": 4,
           "typeName": "Event4",
@@ -2020,7 +2200,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 12,
+          "indexWithinLightIdList": 24,
           "componentLightId": 5,
           "type": 4,
           "typeName": "Event4",
@@ -2035,7 +2215,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 13,
+          "indexWithinLightIdList": 25,
           "componentLightId": 5,
           "type": 4,
           "typeName": "Event4",
@@ -2050,7 +2230,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 14,
+          "indexWithinLightIdList": 26,
           "componentLightId": 5,
           "type": 4,
           "typeName": "Event4",
@@ -2065,7 +2245,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 15,
+          "indexWithinLightIdList": 27,
           "componentLightId": 5,
           "type": 4,
           "typeName": "Event4",
@@ -2080,7 +2260,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 16,
+          "indexWithinLightIdList": 28,
           "componentLightId": 5,
           "type": 4,
           "typeName": "Event4",
@@ -2095,7 +2275,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 17,
+          "indexWithinLightIdList": 29,
           "componentLightId": 5,
           "type": 4,
           "typeName": "Event4",
@@ -2110,7 +2290,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 18,
+          "indexWithinLightIdList": 30,
           "componentLightId": 5,
           "type": 4,
           "typeName": "Event4",
@@ -2125,7 +2305,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 19,
+          "indexWithinLightIdList": 31,
           "componentLightId": 5,
           "type": 4,
           "typeName": "Event4",
@@ -2140,7 +2320,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 20,
+          "indexWithinLightIdList": 32,
           "componentLightId": 5,
           "type": 4,
           "typeName": "Event4",
@@ -2155,7 +2335,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 21,
+          "indexWithinLightIdList": 33,
           "componentLightId": 5,
           "type": 4,
           "typeName": "Event4",
@@ -2170,7 +2350,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 22,
+          "indexWithinLightIdList": 34,
           "componentLightId": 5,
           "type": 4,
           "typeName": "Event4",
@@ -2185,7 +2365,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 23,
+          "indexWithinLightIdList": 35,
           "componentLightId": 5,
           "type": 4,
           "typeName": "Event4",
@@ -2200,7 +2380,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 24,
+          "indexWithinLightIdList": 36,
           "componentLightId": 5,
           "type": 4,
           "typeName": "Event4",
@@ -2215,7 +2395,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 25,
+          "indexWithinLightIdList": 37,
           "componentLightId": 5,
           "type": 4,
           "typeName": "Event4",
@@ -2230,7 +2410,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 26,
+          "indexWithinLightIdList": 38,
           "componentLightId": 5,
           "type": 4,
           "typeName": "Event4",
@@ -2245,7 +2425,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 27,
+          "indexWithinLightIdList": 39,
           "componentLightId": 5,
           "type": 4,
           "typeName": "Event4",
@@ -2260,7 +2440,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 28,
+          "indexWithinLightIdList": 40,
           "componentLightId": 5,
           "type": 4,
           "typeName": "Event4",
@@ -2275,7 +2455,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 29,
+          "indexWithinLightIdList": 41,
           "componentLightId": 5,
           "type": 4,
           "typeName": "Event4",
@@ -2290,7 +2470,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 30,
+          "indexWithinLightIdList": 42,
           "componentLightId": 5,
           "type": 4,
           "typeName": "Event4",
@@ -2305,7 +2485,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 31,
+          "indexWithinLightIdList": 43,
           "componentLightId": 5,
           "type": 4,
           "typeName": "Event4",
@@ -2320,7 +2500,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 32,
+          "indexWithinLightIdList": 44,
           "componentLightId": 5,
           "type": 4,
           "typeName": "Event4",
@@ -2335,7 +2515,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 33,
+          "indexWithinLightIdList": 45,
           "componentLightId": 5,
           "type": 4,
           "typeName": "Event4",
@@ -2350,7 +2530,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 34,
+          "indexWithinLightIdList": 46,
           "componentLightId": 5,
           "type": 4,
           "typeName": "Event4",
@@ -2365,7 +2545,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 35,
+          "indexWithinLightIdList": 47,
           "componentLightId": 5,
           "type": 4,
           "typeName": "Event4",
@@ -2380,7 +2560,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 36,
+          "indexWithinLightIdList": 48,
           "componentLightId": 5,
           "type": 4,
           "typeName": "Event4",
@@ -2395,7 +2575,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 37,
+          "indexWithinLightIdList": 49,
           "componentLightId": 5,
           "type": 4,
           "typeName": "Event4",
@@ -2410,7 +2590,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 38,
+          "indexWithinLightIdList": 50,
           "componentLightId": 5,
           "type": 4,
           "typeName": "Event4",
@@ -2425,7 +2605,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 39,
+          "indexWithinLightIdList": 51,
           "componentLightId": 5,
           "type": 4,
           "typeName": "Event4",
@@ -2440,7 +2620,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 40,
+          "indexWithinLightIdList": 52,
           "componentLightId": 5,
           "type": 4,
           "typeName": "Event4",
@@ -2455,7 +2635,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 41,
+          "indexWithinLightIdList": 53,
           "componentLightId": 5,
           "type": 4,
           "typeName": "Event4",
@@ -2470,7 +2650,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 42,
+          "indexWithinLightIdList": 54,
           "componentLightId": 5,
           "type": 4,
           "typeName": "Event4",
@@ -2485,7 +2665,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 43,
+          "indexWithinLightIdList": 55,
           "componentLightId": 5,
           "type": 4,
           "typeName": "Event4",
@@ -2500,7 +2680,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 44,
+          "indexWithinLightIdList": 56,
           "componentLightId": 5,
           "type": 4,
           "typeName": "Event4",
@@ -2515,7 +2695,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 45,
+          "indexWithinLightIdList": 57,
           "componentLightId": 5,
           "type": 4,
           "typeName": "Event4",
@@ -2530,7 +2710,7 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 46,
+          "indexWithinLightIdList": 58,
           "componentLightId": 5,
           "type": 4,
           "typeName": "Event4",
@@ -2545,192 +2725,12 @@
           "sceneName": "GameCore"
         },
         {
-          "indexWithinLightIdList": 47,
+          "indexWithinLightIdList": 59,
           "componentLightId": 5,
           "type": 4,
           "typeName": "Event4",
           "relativeGameObjectPath": "GameCore.[530]SkrillexTrackRing2(Clone).[11]NeonTubeBothSidesDirectional (4)",
           "gameObjectPath": "GameCore.[530]SkrillexTrackRing2(Clone).[11]NeonTubeBothSidesDirectional (4)",
-          "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "GameCore"
-        },
-        {
-          "indexWithinLightIdList": 48,
-          "componentLightId": 5,
-          "type": 4,
-          "typeName": "Event4",
-          "relativeGameObjectPath": "GameCore.[531]SkrillexTrackRing2(Clone).[0]NeonTubeBothSidesDirectional (6)",
-          "gameObjectPath": "GameCore.[531]SkrillexTrackRing2(Clone).[0]NeonTubeBothSidesDirectional (6)",
-          "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "GameCore"
-        },
-        {
-          "indexWithinLightIdList": 49,
-          "componentLightId": 5,
-          "type": 4,
-          "typeName": "Event4",
-          "relativeGameObjectPath": "GameCore.[531]SkrillexTrackRing2(Clone).[1]NeonTubeBothSidesDirectional (5)",
-          "gameObjectPath": "GameCore.[531]SkrillexTrackRing2(Clone).[1]NeonTubeBothSidesDirectional (5)",
-          "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "GameCore"
-        },
-        {
-          "indexWithinLightIdList": 50,
-          "componentLightId": 5,
-          "type": 4,
-          "typeName": "Event4",
-          "relativeGameObjectPath": "GameCore.[531]SkrillexTrackRing2(Clone).[2]NeonTubeBothSidesDirectional (4)",
-          "gameObjectPath": "GameCore.[531]SkrillexTrackRing2(Clone).[2]NeonTubeBothSidesDirectional (4)",
-          "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "GameCore"
-        },
-        {
-          "indexWithinLightIdList": 51,
-          "componentLightId": 5,
-          "type": 4,
-          "typeName": "Event4",
-          "relativeGameObjectPath": "GameCore.[531]SkrillexTrackRing2(Clone).[3]NeonTubeBothSidesDirectional (6)",
-          "gameObjectPath": "GameCore.[531]SkrillexTrackRing2(Clone).[3]NeonTubeBothSidesDirectional (6)",
-          "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "GameCore"
-        },
-        {
-          "indexWithinLightIdList": 52,
-          "componentLightId": 5,
-          "type": 4,
-          "typeName": "Event4",
-          "relativeGameObjectPath": "GameCore.[531]SkrillexTrackRing2(Clone).[4]NeonTubeBothSidesDirectional (5)",
-          "gameObjectPath": "GameCore.[531]SkrillexTrackRing2(Clone).[4]NeonTubeBothSidesDirectional (5)",
-          "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "GameCore"
-        },
-        {
-          "indexWithinLightIdList": 53,
-          "componentLightId": 5,
-          "type": 4,
-          "typeName": "Event4",
-          "relativeGameObjectPath": "GameCore.[531]SkrillexTrackRing2(Clone).[5]NeonTubeBothSidesDirectional (4)",
-          "gameObjectPath": "GameCore.[531]SkrillexTrackRing2(Clone).[5]NeonTubeBothSidesDirectional (4)",
-          "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "GameCore"
-        },
-        {
-          "indexWithinLightIdList": 54,
-          "componentLightId": 5,
-          "type": 4,
-          "typeName": "Event4",
-          "relativeGameObjectPath": "GameCore.[531]SkrillexTrackRing2(Clone).[6]NeonTubeBothSidesDirectional (6)",
-          "gameObjectPath": "GameCore.[531]SkrillexTrackRing2(Clone).[6]NeonTubeBothSidesDirectional (6)",
-          "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "GameCore"
-        },
-        {
-          "indexWithinLightIdList": 55,
-          "componentLightId": 5,
-          "type": 4,
-          "typeName": "Event4",
-          "relativeGameObjectPath": "GameCore.[531]SkrillexTrackRing2(Clone).[7]NeonTubeBothSidesDirectional (5)",
-          "gameObjectPath": "GameCore.[531]SkrillexTrackRing2(Clone).[7]NeonTubeBothSidesDirectional (5)",
-          "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "GameCore"
-        },
-        {
-          "indexWithinLightIdList": 56,
-          "componentLightId": 5,
-          "type": 4,
-          "typeName": "Event4",
-          "relativeGameObjectPath": "GameCore.[531]SkrillexTrackRing2(Clone).[8]NeonTubeBothSidesDirectional (4)",
-          "gameObjectPath": "GameCore.[531]SkrillexTrackRing2(Clone).[8]NeonTubeBothSidesDirectional (4)",
-          "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "GameCore"
-        },
-        {
-          "indexWithinLightIdList": 57,
-          "componentLightId": 5,
-          "type": 4,
-          "typeName": "Event4",
-          "relativeGameObjectPath": "GameCore.[531]SkrillexTrackRing2(Clone).[9]NeonTubeBothSidesDirectional (6)",
-          "gameObjectPath": "GameCore.[531]SkrillexTrackRing2(Clone).[9]NeonTubeBothSidesDirectional (6)",
-          "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "GameCore"
-        },
-        {
-          "indexWithinLightIdList": 58,
-          "componentLightId": 5,
-          "type": 4,
-          "typeName": "Event4",
-          "relativeGameObjectPath": "GameCore.[531]SkrillexTrackRing2(Clone).[10]NeonTubeBothSidesDirectional (5)",
-          "gameObjectPath": "GameCore.[531]SkrillexTrackRing2(Clone).[10]NeonTubeBothSidesDirectional (5)",
-          "componentType": "TubeBloomPrePassLightWithId",
-          "localScale": {
-            "x": 1.0,
-            "y": 1.0,
-            "z": 1.0
-          },
-          "sceneName": "GameCore"
-        },
-        {
-          "indexWithinLightIdList": 59,
-          "componentLightId": 5,
-          "type": 4,
-          "typeName": "Event4",
-          "relativeGameObjectPath": "GameCore.[531]SkrillexTrackRing2(Clone).[11]NeonTubeBothSidesDirectional (4)",
-          "gameObjectPath": "GameCore.[531]SkrillexTrackRing2(Clone).[11]NeonTubeBothSidesDirectional (4)",
           "componentType": "TubeBloomPrePassLightWithId",
           "localScale": {
             "x": 1.0,

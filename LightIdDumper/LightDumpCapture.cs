@@ -128,7 +128,7 @@ namespace LightIdDumper
             {
                 string error = $"LightManager was unavailable at the pre-render capture boundary for environment [{_environmentName}].";
                 Plugin.Log.Error(error);
-                DumpCompleted?.Invoke(new LightDumpCompletion(_environmentName, null, null, 0, 0, error));
+                DumpCompleted?.Invoke(new LightDumpCompletion(_environmentName, null, null, null, 0, 0, 0, error));
                 return;
             }
 
@@ -142,8 +142,10 @@ namespace LightIdDumper
         {
             string? behaviorLightsOutputPath = null;
             string? otherLightsOutputPath = null;
+            string? materialsOutputPath = null;
             int behaviorLightCount = 0;
             int otherLightCount = 0;
+            int materialCount = 0;
             try
             {
                 EnvironmentLightDump completeDump = BuildDump(lightManager);
@@ -153,8 +155,10 @@ namespace LightIdDumper
                 EnvironmentLightDump otherLightsDump = FilterDump(completeDump, true);
                 ValidateDump(behaviorLightsDump, false);
                 ValidateDump(otherLightsDump, true);
+                EnvironmentMaterialDump materialDump = BuildMaterialDump();
                 behaviorLightCount = behaviorLightsDump.TotalRegisteredLightCount;
                 otherLightCount = otherLightsDump.TotalRegisteredLightCount;
+                materialCount = materialDump.MaterialCount;
                 string outputDirectory = Path.Combine(
                     Environment.CurrentDirectory,
                     "UserData",
@@ -164,8 +168,10 @@ namespace LightIdDumper
                 string environmentFileName = SanitizeFileName(_environmentName);
                 behaviorLightsOutputPath = Path.Combine(outputDirectory, $"{environmentFileName}_BehaviorLights.json");
                 otherLightsOutputPath = Path.Combine(outputDirectory, $"{environmentFileName}_OtherLights.json");
+                materialsOutputPath = Path.Combine(outputDirectory, $"{environmentFileName}_Materials.json");
                 WriteJson(behaviorLightsOutputPath, behaviorLightsDump);
                 WriteJson(otherLightsOutputPath, otherLightsDump);
+                WriteJson(materialsOutputPath, materialDump);
 
                 // A successful paired capture removes the obsolete combined filename so consumers cannot select stale mixed data.
                 string obsoleteCombinedOutputPath = Path.Combine(outputDirectory, $"{environmentFileName}.json");
@@ -175,13 +181,13 @@ namespace LightIdDumper
                 }
 
                 // The completion line names both classifications so logs can prove that neither half of the snapshot was omitted.
-                Plugin.Log.Info($"Dumped [{behaviorLightCount}] MonoBehaviour lights to [{behaviorLightsOutputPath}] and [{otherLightCount}] other lights to [{otherLightsOutputPath}] for [{_environmentName}].");
-                DumpCompleted?.Invoke(new LightDumpCompletion(_environmentName, behaviorLightsOutputPath, otherLightsOutputPath, behaviorLightCount, otherLightCount, null));
+                Plugin.Log.Info($"Dumped [{behaviorLightCount}] MonoBehaviour lights to [{behaviorLightsOutputPath}], [{otherLightCount}] other lights to [{otherLightsOutputPath}], and [{materialCount}] materials to [{materialsOutputPath}] for [{_environmentName}].");
+                DumpCompleted?.Invoke(new LightDumpCompletion(_environmentName, behaviorLightsOutputPath, otherLightsOutputPath, materialsOutputPath, behaviorLightCount, otherLightCount, materialCount, null));
             }
             catch (Exception exception)
             {
                 Plugin.Log.Error($"Failed to dump environment [{_environmentName}]: {exception}");
-                DumpCompleted?.Invoke(new LightDumpCompletion(_environmentName, behaviorLightsOutputPath, otherLightsOutputPath, behaviorLightCount, otherLightCount, exception.ToString()));
+                DumpCompleted?.Invoke(new LightDumpCompletion(_environmentName, behaviorLightsOutputPath, otherLightsOutputPath, materialsOutputPath, behaviorLightCount, otherLightCount, materialCount, exception.ToString()));
             }
             finally
             {
@@ -190,7 +196,7 @@ namespace LightIdDumper
         }
 
         // Both output files use the current schema; RegisteredLightDump controls classification-specific fields while preserving meaningful null wrapper values.
-        private static void WriteJson(string outputPath, EnvironmentLightDump dump)
+        private static void WriteJson(string outputPath, object dump)
         {
             string json = JsonConvert.SerializeObject(
                 dump,
@@ -291,6 +297,125 @@ namespace LightIdDumper
             }
 
             return dump;
+        }
+
+        // The material snapshot keys each loaded material by Unity instance ID so ChroMapper's EnvData uniqueMaterials
+        // entries (which already carry the same instanceId from the EnvInfo export) can backfill real render queues.
+        private static EnvironmentMaterialDump BuildMaterialDump()
+        {
+            var dump = new EnvironmentMaterialDump
+            {
+                EnvironmentName = _environmentName,
+                GameVersion = Application.version,
+            };
+
+            var entries = new Dictionary<int, MaterialDumpEntry>();
+            var dedupedUsages = new Dictionary<int, HashSet<(string Path, int Slot)>>();
+            foreach (var renderer in Resources.FindObjectsOfTypeAll<Renderer>())
+            {
+                if (renderer == null)
+                {
+                    continue;
+                }
+
+                GameObject rendererObject = renderer.gameObject;
+                if (!rendererObject.scene.IsValid() || !rendererObject.scene.isLoaded)
+                {
+                    continue;
+                }
+
+                string rendererPath = BuildPath(renderer.transform, out _);
+                Material[] sharedMaterials = renderer.sharedMaterials;
+                for (int slot = 0; slot < sharedMaterials.Length; slot++)
+                {
+                    Material? material = sharedMaterials[slot];
+                    if (material == null)
+                    {
+                        continue;
+                    }
+
+                    MaterialDumpEntry entry = GetOrCreateMaterialEntry(entries, material);
+                    HashSet<(string Path, int Slot)> usages = GetOrCreateUsageSet(dedupedUsages, entry.InstanceId);
+                    if (usages.Add((rendererPath, slot)))
+                    {
+                        entry.Users.Add(new MaterialUsageDump { Path = rendererPath, Slot = slot });
+                    }
+                }
+            }
+
+            // Materials that no renderer references, like the shared BloomPrePassLine materials held only by
+            // TubeBloomPrePassLight components, still load with the environment bundle; the Custom/ shader prefix
+            // covers every exported environment shader while excluding menu and gameplay UI clutter.
+            foreach (var material in Resources.FindObjectsOfTypeAll<Material>())
+            {
+                if (material == null || material.shader == null)
+                {
+                    continue;
+                }
+
+                if (!material.shader.name.StartsWith("Custom/", StringComparison.Ordinal))
+                {
+                    continue;
+                }
+
+                GetOrCreateMaterialEntry(entries, material);
+            }
+
+            dump.Materials.AddRange(entries.Values);
+            dump.Materials.Sort(static (left, right) =>
+            {
+                int comparison = string.CompareOrdinal(left.Name, right.Name);
+                return comparison != 0 ? comparison : left.InstanceId.CompareTo(right.InstanceId);
+            });
+            foreach (var entry in dump.Materials)
+            {
+                entry.Users.Sort(static (left, right) =>
+                {
+                    int comparison = string.CompareOrdinal(left.Path, right.Path);
+                    return comparison != 0 ? comparison : left.Slot.CompareTo(right.Slot);
+                });
+            }
+
+            dump.MaterialCount = dump.Materials.Count;
+            return dump;
+        }
+
+        // The effective renderQueue resolves the shader default; customRenderQueue stays -1 unless the material's
+        // serialized override actually diverges from its shader, mirroring Unity's m_CustomRenderQueue semantics.
+        private static MaterialDumpEntry GetOrCreateMaterialEntry(Dictionary<int, MaterialDumpEntry> entries, Material material)
+        {
+            int instanceId = material.GetInstanceID();
+            if (entries.TryGetValue(instanceId, out MaterialDumpEntry? existing))
+            {
+                return existing;
+            }
+
+            int shaderQueue = material.shader != null ? material.shader.renderQueue : -1;
+            int effectiveQueue = material.renderQueue;
+            var entry = new MaterialDumpEntry
+            {
+                InstanceId = instanceId,
+                Name = material.name,
+                Shader = material.shader != null ? material.shader.name : null,
+                RenderQueue = effectiveQueue,
+                ShaderRenderQueue = shaderQueue,
+                CustomRenderQueue = shaderQueue >= 0 && effectiveQueue == shaderQueue ? -1 : effectiveQueue,
+                Keywords = new List<string>(material.shaderKeywords),
+            };
+            entry.Keywords.Sort(StringComparer.Ordinal);
+            entries.Add(instanceId, entry);
+            return entry;
+        }
+
+        private static HashSet<(string Path, int Slot)> GetOrCreateUsageSet(Dictionary<int, HashSet<(string Path, int Slot)>> usages, int instanceId)
+        {
+            if (!usages.TryGetValue(instanceId, out HashSet<(string Path, int Slot)>? paths))
+            {
+                paths = new HashSet<(string Path, int Slot)>();
+                usages.Add(instanceId, paths);
+            }
+
+            return paths;
         }
 
         // Longest common hierarchy prefixes are path data, so the current format does not label them as semantic group names.

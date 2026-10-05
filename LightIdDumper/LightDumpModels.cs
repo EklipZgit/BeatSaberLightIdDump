@@ -142,15 +142,19 @@ namespace LightIdDumper
             string environmentName,
             string? behaviorLightsOutputPath,
             string? otherLightsOutputPath,
+            string? materialsOutputPath,
             int behaviorLightCount,
             int otherLightCount,
+            int materialCount,
             string? error)
         {
             EnvironmentName = environmentName;
             BehaviorLightsOutputPath = behaviorLightsOutputPath;
             OtherLightsOutputPath = otherLightsOutputPath;
+            MaterialsOutputPath = materialsOutputPath;
             BehaviorLightCount = behaviorLightCount;
             OtherLightCount = otherLightCount;
+            MaterialCount = materialCount;
             Error = error;
         }
 
@@ -160,13 +164,75 @@ namespace LightIdDumper
 
         internal string? OtherLightsOutputPath { get; }
 
+        internal string? MaterialsOutputPath { get; }
+
         internal int BehaviorLightCount { get; }
 
         internal int OtherLightCount { get; }
 
+        internal int MaterialCount { get; }
+
         internal string? Error { get; }
 
         internal bool Succeeded => Error == null;
+    }
+
+    // <Env>_Materials.json is written alongside the light dumps so ChroMapper's EnvData can backfill real
+    // render queues; the exported materials otherwise leave generated .mat files at their shader defaults.
+    internal sealed class EnvironmentMaterialDump
+    {
+        [JsonProperty(Order = 0)]
+        public int FormatVersion { get; set; } = 1;
+
+        [JsonProperty(Order = 1)]
+        public string EnvironmentName { get; set; } = string.Empty;
+
+        [JsonProperty(Order = 2)]
+        public string GameVersion { get; set; } = string.Empty;
+
+        [JsonProperty(Order = 3)]
+        public int MaterialCount { get; set; }
+
+        [JsonProperty(Order = 4)]
+        public List<MaterialDumpEntry> Materials { get; set; } = new();
+    }
+
+    // InstanceId is the same Unity instance ID chroodle's EnvInfo recorded for the loaded bundle asset,
+    // and users carries the exact Chroma hierarchy paths EnvData stores as object ids.
+    internal sealed class MaterialDumpEntry
+    {
+        [JsonProperty(Order = 0)]
+        public int InstanceId { get; set; }
+
+        [JsonProperty(Order = 1)]
+        public string Name { get; set; } = string.Empty;
+
+        [JsonProperty(Order = 2)]
+        public string? Shader { get; set; }
+
+        [JsonProperty(Order = 3)]
+        public int RenderQueue { get; set; }
+
+        [JsonProperty(Order = 4)]
+        public int ShaderRenderQueue { get; set; }
+
+        [JsonProperty(Order = 5)]
+        public int CustomRenderQueue { get; set; }
+
+        [JsonProperty(Order = 6)]
+        public List<string> Keywords { get; set; } = new();
+
+        [JsonProperty(Order = 7)]
+        public List<MaterialUsageDump> Users { get; set; } = new();
+    }
+
+    internal sealed class MaterialUsageDump
+    {
+        [JsonProperty(Order = 0)]
+        public string Path { get; set; } = string.Empty;
+
+        [JsonProperty(Order = 1)]
+        public int Slot { get; set; }
     }
 
     // Numeric coordinates remain machine-comparable across game-version dumps.

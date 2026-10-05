@@ -350,6 +350,60 @@ function Test-LightIdDumpFile {
     }
 }
 
+# Materials captures follow the same freshness rules as the light dumps so a missing or stale third file fails the batch.
+function Test-MaterialDumpFile {
+    param(
+        [Parameter(Mandatory)]
+        [string]$Path,
+
+        [Parameter(Mandatory)]
+        [string]$ExpectedEnvironment,
+
+        [Parameter(Mandatory)]
+        [string]$ExpectedGameVersion,
+
+        [Parameter(Mandatory)]
+        [datetime]$StartedAtUtc
+    )
+
+    if (-not (Test-Path -LiteralPath $Path -PathType Leaf)) {
+        throw "Materials dump file does not exist: $Path"
+    }
+
+    $file = Get-Item -LiteralPath $Path
+    if ($file.LastWriteTimeUtc -lt $StartedAtUtc.AddSeconds(-2)) {
+        throw "Materials dump [$Path] predates this run. File UTC [$($file.LastWriteTimeUtc.ToString('O'))], run UTC [$($StartedAtUtc.ToString('O'))]."
+    }
+
+    $dump = Get-Content -LiteralPath $Path -Raw | ConvertFrom-Json -Depth 100
+    if ([int]$dump.formatVersion -ne 1) {
+        throw "Materials dump [$Path] has formatVersion [$($dump.formatVersion)] instead of [1]."
+    }
+
+    if ([string]$dump.environmentName -cne $ExpectedEnvironment) {
+        throw "Materials dump [$Path] names environment [$($dump.environmentName)] instead of [$ExpectedEnvironment]."
+    }
+
+    if (-not ([string]$dump.gameVersion).StartsWith($ExpectedGameVersion, [StringComparison]::Ordinal)) {
+        throw "Materials dump [$Path] reports gameVersion [$($dump.gameVersion)] instead of [$ExpectedGameVersion]."
+    }
+
+    $materials = @($dump.materials)
+    if ($materials.Count -eq 0) {
+        throw "Materials dump [$Path] contains no material entries."
+    }
+
+    for ($index = 0; $index -lt $materials.Count; $index++) {
+        $material = $materials[$index]
+        if ($null -eq $material.PSObject.Properties["instanceId"] -or
+            $null -eq $material.PSObject.Properties["renderQueue"] -or
+            $null -eq $material.PSObject.Properties["shaderRenderQueue"] -or
+            $null -eq $material.PSObject.Properties["customRenderQueue"]) {
+            throw "Materials dump [$Path] entry [$index] is missing instanceId/renderQueue fields."
+        }
+    }
+}
+
 # The current run manifest is selected by both version prefix and a post-launch timestamp so old success cannot pass.
 function Get-CurrentRunStatusFile {
     param(
@@ -608,7 +662,7 @@ try {
         New-Item -ItemType Directory -Path $versionOutputDirectory -Force | Out-Null
         # Remove prior captures and legacy archived status manifests in this exact version directory so neither removed environments nor transient runner state survive.
         $staleOutputFiles = @(Get-ChildItem -LiteralPath $versionOutputDirectory -File -ErrorAction SilentlyContinue |
-            Where-Object { $_.Name -eq "_dump-all-status.json" -or $_.Name -like "*Environment_BehaviorLights.json" -or $_.Name -like "*Environment_OtherLights.json" })
+            Where-Object { $_.Name -eq "_dump-all-status.json" -or $_.Name -like "*Environment_BehaviorLights.json" -or $_.Name -like "*Environment_OtherLights.json" -or $_.Name -like "*Environment_Materials.json" })
         if (-not [string]::IsNullOrWhiteSpace($Environment)) {
             # A targeted run replaces only the named environment's captures; the rest of the version directory must survive.
             $staleOutputFiles = @($staleOutputFiles | Where-Object {
@@ -617,7 +671,7 @@ try {
                 }
 
                 foreach ($completedEnvironmentName in $completedEnvironmentNames) {
-                    if ($_.Name -like "$completedEnvironmentName`_*Lights.json") {
+                    if ($_.Name -like "$completedEnvironmentName`_*Lights.json" -or $_.Name -eq "$completedEnvironmentName`_Materials.json") {
                         return $true
                     }
                 }
@@ -640,8 +694,10 @@ try {
             # The classified filename now drives validation directly; no retired per-light MonoBehaviour flag participates in the format.
             Test-LightIdDumpFile -Path ([string]$environmentResult.behaviorLightsOutputPath) -ExpectedOtherLights $false @commonDumpValidationArguments
             Test-LightIdDumpFile -Path ([string]$environmentResult.otherLightsOutputPath) -ExpectedOtherLights $true @commonDumpValidationArguments
+            Test-MaterialDumpFile -Path ([string]$environmentResult.materialsOutputPath) @commonDumpValidationArguments
             Copy-Item -LiteralPath ([string]$environmentResult.behaviorLightsOutputPath) -Destination $versionOutputDirectory -Force
             Copy-Item -LiteralPath ([string]$environmentResult.otherLightsOutputPath) -Destination $versionOutputDirectory -Force
+            Copy-Item -LiteralPath ([string]$environmentResult.materialsOutputPath) -Destination $versionOutputDirectory -Force
         }
         # Optional mapping verification reads the collected dataset; mandatory structural validation has already accepted every paired capture above.
         if ($Verify) {

@@ -247,6 +247,8 @@ namespace LightIdDumper
                     OtherLightsOutputPath = completion.OtherLightsOutputPath,
                     BehaviorLightCount = completion.BehaviorLightCount,
                     OtherLightCount = completion.OtherLightCount,
+                    MaterialsOutputPath = completion.MaterialsOutputPath,
+                    MaterialCount = completion.MaterialCount,
                     Error = completion.Error,
                 });
                 WriteStatus();
